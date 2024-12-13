@@ -1,5 +1,4 @@
 (function () {
-  alert('injected, script by ally11 workk');
   const vWindow = window;
   let v2 = 111;
   const vF = function (p2) {
@@ -1583,18 +1582,18 @@
     v403.style.width = v484 + "px";
     v403.style.height = v485 + "px";
     v405.scale(v416, v416);
-    if (user) {
-      user.ᐃⵠⵠ.ᐃⵠᐃⵠⵠⵠΔ = v484;
-      user.ᐃⵠⵠ.ᐃⵠⵠⵠΔⵠⵠ = v485;
+    if (v2835) {
+      v2835.ᐃⵠⵠ.ᐃⵠᐃⵠⵠⵠΔ = v484;
+      v2835.ᐃⵠⵠ.ᐃⵠⵠⵠΔⵠⵠ = v485;
     }
     if (v3066.ΔΔΔⵠᐃ) {
       v3066.ⵠᐃᐃ();
     } else if (v2833.ΔΔΔⵠᐃ) {
       v2833.ⵠᐃᐃ();
-    } else if (game.ΔΔΔⵠᐃ) {
-      game.ⵠᐃᐃ();
-    } else if (scoreboard.ΔΔΔⵠᐃ) {
-      scoreboard.ⵠᐃᐃ();
+    } else if (v3030.ΔΔΔⵠᐃ) {
+      v3030.ⵠᐃᐃ();
+    } else if (v2836.ΔΔΔⵠᐃ) {
+      v2836.ⵠᐃᐃ();
     }
   }
   var v486 = document.getElementById("game_body");
@@ -1796,7 +1795,7 @@
           if (v495 > 10000) {
             vWindow[v504][v508] = vWindow[v504][v511];
             if (vWindow[v504][v508](v2830) !== 1) {
-              game.ΔᐃΔΔΔΔⵠ();
+              v3030.ΔᐃΔΔΔΔⵠ();
             }
           }
         }
@@ -10074,7 +10073,7 @@
       f79();
     }
     ⲆᐃⵠΔⵠΔΔ = [];
-    user.ⵠⲆⲆᐃ.label = [];
+    v2835.ⵠⲆⲆᐃ.label = [];
     $(".md-languages ul li").removeClass("active");
     $(this).addClass("active");
     $(".md-languages label button").text(v757);
@@ -14147,13 +14146,13 @@
     if (vVVVVVVUndefined14 !== v777) {
       for (var v778 = 0; v778 < 2; v778++) {
         var v779 = v777[p490][v778];
-        var v780 = p492 * 193 / world.nw;
-        var v781 = p491 * 193 / world.nh;
+        var v780 = p492 * 193 / v2834.ⵠⵠⲆⲆᐃ;
+        var v781 = p491 * 193 / v2834.ⲆᐃᐃΔⲆ;
         var v782 = v779.width / 3.5;
         var v783 = v779.height / 3.5;
         ᐃᐃ[1067][v778].drawImage(v779, v780 - v782 / 2, v781 - v783 / 2, v782, v783);
-        v780 = p492 * 600 / world.nw;
-        v781 = p491 * 600 / world.nh;
+        v780 = p492 * 600 / v2834.ⵠⵠⲆⲆᐃ;
+        v781 = p491 * 600 / v2834.ⲆᐃᐃΔⲆ;
         v782 = v779.width / 1.5;
         v783 = v779.height / 1.5;
         ᐃᐃ[1068][v778].drawImage(v779, v780 - v782 / 2, v781 - v783 / 2, v782, v783);
@@ -14166,37 +14165,37 @@
       ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.MAP[v784], 0, 0, 193, 193);
       ᐃᐃ[1068][v784].clearRect(0, 0, 600, 600);
       ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.MAP[v784], 0, 0, 600, 600);
-      for (var v785 = world.ᐃⲆⲆΔ.length - 1; v785 >= 0; v785--) {
-        var v786 = world.ᐃⲆⲆΔ[v785];
-        var v787 = v786.x1 * 193 / (world.nw * 100);
-        var v788 = v786.y1 * 193 / (world.nh * 100);
-        var v789 = v786.w * 193 / (world.nw * 100);
-        var v790 = v786.ⵠⲆⵠ * 193 / (world.nh * 100);
-        var v791 = v786.x1 * 600 / (world.nw * 100);
-        var v792 = v786.y1 * 600 / (world.nh * 100);
-        var v793 = v786.w * 600 / (world.nw * 100);
-        var v794 = v786.ⵠⲆⵠ * 600 / (world.nh * 100);
-        if (v786.ᐃⵠⲆ === world.ⲆᐃⵠΔⵠΔⵠ) {
+      for (var v785 = v2834.ᐃⲆⲆΔ.length - 1; v785 >= 0; v785--) {
+        var v786 = v2834.ᐃⲆⲆΔ[v785];
+        var v787 = v786.x1 * 193 / (v2834.ⵠⵠⲆⲆᐃ * 100);
+        var v788 = v786.y1 * 193 / (v2834.ⲆᐃᐃΔⲆ * 100);
+        var v789 = v786.w * 193 / (v2834.ⵠⵠⲆⲆᐃ * 100);
+        var v790 = v786.ⵠⲆⵠ * 193 / (v2834.ⲆᐃᐃΔⲆ * 100);
+        var v791 = v786.x1 * 600 / (v2834.ⵠⵠⲆⲆᐃ * 100);
+        var v792 = v786.y1 * 600 / (v2834.ⲆᐃᐃΔⲆ * 100);
+        var v793 = v786.w * 600 / (v2834.ⵠⵠⲆⲆᐃ * 100);
+        var v794 = v786.ⵠⲆⵠ * 600 / (v2834.ⲆᐃᐃΔⲆ * 100);
+        if (v786.ᐃⵠⲆ === v2834.ⲆᐃⵠΔⵠΔⵠ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.FOREST[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.FOREST[v784], v791, v792, v793, v794);
         }
-        if (v786.ᐃⵠⲆ === world.ⵠᐃⲆΔⵠᐃᐃ) {
+        if (v786.ᐃⵠⲆ === v2834.ⵠᐃⲆΔⵠᐃᐃ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.JUNGLE[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.JUNGLE[v784], v791, v792, v793, v794);
         }
-        if (v786.ᐃⵠⲆ === world.ⵠᐃΔΔⲆΔⲆ) {
+        if (v786.ᐃⵠⲆ === v2834.ⵠᐃΔΔⲆΔⲆ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.WINTER[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.WINTER[v784], v791, v792, v793, v794);
         }
-        if (v786.ᐃⵠⲆ === world.ⵠⲆᐃⲆⲆⵠᐃ) {
+        if (v786.ᐃⵠⲆ === v2834.ⵠⲆᐃⲆⲆⵠᐃ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.LAVA[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.LAVA[v784], v791, v792, v793, v794);
         }
-        if (world.ΔΔⲆΔᐃᐃⵠ === v786.ᐃⵠⲆ) {
+        if (v2834.ΔΔⲆΔᐃᐃⵠ === v786.ᐃⵠⲆ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.CAVE[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.CAVE[v784], v791, v792, v793, v794);
         }
-        if (world.ⲆⲆⲆΔⲆᐃⲆ === v786.ᐃⵠⲆ) {
+        if (v2834.ⲆⲆⲆΔⲆᐃⲆ === v786.ᐃⵠⲆ) {
           ᐃᐃ[1067][v784].drawImage(ⲆᐃⲆᐃ.DESERT[v784], v787, v788, v789, v790);
           ᐃᐃ[1068][v784].drawImage(ⲆᐃⲆᐃ.DESERT[v784], v791, v792, v793, v794);
         }
@@ -41785,13 +41784,13 @@
       v405.drawImage(ᐃᐃ[200][v1526][2], v409 + 830, v410 - 520);
     }
     ᐃᐃ[524];
-    if (user && world) {
-      var v1527 = user.ᐃⵠⵠ.x;
-      var v1528 = user.ᐃⵠⵠ.y;
-      user.ᐃⵠⵠ.x = v409;
-      user.ᐃⵠⵠ.y = v410;
-      var v1529 = world.time;
-      world.time = v2832.time;
+    if (v2835 && v2834) {
+      var v1527 = v2835.ᐃⵠⵠ.x;
+      var v1528 = v2835.ᐃⵠⵠ.y;
+      v2835.ᐃⵠⵠ.x = v409;
+      v2835.ᐃⵠⵠ.y = v410;
+      var v1529 = v2834.time;
+      v2834.time = v2832.time;
       var v1530;
       var v1531 = v2832.items;
       v1531[2].x = 400;
@@ -41831,9 +41830,9 @@
       v1531[0].y = -100;
       v1531[0].ΔⵠⵠⲆⵠΔⲆ(204);
       v1531[0].ᐃᐃΔⲆⵠ();
-      user.ᐃⵠⵠ.x = v1527;
-      user.ᐃⵠⵠ.y = v1528;
-      world.time = v1529;
+      v2835.ᐃⵠⵠ.x = v1527;
+      v2835.ᐃⵠⵠ.y = v1528;
+      v2834.time = v1529;
     }
   }
   function f288() {
@@ -43173,32 +43172,32 @@
     return vWindow.String.fromCharCode(p1148);
   }
   function f292() {
-    if (!user.ⵠⲆΔᐃ.open) {
-      user.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ = 0;
-      user.ⵠⲆⵠΔΔ.open = false;
-      var v1542 = world.fast_units[user.ᐃᐃⵠⵠ];
+    if (!v2835.ⵠⲆΔᐃ.open) {
+      v2835.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ = 0;
+      v2835.ⵠⲆⵠΔΔ.open = false;
+      var v1542 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1543 = 100;
       if (v1542) {
-        for (var v1544 = 0; v1544 < world.units[18].length; v1544++) {
-          var v1545 = world.units[18][v1544];
+        for (var v1544 = 0; v1544 < v2834.Δⵠᐃ[18].length; v1544++) {
+          var v1545 = v2834.Δⵠᐃ[18][v1544];
           var v1546 = Δᐃᐃ.ⲆⲆⵠᐃ(v1545, v1542);
           if (v1543 > v1546) {
             v1543 = v1546;
-            user.ⵠⲆⵠΔΔ.open = vVVVV632;
-            user.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ = v1545.info;
-            user.ⵠⲆⵠΔΔ.ΔⲆᐃⲆ = v1545.ΔⲆᐃⲆ;
-            user.ⵠⲆⵠΔΔ.ΔⵠΔᐃⵠ = v1545.id;
+            v2835.ⵠⲆⵠΔΔ.open = vVVVV632;
+            v2835.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ = v1545.info;
+            v2835.ⵠⲆⵠΔΔ.ΔⲆᐃⲆ = v1545.ΔⲆᐃⲆ;
+            v2835.ⵠⲆⵠΔΔ.ΔⵠΔᐃⵠ = v1545.id;
           }
         }
         if (v1543 < 100) {
           var v1547 = ᐃᐃ[522];
-          var v1548 = game.ⲆᐃᐃᐃⵠⲆⲆ;
+          var v1548 = v3030.ⲆᐃᐃᐃⵠⲆⲆ;
           var v1549 = Math.floor(v1548.info.translate.x + (v1548.info.Δⵠ[0].width - v1547.width) / 2);
           var v1550 = Math.floor(v1548.info.translate.y + (v1548.info.Δⵠ[0].height - v1547.height) / 2) + 3;
           f295(v405, v1547, v1549, v1550);
-          if (user.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ > 0) {
+          if (v2835.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ > 0) {
             v1548.ⲆΔᐃΔ(v405);
-            var v1551 = user.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ;
+            var v1551 = v2835.ⵠⲆⵠΔΔ.ⵠⵠΔᐃ;
             if (v1551 > 1) {
               f298(v1551, v1548);
             }
@@ -43208,98 +43207,98 @@
     }
   }
   function f293() {
-    user.ⲆΔⵠΔᐃ.id = -1;
-    user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = -1;
-    if (!user.ⲆⲆΔⵠⲆᐃⵠ && !user.ⲆΔⵠΔᐃ.wait && !user.ⲆΔᐃⲆΔ) {
-      var v1552 = world.fast_units[user.ᐃᐃⵠⵠ];
+    v2835.ⲆΔⵠΔᐃ.id = -1;
+    v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = -1;
+    if (!v2835.ⲆⲆΔⵠⲆᐃⵠ && !v2835.ⲆΔⵠΔᐃ.wait && !v2835.ⲆΔᐃⲆΔ) {
+      var v1552 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1553 = 100;
       if (v1552) {
-        for (var v1554 = 0; world.units[38].length > v1554; v1554++) {
-          var v1555 = world.units[38][v1554];
+        for (var v1554 = 0; v2834.Δⵠᐃ[38].length > v1554; v1554++) {
+          var v1555 = v2834.Δⵠᐃ[38][v1554];
           var v1556 = Δᐃᐃ.ⲆⲆⵠᐃ(v1555, v1552);
           if (v1553 > v1556) {
             v1553 = v1556;
-            user.ⲆΔⵠΔᐃ.id = v1555.id;
-            user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = v1555.ΔⲆᐃⲆ;
-            user.ⲆΔⵠΔᐃ.info = v1555.info;
-            user.ⲆΔⵠΔᐃ.lock = (v1555.info & 16) >> 4;
+            v2835.ⲆΔⵠΔᐃ.id = v1555.id;
+            v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = v1555.ΔⲆᐃⲆ;
+            v2835.ⲆΔⵠΔᐃ.info = v1555.info;
+            v2835.ⲆΔⵠΔᐃ.lock = (v1555.info & 16) >> 4;
           }
         }
       }
-      var v1557 = game.ΔΔΔⲆΔ;
-      game.ΔΔΔⲆΔ = -1;
-      if (user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ == -1 || user.ΔΔⲆⲆⲆ.length != 0 && user.id != user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ) {
-        if (user.ΔΔⲆⲆⲆ.length != 0 && user.ΔΔⲆⲆⲆ[0] != user.id) {
-          game.ΔΔΔⲆΔ = 2;
-        } else if (user.ΔΔⲆⲆⲆ.length != 0 && user.id == user.ΔΔⲆⲆⲆ[0]) {
-          game.ΔΔΔⲆΔ = 1;
-        } else if (user.ΔΔⲆⲆⲆ.length != 0) {
-          game.ΔΔΔⲆΔ = 3;
+      var v1557 = v3030.ΔΔΔⲆΔ;
+      v3030.ΔΔΔⲆΔ = -1;
+      if (v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ == -1 || v2835.ΔΔⲆⲆⲆ.length != 0 && v2835.id != v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ) {
+        if (v2835.ΔΔⲆⲆⲆ.length != 0 && v2835.ΔΔⲆⲆⲆ[0] != v2835.id) {
+          v3030.ΔΔΔⲆΔ = 2;
+        } else if (v2835.ΔΔⲆⲆⲆ.length != 0 && v2835.id == v2835.ΔΔⲆⲆⲆ[0]) {
+          v3030.ΔΔΔⲆΔ = 1;
+        } else if (v2835.ΔΔⲆⲆⲆ.length != 0) {
+          v3030.ΔΔΔⲆΔ = 3;
         }
-      } else if (user.ΔΔⲆⲆⲆ.length == 0 && user.ⲆΔⵠΔᐃ.info >= 8) {
-        game.ΔΔΔⲆΔ = 4;
-      } else if (user.ΔΔⲆⲆⲆ.length == 0) {
-        game.ΔΔΔⲆΔ = 3;
+      } else if (v2835.ΔΔⲆⲆⲆ.length == 0 && v2835.ⲆΔⵠΔᐃ.info >= 8) {
+        v3030.ΔΔΔⲆΔ = 4;
+      } else if (v2835.ΔΔⲆⲆⲆ.length == 0) {
+        v3030.ΔΔΔⲆΔ = 3;
       } else {
-        game.ΔΔΔⲆΔ = 0;
+        v3030.ΔΔΔⲆΔ = 0;
       }
-      if (game.ΔΔΔⲆΔ != -1) {
-        game.Δᐃᐃᐃⵠ[game.ΔΔΔⲆΔ].button.ⲆΔᐃΔ(v405);
+      if (v3030.ΔΔΔⲆΔ != -1) {
+        v3030.Δᐃᐃᐃⵠ[v3030.ΔΔΔⲆΔ].button.ⲆΔᐃΔ(v405);
       }
       var v1558 = document.getElementById("team_box").style;
-      if (game.ΔΔΔⲆΔ != -1 && game.ΔΔΔⲆΔ != v1557 && v1558.display == "inline-block") {
-        game.Δᐃᐃᐃⵠ[game.ΔΔΔⲆΔ].action();
+      if (v3030.ΔΔΔⲆΔ != -1 && v3030.ΔΔΔⲆΔ != v1557 && v1558.display == "inline-block") {
+        v3030.Δᐃᐃᐃⵠ[v3030.ΔΔΔⲆΔ].action();
       }
     }
   }
   function f294() {
-    user.ⵠⲆΔᐃ.id = -1;
-    user.ⵠⲆΔᐃ.lock = vVV14;
-    user.ⵠⲆΔᐃ.locked = vVVV144;
-    user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ = vV143;
-    user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ = false;
-    user.ⵠⲆΔᐃ.open = vV142;
-    var v1559 = world.fast_units[user.ᐃᐃⵠⵠ];
+    v2835.ⵠⲆΔᐃ.id = -1;
+    v2835.ⵠⲆΔᐃ.lock = vVV14;
+    v2835.ⵠⲆΔᐃ.locked = vVVV144;
+    v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ = vV143;
+    v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ = false;
+    v2835.ⵠⲆΔᐃ.open = vV142;
+    var v1559 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
     var v1560 = 100;
     if (v1559) {
-      for (var v1561 = 0; v1561 < world.units[11].length; v1561++) {
-        var v1562 = world.units[11][v1561];
+      for (var v1561 = 0; v1561 < v2834.Δⵠᐃ[11].length; v1561++) {
+        var v1562 = v2834.Δⵠᐃ[11][v1561];
         var v1563 = Δᐃᐃ.ⲆⲆⵠᐃ(v1562, v1559);
         if (v1563 < v1560) {
           v1560 = v1563;
-          user.ⵠⲆΔᐃ.open = vV6;
-          user.ⵠⲆΔᐃ.id = v1562.action < 2 ? -1 : Math.floor((v1562.action - 1) / 2);
-          user.ⵠⲆΔᐃ.ⵠⵠΔᐃ = v1562.info;
-          user.ⵠⲆΔᐃ.ΔⲆᐃⲆ = v1562.ΔⲆᐃⲆ;
-          user.ⵠⲆΔᐃ.ΔⵠΔᐃⵠ = v1562.id;
-          user.ⵠⲆΔᐃ.locked = v1562.lock;
-          user.ⵠⲆΔᐃ.lock = !!v1562.lock && v1562.ΔⲆᐃⲆ != user.id && !user.ΔᐃᐃΔⲆⵠⲆ(v1562.ΔⲆᐃⲆ);
-          user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ = user.id === v1562.ΔⲆᐃⲆ && !user.ⵠⲆΔᐃ.locked && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(241) != -1 && vVV63;
-          if (user.ⵠⲆΔᐃ.locked && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(260) != -1) {
-            user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ = vVV63;
+          v2835.ⵠⲆΔᐃ.open = vV6;
+          v2835.ⵠⲆΔᐃ.id = v1562.action < 2 ? -1 : Math.floor((v1562.action - 1) / 2);
+          v2835.ⵠⲆΔᐃ.ⵠⵠΔᐃ = v1562.info;
+          v2835.ⵠⲆΔᐃ.ΔⲆᐃⲆ = v1562.ΔⲆᐃⲆ;
+          v2835.ⵠⲆΔᐃ.ΔⵠΔᐃⵠ = v1562.id;
+          v2835.ⵠⲆΔᐃ.locked = v1562.lock;
+          v2835.ⵠⲆΔᐃ.lock = !!v1562.lock && v1562.ΔⲆᐃⲆ != v2835.id && !v2835.ΔᐃᐃΔⲆⵠⲆ(v1562.ΔⲆᐃⲆ);
+          v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ = v2835.id === v1562.ΔⲆᐃⲆ && !v2835.ⵠⲆΔᐃ.locked && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(241) != -1 && vVV63;
+          if (v2835.ⵠⲆΔᐃ.locked && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(260) != -1) {
+            v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ = vVV63;
           }
         }
       }
       if (v1560 < 100) {
         var v1564 = ᐃᐃ[450];
-        var v1565 = game.ⵠΔᐃ[0];
+        var v1565 = v3030.ⵠΔᐃ[0];
         var v1566 = Math.floor(v1565.info.translate.x + (v1565.info.Δⵠ[0].width - v1564.width) / 2);
         var v1567 = Math.floor(v1565.info.translate.y + (v1565.info.Δⵠ[0].height - v1564.height) / 2) + 3;
         f295(v405, v1564, v1566, v1567);
-        if ((!user.ⵠⲆΔᐃ.lock || user.id === user.ⵠⲆΔᐃ.ΔⲆᐃⲆ) && user.ⵠⲆΔᐃ.id >= 0) {
-          (v1565 = game.ⵠΔᐃ[user.ⵠⲆΔᐃ.id]).ⲆΔᐃΔ(v405);
-          var v1568 = user.ⵠⲆΔᐃ.ⵠⵠΔᐃ;
+        if ((!v2835.ⵠⲆΔᐃ.lock || v2835.id === v2835.ⵠⲆΔᐃ.ΔⲆᐃⲆ) && v2835.ⵠⲆΔᐃ.id >= 0) {
+          (v1565 = v3030.ⵠΔᐃ[v2835.ⵠⲆΔᐃ.id]).ⲆΔᐃΔ(v405);
+          var v1568 = v2835.ⵠⲆΔᐃ.ⵠⵠΔᐃ;
           if (v1568 > 1) {
             f298(v1568, v1565);
           }
         }
-        if (user.ⵠⲆΔᐃ.lock) {
-          game.ⲆⵠⵠΔᐃΔΔ.ⲆΔᐃΔ(v405);
-        } else if (user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
-          game.ᐃΔΔⲆΔᐃᐃ.ⲆΔᐃΔ(v405);
+        if (v2835.ⵠⲆΔᐃ.lock) {
+          v3030.ⲆⵠⵠΔᐃΔΔ.ⲆΔᐃΔ(v405);
+        } else if (v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
+          v3030.ᐃΔΔⲆΔᐃᐃ.ⲆΔᐃΔ(v405);
         }
-        if (user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ) {
-          game.ᐃⵠᐃᐃᐃᐃⵠ.ⲆΔᐃΔ(v405);
+        if (v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ) {
+          v3030.ᐃⵠᐃᐃᐃᐃⵠ.ⲆΔᐃΔ(v405);
         }
       }
     }
@@ -43316,45 +43315,45 @@
     }
   }
   function f296() {
-    if (!user.ⵠⲆΔᐃ.open && !user.ⵠⲆⵠΔΔ.open && !user.ΔⵠⵠⲆ.open && !user.ΔⲆⲆⵠ.open) {
-      user.ΔⵠⲆⵠ.open = vVV143;
-      var v1569 = world.fast_units[user.ᐃᐃⵠⵠ];
+    if (!v2835.ⵠⲆΔᐃ.open && !v2835.ⵠⲆⵠΔΔ.open && !v2835.ΔⵠⵠⲆ.open && !v2835.ΔⲆⲆⵠ.open) {
+      v2835.ΔⵠⲆⵠ.open = vVV143;
+      var v1569 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1570 = 100;
       if (v1569) {
-        for (var v1571 = 0; world.units[43].length > v1571; v1571++) {
-          var v1572 = world.units[43][v1571];
+        for (var v1571 = 0; v2834.Δⵠᐃ[43].length > v1571; v1571++) {
+          var v1572 = v2834.Δⵠᐃ[43][v1571];
           var v1573 = Δᐃᐃ.ⲆⲆⵠᐃ(v1572, v1569);
           if (v1573 < v1570) {
             v1570 = v1573;
-            user.ΔⵠⲆⵠ.open = vVVVV632;
-            user.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ = v1572.info & 31;
-            user.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ = (v1572.info & 992) >> 5;
-            user.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ = (v1572.info & 31744) >> 10;
-            user.ΔⵠⲆⵠ.ΔⲆᐃⲆ = v1572.ΔⲆᐃⲆ;
-            user.ΔⵠⲆⵠ.ΔⵠΔᐃⵠ = v1572.id;
+            v2835.ΔⵠⲆⵠ.open = vVVVV632;
+            v2835.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ = v1572.info & 31;
+            v2835.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ = (v1572.info & 992) >> 5;
+            v2835.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ = (v1572.info & 31744) >> 10;
+            v2835.ΔⵠⲆⵠ.ΔⲆᐃⲆ = v1572.ΔⲆᐃⲆ;
+            v2835.ΔⵠⲆⵠ.ΔⵠΔᐃⵠ = v1572.id;
           }
         }
         if (v1570 < 100) {
           var v1574 = ᐃᐃ[971];
-          var v1575 = (v1576 = game.ⵠⵠⲆⲆⵠⲆⵠ).info.translate.x - 32;
+          var v1575 = (v1576 = v3030.ⵠⵠⲆⲆⵠⲆⵠ).info.translate.x - 32;
           f295(v405, v1574, v1575, 0);
-          if (user.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ > 0) {
+          if (v2835.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ > 0) {
             v1576.ⲆΔᐃΔ(v405);
-            if ((v1577 = user.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ) > 1) {
+            if ((v1577 = v2835.ΔⵠⲆⵠ.ⵠⵠᐃⵠΔΔᐃ) > 1) {
               f298(v1577, v1576);
             }
           }
-          var v1576 = game.ⵠⵠⵠΔΔⲆⲆ;
-          if (user.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ > 0) {
+          var v1576 = v3030.ⵠⵠⵠΔΔⲆⲆ;
+          if (v2835.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ > 0) {
             v1576.ⲆΔᐃΔ(v405);
-            if ((v1577 = user.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ) > 1) {
+            if ((v1577 = v2835.ΔⵠⲆⵠ.ᐃⲆΔⲆⲆΔⵠ) > 1) {
               f298(v1577, v1576);
             }
           }
-          v1576 = game.ᐃᐃⵠᐃⵠᐃⲆ;
-          if (user.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ > 0) {
+          v1576 = v3030.ᐃᐃⵠᐃⵠᐃⲆ;
+          if (v2835.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ > 0) {
             v1576.ⲆΔᐃΔ(v405);
-            var v1577 = user.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ;
+            var v1577 = v2835.ΔⵠⲆⵠ.ⵠΔᐃⲆⲆⲆᐃ;
             if (v1577 > 1) {
               f298(v1577, v1576);
             }
@@ -43364,32 +43363,32 @@
     }
   }
   function f297() {
-    if (user.ᐃⲆⲆⵠᐃᐃΔ) {
+    if (v2835.ᐃⲆⲆⵠᐃᐃΔ) {
       v405.globalAlpha = 0.5;
       v405.fillStyle = "#000";
       v405.fillRect(0, 0, v406, v408);
       v405.globalAlpha = 0.8;
-      var v1578 = ᐃᐃ[654][world.time];
+      var v1578 = ᐃᐃ[654][v2834.time];
       var v1579 = v409 - v1578.width / 2;
       var v1580 = v410 - v1578.height / 2;
       f295(v405, v1578, v1579, v1580);
       v405.globalAlpha = 1;
-      if (game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x > -1) {
+      if (v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x > -1) {
         v405.fillStyle = "#660000";
-        f92(v405, v1579 + v415 * (game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x * 3), v1580 + game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y * 3 * v415, v415 * 14);
+        f92(v405, v1579 + v415 * (v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x * 3), v1580 + v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y * 3 * v415, v415 * 14);
         v405.fill();
       }
-      for (var v1581 = game.ΔΔΔⲆⲆ.players, v1582 = 0; v1582 < v1581.length; v1582++) {
+      for (var v1581 = v3030.ΔΔΔⲆⲆ.ᐃⵠΔΔ, v1582 = 0; v1582 < v1581.length; v1582++) {
         var v1583 = v1581[v1582];
-        world.time;
+        v2834.time;
         v405.fillStyle = "#ff0000";
-        f92(v405, v1579 + v415 * (v1583.x / (world.nw * 100) * 600), v1580 + v1583.y / (world.nh * 100) * 600 * v415, v415 * 6);
+        f92(v405, v1579 + v415 * (v1583.x / (v2834.ⵠⵠⲆⲆᐃ * 100) * 600), v1580 + v1583.y / (v2834.ⲆᐃᐃΔⲆ * 100) * 600 * v415, v415 * 6);
         v405.fill();
       }
-      var v1584 = world.fast_units[user.ᐃᐃⵠⵠ];
+      var v1584 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       if (v1584) {
-        v405.fillStyle = world.time ? "#fff" : "#e39716";
-        f92(v405, v1579 + v1584.x / (world.nw * 100) * 600 * v415, v1580 + v415 * (v1584.y / (world.nh * 100) * 600), v415 * 12);
+        v405.fillStyle = v2834.time ? "#fff" : "#e39716";
+        f92(v405, v1579 + v1584.x / (v2834.ⵠⵠⲆⲆᐃ * 100) * 600 * v415, v1580 + v415 * (v1584.y / (v2834.ⲆᐃᐃΔⲆ * 100) * 600), v415 * 12);
         v405.fill();
       }
     }
@@ -43405,22 +43404,22 @@
     f295(v405, v1585, v1586, v1587);
   }
   function f299() {
-    user.ΔⲆᐃᐃⲆ.open = vVV14;
-    var v1588 = world.fast_units[user.ᐃᐃⵠⵠ];
+    v2835.ΔⲆᐃᐃⲆ.open = vVV14;
+    var v1588 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
     var v1589 = 100;
     if (v1588) {
-      for (var v1590 = 0; v1590 < world.units[22].length; v1590++) {
-        var v1591 = world.units[22][v1590];
+      for (var v1590 = 0; v1590 < v2834.Δⵠᐃ[22].length; v1590++) {
+        var v1591 = v2834.Δⵠᐃ[22][v1590];
         var v1592 = Δᐃᐃ.ⲆⲆⵠᐃ(v1591, v1588);
         if (v1592 < v1589) {
           v1589 = v1592;
-          user.ΔⲆᐃᐃⲆ.open = true;
-          user.ΔⲆᐃᐃⲆ.ΔⲆᐃⲆ = v1591.ΔⲆᐃⲆ;
-          user.ΔⲆᐃᐃⲆ.ΔⵠΔᐃⵠ = v1591.id;
+          v2835.ΔⲆᐃᐃⲆ.open = true;
+          v2835.ΔⲆᐃᐃⲆ.ΔⲆᐃⲆ = v1591.ΔⲆᐃⲆ;
+          v2835.ΔⲆᐃᐃⲆ.ΔⵠΔᐃⵠ = v1591.id;
         }
       }
       if (v1589 < 100) {
-        game.ΔⲆᐃᐃⲆ.ⲆΔᐃΔ(v405);
+        v3030.ΔⲆᐃᐃⲆ.ⲆΔᐃΔ(v405);
       }
     }
   }
@@ -43434,121 +43433,121 @@
     f295(v405, v1593, v1594, v1595);
   }
   function f301() {
-    if (user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0) {
+    if (v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0) {
       var v1596 = {
-        x: game.ΔΔΔⲆⲆ.translate.x,
-        y: game.ΔΔΔⲆⲆ.translate.y - v415 * 120
+        x: v3030.ΔΔΔⲆⲆ.translate.x,
+        y: v3030.ΔΔΔⲆⲆ.translate.y - v415 * 120
       };
     } else {
       v1596 = {
-        x: game.ΔΔΔⲆⲆ.translate.x,
-        y: game.ΔΔΔⲆⲆ.translate.y - v415 * 50
+        x: v3030.ΔΔΔⲆⲆ.translate.x,
+        y: v3030.ΔΔΔⲆⲆ.translate.y - v415 * 50
       };
     }
     v405.globalAlpha = 0.8;
-    var v1597 = ᐃᐃ[369][world.time];
+    var v1597 = ᐃᐃ[369][v2834.time];
     f295(v405, v1597, v1596.x, v1596.y);
     v405.globalAlpha = 1;
-    if (game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x > -1) {
+    if (v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x > -1) {
       v405.fillStyle = "#660000";
-      f92(v405, v1596.x + game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x * v415, v1596.y + v415 * game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y, v415 * 5);
+      f92(v405, v1596.x + v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x * v415, v1596.y + v415 * v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y, v415 * 5);
       v405.fill();
     }
     var vV415 = v415;
-    for (var v1598 = game.ΔΔΔⲆⲆ.players, v1599 = 0; v1599 < v1598.length; v1599++) {
+    for (var v1598 = v3030.ΔΔΔⲆⲆ.ᐃⵠΔΔ, v1599 = 0; v1599 < v1598.length; v1599++) {
       var v1600 = v1598[v1599];
-      world.time;
+      v2834.time;
       v405.fillStyle = "#ff0000";
-      f92(v405, v1596.x + v1600.x / (world.nw * 100) * 193 * v415, v1596.y + v1600.y / (world.nh * 100) * 193 * v415, v415 * 2);
+      f92(v405, v1596.x + v1600.x / (v2834.ⵠⵠⲆⲆᐃ * 100) * 193 * v415, v1596.y + v1600.y / (v2834.ⲆᐃᐃΔⲆ * 100) * 193 * v415, v415 * 2);
       v405.fill();
     }
-    var v1601 = world.fast_units[user.ᐃᐃⵠⵠ];
+    var v1601 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
     if (v1601) {
-      v405.fillStyle = world.time ? "#fff" : "#e39716";
-      f92(v405, v1596.x + v415 * (v1601.x / (world.nw * 100) * 193), v1596.y + v415 * (v1601.y / (world.nh * 100) * 193), v415 * 4);
+      v405.fillStyle = v2834.time ? "#fff" : "#e39716";
+      f92(v405, v1596.x + v415 * (v1601.x / (v2834.ⵠⵠⲆⲆᐃ * 100) * 193), v1596.y + v415 * (v1601.y / (v2834.ⲆᐃᐃΔⲆ * 100) * 193), v415 * 4);
       v405.fill();
     }
     v415 = vV415;
   }
   function f302() {
-    if (!user.ⵠⲆΔᐃ.open && !user.ⵠⲆⵠΔΔ.open) {
-      user.ΔⲆⲆⵠ.open = false;
-      var v1602 = world.fast_units[user.ᐃᐃⵠⵠ];
+    if (!v2835.ⵠⲆΔᐃ.open && !v2835.ⵠⲆⵠΔΔ.open) {
+      v2835.ΔⲆⲆⵠ.open = false;
+      var v1602 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1603 = 100;
       if (v1602) {
         for (var v1604 = 0; v1604 < v2261.length; v1604++) {
-          for (var v1605 = v2261[v1604][0], v1606 = v2261[v1604][1], v1607 = 0; v1607 < world.units[v1605].length; v1607++) {
-            var v1608 = world.units[v1605][v1607];
+          for (var v1605 = v2261[v1604][0], v1606 = v2261[v1604][1], v1607 = 0; v1607 < v2834.Δⵠᐃ[v1605].length; v1607++) {
+            var v1608 = v2834.Δⵠᐃ[v1605][v1607];
             var v1609 = Δᐃᐃ.ⲆⲆⵠᐃ(v1608, v1602);
             if (v1603 > v1609) {
               v1603 = v1609;
-              user.ΔⲆⲆⵠ.ᐃⲆΔⵠΔΔᐃ = v1606;
-              user.ΔⲆⲆⵠ.type = v1605;
-              user.ΔⲆⲆⵠ.open = vVVV6;
-              user.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ = v1608.info & 255;
-              user.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ = (v1608.info & 65280) >> 8;
-              user.ΔⲆⲆⵠ.ΔⲆᐃⲆ = v1608.ΔⲆᐃⲆ;
-              user.ΔⲆⲆⵠ.ΔⵠΔᐃⵠ = v1608.id;
+              v2835.ΔⲆⲆⵠ.ᐃⲆΔⵠΔΔᐃ = v1606;
+              v2835.ΔⲆⲆⵠ.type = v1605;
+              v2835.ΔⲆⲆⵠ.open = vVVV6;
+              v2835.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ = v1608.info & 255;
+              v2835.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ = (v1608.info & 65280) >> 8;
+              v2835.ΔⲆⲆⵠ.ΔⲆᐃⲆ = v1608.ΔⲆᐃⲆ;
+              v2835.ΔⲆⲆⵠ.ΔⵠΔᐃⵠ = v1608.id;
             }
           }
         }
         if (v1603 < 100) {
           var v1610;
           var v1611 = ᐃᐃ[875];
-          var v1612 = (v1613 = game.ΔⵠⲆⲆⲆΔⲆ).info.translate.x - 33;
+          var v1612 = (v1613 = v3030.ΔⵠⲆⲆⲆΔⲆ).info.translate.x - 33;
           f295(v405, v1611, v1612, 0);
-          if (user.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ > 0) {
+          if (v2835.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ > 0) {
             v1613.ⲆΔᐃΔ(v405);
-            if ((v1610 = user.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ) > 1) {
+            if ((v1610 = v2835.ΔⲆⲆⵠ.ⵠⵠᐃⵠΔΔᐃ) > 1) {
               f298(v1610, v1613);
             }
           }
-          switch (user.ΔⲆⲆⵠ.ᐃⲆΔⵠΔΔᐃ) {
+          switch (v2835.ΔⲆⲆⵠ.ᐃⲆΔⵠΔΔᐃ) {
             case 199:
-              var v1613 = game.ⵠΔⲆⲆΔΔᐃ;
+              var v1613 = v3030.ⵠΔⲆⲆΔΔᐃ;
               break;
             case 202:
-              v1613 = game.ᐃⲆⲆΔΔᐃⵠ;
+              v1613 = v3030.ᐃⲆⲆΔΔᐃⵠ;
               break;
             case 203:
-              v1613 = game.ᐃⲆⲆΔⲆᐃᐃ;
+              v1613 = v3030.ᐃⲆⲆΔⲆᐃᐃ;
               break;
             case 212:
-              v1613 = game.ⵠⲆⲆⲆᐃᐃᐃ;
+              v1613 = v3030.ⵠⲆⲆⲆᐃᐃᐃ;
               break;
             case 304:
-              v1613 = game.ⲆΔⲆᐃΔᐃᐃ;
+              v1613 = v3030.ⲆΔⲆᐃΔᐃᐃ;
               break;
             case 344:
-              v1613 = game.ᐃᐃᐃⲆⲆΔᐃ;
+              v1613 = v3030.ᐃᐃᐃⲆⲆΔᐃ;
               break;
             case 306:
-              v1613 = game.ΔᐃΔΔΔⵠⲆ;
+              v1613 = v3030.ΔᐃΔΔΔⵠⲆ;
               break;
             case 307:
-              v1613 = game.ⲆΔⲆⵠⵠΔᐃ;
+              v1613 = v3030.ⲆΔⲆⵠⵠΔᐃ;
               break;
             case 308:
-              v1613 = game.ⲆⲆᐃⲆᐃⲆⲆ;
+              v1613 = v3030.ⲆⲆᐃⲆᐃⲆⲆ;
               break;
             case 309:
-              v1613 = game.ⲆⵠⵠᐃⵠⵠΔ;
+              v1613 = v3030.ⲆⵠⵠᐃⵠⵠΔ;
               break;
             case 310:
-              v1613 = game.ΔⵠⵠΔᐃΔⲆ;
+              v1613 = v3030.ΔⵠⵠΔᐃΔⲆ;
               break;
             case 311:
-              v1613 = game.ⵠⲆⲆⵠᐃᐃᐃ;
+              v1613 = v3030.ⵠⲆⲆⵠᐃᐃᐃ;
               break;
             case 312:
-              v1613 = game.ⵠΔⲆᐃⲆⲆⲆ;
+              v1613 = v3030.ⵠΔⲆᐃⲆⲆⲆ;
               break;
             case 313:
-              v1613 = game.ⲆⲆΔΔⲆᐃΔ;
+              v1613 = v3030.ⲆⲆΔΔⲆᐃΔ;
           }
-          if (user.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ > 0) {
+          if (v2835.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ > 0) {
             v1613.ⲆΔᐃΔ(v405);
-            if ((v1610 = user.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ) > 1) {
+            if ((v1610 = v2835.ΔⲆⲆⵠ.ⲆⵠᐃΔΔᐃᐃ) > 1) {
               f298(v1610, v1613);
             }
           }
@@ -43557,38 +43556,38 @@
     }
   }
   function f303() {
-    if (!user.ⵠⲆΔᐃ.open && !user.ⵠⲆⵠΔΔ.open) {
-      user.ΔⵠⵠⲆ.open = vVVVV142;
-      var v1614 = world.fast_units[user.ᐃᐃⵠⵠ];
+    if (!v2835.ⵠⲆΔᐃ.open && !v2835.ⵠⲆⵠΔΔ.open) {
+      v2835.ΔⵠⵠⲆ.open = vVVVV142;
+      var v1614 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1615 = 100;
       if (v1614) {
-        for (var v1616 = 0; world.units[41].length > v1616; v1616++) {
-          var v1617 = world.units[41][v1616];
+        for (var v1616 = 0; v2834.Δⵠᐃ[41].length > v1616; v1616++) {
+          var v1617 = v2834.Δⵠᐃ[41][v1616];
           var v1618 = Δᐃᐃ.ⲆⲆⵠᐃ(v1617, v1614);
           if (v1615 > v1618) {
             v1615 = v1618;
-            user.ΔⵠⵠⲆ.open = true;
-            user.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ = v1617.info & 255;
-            user.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ = (v1617.info & 65280) >> 8;
-            user.ΔⵠⵠⲆ.ΔⲆᐃⲆ = v1617.ΔⲆᐃⲆ;
-            user.ΔⵠⵠⲆ.ΔⵠΔᐃⵠ = v1617.id;
+            v2835.ΔⵠⵠⲆ.open = true;
+            v2835.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ = v1617.info & 255;
+            v2835.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ = (v1617.info & 65280) >> 8;
+            v2835.ΔⵠⵠⲆ.ΔⲆᐃⲆ = v1617.ΔⲆᐃⲆ;
+            v2835.ΔⵠⵠⲆ.ΔⵠΔᐃⵠ = v1617.id;
           }
         }
         if (v1615 < 100) {
           var v1619 = ᐃᐃ[874];
-          var v1620 = (v1622 = game.ᐃⲆⵠⵠΔΔⲆ).info.translate.x - 33;
+          var v1620 = (v1622 = v3030.ᐃⲆⵠⵠΔΔⲆ).info.translate.x - 33;
           f295(v405, v1619, v1620, 0);
-          if (user.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ > 0) {
+          if (v2835.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ > 0) {
             v1622.ⲆΔᐃΔ(v405);
-            if ((v1621 = user.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ) > 1) {
+            if ((v1621 = v2835.ΔⵠⵠⲆ.ⲆⵠⲆᐃΔⲆΔ) > 1) {
               f298(v1621, v1622);
             }
           }
           var v1621;
-          var v1622 = game.ⲆⵠⲆᐃⵠΔΔ;
-          if (user.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ > 0) {
+          var v1622 = v3030.ⲆⵠⲆᐃⵠΔΔ;
+          if (v2835.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ > 0) {
             v1622.ⲆΔᐃΔ(v405);
-            if ((v1621 = user.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ) > 1) {
+            if ((v1621 = v2835.ΔⵠⵠⲆ.ⵠΔᐃⲆⲆⲆᐃ) > 1) {
               f298(v1621, v1622);
             }
           }
@@ -43597,7 +43596,7 @@
     }
   }
   function f304() {
-    var v1623 = game.ᐃΔⵠᐃⲆ;
+    var v1623 = v3030.ᐃΔⵠᐃⲆ;
     var v1624 = v1623.id;
     if (v1623.ⵠᐃⲆⲆΔ === 1 && v1623.display === 1) {
       if (vVVVVUndefined14 === ⲆᐃⵠΔⵠΔΔ[v1624]) {
@@ -43663,28 +43662,28 @@
     }
   }
   function f305() {
-    if (!user.ⵠⲆΔᐃ.open && !user.ⵠⲆⵠΔΔ.open && !user.ΔⵠⵠⲆ.open && !user.ΔⵠⲆⵠ.open && !user.ΔⲆⲆⵠ.open) {
-      user.sign.open = false;
-      var v1631 = world.fast_units[user.ᐃᐃⵠⵠ];
+    if (!v2835.ⵠⲆΔᐃ.open && !v2835.ⵠⲆⵠΔΔ.open && !v2835.ΔⵠⵠⲆ.open && !v2835.ΔⵠⲆⵠ.open && !v2835.ΔⲆⲆⵠ.open) {
+      v2835.sign.open = false;
+      var v1631 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v1632 = 100;
       if (v1631) {
-        for (var v1633 = 0; world.units[45].length > v1633; v1633++) {
-          var v1634 = world.units[45][v1633];
+        for (var v1633 = 0; v2834.Δⵠᐃ[45].length > v1633; v1633++) {
+          var v1634 = v2834.Δⵠᐃ[45][v1633];
           var v1635 = Δᐃᐃ.ⲆⲆⵠᐃ(v1634, v1631);
-          if (v1632 > v1635 && v1634.info === 0 && user.id === v1634.ΔⲆᐃⲆ) {
-            user.sign.open = v6;
+          if (v1632 > v1635 && v1634.info === 0 && v2835.id === v1634.ΔⲆᐃⲆ) {
+            v2835.sign.open = v6;
             v1632 = v1635;
-            user.sign.ΔⵠΔᐃⵠ = v1634.id;
+            v2835.sign.ΔⵠΔᐃⵠ = v1634.id;
           }
         }
         if (v1632 < 100) {
-          game.sign.button.ⲆΔᐃΔ(v405);
+          v3030.sign.button.ⲆΔᐃΔ(v405);
         }
       }
     }
   }
   function f306() {
-    if (user.reconnect.enabled) {
+    if (v2835.reconnect.enabled) {
       v405.globalAlpha = 0.9;
       v405.fillStyle = "#000";
       f86(v405, v409 - 150, v410 - 90, 300, 180, 15);
@@ -43692,9 +43691,9 @@
       v405.globalAlpha = 1;
       var v1636 = ᐃᐃ[412];
       v405.save();
-      user.reconnect.rotate = (user.reconnect.rotate + v3064 * 2) % (Math.PI * 2);
+      v2835.reconnect.rotate = (v2835.reconnect.rotate + v3064 * 2) % (Math.PI * 2);
       v405.translate(v406 / 2, v408 / 2 - 25);
-      v405.rotate(user.reconnect.rotate);
+      v405.rotate(v2835.reconnect.rotate);
       f295(v405, v1636, -v1636.width / 2, -v1636.height / 2);
       v405.restore();
       v1636 = ᐃᐃ[663];
@@ -43703,29 +43702,29 @@
   }
   var v1637 = [];
   function f307() {
-    var v1638 = user.ⵠⵠᐃⲆᐃ;
-    var v1639 = game.ΔΔΔᐃ;
+    var v1638 = v2835.ⵠⵠᐃⲆᐃ;
+    var v1639 = v3030.ΔΔΔᐃ;
     if (v1638.ⵠᐃᐃ) {
       v1638.ⵠᐃᐃ = false;
       var v1640 = v1638.ᐃᐃⵠΔᐃ;
       var v1641 = v1639.ⵠΔΔ.width;
       var v1642 = v1639.ⵠΔΔ.height;
       var v1643 = v1639.Δ;
-      var v1644 = world.players;
+      var v1644 = v2834.ᐃⵠΔΔ;
       var vVVV1422 = vVV1422;
       v1643.clearRect(0, 0, v1641, v1642);
       v1643.drawImage(v1639.Δⵠ, 0, 0);
       for (var v1645 = 0; v1640.length > v1645; v1645++) {
         var v1646 = v1644[v1640[v1645]];
-        if ((world.mode !== 1 || v1646.ᐃⲆᐃⵠⲆ !== "spectator") && (world.mode !== 2 || v1646.ⲆΔⲆⲆ !== 0)) {
-          if (user.id == v1640[v1645]) {
+        if ((v2834.mode !== 1 || v1646.ᐃⲆᐃⵠⲆ !== "spectator") && (v2834.mode !== 2 || v1646.ⲆΔⲆⲆ !== 0)) {
+          if (v2835.id == v1640[v1645]) {
             vVVV1422 = true;
-            if (world.mode === 3 && v1646.ⲆΔⲆⲆ === 0) {
+            if (v2834.mode === 3 && v1646.ⲆΔⲆⲆ === 0) {
               ⵠⲆ = "#FF0000";
             } else {
               ⵠⲆ = "#FFF";
             }
-          } else if (world.mode === 3 && v1646.ⲆΔⲆⲆ === 0) {
+          } else if (v2834.mode === 3 && v1646.ⲆΔⲆⲆ === 0) {
             ⵠⲆ = "#990000";
           } else {
             ⵠⲆ = "#A1BDCD";
@@ -43737,9 +43736,9 @@
         }
       }
       if (!vVVV1422) {
-        if (world.mode === 0 || world.mode === 3 || world.mode === 4 || world.mode === 5 || world.mode === 7 || world.mode === 1 && !user.ⲆⲆΔⵠⲆᐃⵠ || world.mode === 2 && !user.ⲆΔᐃⲆΔ) {
+        if (v2834.mode === 0 || v2834.mode === 3 || v2834.mode === 4 || v2834.mode === 5 || v2834.mode === 7 || v2834.mode === 1 && !v2835.ⲆⲆΔⵠⲆᐃⵠ || v2834.mode === 2 && !v2835.ⲆΔᐃⲆΔ) {
           v1643.drawImage(ᐃᐃ[417], v415 * 15, (46 + v1645 * 22) * v415);
-          v1643.drawImage(f157(v415, Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(world.players[user.id].Ⲇⵠⵠᐃᐃ), v415 * 15, "#FFF"), v415 * 100, (46 + v1645 * 22) * v415);
+          v1643.drawImage(f157(v415, Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(v2834.ᐃⵠΔΔ[v2835.id].Ⲇⵠⵠᐃᐃ), v415 * 15, "#FFF"), v415 * 100, (46 + v1645 * 22) * v415);
         }
       }
     }
@@ -43748,7 +43747,7 @@
   function f308(p1165) {
     if (!((p1165 = p1165 / 100) > 0.8)) {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vVVVV1423 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -43766,23 +43765,23 @@
       f88(v405, null, "#000000", v415 * 18);
       v405.globalAlpha = 1;
       f90(v405, v1648, v1649, v415 * 18, p1165);
-      f88(v405, null, v585.ⲆⲆᐃΔΔΔᐃ[world.time], v415 * 6);
+      f88(v405, null, v585.ⲆⲆᐃΔΔΔᐃ[v2834.time], v415 * 6);
       v405.restore();
     }
   }
   function f309() {
-    var v1650 = user.ⵠⲆⲆᐃ;
+    var v1650 = v2835.ⵠⲆⲆᐃ;
     if (v1650.ⵠⲆⲆᐃᐃ) {
-      var v1651 = world.fast_units[user.ᐃᐃⵠⵠ];
+      var v1651 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + v1651.x, user.ᐃⵠⵠ.y + v1651.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + v1651.x, v2835.ᐃⵠⵠ.y + v1651.y);
       var v1652 = ᐃᐃ[435];
       var v1653 = -v1652.width / 2;
       var v1654 = -v1652.height / 2 - v415 * 125;
       f295(v405, v1652, v1653, v1654);
       v405.beginPath();
       v405.lineWidth = v415 * 5;
-      v405.strokeStyle = v585.ᐃⲆΔⲆᐃᐃⵠ[world.time];
+      v405.strokeStyle = v585.ᐃⲆΔⲆᐃᐃⵠ[v2834.time];
       v405.lineCap = "round";
       v405.arc(0, v1654 + v1652.height / 2, v415 * 25, 0, v1650.timeout.Ⲇⵠⵠ * (Math.PI * 2));
       v405.stroke();
@@ -43791,95 +43790,95 @@
   }
   function f310() {
     var v1655 = -8;
-    if (user.ⵠⵠⵠⵠΔ.enabled) {
+    if (v2835.ⵠⵠⵠⵠΔ.enabled) {
       var v1656 = ᐃᐃ[684];
-      f295(v405, v1656, user.ⵠⵠⵠⵠΔ.translate.x, user.ⵠⵠⵠⵠΔ.translate.y + v1655);
+      f295(v405, v1656, v2835.ⵠⵠⵠⵠΔ.translate.x, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655);
       v1655 += 70;
     }
-    if (user.ᐃⲆⵠᐃᐃⵠᐃ === 1) {
+    if (v2835.ᐃⲆⵠᐃᐃⵠᐃ === 1) {
       v1656 = ᐃᐃ[687];
-      f295(v405, v1656, user.ⵠⵠⵠⵠΔ.translate.x, user.ⵠⵠⵠⵠΔ.translate.y + v1655);
+      f295(v405, v1656, v2835.ⵠⵠⵠⵠΔ.translate.x, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655);
       v1655 += 70;
-    } else if (user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x < 0.25 || user.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x < 0.25 || user.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x < 0.25 || user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.25 || user.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x < 0.25) {
+    } else if (v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x < 0.25 || v2835.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x < 0.25 || v2835.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x < 0.25 || v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.25 || v2835.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x < 0.25) {
       v1656 = ᐃᐃ[686];
-      f295(v405, v1656, user.ⵠⵠⵠⵠΔ.translate.x, user.ⵠⵠⵠⵠΔ.translate.y + v1655);
+      f295(v405, v1656, v2835.ⵠⵠⵠⵠΔ.translate.x, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655);
       v1655 += 70;
     }
-    if (user.ᐃⲆᐃΔᐃ > 0) {
+    if (v2835.ᐃⲆᐃΔᐃ > 0) {
       v1656 = ᐃᐃ[685];
-      f295(v405, v1656, user.ⵠⵠⵠⵠΔ.translate.x, user.ⵠⵠⵠⵠΔ.translate.y + v1655);
-      var v1657 = v1637[user.ᐃⲆᐃΔᐃ];
+      f295(v405, v1656, v2835.ⵠⵠⵠⵠΔ.translate.x, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655);
+      var v1657 = v1637[v2835.ᐃⲆᐃΔᐃ];
       if (vVVVVUndefined142 === v1657) {
-        v1657 = f157(v415, user.ᐃⲆᐃΔᐃ + "", 30, "#FDFDFD", null, null, null, null, null, "#C8BBBF", 6);
-        v1637[user.ᐃⲆᐃΔᐃ] = v1657;
+        v1657 = f157(v415, v2835.ᐃⲆᐃΔᐃ + "", 30, "#FDFDFD", null, null, null, null, null, "#C8BBBF", 6);
+        v1637[v2835.ᐃⲆᐃΔᐃ] = v1657;
       }
-      if (user.ᐃⲆᐃΔᐃ < 9) {
-        f295(v405, v1657, user.ⵠⵠⵠⵠΔ.translate.x - 39, user.ⵠⵠⵠⵠΔ.translate.y + v1655 + 20);
+      if (v2835.ᐃⲆᐃΔᐃ < 9) {
+        f295(v405, v1657, v2835.ⵠⵠⵠⵠΔ.translate.x - 39, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655 + 20);
       } else {
-        f295(v405, v1657, user.ⵠⵠⵠⵠΔ.translate.x - 46, user.ⵠⵠⵠⵠΔ.translate.y + v1655 + 20);
+        f295(v405, v1657, v2835.ⵠⵠⵠⵠΔ.translate.x - 46, v2835.ⵠⵠⵠⵠΔ.translate.y + v1655 + 20);
       }
     }
   }
   function f311() {
     v405.save();
     var vV4152 = v415;
-    if (user.ᐃⵠᐃⵠ.ᐃⵠᐃΔᐃ.x < 0.25) {
-      v405.globalAlpha = user.ᐃⵠᐃⵠ.ⵠᐃⵠⵠᐃⲆΔ.Ⲇⵠⵠ;
+    if (v2835.ᐃⵠᐃⵠ.ᐃⵠᐃΔᐃ.x < 0.25) {
+      v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⵠᐃⵠⵠᐃⲆΔ.Ⲇⵠⵠ;
     }
-    var v1658 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -70 : 0;
-    if (user.ⵠⲆΔᐃ.open || user.ⵠⲆⵠΔΔ.open && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || user.ΔⵠⵠⲆ.open && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(227) != -1 || user.ΔⲆⲆⵠ.open && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || user.ΔᐃⲆΔᐃ.open && user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(282) != -1 || user.ΔⵠⲆⵠ.open && (user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(224) != -1)) {
+    var v1658 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -70 : 0;
+    if (v2835.ⵠⲆΔᐃ.open || v2835.ⵠⲆⵠΔΔ.open && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || v2835.ΔⵠⵠⲆ.open && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(227) != -1 || v2835.ΔⲆⲆⵠ.open && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || v2835.ΔᐃⲆΔᐃ.open && v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(282) != -1 || v2835.ΔⵠⲆⵠ.open && (v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(200) != -1 || v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(224) != -1)) {
       v1658 -= v415 * 50;
     }
     v405.translate((v406 - v415 * 950) / 2, v1658);
     v405.fillStyle = "#69A148";
-    v405.fillRect(this.translate.x + v415 * 37, this.translate.y + v415 * 17, v415 * (user.ᐃⵠᐃⵠ.ᐃⵠᐃΔᐃ.x * 178), v415 * 18);
+    v405.fillRect(this.translate.x + v415 * 37, this.translate.y + v415 * 17, v415 * (v2835.ᐃⵠᐃⵠ.ᐃⵠᐃΔᐃ.x * 178), v415 * 18);
     v405.globalAlpha = 1;
-    if (user.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x < 0.35) {
+    if (v2835.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x < 0.35) {
       v405.fillStyle = "#8F050A";
-      v405.globalAlpha = user.ᐃⵠᐃⵠ.ⲆⵠⲆⵠⵠⲆⵠ.Ⲇⵠⵠ;
+      v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⲆⵠⲆⵠⵠⲆⵠ.Ⲇⵠⵠ;
       v405.fillRect(this.translate.x + v415 * 277, this.translate.y + v415 * 17, v415 * 178, v415 * 18);
       v405.globalAlpha = 1;
     }
     v405.fillStyle = "#AF352A";
-    v405.fillRect(this.translate.x + v415 * 277, this.translate.y + v415 * 17, v415 * (user.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x * 178), v415 * 18);
-    if (user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x < 0.35) {
+    v405.fillRect(this.translate.x + v415 * 277, this.translate.y + v415 * 17, v415 * (v2835.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.x * 178), v415 * 18);
+    if (v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x < 0.35) {
       v405.fillStyle = "#366B91";
-      v405.globalAlpha = user.ᐃⵠᐃⵠ.ⲆⵠⲆⵠΔΔⵠ.Ⲇⵠⵠ;
+      v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⲆⵠⲆⵠΔΔⵠ.Ⲇⵠⵠ;
       v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, v415 * 178, v415 * 18);
       v405.globalAlpha = 1;
     }
     v405.fillStyle = "#669BB1";
-    v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x * 178 * v415, v415 * 18);
-    if (user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x > 0.99) {
-      if (user.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x < 0.35) {
+    v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x * 178 * v415, v415 * 18);
+    if (v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.x > 0.99) {
+      if (v2835.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x < 0.35) {
         v405.fillStyle = "#6C4036";
-        v405.globalAlpha = user.ᐃⵠᐃⵠ.ⵠΔᐃⲆΔΔⵠ.Ⲇⵠⵠ;
+        v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⵠΔᐃⲆΔΔⵠ.Ⲇⵠⵠ;
         v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, v415 * 178, v415 * 18);
         v405.globalAlpha = 1;
       }
       v405.fillStyle = "#9C4036";
-      v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, v415 * ((1 - user.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x) * 178), v415 * 18);
+      v405.fillRect(this.translate.x + v415 * 517, this.translate.y + v415 * 17, v415 * ((1 - v2835.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.x) * 178), v415 * 18);
     }
-    if (user.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x < 0.35) {
+    if (v2835.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x < 0.35) {
       v405.fillStyle = "#001A57";
-      v405.globalAlpha = user.ᐃⵠᐃⵠ.ⲆΔⵠᐃⲆⵠⵠ.Ⲇⵠⵠ;
+      v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⲆΔⵠᐃⲆⵠⵠ.Ⲇⵠⵠ;
       v405.fillRect(this.translate.x + v415 * 757, this.translate.y + v415 * 17, v415 * 178, v415 * 18);
       v405.globalAlpha = 1;
     }
     v405.fillStyle = "#074A87";
-    v405.fillRect(this.translate.x + v415 * 757, this.translate.y + v415 * 17, v415 * (user.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x * 178), v415 * 18);
+    v405.fillRect(this.translate.x + v415 * 757, this.translate.y + v415 * 17, v415 * (v2835.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.x * 178), v415 * 18);
     v415 = vV4152;
     f295(v405, this.Δⵠ, this.translate.x, this.translate.y);
     this.y = this.translate.y + v1658;
     v405.restore();
-    if (user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.99) {
+    if (v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.99) {
       var v1659 = Math.floor(v409 - ᐃᐃ[827].width / 2);
       v1658 += this.translate.y - ᐃᐃ[827].height - v415 * 5;
       v405.fillStyle = "#BBE8EF";
-      v405.fillRect(v1659 + 5, v1658 + v415 * 5, user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x * (v415 * 588), v415 * 10);
-      if (user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.35) {
+      v405.fillRect(v1659 + 5, v1658 + v415 * 5, v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x * (v415 * 588), v415 * 10);
+      if (v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.x < 0.35) {
         v405.fillStyle = "#9BA8AF";
-        v405.globalAlpha = user.ᐃⵠᐃⵠ.ⵠⲆⵠᐃΔΔᐃ.Ⲇⵠⵠ;
+        v405.globalAlpha = v2835.ᐃⵠᐃⵠ.ⵠⲆⵠᐃΔΔᐃ.Ⲇⵠⵠ;
         v405.fillRect(v1659 + 5, v1658 + 5, v415 * 588, v415 * 10);
         v405.globalAlpha = 1;
       }
@@ -43889,28 +43888,28 @@
   }
   function f312() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[349][world.time];
+    Δⵠ = ᐃᐃ[349][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
     v405.restore();
   }
   function f313() {
-    var v1660 = user.ⲆΔⵠΔᐃ;
+    var v1660 = v2835.ⲆΔⵠΔᐃ;
     if (v1660.wait) {
       var v1661 = v1660.timeout.ⵠᐃᐃ();
       v405.save();
       var v1662 = ᐃᐃ[727];
       var v1663 = ᐃᐃ[675].height + v415 * 25;
-      v405.translate(v1662.width, game.ᐃⵠᐃⵠ.translate.y - v415 * 188 - v1663);
+      v405.translate(v1662.width, v3030.ᐃⵠᐃⵠ.translate.y - v415 * 188 - v1663);
       var v1664 = -v1662.width / 2 - 2;
       var v1665 = -v1662.height / 2 - 4;
       f295(v405, v1662, v1664 + 2, v1665);
       v405.beginPath();
       v405.lineWidth = v415 * 5;
-      v405.strokeStyle = v585.ⵠⲆⲆΔᐃΔᐃ[world.time];
+      v405.strokeStyle = v585.ⵠⲆⲆΔᐃΔᐃ[v2834.time];
       v405.lineCap = "round";
       v405.arc(0, v1665 + v1662.height / 2, v415 * 25, 0, Math.PI * 2 * v1660.timeout.Ⲇⵠⵠ);
       v405.stroke();
@@ -43923,18 +43922,18 @@
     }
   }
   function f314() {
-    var v1666 = user.ⵠⲆⲆᐃⲆ;
+    var v1666 = v2835.ⵠⲆⲆᐃⲆ;
     if (v1666.wait) {
       var v1667 = v1666.timeout.ⵠᐃᐃ();
       v405.save();
       var v1668 = ᐃᐃ[1041];
-      v405.translate(v1668.width - v415 * 2, game.ᐃⵠᐃⵠ.translate.y - v415 * 125);
+      v405.translate(v1668.width - v415 * 2, v3030.ᐃⵠᐃⵠ.translate.y - v415 * 125);
       var v1669 = -v1668.width / 2 + 10;
       var v1670 = -v1668.height / 2 - 4;
       f295(v405, v1668, v1669, v1670);
       v405.beginPath();
       v405.lineWidth = v415 * 5;
-      v405.strokeStyle = v585.ᐃΔᐃᐃΔΔΔ[world.time];
+      v405.strokeStyle = v585.ᐃΔᐃᐃΔΔΔ[v2834.time];
       v405.lineCap = "round";
       v405.arc(9, v1670 + v1668.height / 2, v415 * 25, 0, Math.PI * 2 * v1666.timeout.Ⲇⵠⵠ);
       v405.stroke();
@@ -43947,40 +43946,40 @@
     }
   }
   function f315() {
-    for (var v1671 = user.ᐃⵠⲆⲆ, v1672 = world.fast_units[user.ᐃᐃⵠⵠ], v1673 = 0; v1673 < v1671.ᐃᐃⲆᐃᐃ.length; v1673++) {
+    for (var v1671 = v2835.ᐃⵠⲆⲆ, v1672 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ], v1673 = 0; v1673 < v1671.ᐃᐃⲆᐃᐃ.length; v1673++) {
       var v1674 = v1671.ᐃᐃⲆᐃᐃ[v1673];
       var vVVVVV1423 = vVVVV1423;
-      if ((v1672 = world.fast_units[user.ᐃᐃⵠⵠ]) && (v1674.id == v1672.right || v1674.id == v1672.ⲆⲆⵠⵠⵠ && v1672.ⲆⲆⵠⵠⵠ > 0)) {
+      if ((v1672 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ]) && (v1674.id == v1672.right || v1674.id == v1672.ⲆⲆⵠⵠⵠ && v1672.ⲆⲆⵠⵠⵠ > 0)) {
         vVVVVV1423 = true;
         f295(v405, v1674.info.Δⵠ[2], v1674.info.translate.x, v1674.info.translate.y, v1674.info.width, v1674.info.height);
       } else {
         v1674.ⲆΔᐃΔ(v405);
       }
-      var v1675 = user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v1674.id];
+      var v1675 = v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v1674.id];
       if (v1675 > 1) {
         f298(v1675, v1674);
       }
       if (v1675 > 0) {
         f300(v1673, v1674, vVVVVV1423);
       }
-      var v1676 = user.ⵠⲆΔᐃ;
-      if (!!v1676.open && (!!(v1676.id < 0) || v1676.id == v1674.id) && (!v1676.lock || v1676.ΔⲆᐃⲆ == user.id)) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      var v1676 = v2835.ⵠⲆΔᐃ;
+      if (!!v1676.open && (!!(v1676.id < 0) || v1676.id == v1674.id) && (!v1676.lock || v1676.ΔⲆᐃⲆ == v2835.id)) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
-      if (user.ⵠⲆⵠΔΔ.open && v1674.id == 200) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      if (v2835.ⵠⲆⵠΔΔ.open && v1674.id == 200) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
-      if (user.ΔᐃⲆΔᐃ.open && v1674.id == 282) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      if (v2835.ΔᐃⲆΔᐃ.open && v1674.id == 282) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
-      if (user.ΔⵠⵠⲆ.open && v1674.id == 227) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      if (v2835.ΔⵠⵠⲆ.open && v1674.id == 227) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
-      if (user.ΔⲆⲆⵠ.open && v1674.id == 200) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      if (v2835.ΔⲆⲆⵠ.open && v1674.id == 200) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
-      if (user.ΔⵠⲆⵠ.open && (v1674.id == 200 || v1674.id == 224)) {
-        game.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
+      if (v2835.ΔⵠⲆⵠ.open && (v1674.id == 200 || v1674.id == 224)) {
+        v3030.ⵠΔⲆⵠᐃ[v1674.id].ⲆΔᐃΔ(v405);
       }
     }
     if (v1674 && v1671.max > v1673) {
@@ -43994,20 +43993,20 @@
     }
   }
   function f316() {
-    var v1678 = world.ⲆᐃⲆⵠᐃ;
-    var v1679 = ᐃᐃ[974][world.time];
+    var v1678 = v2834.ⲆᐃⲆⵠᐃ;
+    var v1679 = ᐃᐃ[974][v2834.time];
     f295(v405, v1679, v1678.translate.x, v1678.translate.y);
     v405.save();
     v405.translate(v1678.translate.x + v1679.width / 2, v1678.translate.y + v1679.height / 2);
-    world.ⲆᐃⲆⵠᐃ.now = (new Date().getTime() - v1678.ΔᐃΔⲆⵠ + v1678.ⵠΔⲆΔᐃ) % 480000;
-    var v1680 = Math.PI * 2 * world.ⲆᐃⲆⵠᐃ.now / 480000 - Math.PI / 2;
+    v2834.ⲆᐃⲆⵠᐃ.now = (new Date().getTime() - v1678.ΔᐃΔⲆⵠ + v1678.ⵠΔⲆΔᐃ) % 480000;
+    var v1680 = Math.PI * 2 * v2834.ⲆᐃⲆⵠᐃ.now / 480000 - Math.PI / 2;
     v405.rotate(v1680);
     f295(v405, ᐃᐃ[975], -v1679.width / 2, -v1679.height / 2);
     v405.restore();
   }
   function f317(p1166) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -44020,7 +44019,7 @@
       v1682 = 0;
       v1683 = 0;
     }
-    var v1684 = ᐃᐃ[p1166][world.time];
+    var v1684 = ᐃᐃ[p1166][v2834.time];
     ⵠⵠᐃ = -v1684.width;
     ⵠⲆⵠ = -v1684.height;
     f295(v405, v1684, -ⵠⵠᐃ / 2 + v1682, -ⵠⲆⵠ / 2 + v1683, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44028,7 +44027,7 @@
   }
   function f318(p1167) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -44041,9 +44040,9 @@
       v1686 = 0;
       v1687 = 0;
     }
-    if (p1167 === 1189 && !world.transition) {
+    if (p1167 === 1189 && !v2834.transition) {
       var v1688 = 0;
-      for (var v1689 = world.units[0], v1690 = 0; v1689.length > v1690; v1690++) {
+      for (var v1689 = v2834.Δⵠᐃ[0], v1690 = 0; v1689.length > v1690; v1690++) {
         var v1691 = Δᐃᐃ.ⲆⲆⵠᐃ(v1689[v1690], this);
         if (v1691 < 140 && v1691 > 35) {
           v1688 = 0;
@@ -44056,7 +44055,7 @@
       this.opacity = v1688 === 0 ? Math.max(0.5, this.opacity - v3064 / 1.5) : Math.min(1, this.opacity + v3064 / 1.5);
       v405.globalAlpha = this.opacity;
     }
-    Δⵠ = ᐃᐃ[p1167][world.time];
+    Δⵠ = ᐃᐃ[p1167][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2 + v1686, -ⵠⲆⵠ / 2 + v1687, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44065,7 +44064,7 @@
   }
   function f319(p1168) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vVV1422 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -44081,7 +44080,7 @@
     if (this.ΔΔⲆΔⲆ.ⵠᐃᐃ()) {
       this.color += 0.2 + Math.random() * 0.3;
     }
-    Δⵠ = ᐃᐃ[1121][Math.floor(this.id + this.color) % 5][world.time];
+    Δⵠ = ᐃᐃ[1121][Math.floor(this.id + this.color) % 5][v2834.time];
     ⵠⵠᐃ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.width;
     ⵠⲆⵠ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2 + v1693, -ⵠⲆⵠ / 2 + v1694, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44089,9 +44088,9 @@
   }
   function f320() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[1097][world.time];
+    Δⵠ = ᐃᐃ[1097][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44099,7 +44098,7 @@
   }
   function f321(p1169) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -44112,7 +44111,7 @@
       v1696 = 0;
       v1697 = 0;
     }
-    Δⵠ = ᐃᐃ[p1169][world.time];
+    Δⵠ = ᐃᐃ[p1169][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2 + v1696, -ⵠⲆⵠ / 2 + v1697, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44120,7 +44119,7 @@
   }
   function f322() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -44133,12 +44132,12 @@
       v1699 = 0;
       v1700 = 0;
     }
-    Δⵠ = ᐃᐃ[269][world.time];
+    Δⵠ = ᐃᐃ[269][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2 + v1699, -ⵠⲆⵠ / 2 + v1700, ⵠⵠᐃ, ⵠⲆⵠ);
     if (this.lock) {
-      Δⵠ = ᐃᐃ[241][world.time];
+      Δⵠ = ᐃᐃ[241][v2834.time];
       ⵠⵠᐃ = -Δⵠ.width;
       ⵠⲆⵠ = -Δⵠ.height;
       f295(v405, Δⵠ, -ⵠⵠᐃ / 2 + v1699 - v415 * 1, -ⵠⲆⵠ / 2 + v1700, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44146,18 +44145,18 @@
     v405.restore();
   }
   function f323() {
-    var v1701 = user.ΔⲆΔᐃΔ;
+    var v1701 = v2835.ΔⲆΔᐃΔ;
     if (v1701.wait) {
       var v1702 = v1701.timeout.ⵠᐃᐃ();
       v405.save();
       var v1703 = ᐃᐃ[675];
-      v405.translate(v1703.width - v415 * 2, game.ᐃⵠᐃⵠ.translate.y - v415 * 60);
+      v405.translate(v1703.width - v415 * 2, v3030.ᐃⵠᐃⵠ.translate.y - v415 * 60);
       var v1704 = -v1703.width / 2 - 2;
       var v1705 = -v1703.height / 2 - 4;
       f295(v405, v1703, v1704, v1705);
       v405.beginPath();
       v405.lineWidth = v415 * 5;
-      v405.strokeStyle = v585.ⵠⲆⲆΔᐃΔᐃ[world.time];
+      v405.strokeStyle = v585.ⵠⲆⲆΔᐃΔᐃ[v2834.time];
       v405.lineCap = "round";
       v405.arc(0, v1705 + v1703.height / 2, v415 * 25, 0, Math.PI * 2 * v1701.timeout.Ⲇⵠⵠ);
       v405.stroke();
@@ -44171,9 +44170,9 @@
   }
   function f324() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[1060][world.time];
+    Δⵠ = ᐃᐃ[1060][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44181,9 +44180,9 @@
   }
   function f325() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[1086][world.time];
+    Δⵠ = ᐃᐃ[1086][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44192,7 +44191,7 @@
   function f326(p1170) {
     if (!((p1170 = p1170 / 100) > 0.95)) {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vV143 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -44210,23 +44209,23 @@
       f88(v405, null, "#000000", v415 * 18);
       v405.globalAlpha = 1;
       f90(v405, v1707, v1708, v415 * 28, p1170);
-      f88(v405, null, v585.ᐃⲆΔⲆᐃᐃⵠ[world.time], v415 * 6);
+      f88(v405, null, v585.ᐃⲆΔⲆᐃᐃⵠ[v2834.time], v415 * 6);
       v405.restore();
     }
   }
   function f327() {
-    var v1709 = user.ᐃΔⵠⵠᐃ;
+    var v1709 = v2835.ᐃΔⵠⵠᐃ;
     if (v1709.wait) {
       var v1710 = v1709.timeout.ⵠᐃᐃ();
       v405.save();
       var v1711 = ᐃᐃ[1043];
-      v405.translate(v1711.width - v415 * 12, game.ᐃⵠᐃⵠ.translate.y - v415 * 190);
+      v405.translate(v1711.width - v415 * 12, v3030.ᐃⵠᐃⵠ.translate.y - v415 * 190);
       var v1712 = -v1711.width / 2 + 9;
       var v1713 = -v1711.height / 2 - 4;
       f295(v405, v1711, v1712, v1713);
       v405.beginPath();
       v405.lineWidth = v415 * 5;
-      v405.strokeStyle = v585.ᐃΔᐃᐃΔΔΔ[world.time];
+      v405.strokeStyle = v585.ᐃΔᐃᐃΔΔΔ[v2834.time];
       v405.lineCap = "round";
       v405.arc(9, v1713 + v1711.height / 2, v415 * 25, 0, v1709.timeout.Ⲇⵠⵠ * (Math.PI * 2));
       v405.stroke();
@@ -44239,25 +44238,25 @@
     }
   }
   function f328() {
-    var v1714 = user.ⵠⲆⲆᐃ;
+    var v1714 = v2835.ⵠⲆⲆᐃ;
     if (!v1714.ⵠⲆⲆᐃᐃ && v1714.ᐃᐃⲆⲆ > 0) {
-      var v1715 = world.fast_units[user.ᐃᐃⵠⵠ];
+      var v1715 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       if (!v1715) {
         return;
       }
       v405.save();
       if (v591[v1714.ᐃᐃⲆⲆ].ⵠΔⲆ === 0 && v1714.mode === 0) {
-        v405.translate(user.ᐃⵠⵠ.x + v1715.x, user.ᐃⵠⵠ.y + v1715.y);
+        v405.translate(v2835.ᐃⵠⵠ.x + v1715.x, v2835.ᐃⵠⵠ.y + v1715.y);
         v405.rotate(v1715.angle);
         v405.translate(120, 0);
       } else {
         var v1716 = Math.floor(v1715.x + Math.sin(v1715.angle) * 120);
         var v1717 = Math.floor(v1715.y + Math.cos(v1715.angle) * 120);
-        v1716 = user.ᐃⵠⵠ.x + (v1716 - v1716 % 100 + 50);
-        v1717 = user.ᐃⵠⵠ.y + (v1717 - v1717 % 100 + 50);
+        v1716 = v2835.ᐃⵠⵠ.x + (v1716 - v1716 % 100 + 50);
+        v1717 = v2835.ᐃⵠⵠ.y + (v1717 - v1717 % 100 + 50);
         v405.translate(v1716, v1717);
       }
-      var v1718 = ᐃᐃ[v1714.ᐃᐃⲆⲆ][world.time];
+      var v1718 = ᐃᐃ[v1714.ᐃᐃⲆⲆ][v2834.time];
       v405.globalAlpha = 0.5;
       f295(v405, v1718, -v1718.width / 2, -v1718.height / 2);
       v405.globalAlpha = 1;
@@ -44271,7 +44270,7 @@
           }
         }
         v1718 = v1714.label[v1714.mode];
-        f295(v405, v1718, v409 + -v1718.width / 2, game.ᐃⵠᐃⵠ.y - 26);
+        f295(v405, v1718, v409 + -v1718.width / 2, v3030.ᐃⵠᐃⵠ.y - 26);
       }
     }
     if (v1714.ⵠⲆⲆᐃᐃ) {
@@ -44306,7 +44305,7 @@
   }
   function f329(p1171) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -44320,17 +44319,17 @@
       v1726 = 0;
     }
     var v1727 = ᐃᐃ[1102].length;
-    Δⵠ = ᐃᐃ[1102][(this.ΔᐃⵠⲆ + this.ΔΔ % 2) % v1727][world.time];
+    Δⵠ = ᐃᐃ[1102][(this.ΔᐃⵠⲆ + this.ΔΔ % 2) % v1727][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
-    var v1728 = world.fast_units[user.ᐃᐃⵠⵠ];
-    if (v1728 && (user.id === this.ΔⲆᐃⲆ || user.ΔᐃᐃΔⲆⵠⲆ(this.ΔⲆᐃⲆ))) {
+    var v1728 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
+    if (v1728 && (v2835.id === this.ΔⲆᐃⲆ || v2835.ΔᐃᐃΔⲆⵠⲆ(this.ΔⲆᐃⲆ))) {
       if (Δᐃᐃ.ⲆⲆⵠᐃ(this, v1728) < 550) {
         this.opacity = Math.max(this.opacity - v3064, 0.3);
       } else {
         this.opacity = Math.min(this.opacity + v3064, 1);
       }
-    } else if (v1728 && Δᐃᐃ.ⲆⲆⵠᐃ(this, world.fast_units[user.ᐃᐃⵠⵠ]) < 150) {
+    } else if (v1728 && Δᐃᐃ.ⲆⲆⵠᐃ(this, v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ]) < 150) {
       this.opacity = Math.max(this.opacity - v3064, 0.3);
     } else {
       this.opacity = Math.min(this.opacity + v3064, 1);
@@ -44343,9 +44342,9 @@
   }
   function f330() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[432][world.time];
+    Δⵠ = ᐃᐃ[432][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44365,9 +44364,9 @@
       v1733 = 0;
     }
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1732, user.ᐃⵠⵠ.y + this.y + v1733);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1732, v2835.ᐃⵠⵠ.y + this.y + v1733);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[228][world.time];
+    Δⵠ = ᐃᐃ[228][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
@@ -44388,15 +44387,15 @@
       v1735 += Math.random() * 2 - 1;
       v1736 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1735, user.ᐃⵠⵠ.y + this.y + v1736);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1735, v2835.ᐃⵠⵠ.y + this.y + v1736);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[256][world.time];
+    Δⵠ = ᐃᐃ[256][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1593][world.time];
+    Δⵠ = ᐃᐃ[1593][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
@@ -44417,21 +44416,21 @@
       v1738 += Math.random() * 2 - 1;
       v1739 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1738, user.ᐃⵠⵠ.y + this.y + v1739);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1738, v2835.ᐃⵠⵠ.y + this.y + v1739);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[258][world.time];
+    Δⵠ = ᐃᐃ[258][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1601][world.time];
+    Δⵠ = ᐃᐃ[1601][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f334() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
         this.ᐃΔⵠ.ⵠᐃᐃ = false;
@@ -44448,9 +44447,9 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1744 = ᐃᐃ[887][world.time];
+        var v1744 = ᐃᐃ[887][v2834.time];
       } else {
-        v1744 = ᐃᐃ[225][world.time];
+        v1744 = ᐃᐃ[225][v2834.time];
       }
       var v1745 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1744.width;
       var v1746 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1744.height;
@@ -44458,9 +44457,9 @@
     } else {
       this.ᐃⲆᐃᐃᐃᐃⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        v1744 = ᐃᐃ[857][world.time];
+        v1744 = ᐃᐃ[857][v2834.time];
       } else {
-        v1744 = ᐃᐃ[227][world.time];
+        v1744 = ᐃᐃ[227][v2834.time];
       }
       v405.translate(0, v1744.height / 2);
       v405.rotate(this.ᐃⲆᐃᐃᐃᐃⵠ.Ⲇⵠⵠ);
@@ -44485,24 +44484,24 @@
       v1748 += Math.random() * 2 - 1;
       v1749 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1748, user.ᐃⵠⵠ.y + this.y + v1749);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1748, v2835.ᐃⵠⵠ.y + this.y + v1749);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[246][world.time];
+    Δⵠ = ᐃᐃ[246][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1553][world.time];
+    Δⵠ = ᐃᐃ[1553][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f336(p1172) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[p1172][world.time];
+    Δⵠ = ᐃᐃ[p1172][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -Δⵠ.width;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44510,19 +44509,19 @@
   }
   function f337() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     var v1750 = Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r);
     this.scale = v1750 > 350 ? Math.min(this.scale + v3064 / 2, 1.8) : Math.max(this.scale - v3064, 1);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
     this.ᐃⲆΔᐃ = v1750 < 350 ? Math.max(0, this.ᐃⲆΔᐃ - v3064 * 2.2) : Math.min(1, this.ᐃⲆΔᐃ + v3064 * 2.2);
-    v1751 = ᐃᐃ[1443][world.time];
+    v1751 = ᐃᐃ[1443][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1751.width * this.scale;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1751.height * this.scale;
     v405.globalAlpha = 1 - this.ᐃⲆΔᐃ;
     f295(v405, v1751, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
-    v1751 = ᐃᐃ[1427][world.time];
+    v1751 = ᐃᐃ[1427][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1751.width);
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1751.height * this.scale;
     v405.globalAlpha = this.ᐃⲆΔᐃ;
@@ -44543,7 +44542,7 @@
       f295(v405, v1751, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1751 = ᐃᐃ[1430][world.time];
+    v1751 = ᐃᐃ[1430][v2834.time];
     ⵠⵠᐃ = this.scale * (-v1751.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     ⵠⲆⵠ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1751.height);
     v405.save();
@@ -44558,7 +44557,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1751 = ᐃᐃ[1433][world.time];
+    v1751 = ᐃᐃ[1433][v2834.time];
     v405.save();
     v405.translate(v415 * 40, v415 * 80);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -44576,7 +44575,7 @@
   }
   function f338() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
         this.ᐃΔⵠ.ⵠᐃᐃ = false;
@@ -44593,18 +44592,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1756 = ᐃᐃ[1246][world.time];
+        var v1756 = ᐃᐃ[1246][v2834.time];
       } else {
-        v1756 = ᐃᐃ[318][world.time];
+        v1756 = ᐃᐃ[318][v2834.time];
       }
       var v1757 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1756.width;
       var v1758 = -v1756.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1756, -v1757 / 2 + v1753, -v1758 / 2 + v1754, v1757, v1758);
     } else {
       if (this.info & 16) {
-        v1756 = ᐃᐃ[1247][world.time];
+        v1756 = ᐃᐃ[1247][v2834.time];
       } else {
-        v1756 = ᐃᐃ[319][world.time];
+        v1756 = ᐃᐃ[319][v2834.time];
       }
       v405.translate(0, v1756.height / 2);
       f295(v405, v1756, v1753 - v1756.width / 2, -v1756.height + v1754);
@@ -44628,27 +44627,27 @@
       v1760 += Math.random() * 2 - 1;
       v1761 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1760, user.ᐃⵠⵠ.y + this.y + v1761);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1760, v2835.ᐃⵠⵠ.y + this.y + v1761);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[255][world.time];
+    Δⵠ = ᐃᐃ[255][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1589][world.time];
+    Δⵠ = ᐃᐃ[1589][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f340(p1173, p1174) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (p1173 === 1103) {
       p1173 = 360;
       this.info = 36;
     }
-    Δⵠ = ᐃᐃ[p1173][this.info][world.time];
+    Δⵠ = ᐃᐃ[p1173][this.info][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width / 2;
     ⵠⲆⵠ = -Δⵠ.height / 2;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44665,10 +44664,10 @@
   }
   function f341() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ΔΔⲆΔⲆ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[664][world.time];
+    Δⵠ = ᐃᐃ[664][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width * this.ΔΔⲆΔⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44677,7 +44676,7 @@
   function f342() {
     if (!(this.info < 10)) {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vVVV143 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -44691,7 +44690,7 @@
         v1764 = 0;
       }
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
-      var v1765 = ᐃᐃ[316][world.time];
+      var v1765 = ᐃᐃ[316][v2834.time];
       var v1766 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1765.width;
       var v1767 = -v1765.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1765, -v1766 / 2 + v1763, -v1767 / 2 + v1764, v1766, v1767);
@@ -44700,10 +44699,10 @@
   }
   function f343() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ΔΔⲆΔⲆ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[1547][world.time];
+    Δⵠ = ᐃᐃ[1547][v2834.time];
     ⵠⵠᐃ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height * this.ΔΔⲆΔⲆ.Ⲇⵠⵠ;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44726,15 +44725,15 @@
       v1769 += Math.random() * 2 - 1;
       v1770 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1769, user.ᐃⵠⵠ.y + this.y + v1770);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1769, v2835.ᐃⵠⵠ.y + this.y + v1770);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[249][world.time];
+    Δⵠ = ᐃᐃ[249][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1565][world.time];
+    Δⵠ = ᐃᐃ[1565][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
@@ -44745,9 +44744,9 @@
     this.ᐃᐃΔΔᐃΔⲆ.ⵠᐃᐃ();
     this.ⲆⲆᐃⵠⵠⵠⲆ.ⵠᐃᐃ();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1773 = this.info === 0 ? ᐃᐃ[1163][world.time] : ᐃᐃ[1162][world.time];
+    v1773 = this.info === 0 ? ᐃᐃ[1163][v2834.time] : ᐃᐃ[1162][v2834.time];
     ⵠⵠᐃ = -v1773.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1773.height;
     f295(v405, v1773, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44771,11 +44770,11 @@
     }
     v405.restore();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle + v1772);
     v405.translate(55, 0);
     v405.rotate(v1771);
-    v1773 = this.info === 0 ? ᐃᐃ[1170][world.time] : ᐃᐃ[1172][world.time];
+    v1773 = this.info === 0 ? ᐃᐃ[1170][v2834.time] : ᐃᐃ[1172][v2834.time];
     ⵠⵠᐃ = -v1773.width * this.ᐃᐃΔΔᐃΔⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ᐃᐃΔΔᐃΔⲆ.Ⲇⵠⵠ * -v1773.height;
     f295(v405, v1773, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44793,11 +44792,11 @@
     }
     v405.restore();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle + v1771 + v1772);
     v405.translate(55, 0);
     v405.rotate(v1771);
-    v1773 = this.info === 0 ? ᐃᐃ[1171][world.time] : ᐃᐃ[1173][world.time];
+    v1773 = this.info === 0 ? ᐃᐃ[1171][v2834.time] : ᐃᐃ[1173][v2834.time];
     ⵠⵠᐃ = -v1773.width * this.ⲆⲆᐃⵠⵠⵠⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ⲆⲆᐃⵠⵠⵠⲆ.Ⲇⵠⵠ * -v1773.height;
     f295(v405, v1773, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -44835,7 +44834,7 @@
     for (var v1775 = 0; v1775 < this.ᐃΔΔⵠ.length; v1775++) {
       v1774 = this.ᐃΔΔⵠ[v1775];
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + v1774.x, user.ᐃⵠⵠ.y + v1774.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + v1774.x, v2835.ᐃⵠⵠ.y + v1774.y);
       v1774.a = Math.min(1, 0 + v3064 / 2);
       var v1776 = 0;
       if (v1776 < 0.2) {
@@ -44845,7 +44844,7 @@
       }
       v405.globalAlpha = v1776 * 0.8;
       f92(v405, 0, 0, v1774.r);
-      f88(v405, v585.ᐃᐃⲆᐃⲆΔⵠ[world.time]);
+      f88(v405, v585.ᐃᐃⲆᐃⲆΔⵠ[v2834.time]);
       v405.restore();
       if (1 === 0) {
         this.ᐃΔΔⵠ.splice(v1775, 1);
@@ -44855,7 +44854,7 @@
   }
   function f347() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == vVVVV1422) {
         this.ᐃΔⵠ.ⵠᐃᐃ = v14;
@@ -44872,18 +44871,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1781 = ᐃᐃ[1087][world.time];
+        var v1781 = ᐃᐃ[1087][v2834.time];
       } else {
-        v1781 = ᐃᐃ[293][world.time];
+        v1781 = ᐃᐃ[293][v2834.time];
       }
       var v1782 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1781.width;
       var v1783 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1781.height;
       f295(v405, v1781, -v1782 / 2 + v1778, -v1783 / 2 + v1779, v1782, v1783);
     } else {
       if (this.info & 16) {
-        v1781 = ᐃᐃ[1088][world.time];
+        v1781 = ᐃᐃ[1088][v2834.time];
       } else {
-        v1781 = ᐃᐃ[294][world.time];
+        v1781 = ᐃᐃ[294][v2834.time];
       }
       v405.translate(0, v1781.height / 2);
       f295(v405, v1781, v1778 - v1781.width / 2, -v1781.height + v1779);
@@ -44907,21 +44906,21 @@
       v1785 += Math.random() * 2 - 1;
       v1786 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1785, user.ᐃⵠⵠ.y + this.y + v1786);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1785, v2835.ᐃⵠⵠ.y + this.y + v1786);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[252][world.time];
+    Δⵠ = ᐃᐃ[252][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1577][world.time];
+    Δⵠ = ᐃᐃ[1577][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f349() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == vVVV14) {
@@ -44935,22 +44934,22 @@
       v1789 = 0;
     }
     if (this.info & 31 && this.info & 992 && ~this.info & 31744) {
-      v1790 = ᐃᐃ[965][world.time];
+      v1790 = ᐃᐃ[965][v2834.time];
       f295(v405, v1790, -v1790.width / 2 + v1788, -v1790.height / 2 + v1789);
       this.up.ⵠᐃᐃ();
-      var v1790 = ᐃᐃ[969][world.time];
+      var v1790 = ᐃᐃ[969][v2834.time];
       var v1791 = -v1790.width * this.up.Ⲇⵠⵠ;
       var v1792 = -v1790.height * this.up.Ⲇⵠⵠ;
       f295(v405, v1790, -v1791 / 2 + v415 * 1, -v1792 / 2 + v415 * 3, v1791, v1792);
     } else {
-      v1790 = ᐃᐃ[237][world.time];
+      v1790 = ᐃᐃ[237][v2834.time];
       f295(v405, v1790, -v1790.width / 2 + v1788, -v1790.height / 2 + v1789);
     }
     v405.restore();
   }
   function f350(p1175, p1176, p1177) {
     if (p1175 >= 0) {
-      Δⵠ = ᐃᐃ[p1175][world.time];
+      Δⵠ = ᐃᐃ[p1175][v2834.time];
       switch (p1175) {
         case 135:
         case 136:
@@ -44988,25 +44987,25 @@
       this.rotate = (this.rotate + v3064 * 0.5) % (Math.PI * 2);
     }
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1794, user.ᐃⵠⵠ.y + this.y + v1795);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1794, v2835.ᐃⵠⵠ.y + this.y + v1795);
     v405.save();
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[860][world.time];
+    Δⵠ = ᐃᐃ[860][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.save();
     v405.rotate(this.ᐃΔΔΔⲆᐃⵠⵠⲆ);
-    Δⵠ = ᐃᐃ[861][world.time];
+    Δⵠ = ᐃᐃ[861][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.restore();
   }
   function f352() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ΔΔⲆΔⲆ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[399][world.time];
+    Δⵠ = ᐃᐃ[399][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width * this.ΔΔⲆΔⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45029,21 +45028,21 @@
       v1797 += Math.random() * 2 - 1;
       v1798 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1797, user.ᐃⵠⵠ.y + this.y + v1798);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1797, v2835.ᐃⵠⵠ.y + this.y + v1798);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[253][world.time];
+    Δⵠ = ᐃᐃ[253][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1581][world.time];
+    Δⵠ = ᐃᐃ[1581][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f354() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -45057,9 +45056,9 @@
       v1801 = 0;
     }
     if (this.action == 2) {
-      Δⵠ = ᐃᐃ[518][world.time];
+      Δⵠ = ᐃᐃ[518][v2834.time];
     } else {
-      Δⵠ = ᐃᐃ[210][world.time];
+      Δⵠ = ᐃᐃ[210][v2834.time];
     }
     f295(v405, Δⵠ, -Δⵠ.width / 2 + v1800, -Δⵠ.height / 2 + v1801);
     v405.restore();
@@ -45081,15 +45080,15 @@
       v1803 += Math.random() * 2 - 1;
       v1804 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1803, user.ᐃⵠⵠ.y + this.y + v1804);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1803, v2835.ᐃⵠⵠ.y + this.y + v1804);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[251][world.time];
+    Δⵠ = ᐃᐃ[251][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1573][world.time];
+    Δⵠ = ᐃᐃ[1573][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
@@ -45097,7 +45096,7 @@
     var vUndefined3 = undefined;
     var vUndefined4 = undefined;
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
@@ -45107,7 +45106,7 @@
       } else {
         v1805 = v1805 > 0.8 ? (1 - v1805) * 5 : 1;
       }
-      vUndefined3 = ᐃᐃ[1478][world.time];
+      vUndefined3 = ᐃᐃ[1478][v2834.time];
       ⵠⵠᐃ = -vUndefined3.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
       ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -vUndefined3.height;
       v405.globalAlpha = v1805;
@@ -45121,7 +45120,7 @@
       } else {
         v1805 = 1;
       }
-      vUndefined3 = ᐃᐃ[1480][world.time];
+      vUndefined3 = ᐃᐃ[1480][v2834.time];
       ⵠⵠᐃ = -vUndefined3.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
       ⵠⲆⵠ = -vUndefined3.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
       v405.globalAlpha = v1805;
@@ -45143,9 +45142,9 @@
   function f357() {
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1806 = this.info === 0 ? ᐃᐃ[1350][world.time] : ᐃᐃ[1352][world.time];
+    v1806 = this.info === 0 ? ᐃᐃ[1350][v2834.time] : ᐃᐃ[1352][v2834.time];
     ⵠⵠᐃ = -v1806.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     ⵠⲆⵠ = -v1806.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     f295(v405, v1806, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45162,15 +45161,15 @@
   }
   function f358() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ⵠΔⲆΔⵠ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[398][world.time];
+    Δⵠ = ᐃᐃ[398][v2834.time];
     ⵠⵠᐃ = this.ⵠΔⲆΔⵠ.Ⲇⵠⵠ * -Δⵠ.width;
     ⵠⲆⵠ = -Δⵠ.height * this.ⵠΔⲆΔⵠ.Ⲇⵠⵠ;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
     this.ΔΔⲆΔⲆ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[399][world.time];
+    Δⵠ = ᐃᐃ[399][v2834.time];
     ⵠⵠᐃ = -Δⵠ.width * this.ΔΔⲆΔⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ΔΔⲆΔⲆ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45178,11 +45177,11 @@
   }
   function f359(p1178, p1179, p1180) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + p1179, user.ᐃⵠⵠ.y + p1180);
+    v405.translate(v2835.ᐃⵠⵠ.x + p1179, v2835.ᐃⵠⵠ.y + p1180);
     v405.rotate(this.angle);
     v405.translate(this.x - p1179, this.y - p1180);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[p1178][world.time];
+    Δⵠ = ᐃᐃ[p1178][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -Δⵠ.width;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -Δⵠ.height;
     f295(v405, Δⵠ, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45194,7 +45193,7 @@
         this.ᐃᐃᐃᐃ[v1808].ⲆΔᐃΔ(317, this.x, this.y);
       }
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == vVVVV1423) {
@@ -45208,9 +45207,9 @@
         v1811 = 0;
       }
       if (this.info & 16) {
-        var v1812 = ᐃᐃ[1234][world.time];
+        var v1812 = ᐃᐃ[1234][v2834.time];
       } else {
-        v1812 = ᐃᐃ[1233][world.time];
+        v1812 = ᐃᐃ[1233][v2834.time];
       }
       f295(v405, v1812, -v1812.width / 2 + v1810, -v1812.width / 2 + v1811);
       v405.restore();
@@ -45233,15 +45232,15 @@
       v1814 += Math.random() * 2 - 1;
       v1815 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1814, user.ᐃⵠⵠ.y + this.y + v1815);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1814, v2835.ᐃⵠⵠ.y + this.y + v1815);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[257][world.time];
+    Δⵠ = ᐃᐃ[257][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1597][world.time];
+    Δⵠ = ᐃᐃ[1597][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
@@ -45252,9 +45251,9 @@
     this.ᐃᐃΔΔᐃΔⲆ.ⵠᐃᐃ();
     this.ⲆⲆᐃⵠⵠⵠⲆ.ⵠᐃᐃ();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1818 = this.info === 0 ? ᐃᐃ[341][world.time] : ᐃᐃ[1361][world.time];
+    v1818 = this.info === 0 ? ᐃᐃ[341][v2834.time] : ᐃᐃ[1361][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1818.width;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1818.height;
     f295(v405, v1818, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45278,11 +45277,11 @@
     }
     v405.restore();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle + v1817);
     v405.translate(100, 0);
     v405.rotate(v1816);
-    v1818 = this.info === 0 ? ᐃᐃ[1368][world.time] : ᐃᐃ[1367][world.time];
+    v1818 = this.info === 0 ? ᐃᐃ[1368][v2834.time] : ᐃᐃ[1367][v2834.time];
     ⵠⵠᐃ = -v1818.width * this.ᐃᐃΔΔᐃΔⲆ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ᐃᐃΔΔᐃΔⲆ.Ⲇⵠⵠ * -v1818.height;
     f295(v405, v1818, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45300,11 +45299,11 @@
     }
     v405.restore();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle + v1816 + v1817);
     v405.translate(100, 0);
     v405.rotate(v1816);
-    v1818 = this.info === 0 ? ᐃᐃ[1371][world.time] : ᐃᐃ[1370][world.time];
+    v1818 = this.info === 0 ? ᐃᐃ[1371][v2834.time] : ᐃᐃ[1370][v2834.time];
     ⵠⵠᐃ = this.ⲆⲆᐃⵠⵠⵠⲆ.Ⲇⵠⵠ * -v1818.width;
     ⵠⲆⵠ = -v1818.height * this.ⲆⲆᐃⵠⵠⵠⲆ.Ⲇⵠⵠ;
     f295(v405, v1818, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45339,22 +45338,22 @@
       v1820 += Math.random() * 2 - 1;
       v1821 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1820, user.ᐃⵠⵠ.y + this.y + v1821);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1820, v2835.ᐃⵠⵠ.y + this.y + v1821);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[247][world.time];
+    Δⵠ = ᐃᐃ[247][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1557][world.time];
+    Δⵠ = ᐃᐃ[1557][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f364() {
     if (!(this.info < 10)) {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vVVV144 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -45368,7 +45367,7 @@
         v1824 = 0;
       }
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
-      var v1825 = ᐃᐃ[206][world.time];
+      var v1825 = ᐃᐃ[206][v2834.time];
       var v1826 = -v1825.width * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       var v1827 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1825.height;
       f295(v405, v1825, -v1826 / 2 + v1823, -v1827 / 2 + v1824, v1826, v1827);
@@ -45377,19 +45376,19 @@
   }
   function f365() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     var v1828 = Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r);
     this.scale = v1828 > 350 ? Math.min(this.scale + v3064 / 2, 1.8) : Math.max(this.scale - v3064, 1);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
     this.ᐃⲆΔᐃ = v1828 < 350 ? Math.max(0, this.ᐃⲆΔᐃ - v3064 * 2.2) : Math.min(1, this.ᐃⲆΔᐃ + v3064 * 2.2);
-    v1829 = (this.info & 1) === 0 ? ᐃᐃ[1460][world.time] : ᐃᐃ[1461][world.time];
+    v1829 = (this.info & 1) === 0 ? ᐃᐃ[1460][v2834.time] : ᐃᐃ[1461][v2834.time];
     ⵠⵠᐃ = this.scale * (-v1829.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1829.height * this.scale;
     v405.globalAlpha = 1 - this.ᐃⲆΔᐃ;
     f295(v405, v1829, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
-    v1829 = this.info & 1 ? ᐃᐃ[1445][world.time] : ᐃᐃ[1446][world.time];
+    v1829 = this.info & 1 ? ᐃᐃ[1445][v2834.time] : ᐃᐃ[1446][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1829.width * this.scale;
     ⵠⲆⵠ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1829.height);
     v405.globalAlpha = this.ᐃⲆΔᐃ;
@@ -45410,7 +45409,7 @@
       f295(v405, v1829, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1829 = this.info & 1 ? ᐃᐃ[1448][world.time] : ᐃᐃ[1449][world.time];
+    v1829 = this.info & 1 ? ᐃᐃ[1448][v2834.time] : ᐃᐃ[1449][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1829.width * this.scale;
     ⵠⲆⵠ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1829.height);
     v405.save();
@@ -45425,7 +45424,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1829 = this.info & 1 ? ᐃᐃ[1451][world.time] : ᐃᐃ[1452][world.time];
+    v1829 = this.info & 1 ? ᐃᐃ[1451][v2834.time] : ᐃᐃ[1452][v2834.time];
     v405.save();
     v405.translate(v415 * 20, v415 * 0);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -45443,7 +45442,7 @@
   }
   function f366() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
@@ -45457,19 +45456,19 @@
       v1832 = 0;
     }
     if (this.info === 0) {
-      Δⵠ = ᐃᐃ[285][world.time];
+      Δⵠ = ᐃᐃ[285][v2834.time];
     } else {
-      Δⵠ = ᐃᐃ[1051][world.time][this.info - 1];
+      Δⵠ = ᐃᐃ[1051][v2834.time][this.info - 1];
     }
     f295(v405, Δⵠ, -Δⵠ.width / 2 + v1831, -Δⵠ.height / 2 + v1832);
     v405.restore();
   }
   function f367(p1181, p1182) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
-    v1833 = ᐃᐃ[p1181][world.time];
+    v1833 = ᐃᐃ[p1181][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1833.width;
     ⵠⲆⵠ = -v1833.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     f295(v405, v1833, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45501,21 +45500,21 @@
       v1835 += Math.random() * 2 - 1;
       v1836 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1835, user.ᐃⵠⵠ.y + this.y + v1836);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1835, v2835.ᐃⵠⵠ.y + this.y + v1836);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[254][world.time];
+    Δⵠ = ᐃᐃ[254][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1585][world.time];
+    Δⵠ = ᐃᐃ[1585][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f369() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (this.info & 31 && this.info & 992 && ~this.info & 31744 && (this.ᐃⲆⵠⵠΔ.length == 0 || this.ᐃⲆⵠⵠΔ[this.ᐃⲆⵠⵠΔ.length - 1] <= v585.ⵠⲆΔᐃΔᐃⲆ)) {
       this.ᐃⲆⵠⵠΔ.push(v585.ᐃⲆⵠⲆⲆᐃⲆ);
@@ -45551,21 +45550,21 @@
       v1841 += Math.random() * 2 - 1;
       v1842 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1841, user.ᐃⵠⵠ.y + this.y + v1842);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1841, v2835.ᐃⵠⵠ.y + this.y + v1842);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[248][world.time];
+    Δⵠ = ᐃᐃ[248][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1561][world.time];
+    Δⵠ = ᐃᐃ[1561][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f371() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r) > 300) {
       this.scale = Math.min(this.scale + v3064 / 2, 1.8);
@@ -45574,7 +45573,7 @@
     }
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
-    v1843 = this.info === 0 ? ᐃᐃ[342][world.time] : ᐃᐃ[1376][world.time];
+    v1843 = this.info === 0 ? ᐃᐃ[342][v2834.time] : ᐃᐃ[1376][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1843.width);
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1843.height * this.scale;
     f295(v405, v1843, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
@@ -45587,7 +45586,7 @@
       f295(v405, v1843, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1843 = this.info === 0 ? ᐃᐃ[1380][world.time] : ᐃᐃ[1379][world.time];
+    v1843 = this.info === 0 ? ᐃᐃ[1380][v2834.time] : ᐃᐃ[1379][v2834.time];
     ⵠⵠᐃ = -v1843.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     ⵠⲆⵠ = -v1843.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     v405.save();
@@ -45601,7 +45600,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1843 = this.info === 0 ? ᐃᐃ[1383][world.time] : ᐃᐃ[1382][world.time];
+    v1843 = this.info === 0 ? ᐃᐃ[1383][v2834.time] : ᐃᐃ[1382][v2834.time];
     v405.save();
     v405.translate(v415 * 40, v415 * 10);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -45617,9 +45616,9 @@
   }
   function f372(p1183, p1184) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1844 = ᐃᐃ[p1183][world.time];
+    v1844 = ᐃᐃ[p1183][v2834.time];
     ⵠⵠᐃ = -v1844.width;
     ⵠⲆⵠ = -v1844.height;
     f295(v405, v1844, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -45636,7 +45635,7 @@
   }
   function f373() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r) > 300) {
       this.scale = Math.min(this.scale + v3064 / 2, 1.8);
@@ -45645,7 +45644,7 @@
     }
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
-    v1845 = this.info === 0 ? ᐃᐃ[343][world.time] : ᐃᐃ[1391][world.time];
+    v1845 = this.info === 0 ? ᐃᐃ[343][v2834.time] : ᐃᐃ[1391][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1845.width);
     ⵠⲆⵠ = this.scale * (-v1845.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     f295(v405, v1845, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
@@ -45658,7 +45657,7 @@
       f295(v405, v1845, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1845 = this.info === 0 ? ᐃᐃ[1395][world.time] : ᐃᐃ[1394][world.time];
+    v1845 = this.info === 0 ? ᐃᐃ[1395][v2834.time] : ᐃᐃ[1394][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1845.width);
     ⵠⲆⵠ = -v1845.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     v405.save();
@@ -45672,7 +45671,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1845 = this.info === 0 ? ᐃᐃ[1398][world.time] : ᐃᐃ[1397][world.time];
+    v1845 = this.info === 0 ? ᐃᐃ[1398][v2834.time] : ᐃᐃ[1397][v2834.time];
     v405.save();
     v405.translate(v415 * 40, v415 * 10);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -45688,10 +45687,10 @@
   }
   function f374(p1185, p1186) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
-    v1846 = ᐃᐃ[p1185][world.time];
+    v1846 = ᐃᐃ[p1185][v2834.time];
     ⵠⵠᐃ = -v1846.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1846.height;
     f295(v405, v1846, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
@@ -45708,7 +45707,7 @@
   }
   function f375() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == vV14) {
         this.ᐃΔⵠ.ⵠᐃᐃ = false;
@@ -45725,18 +45724,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1851 = ᐃᐃ[1098][world.time];
+        var v1851 = ᐃᐃ[1098][v2834.time];
       } else {
-        v1851 = ᐃᐃ[295][world.time];
+        v1851 = ᐃᐃ[295][v2834.time];
       }
       var v1852 = -v1851.width * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       var v1853 = -v1851.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1851, -v1852 / 2 + v1848, -v1853 / 2 + v1849, v1852, v1853);
     } else {
       if (this.info & 16) {
-        v1851 = ᐃᐃ[1118][world.time];
+        v1851 = ᐃᐃ[1118][v2834.time];
       } else {
-        v1851 = ᐃᐃ[296][world.time];
+        v1851 = ᐃᐃ[296][v2834.time];
       }
       v405.translate(0, v1851.height / 2);
       f295(v405, v1851, v1848 - v1851.width / 2, -v1851.height + v1849);
@@ -45758,27 +45757,27 @@
     this.ⲆΔΔⲆᐃⵠⵠ = (this.ⲆΔΔⲆᐃⵠⵠ + v3064 * 3) % (Math.PI * 2);
     this.ⵠΔᐃᐃⵠᐃᐃ = (this.ⵠΔᐃᐃⵠᐃᐃ - v3064 * 3) % (Math.PI * 2);
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1855, user.ᐃⵠⵠ.y + this.y + v1856);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1855, v2835.ᐃⵠⵠ.y + this.y + v1856);
     v405.save();
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[245][world.time];
+    Δⵠ = ᐃᐃ[245][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.save();
     v405.rotate(this.ⲆΔΔⲆᐃⵠⵠ);
-    Δⵠ = ᐃᐃ[1549][world.time];
+    Δⵠ = ᐃᐃ[1549][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.save();
     v405.rotate(this.ⵠΔᐃᐃⵠᐃᐃ);
-    Δⵠ = ᐃᐃ[1548][world.time];
+    Δⵠ = ᐃᐃ[1548][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.restore();
   }
   function f377() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vVVVVV142 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
         this.ᐃΔⵠ.ⵠᐃᐃ = false;
@@ -45795,18 +45794,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1861 = ᐃᐃ[1261][world.time];
+        var v1861 = ᐃᐃ[1261][v2834.time];
       } else {
-        v1861 = ᐃᐃ[320][world.time];
+        v1861 = ᐃᐃ[320][v2834.time];
       }
       var v1862 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1861.width;
       var v1863 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1861.height;
       f295(v405, v1861, -v1862 / 2 + v1858, -v1863 / 2 + v1859, v1862, v1863);
     } else {
       if (this.info & 16) {
-        v1861 = ᐃᐃ[1262][world.time];
+        v1861 = ᐃᐃ[1262][v2834.time];
       } else {
-        v1861 = ᐃᐃ[321][world.time];
+        v1861 = ᐃᐃ[321][v2834.time];
       }
       v405.translate(0, v1861.height / 2);
       f295(v405, v1861, v1858 - v1861.width / 2, -v1861.height + v1859);
@@ -45815,7 +45814,7 @@
   }
   function f378(p1187, p1188, p1189) {
     if (p1187 >= 0) {
-      Δⵠ = ᐃᐃ[p1187][world.time];
+      Δⵠ = ᐃᐃ[p1187][v2834.time];
       switch (p1187) {
         case 1:
         case 3:
@@ -45988,12 +45987,12 @@
   }
   function f379() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ⵠⵠᐃΔⲆⲆⲆ = Math.min(1, this.ⵠⵠᐃΔⲆⲆⲆ + v3064 * 2);
     v405.globalAlpha = this.ⵠⵠᐃΔⲆⲆⲆ * Math.min(1, Math.max(0, Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r) / 80));
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
-    Δⵠ = ᐃᐃ[357][world.time][this.ⲆⲆⵠΔᐃⲆᐃ];
+    Δⵠ = ᐃᐃ[357][v2834.time][this.ⲆⲆⵠΔᐃⲆᐃ];
     if (this.ⲆⲆⵠΔᐃⲆᐃ < 2) {
       ⵠⵠᐃ = -Δⵠ.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
       ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -Δⵠ.height;
@@ -46014,20 +46013,20 @@
         var v1864 = v2831.ⵠⲆΔⵠ[vP1190][vP1192];
         if (vVUndefined !== v1864 && v1864[p1195] !== vVVUndefined14) {
           var v1865 = v1864[p1195];
-          var v1866 = ᐃᐃ[p1194][world.time][v1865.ⵠⵠᐃⵠΔᐃⵠ];
-          f295(v405, v1866, user.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), user.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4), v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
+          var v1866 = ᐃᐃ[p1194][v2834.time][v1865.ⵠⵠᐃⵠΔᐃⵠ];
+          f295(v405, v1866, v2835.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), v2835.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4), v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
           if (v2833.ⲆΔⲆΔΔ) {
             var v1867 = 2147483648;
             var v1868 = ((vP1190 * 1000 + vP1192) * 1103515245 + 12345) % v1867 / v1867;
             if (v1868 < 0.2) {
-              v1868 = Math.floor(v1868 * 5 * ᐃᐃ[1333][world.time][v1865.ⵠⵠᐃⵠΔᐃⵠ].length);
-              v1866 = ᐃᐃ[1333][world.time][v1865.ⵠⵠᐃⵠΔᐃⵠ][v1868];
-              f295(v405, v1866, user.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), user.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4), v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
+              v1868 = Math.floor(v1868 * 5 * ᐃᐃ[1333][v2834.time][v1865.ⵠⵠᐃⵠΔᐃⵠ].length);
+              v1866 = ᐃᐃ[1333][v2834.time][v1865.ⵠⵠᐃⵠΔᐃⵠ][v1868];
+              f295(v405, v1866, v2835.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), v2835.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4), v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
             } else if (v1865.ⵠⵠⵠᐃⲆΔᐃ !== 0) {
-              v1866 = ᐃᐃ[1334][world.time];
+              v1866 = ᐃᐃ[1334][v2834.time];
               var v1869 = (v1730 + vP1190 % 2 * 30) % 60;
               v405.globalAlpha = v1869 < 30 ? v1869 / 30 : 1 - (v1869 - 30) / 30;
-              f295(v405, v1866, user.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), user.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4) - 30 + v1869, v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
+              f295(v405, v1866, v2835.ᐃⵠⵠ.x + v1865.x - v1866.width / (ᐃⲆΔⲆΔ * 4), v2835.ᐃⵠⵠ.y + v1865.y - v1866.height / (ᐃⲆΔⲆΔ * 4) - 30 + v1869, v1866.width / (ᐃⲆΔⲆΔ * 2), v1866.height / (ᐃⲆΔⲆΔ * 2));
               v405.globalAlpha = 1;
             }
           }
@@ -46038,9 +46037,9 @@
   function f381() {
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1870 = this.info === 0 ? ᐃᐃ[358][world.time] : ᐃᐃ[1613][world.time];
+    v1870 = this.info === 0 ? ᐃᐃ[358][v2834.time] : ᐃᐃ[1613][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1870.width;
     ⵠⲆⵠ = -v1870.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     f295(v405, v1870, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -46057,7 +46056,7 @@
   }
   function f382() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r) > 300) {
       this.scale = Math.min(this.scale + v3064 / 2, 1.8);
@@ -46066,7 +46065,7 @@
     }
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
-    v1871 = ᐃᐃ[588][world.time];
+    v1871 = ᐃᐃ[588][v2834.time];
     ⵠⵠᐃ = this.scale * (-v1871.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     ⵠⲆⵠ = -v1871.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     f295(v405, v1871, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
@@ -46079,7 +46078,7 @@
       f295(v405, v1871, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1871 = ᐃᐃ[591][world.time];
+    v1871 = ᐃᐃ[591][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1871.width);
     ⵠⲆⵠ = -v1871.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     v405.save();
@@ -46093,7 +46092,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1871 = ᐃᐃ[592][world.time];
+    v1871 = ᐃᐃ[592][v2834.time];
     v405.save();
     v405.translate(v415 * 60, v415 * 20);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -46109,7 +46108,7 @@
   }
   function f383() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
         this.ᐃΔⵠ.ⵠᐃᐃ = v14;
@@ -46126,18 +46125,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1876 = ᐃᐃ[1061][world.time];
+        var v1876 = ᐃᐃ[1061][v2834.time];
       } else {
-        v1876 = ᐃᐃ[290][world.time];
+        v1876 = ᐃᐃ[290][v2834.time];
       }
       var v1877 = -v1876.width * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       var v1878 = -v1876.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1876, -v1877 / 2 + v1873, -v1878 / 2 + v1874, v1877, v1878);
     } else {
       if (this.info & 16) {
-        v1876 = ᐃᐃ[1062][world.time];
+        v1876 = ᐃᐃ[1062][v2834.time];
       } else {
-        v1876 = ᐃᐃ[291][world.time];
+        v1876 = ᐃᐃ[291][v2834.time];
       }
       v405.translate(0, v1876.height / 2);
       f295(v405, v1876, v1873 - v1876.width / 2, -v1876.height + v1874);
@@ -46146,11 +46145,11 @@
   }
   function f384() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃΔΔⵠ.ⵠᐃᐃ();
     v405.globalAlpha = 0.3;
-    var v1879 = ᐃᐃ[392][world.time];
+    var v1879 = ᐃᐃ[392][v2834.time];
     var v1880 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1879.width;
     var v1881 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1879.height;
     f295(v405, v1879, -v1880 / 2, -v1881 / 2, v1880, v1881);
@@ -46174,24 +46173,24 @@
       v1883 += Math.random() * 2 - 1;
       v1884 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1883, user.ᐃⵠⵠ.y + this.y + v1884);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1883, v2835.ᐃⵠⵠ.y + this.y + v1884);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[259][world.time];
+    Δⵠ = ᐃᐃ[259][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1605][world.time];
+    Δⵠ = ᐃᐃ[1605][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f386() {
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
-    v1885 = this.info === 0 ? ᐃᐃ[1323][world.time] : ᐃᐃ[1331][world.time];
+    v1885 = this.info === 0 ? ᐃᐃ[1323][v2834.time] : ᐃᐃ[1331][v2834.time];
     ⵠⵠᐃ = -v1885.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1885.height;
     f295(v405, v1885, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
@@ -46208,7 +46207,7 @@
   }
   function f387() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == vVVVV1422) {
         this.ᐃΔⵠ.ⵠᐃᐃ = vVV142;
@@ -46225,18 +46224,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1890 = ᐃᐃ[1229][world.time];
+        var v1890 = ᐃᐃ[1229][v2834.time];
       } else {
-        v1890 = ᐃᐃ[314][world.time];
+        v1890 = ᐃᐃ[314][v2834.time];
       }
       var v1891 = -v1890.width * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       var v1892 = -v1890.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1890, -v1891 / 2 + v1887, -v1892 / 2 + v1888, v1891, v1892);
     } else {
       if (this.info & 16) {
-        v1890 = ᐃᐃ[1230][world.time];
+        v1890 = ᐃᐃ[1230][v2834.time];
       } else {
-        v1890 = ᐃᐃ[315][world.time];
+        v1890 = ᐃᐃ[315][v2834.time];
       }
       v405.translate(0, v1890.height / 2);
       f295(v405, v1890, v1887 - v1890.width / 2, -v1890.height + v1888);
@@ -46245,11 +46244,11 @@
   }
   function f388(p1199) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     this.ᐃΔΔⵠ.ⵠᐃᐃ();
     v405.globalAlpha = 0.3;
-    var v1893 = ᐃᐃ[392][world.time];
+    var v1893 = ᐃᐃ[392][v2834.time];
     var v1894 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1893.width;
     var v1895 = -v1893.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
     f295(v405, v1893, -v1894 / 2, -v1895 / 2, v1894, v1895);
@@ -46265,14 +46264,14 @@
       v1897 = 0;
       v1898 = 0;
     }
-    v1893 = ᐃᐃ[p1199][world.time];
+    v1893 = ᐃᐃ[p1199][v2834.time];
     f295(v405, v1893, -v1893.width / 2 + v1897, -v1893.height / 2 + v1898);
     v405.restore();
   }
   function f389() {
     if (this.info !== 10) {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.angle);
       if (this.ᐃΔⵠ.ⵠᐃᐃ) {
         if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && vV143 == this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ) {
@@ -46286,9 +46285,9 @@
         v1901 = 0;
       }
       if (this.info & 16) {
-        var v1902 = ᐃᐃ[842][world.time];
+        var v1902 = ᐃᐃ[842][v2834.time];
       } else {
-        v1902 = ᐃᐃ[397][world.time];
+        v1902 = ᐃᐃ[397][v2834.time];
       }
       f295(v405, v1902, -v1902.width / 2 + v1900, -v1902.width / 2 + v1901);
       v405.restore();
@@ -46312,27 +46311,27 @@
     this.ⲆΔΔⲆᐃⵠⵠ = (this.ⲆΔΔⲆᐃⵠⵠ + v3064 * 3) % (Math.PI * 2);
     this.ⵠΔᐃᐃⵠᐃᐃ = (this.ⵠΔᐃᐃⵠᐃᐃ - v3064 * 3) % (Math.PI * 2);
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1906, user.ᐃⵠⵠ.y + this.y + v1907);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1906, v2835.ᐃⵠⵠ.y + this.y + v1907);
     v405.save();
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[244][world.time];
+    Δⵠ = ᐃᐃ[244][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.save();
     v405.rotate(this.ⲆΔΔⲆᐃⵠⵠ);
-    Δⵠ = ᐃᐃ[666][world.time];
+    Δⵠ = ᐃᐃ[666][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.save();
     v405.rotate(this.ⵠΔᐃᐃⵠᐃᐃ);
-    Δⵠ = ᐃᐃ[665][world.time];
+    Δⵠ = ᐃᐃ[665][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
     v405.restore();
   }
   function f391() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.ᐃΔⵠ.ⵠᐃᐃ) {
       if (this.ᐃΔⵠ.ⲆΔⲆⵠ.ⵠᐃᐃ() && this.ᐃΔⵠ.ⲆΔⲆⵠ.ΔⲆΔ == 0) {
         this.ᐃΔⵠ.ⵠᐃᐃ = false;
@@ -46349,18 +46348,18 @@
       v405.rotate(this.angle);
       this.ᐃΔΔⵠ.ⵠᐃᐃ();
       if (this.info & 16) {
-        var v1912 = ᐃᐃ[1745][world.time];
+        var v1912 = ᐃᐃ[1745][v2834.time];
       } else {
-        v1912 = ᐃᐃ[1739][world.time];
+        v1912 = ᐃᐃ[1739][v2834.time];
       }
       var v1913 = this.ᐃΔΔⵠ.Ⲇⵠⵠ * -v1912.width;
       var v1914 = -v1912.height * this.ᐃΔΔⵠ.Ⲇⵠⵠ;
       f295(v405, v1912, -v1913 / 2 + v1909, -v1914 / 2 + v1910, v1913, v1914);
     } else {
       if (this.info & 16) {
-        v1912 = ᐃᐃ[1746][world.time];
+        v1912 = ᐃᐃ[1746][v2834.time];
       } else {
-        v1912 = ᐃᐃ[1759][world.time];
+        v1912 = ᐃᐃ[1759][v2834.time];
       }
       v405.translate(0, v1912.height / 2);
       f295(v405, v1912, v1909 - v1912.width / 2, -v1912.height + v1910);
@@ -46384,21 +46383,21 @@
       v1916 += Math.random() * 2 - 1;
       v1917 += Math.random() * 2 - 1;
     }
-    v405.translate(user.ᐃⵠⵠ.x + this.x + v1916, user.ᐃⵠⵠ.y + this.y + v1917);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x + v1916, v2835.ᐃⵠⵠ.y + this.y + v1917);
     v405.rotate(this.angle);
-    Δⵠ = ᐃᐃ[250][world.time];
+    Δⵠ = ᐃᐃ[250][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     if (this.info & 255 && ~this.info & 65280) {
       this.rotate = (this.rotate + v3064 * 3) % (Math.PI * 2);
     }
     v405.rotate(this.rotate);
-    Δⵠ = ᐃᐃ[1569][world.time];
+    Δⵠ = ᐃᐃ[1569][v2834.time];
     f295(v405, Δⵠ, -Δⵠ.width / 2, -Δⵠ.height / 2);
     v405.restore();
   }
   function f393() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     if (Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r) > 300) {
       this.scale = Math.min(this.scale + v3064 / 2, 1.8);
@@ -46407,7 +46406,7 @@
     }
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
-    v1918 = ᐃᐃ[587][world.time];
+    v1918 = ᐃᐃ[587][v2834.time];
     ⵠⵠᐃ = this.scale * (this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1918.width);
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1918.height * this.scale;
     f295(v405, v1918, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -46420,7 +46419,7 @@
       f295(v405, v1918, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
       v405.globalAlpha = 1;
     }
-    v1918 = ᐃᐃ[589][world.time];
+    v1918 = ᐃᐃ[589][v2834.time];
     ⵠⵠᐃ = this.scale * (-v1918.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1918.height * this.scale;
     v405.save();
@@ -46434,7 +46433,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1918 = ᐃᐃ[590][world.time];
+    v1918 = ᐃᐃ[590][v2834.time];
     v405.save();
     v405.translate(v415 * 30, v415 * 70);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -46450,19 +46449,19 @@
   }
   function f394() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     v405.rotate(this.angle);
     var v1919 = Δᐃᐃ.ⲆⲆⵠᐃ(this, this.r);
     this.scale = v1919 > 350 ? Math.min(this.scale + v3064 / 2, 1.8) : Math.max(this.scale - v3064, 1);
     this.ᐃⲆⵠᐃ.ⵠᐃᐃ();
     this.rotate.ⵠᐃᐃ();
     this.ᐃⲆΔᐃ = v1919 < 350 ? Math.max(0, this.ᐃⲆΔᐃ - v3064 * 2.2) : Math.min(1, this.ᐃⲆΔᐃ + v3064 * 2.2);
-    v1920 = this.info & 1 ? ᐃᐃ[1422][world.time] : ᐃᐃ[1421][world.time];
+    v1920 = this.info & 1 ? ᐃᐃ[1422][v2834.time] : ᐃᐃ[1421][v2834.time];
     ⵠⵠᐃ = -v1920.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     ⵠⲆⵠ = this.scale * (-v1920.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     v405.globalAlpha = 1 - this.ᐃⲆΔᐃ;
     f295(v405, v1920, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
-    v1920 = (this.info & 1) === 0 ? ᐃᐃ[345][world.time] : ᐃᐃ[1406][world.time];
+    v1920 = (this.info & 1) === 0 ? ᐃᐃ[345][v2834.time] : ᐃᐃ[1406][v2834.time];
     ⵠⵠᐃ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1920.width * this.scale;
     ⵠⲆⵠ = this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * -v1920.height * this.scale;
     v405.globalAlpha = this.ᐃⲆΔᐃ;
@@ -46483,7 +46482,7 @@
       f295(v405, v1920, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
       v405.globalAlpha = 1;
     }
-    v1920 = (this.info & 1) === 0 ? ᐃᐃ[1410][world.time] : ᐃᐃ[1409][world.time];
+    v1920 = (this.info & 1) === 0 ? ᐃᐃ[1410][v2834.time] : ᐃᐃ[1409][v2834.time];
     ⵠⵠᐃ = -v1920.width * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ * this.scale;
     ⵠⲆⵠ = this.scale * (-v1920.height * this.ᐃⲆⵠᐃ.Ⲇⵠⵠ);
     v405.save();
@@ -46498,7 +46497,7 @@
       v405.globalAlpha = 1;
     }
     v405.restore();
-    v1920 = this.info & 1 ? ᐃᐃ[1412][world.time] : ᐃᐃ[1413][world.time];
+    v1920 = this.info & 1 ? ᐃᐃ[1412][v2834.time] : ᐃᐃ[1413][v2834.time];
     v405.save();
     v405.translate(v415 * 20, v415 * 0);
     v405.rotate(-this.rotate.Ⲇⵠⵠ);
@@ -46516,7 +46515,7 @@
   }
   function f395(p1200) {
     if (p1200 > 0) {
-      var v1921 = ᐃᐃ[p1200][world.time];
+      var v1921 = ᐃᐃ[p1200][v2834.time];
       switch (p1200) {
         case 104:
           f413(p1200, v1921, -v1921.width / 2 + v415 * 2, -v1921.height / 2 - v415 * 5);
@@ -46611,7 +46610,7 @@
         this.ᐃⵠᐃⲆⵠ = Δᐃᐃ.ΔΔⵠᐃⵠ(this.ᐃⵠᐃⲆⵠ, v1922, 0.018);
       }
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
       v405.rotate(this.ᐃⵠᐃⲆⵠ);
       if (this.ⲆⲆⲆⵠ === 333) {
         if (this.ΔⲆΔⲆⵠ > 50 || this.ⲆⵠΔΔ > 0) {
@@ -46621,11 +46620,11 @@
             this.ⲆⵠΔΔ = Math.max(0, this.ⲆⵠΔΔ - v3064);
           }
           v405.globalAlpha = this.ⲆⵠΔΔ;
-          var v1923 = ᐃᐃ[335][world.time];
+          var v1923 = ᐃᐃ[335][v2834.time];
           f425(335, v1923, -v1923.width / 4, -v1923.height / 4);
           v405.globalAlpha = 1;
         }
-        v1923 = ᐃᐃ[333][world.time];
+        v1923 = ᐃᐃ[333][v2834.time];
         f425(333, v1923, -v1923.width / 4, -v1923.height / 4);
       } else if (this.ⲆⲆⲆⵠ === 339) {
         this.ᐃᐃⲆⲆΔ = Δᐃᐃ.ΔΔⵠᐃⵠ(this.ᐃᐃⲆⲆΔ, this.ΔⲆΔⲆⵠ, 0.018);
@@ -46635,9 +46634,9 @@
         } else {
           this.ⲆⵠΔΔ = Math.max(0.1, this.ⲆⵠΔΔ - v3064);
         }
-        v1923 = ᐃᐃ[1408][world.time];
+        v1923 = ᐃᐃ[1408][v2834.time];
         f425(1408, v1923, -v1923.width / 4, -v1923.height / 4);
-        v1923 = ᐃᐃ[1411][world.time];
+        v1923 = ᐃᐃ[1411][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         v405.save();
@@ -46645,7 +46644,7 @@
         v405.rotate(this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ * this.ⲆⵠΔΔ);
         f295(v405, v1923, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
         v405.restore();
-        v1923 = ᐃᐃ[1414][world.time];
+        v1923 = ᐃᐃ[1414][v2834.time];
         v405.save();
         v405.translate(v415 * 20, v415 * -20);
         v405.rotate(-this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ * this.ⲆⵠΔΔ);
@@ -46659,9 +46658,9 @@
         } else {
           this.ⲆⵠΔΔ = Math.max(0.1, this.ⲆⵠΔΔ - v3064);
         }
-        v1923 = ᐃᐃ[1429][world.time];
+        v1923 = ᐃᐃ[1429][v2834.time];
         f425(1429, v1923, -v1923.width / 4, -v1923.height / 4);
-        v1923 = ᐃᐃ[1432][world.time];
+        v1923 = ᐃᐃ[1432][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         v405.save();
@@ -46669,7 +46668,7 @@
         v405.rotate(this.ⲆⵠΔΔ * this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
         f295(v405, v1923, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
         v405.restore();
-        v1923 = ᐃᐃ[1435][world.time];
+        v1923 = ᐃᐃ[1435][v2834.time];
         v405.save();
         v405.translate(v415 * 20, v415 * -20);
         v405.rotate(this.ⲆⵠΔΔ * -this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
@@ -46683,9 +46682,9 @@
         } else {
           this.ⲆⵠΔΔ = Math.max(0.1, this.ⲆⵠΔΔ - v3064);
         }
-        v1923 = ᐃᐃ[1447][world.time];
+        v1923 = ᐃᐃ[1447][v2834.time];
         f425(1447, v1923, -v1923.width / 4, -v1923.height / 4);
-        v1923 = ᐃᐃ[1450][world.time];
+        v1923 = ᐃᐃ[1450][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         v405.save();
@@ -46693,7 +46692,7 @@
         v405.rotate(this.ⲆⵠΔΔ * this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
         f295(v405, v1923, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
         v405.restore();
-        v1923 = ᐃᐃ[1453][world.time];
+        v1923 = ᐃᐃ[1453][v2834.time];
         v405.save();
         v405.translate(v415 * 20, v415 * -20);
         v405.rotate(this.ⲆⵠΔΔ * -this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
@@ -46707,9 +46706,9 @@
         } else {
           this.ⲆⵠΔΔ = Math.max(0.1, this.ⲆⵠΔΔ - v3064);
         }
-        v1923 = ᐃᐃ[1393][world.time];
+        v1923 = ᐃᐃ[1393][v2834.time];
         f425(1393, v1923, -v1923.width / 4, -v1923.height / 4);
-        v1923 = ᐃᐃ[1396][world.time];
+        v1923 = ᐃᐃ[1396][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         v405.save();
@@ -46717,7 +46716,7 @@
         v405.rotate(this.ⲆⵠΔΔ * this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
         f295(v405, v1923, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
         v405.restore();
-        v1923 = ᐃᐃ[1399][world.time];
+        v1923 = ᐃᐃ[1399][v2834.time];
         v405.save();
         v405.translate(v415 * 40, v415 * -45);
         v405.rotate(-this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ * this.ⲆⵠΔΔ);
@@ -46731,9 +46730,9 @@
         } else {
           this.ⲆⵠΔΔ = Math.max(0.1, this.ⲆⵠΔΔ - v3064);
         }
-        v1923 = ᐃᐃ[1378][world.time];
+        v1923 = ᐃᐃ[1378][v2834.time];
         f425(1378, v1923, -v1923.width / 4, -v1923.height / 4);
-        v1923 = ᐃᐃ[1381][world.time];
+        v1923 = ᐃᐃ[1381][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         v405.save();
@@ -46741,7 +46740,7 @@
         v405.rotate(this.ⲆⵠΔΔ * this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
         f295(v405, v1923, -ⵠⵠᐃ / 4, -ⵠⲆⵠ / 4, ⵠⵠᐃ / 2, ⵠⲆⵠ / 2);
         v405.restore();
-        v1923 = ᐃᐃ[1384][world.time];
+        v1923 = ᐃᐃ[1384][v2834.time];
         v405.save();
         v405.translate(v415 * 40, v415 * -45);
         v405.rotate(this.ⲆⵠΔΔ * -this.ⲆⵠⲆᐃΔ.Ⲇⵠⵠ);
@@ -46749,17 +46748,17 @@
         v405.restore();
       } else if (this.ⲆⲆⲆⵠ === 164) {
         this.ᐃᐃⲆⲆΔ = Δᐃᐃ.ΔΔⵠᐃⵠ(this.ᐃᐃⲆⲆΔ, this.ΔⲆΔⲆⵠ, 0.018);
-        v1923 = ᐃᐃ[164][world.time];
+        v1923 = ᐃᐃ[164][v2834.time];
         f425(164, v1923, -v1923.width / 4, -v1923.height / 4);
       } else if (this.ⲆⲆⲆⵠ === 340) {
         this.ᐃᐃⲆⲆΔ = Δᐃᐃ.ΔΔⵠᐃⵠ(this.ᐃᐃⲆⲆΔ, this.ΔⲆΔⲆⵠ, 0.018);
-        v1923 = ᐃᐃ[346][world.time];
+        v1923 = ᐃᐃ[346][v2834.time];
         f425(346, v1923, -v1923.width / 4, -v1923.height / 4);
       } else if (this.ⲆⲆⲆⵠ === 334) {
-        v1923 = ᐃᐃ[334][world.time];
+        v1923 = ᐃᐃ[334][v2834.time];
         f425(334, v1923, -v1923.width / 4, -v1923.height / 4);
       } else if (this.ⲆⲆⲆⵠ === 349) {
-        v1923 = ᐃᐃ[1612][world.time];
+        v1923 = ᐃᐃ[1612][v2834.time];
         if (this.ΔⲆΔⲆⵠ > 85) {
           this.ⲆⵠΔΔ = Math.min(1, this.ⲆⵠΔΔ + v3064 / 4);
         } else {
@@ -46772,7 +46771,7 @@
         var v1924 = ((this.ⵠⵠᐃⵠⲆ < 30 ? this.ⵠⵠᐃⵠⲆ / 30 : 1 - (this.ⵠⵠᐃⵠⲆ - 30) / 30) * 12 - 6) * this.ⲆⵠΔΔ;
         f425(1612, v1923, -v1923.width / 4, -v1923.height / 4 + v1924);
       } else if (this.ⲆⲆⲆⵠ === 335) {
-        v1923 = ᐃᐃ[1351][world.time];
+        v1923 = ᐃᐃ[1351][v2834.time];
         if (this.ΔⲆΔⲆⵠ > 85) {
           this.ⲆⵠΔΔ = Math.min(1, this.ⲆⵠΔΔ + v3064 / 4);
         } else {
@@ -46785,7 +46784,7 @@
         v1924 = ((this.ⵠⵠᐃⵠⲆ < 30 ? this.ⵠⵠᐃⵠⲆ / 30 : 1 - (this.ⵠⵠᐃⵠⲆ - 30) / 30) * 12 - 6) * this.ⲆⵠΔΔ;
         f425(1351, v1923, -v1923.width / 4, -v1923.height / 4 + v1924);
       } else if (this.ⲆⲆⲆⵠ === 358) {
-        v1923 = ᐃᐃ[1327][world.time];
+        v1923 = ᐃᐃ[1327][v2834.time];
         if (this.ΔⲆΔⲆⵠ > 85) {
           this.ⲆⵠΔΔ = Math.min(1, this.ⲆⵠΔΔ + v3064 / 4);
         } else {
@@ -46800,7 +46799,7 @@
       } else if (this.ⲆⲆⲆⵠ === 336) {
         var v1925 = Math.PI / 2;
         var v1926 = Math.PI / 4;
-        v1923 = ᐃᐃ[1363][world.time];
+        v1923 = ᐃᐃ[1363][v2834.time];
         if (this.ΔⲆΔⲆⵠ > 85) {
           this.ⲆⵠΔΔ = Math.min(1, this.ⲆⵠΔΔ + v3064 / 4);
         } else {
@@ -46814,21 +46813,21 @@
         f425(1363, v1923, -v1923.width / 4 + v1924, -v1923.height / 4);
         v405.restore();
         v405.save();
-        v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+        v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
         v405.rotate(Math.PI + this.ᐃⵠᐃⲆⵠ + v1926);
         v405.translate(120, v1924);
         v405.rotate(v1925);
-        v1923 = ᐃᐃ[1368][world.time];
+        v1923 = ᐃᐃ[1368][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         f295(v405, v1923, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
         v405.restore();
         v405.save();
-        v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+        v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
         v405.rotate(Math.PI + this.ᐃⵠᐃⲆⵠ + v1925 + v1926);
         v405.translate(120, v1924);
         v405.rotate(v1925);
-        v1923 = ᐃᐃ[1371][world.time];
+        v1923 = ᐃᐃ[1371][v2834.time];
         ⵠⵠᐃ = -v1923.width;
         ⵠⲆⵠ = -v1923.height;
         f295(v405, v1923, -ⵠⵠᐃ / 2, -ⵠⲆⵠ / 2, ⵠⵠᐃ, ⵠⲆⵠ);
@@ -46912,13 +46911,13 @@
   }
   function f400() {
     if (vVVVVUndefined14 !== this.message) {
-      var v1935 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -95 : 0;
+      var v1935 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -95 : 0;
       f295(v405, this.message, 0, v408 - this.message.height + v1935);
     }
   }
   function f401() {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
     if (this.text.length > 0) {
       for (var v1936 = 0; this.text.length > v1936 && v1936 < 2; v1936++) {
         if (!this.label[v1936]) {
@@ -46974,14 +46973,14 @@
           v1941 = v1940.ᐃⵠᐃΔᐃ * 2;
         }
         v405.globalAlpha = v1941;
-        var v1942 = ᐃᐃ[678][world.time][v1940.id];
-        f295(v405, v1942, user.ᐃⵠⵠ.x + v1940.x - v1942.width / 2, user.ᐃⵠⵠ.y + v1940.y - v1942.height / 2);
+        var v1942 = ᐃᐃ[678][v2834.time][v1940.id];
+        f295(v405, v1942, v2835.ᐃⵠⵠ.x + v1940.x - v1942.width / 2, v2835.ᐃⵠⵠ.y + v1940.y - v1942.height / 2);
         v405.globalAlpha = 1;
       }
     } else {
       v405.save();
-      v405.translate(user.ᐃⵠⵠ.x + this.x, user.ᐃⵠⵠ.y + this.y);
-      world.ⲆΔⵠᐃⲆΔⵠᐃΔ(this);
+      v405.translate(v2835.ᐃⵠⵠ.x + this.x, v2835.ᐃⵠⵠ.y + this.y);
+      v2834.ⲆΔⵠᐃⲆΔⵠᐃΔ(this);
       if (this.action & 16) {
         (function (p1208) {
           if (p1208.right >= 0) {
@@ -47025,9 +47024,9 @@
                   break;
                 }
                 if (p1208.ΔⵠΔⲆⲆ > 0) {
-                  var v1945 = v585.ⲆᐃΔᐃⵠΔΔ[world.time];
+                  var v1945 = v585.ⲆᐃΔᐃⵠΔΔ[v2834.time];
                 } else {
-                  v1945 = p1208.ⵠᐃΔᐃⵠⲆΔ > 0 || p1208.ⲆᐃΔⵠᐃ > 0 ? v585.ⵠᐃⵠᐃⵠⵠΔ[world.time] : v585.ΔⲆΔⵠΔⲆᐃ[world.time];
+                  v1945 = p1208.ⵠᐃΔᐃⵠⲆΔ > 0 || p1208.ⲆᐃΔⵠᐃ > 0 ? v585.ⵠᐃⵠᐃⵠⵠΔ[v2834.time] : v585.ΔⲆΔⵠΔⲆᐃ[v2834.time];
                 }
                 v1943 = p1208.attack.Ⲇⵠⵠ * -3 / Math.PI;
                 v1944 = p1208.attack.ΔⲆΔ ? Math.max(0.5 - v1943 / 2 + 0.5, 0) : Math.max(v1943 / 2, 0);
@@ -47061,33 +47060,33 @@
       var v1948 = this.ᐃⵠᐃⲆΔΔⵠ.Ⲇⵠⵠ;
       var v1949 = this.ⲆΔΔᐃΔᐃΔ.Ⲇⵠⵠ;
       if (this.ⲆⲆⵠⵠⵠ === 158) {
-        v1942 = ᐃᐃ[1042][world.time];
+        v1942 = ᐃᐃ[1042][v2834.time];
         v1947 = 1042;
       } else if (this.ⲆⲆⵠⵠⵠ === 29) {
-        v1942 = ᐃᐃ[1196][world.time];
+        v1942 = ᐃᐃ[1196][v2834.time];
         v1947 = 1196;
       } else if (this.ⲆⲆⵠⵠⵠ === 30) {
-        v1942 = ᐃᐃ[1200][world.time];
+        v1942 = ᐃᐃ[1200][v2834.time];
         v1947 = 1200;
       } else if (this.ⲆⲆⵠⵠⵠ === 31) {
-        v1942 = ᐃᐃ[1204][world.time];
+        v1942 = ᐃᐃ[1204][v2834.time];
         v1947 = 1204;
       } else if (this.ᐃⲆΔᐃΔᐃⲆ) {
-        v1942 = ᐃᐃ[1071][world.time];
+        v1942 = ᐃᐃ[1071][v2834.time];
         v1947 = 1071;
       } else {
-        v1942 = ᐃᐃ[7][this.ⲆΔⲆⲆ][world.time];
+        v1942 = ᐃᐃ[7][this.ⲆΔⲆⲆ][v2834.time];
         v1947 = 7;
       }
-      Ⲇᐃⵠᐃ = ᐃᐃ[396][world.time];
+      Ⲇᐃⵠᐃ = ᐃᐃ[396][v2834.time];
       var vV1942 = v1942;
       var vV1947 = v1947;
       if (this.action & 16) {
         if (this.attack.ⵠᐃᐃ() && this.attack.ΔⲆΔ == 0) {
           this.ᐃᐃᐃΔⵠ = !this.ᐃᐃᐃΔⵠ;
           this.action -= 16;
-          if (this.ᐃᐃⵠⵠ == user.ᐃᐃⵠⵠ) {
-            user.control.ΔΔᐃⵠ = 0;
+          if (this.ᐃᐃⵠⵠ == v2835.ᐃᐃⵠⵠ) {
+            v2835.control.ΔΔᐃⵠ = 0;
           }
         }
         if (this.right >= 0) {
@@ -47112,7 +47111,7 @@
           v405.rotate(v1950);
           f413(396, Ⲇᐃⵠᐃ, -Ⲇᐃⵠᐃ.width / 2 - v415 * (49 + v1948), -Ⲇᐃⵠᐃ.height / 2 + (15 + v1949) * v415);
           if (this.right === 46) {
-            var v1952 = ᐃᐃ[this.right][this.ⵠΔᐃΔᐃ][world.time];
+            var v1952 = ᐃᐃ[this.right][this.ⵠΔᐃΔᐃ][v2834.time];
             f421(this.right, this.ⵠΔᐃΔᐃ, v1952, -v1952.width / 4 - v415 * (62 + v1948), -v1952.height / 4 + (v1949 + 18) * v415);
           } else {
             f378(this.right, v1948, v1949);
@@ -47143,7 +47142,7 @@
       } else if (v1938 === 0) {
         f413(396, Ⲇᐃⵠᐃ, -Ⲇᐃⵠᐃ.width / 2 - (49 + v1948) * v415, -Ⲇᐃⵠᐃ.height / 2 + (15 + v1949) * v415);
         if (this.right === 46) {
-          v1952 = ᐃᐃ[this.right][this.ⵠΔᐃΔᐃ][world.time];
+          v1952 = ᐃᐃ[this.right][this.ⵠΔᐃΔᐃ][v2834.time];
           f421(this.right, this.ⵠΔᐃΔᐃ, v1952, -v1952.width / 4 - v415 * (62 + v1948), -v1952.height / 4 + (v1949 + 18) * v415);
         } else {
           f378(this.right, v1948, v1949);
@@ -47165,19 +47164,19 @@
         }
       }
       if (this.Δⵠᐃⵠᐃ && this.ⲆⲆⵠⵠⵠ < 1) {
-        v1942 = ᐃᐃ[47][this.ΔΔΔⲆΔⲆᐃ][world.time];
+        v1942 = ᐃᐃ[47][this.ΔΔΔⲆΔⲆᐃ][v2834.time];
         f421(47, this.ΔΔΔⲆΔⲆᐃ, v1942, -v1942.width / 4, -v1942.height / 4 - v415 * 39);
       }
       if (this.ᐃⲆΔᐃΔᐃⲆ) {
-        v1942 = ᐃᐃ[1069][world.time];
+        v1942 = ᐃᐃ[1069][v2834.time];
         f413(1069, v1942, -v1942.width / 2, -v1942.height / 2);
         this.ΔⲆᐃⲆΔΔⵠ.ⵠᐃᐃ();
-        v1942 = ᐃᐃ[1070][world.time];
+        v1942 = ᐃᐃ[1070][v2834.time];
         f413(1070, v1942, -v1942.width / 2, -v1942.height / 2 + this.ΔⲆᐃⲆΔΔⵠ.Ⲇⵠⵠ);
       } else {
-        v1942 = ᐃᐃ[365][this.ⲆΔⲆⲆ][world.time];
+        v1942 = ᐃᐃ[365][this.ⲆΔⲆⲆ][v2834.time];
         if (this.ⲆⲆⵠⵠⵠ !== 158 && (f421(365, this.ⲆΔⲆⲆ, v1942, -v1942.width / 4, -v1942.height / 4), this.ⵠᐃΔᐃΔ > 0)) {
-          v1942 = ᐃᐃ[1045][this.ⵠᐃΔᐃΔ][world.time];
+          v1942 = ᐃᐃ[1045][this.ⵠᐃΔᐃΔ][v2834.time];
           f421(1045, this.ⵠᐃΔᐃΔ, v1942, -v1942.width / 4, -v1942.height / 4);
         }
       }
@@ -47275,7 +47274,7 @@
           }
           v1942 = this.ⲆⵠⵠΔ.label;
         }
-        if (v585.ᐃⲆΔ == world.Δⵠⵠ) {
+        if (v585.ᐃⲆΔ == v2834.Δⵠⵠ) {
           v405.globalAlpha = 0.5;
         }
         v1948 = Math.floor(-v1942.width / 2);
@@ -47294,8 +47293,8 @@
         v1949 = Math.floor(v415 * -70);
         v1948 = Math.floor(ᐃᐃ[723].width / 1.5);
       }
-      if (user.ΔᐃᐃΔⲆⵠⲆ(this.ΔⲆᐃⲆ)) {
-        if (this.ΔⲆᐃⲆ == user.ΔΔⲆⲆⲆ[0]) {
+      if (v2835.ΔᐃᐃΔⲆⵠⲆ(this.ΔⲆᐃⲆ)) {
+        if (this.ΔⲆᐃⲆ == v2835.ΔΔⲆⲆⲆ[0]) {
           v1942 = ᐃᐃ[724];
         } else {
           v1942 = ᐃᐃ[723];
@@ -47326,7 +47325,7 @@
             if (v1956 !== vVVVUndefined142) {
               for (var v1957 = 0; v1956.length > v1957; v1957++) {
                 var v1958 = v1956[v1957];
-                var v1959 = ᐃᐃ[p1213][world.time][vP1215];
+                var v1959 = ᐃᐃ[p1213][v2834.time][vP1215];
                 var v1960 = (v1954 + (vP1209 + vP1211) * 3) % 60;
                 var v1961 = v1960 < 30 ? v1960 / 30 : 1 - (v1960 - 30) / 30;
                 var v1962 = (1 + v1961 * 0.9 / 30) * -v1959.width;
@@ -47334,7 +47333,7 @@
                 v1961 = (v1960 = (v1954 + (vP1209 + vP1211) * 7) % 60) < 30 ? v1960 / 30 : 1 - (v1960 - 30) / 30;
                 var v1964 = v405.globalAlpha;
                 v405.globalAlpha = v1964 * (0.9 + v1961 * 0.1);
-                f295(v405, v1959, user.ᐃⵠⵠ.x + v1958.x - v1962 / 2, user.ᐃⵠⵠ.y + v1958.y - v1963 / 2, v1962, v1963);
+                f295(v405, v1959, v2835.ᐃⵠⵠ.x + v1958.x - v1962 / 2, v2835.ᐃⵠⵠ.y + v1958.y - v1963 / 2, v1962, v1963);
                 v405.globalAlpha = v1964;
               }
             }
@@ -47347,7 +47346,7 @@
     if (p1224 === vVVVVVUndefined583) {
       p1224 = 0;
     }
-    world.ᐃⲆⵠᐃ[p1221].ⵠᐃᐃ();
+    v2834.ᐃⲆⵠᐃ[p1221].ⵠᐃᐃ();
     for (var vP1223 = p1223; p1224 <= vP1223; vP1223--) {
       for (var vP1217 = p1217; p1218 >= vP1217; vP1217++) {
         for (var vP1219 = p1219; p1220 >= vP1219; vP1219++) {
@@ -47368,10 +47367,10 @@
                   v1970 = 0;
                   v1971 = 0;
                 }
-                var v1972 = ᐃᐃ[p1221][world.time][vP1223];
-                var v1973 = world.ᐃⲆⵠᐃ[p1221].Ⲇⵠⵠ * -v1972.width;
-                var v1974 = world.ᐃⲆⵠᐃ[p1221].Ⲇⵠⵠ * -v1972.height;
-                f295(v405, v1972, user.ᐃⵠⵠ.x + v1968.x - v1973 / 2 + v1970, user.ᐃⵠⵠ.y + v1968.y - v1974 / 2 + v1971, v1973, v1974);
+                var v1972 = ᐃᐃ[p1221][v2834.time][vP1223];
+                var v1973 = v2834.ᐃⲆⵠᐃ[p1221].Ⲇⵠⵠ * -v1972.width;
+                var v1974 = v2834.ᐃⲆⵠᐃ[p1221].Ⲇⵠⵠ * -v1972.height;
+                f295(v405, v1972, v2835.ᐃⵠⵠ.x + v1968.x - v1973 / 2 + v1970, v2835.ᐃⵠⵠ.y + v1968.y - v1974 / 2 + v1971, v1973, v1974);
               }
             }
           }
@@ -47412,8 +47411,8 @@
                     v1982 = 0;
                     v1983 = 0;
                   }
-                  var v1984 = ᐃᐃ[p1229][world.time][vP1231];
-                  f295(v405, v1984, user.ᐃⵠⵠ.x + v1980.x - v1984.width / (ᐃⲆΔⲆΔ * 2) + v1982, user.ᐃⵠⵠ.y + v1980.y - v1984.height / (ᐃⲆΔⲆΔ * 2) + v1983, v1984.width / ᐃⲆΔⲆΔ, v1984.height / ᐃⲆΔⲆΔ);
+                  var v1984 = ᐃᐃ[p1229][v2834.time][vP1231];
+                  f295(v405, v1984, v2835.ᐃⵠⵠ.x + v1980.x - v1984.width / (ᐃⲆΔⲆΔ * 2) + v1982, v2835.ᐃⵠⵠ.y + v1980.y - v1984.height / (ᐃⲆΔⲆΔ * 2) + v1983, v1984.width / ᐃⲆΔⲆΔ, v1984.height / ᐃⲆΔⲆΔ);
                 }
               }
             }
@@ -47447,14 +47446,14 @@
                   v1991 = 0;
                 }
                 for (var v1992 = 0; v1992 < ΔⵠⲆⲆΔᐃᐃ[vP1240].ⵠⵠΔᐃ; v1992++) {
-                  if (world.ⵠⲆⲆⵠΔ[v1992].ΔᐃΔΔΔΔⲆ !== v3065) {
-                    world.ⵠⲆⲆⵠΔ[v1992].ⵠᐃᐃ();
-                    world.ⵠⲆⲆⵠΔ[v1992].ΔᐃΔΔΔΔⲆ = v3065;
+                  if (v2834.ⵠⲆⲆⵠΔ[v1992].ΔᐃΔΔΔΔⲆ !== v3065) {
+                    v2834.ⵠⲆⲆⵠΔ[v1992].ⵠᐃᐃ();
+                    v2834.ⵠⲆⲆⵠΔ[v1992].ΔᐃΔΔΔΔⲆ = v3065;
                   }
-                  var v1993 = ᐃᐃ[1217][world.time][ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].ᐃⵠⲆ];
-                  var v1994 = world.ⵠⲆⲆⵠΔ[v1992].Ⲇⵠⵠ * -v1993.width;
-                  var v1995 = -v1993.height * world.ⵠⲆⲆⵠΔ[v1992].Ⲇⵠⵠ;
-                  f295(v405, v1993, user.ᐃⵠⵠ.x + v1988.x - v1994 / 4 + v1990 + ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].x, user.ᐃⵠⵠ.y + v1988.y - v1995 / 4 + v1991 + ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].y, v1994 / 2, v1995 / 2);
+                  var v1993 = ᐃᐃ[1217][v2834.time][ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].ᐃⵠⲆ];
+                  var v1994 = v2834.ⵠⲆⲆⵠΔ[v1992].Ⲇⵠⵠ * -v1993.width;
+                  var v1995 = -v1993.height * v2834.ⵠⲆⲆⵠΔ[v1992].Ⲇⵠⵠ;
+                  f295(v405, v1993, v2835.ᐃⵠⵠ.x + v1988.x - v1994 / 4 + v1990 + ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].x, v2835.ᐃⵠⵠ.y + v1988.y - v1995 / 4 + v1991 + ΔⵠⲆⲆΔᐃᐃ[vP1240].ᐃΔⵠⲆ[v1992].y, v1994 / 2, v1995 / 2);
                 }
               }
             }
@@ -47471,25 +47470,25 @@
           var v1997 = v1996[p1248];
           if (v1997 !== vVVVUndefined142) {
             if (v1997.scale === 1) {
-              var v1998 = ᐃᐃ[p1247][world.time][v1997.ⵠⵠΔⵠΔ];
+              var v1998 = ᐃᐃ[p1247][v2834.time][v1997.ⵠⵠΔⵠΔ];
               v405.save();
-              v405.translate(user.ᐃⵠⵠ.x + v1997.x, user.ᐃⵠⵠ.y + v1997.y);
+              v405.translate(v2835.ᐃⵠⵠ.x + v1997.x, v2835.ᐃⵠⵠ.y + v1997.y);
               v405.rotate(v1997.angle);
               f295(v405, v1998, -v1998.width / 4, -v1998.height / 4, v1998.width / 2, v1998.height / 2);
               v405.restore();
             } else if (v1997.scale === 3) {
               for (var v1999 = 0; v1997.ᐃᐃⵠ.length > v1999; v1999++) {
                 v405.save();
-                v405.translate(user.ᐃⵠⵠ.x + v1997.x, user.ᐃⵠⵠ.y + v1997.y);
+                v405.translate(v2835.ᐃⵠⵠ.x + v1997.x, v2835.ᐃⵠⵠ.y + v1997.y);
                 v405.rotate(v1997.ᐃᐃⵠ[v1999].angle);
-                v1998 = ᐃᐃ[p1247][world.time][v1997.ᐃᐃⵠ[v1999].ⵠⵠΔⵠΔ];
+                v1998 = ᐃᐃ[p1247][v2834.time][v1997.ᐃᐃⵠ[v1999].ⵠⵠΔⵠΔ];
                 f295(v405, v1998, -v1998.width / 3 + v1997.ᐃᐃⵠ[v1999].x, -v1998.height / 3 + v1997.ᐃᐃⵠ[v1999].y, v1998.width / 1.5, v1998.height / 1.5);
                 v405.restore();
               }
             } else {
-              v1998 = ᐃᐃ[p1247][world.time][v1997.ⵠⵠΔⵠΔ];
+              v1998 = ᐃᐃ[p1247][v2834.time][v1997.ⵠⵠΔⵠΔ];
               v405.save();
-              v405.translate(user.ᐃⵠⵠ.x + v1997.x, user.ᐃⵠⵠ.y + v1997.y);
+              v405.translate(v2835.ᐃⵠⵠ.x + v1997.x, v2835.ᐃⵠⵠ.y + v1997.y);
               v405.rotate(v1997.angle);
               f295(v405, v1998, -v1998.width / 2, -v1998.height / 2, v1998.width, v1998.height);
               v405.restore();
@@ -47679,9 +47678,9 @@
     var v2004 = p1255.w1;
     var v2005 = p1255.w2;
     var v2006 = p1255.w3;
-    var v2007 = user.ᐃⵠⵠ.x + p1252 + 820;
-    var v2008 = Math.max(user.ᐃⵠⵠ.y + p1253, 0);
-    var v2009 = Math.max(-user.ᐃⵠⵠ.y + v408 - p1254 - 100, 0);
+    var v2007 = v2835.ᐃⵠⵠ.x + p1252 + 820;
+    var v2008 = Math.max(v2835.ᐃⵠⵠ.y + p1253, 0);
+    var v2009 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - p1254 - 100, 0);
     var vV2008 = v2008;
     var v2010 = v408 - v2008 - v2009;
     if (p1257) {
@@ -47711,19 +47710,19 @@
     }
     v2013 = v2007 - 700 - v2012;
     if (p1257 > 0 && p1256.ⵠⵠΔⲆⲆⲆᐃ === 1) {
-      if (world.transition) {
-        var v2015 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        var v2015 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 77, 72, 252, 239, 187, v2015);
       } else {
-        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[world.time];
+        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[v2834.time];
       }
       v405.fillRect(v2012, vV2008, v2013, v2010);
     } else {
-      if (world.transition) {
-        v2015 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2015 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(p1256.ᐃᐃΔ[0], p1256.ᐃᐃΔ[1], p1256.ᐃᐃΔ[2], p1256.Δⵠⵠ[0], p1256.Δⵠⵠ[1], p1256.Δⵠⵠ[2], v2015);
       } else {
-        v405.fillStyle = p1256.ᐃΔⲆΔⵠ[world.time];
+        v405.fillStyle = p1256.ᐃΔⲆΔⵠ[v2834.time];
       }
       v405.fillRect(v2012, vV2008, v2013, v2010);
     }
@@ -47739,9 +47738,9 @@
     var v2018 = p1268.w1;
     var v2019 = p1268.w2;
     var v2020 = p1268.w3;
-    var v2021 = user.ᐃⵠⵠ.x + p1265 - 700;
-    var v2022 = Math.max(user.ᐃⵠⵠ.y + p1266, 0);
-    var v2023 = Math.max(-user.ᐃⵠⵠ.y + v408 - p1267 - 100, 0);
+    var v2021 = v2835.ᐃⵠⵠ.x + p1265 - 700;
+    var v2022 = Math.max(v2835.ᐃⵠⵠ.y + p1266, 0);
+    var v2023 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - p1267 - 100, 0);
     var vV2022 = v2022;
     var v2024 = v408 - v2022 - v2023;
     if (p1270) {
@@ -47771,19 +47770,19 @@
     }
     v2027 = v2021 + 700 - v2026;
     if (p1270 > 0 && p1269.ⵠⵠΔⲆⲆⲆᐃ === 1) {
-      if (world.transition) {
-        var v2029 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        var v2029 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 77, 72, 252, 239, 187, v2029);
       } else {
-        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[world.time];
+        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[v2834.time];
       }
       v405.fillRect(v2026, vV2022, v2027, v2024);
     } else {
-      if (world.transition) {
-        v2029 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2029 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(p1269.ᐃᐃΔ[0], p1269.ᐃᐃΔ[1], p1269.ᐃᐃΔ[2], p1269.Δⵠⵠ[0], p1269.Δⵠⵠ[1], p1269.Δⵠⵠ[2], v2029);
       } else {
-        v405.fillStyle = p1269.ᐃΔⲆΔⵠ[world.time];
+        v405.fillStyle = p1269.ᐃΔⲆΔⵠ[v2834.time];
       }
       v405.fillRect(v2026, vV2022, v2027, v2024);
     }
@@ -47792,9 +47791,9 @@
     var v2030 = p1274.w1;
     var v2031 = p1274.w2;
     var v2032 = p1274.w3;
-    var v2033 = user.ᐃⵠⵠ.y + p1271 - 700;
-    var v2034 = Math.max(user.ᐃⵠⵠ.x + p1272, 0);
-    var v2035 = Math.max(-user.ᐃⵠⵠ.x + v406 - p1273 - 100, 0);
+    var v2033 = v2835.ᐃⵠⵠ.y + p1271 - 700;
+    var v2034 = Math.max(v2835.ᐃⵠⵠ.x + p1272, 0);
+    var v2035 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - p1273 - 100, 0);
     var vV2034 = v2034;
     var v2036 = v406 - v2034 - v2035;
     if (p1276) {
@@ -47824,19 +47823,19 @@
     }
     v2039 = v2033 + 700 - v2038;
     if (p1276 > 0 && p1275.ⵠⵠΔⲆⲆⲆᐃ === 1) {
-      if (world.transition) {
-        var v2041 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        var v2041 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 77, 72, 252, 239, 187, v2041);
       } else {
-        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[world.time];
+        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[v2834.time];
       }
       v405.fillRect(vV2034, v2038, v2036, v2039);
     } else {
-      if (world.transition) {
-        v2041 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2041 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(p1275.ᐃᐃΔ[0], p1275.ᐃᐃΔ[1], p1275.ᐃᐃΔ[2], p1275.Δⵠⵠ[0], p1275.Δⵠⵠ[1], p1275.Δⵠⵠ[2], v2041);
       } else {
-        v405.fillStyle = p1275.ᐃΔⲆΔⵠ[world.time];
+        v405.fillStyle = p1275.ᐃΔⲆΔⵠ[v2834.time];
       }
       v405.fillRect(vV2034, v2038, v2036, v2039);
     }
@@ -47845,9 +47844,9 @@
     var v2042 = p1280.w1;
     var v2043 = p1280.w2;
     var v2044 = p1280.w3;
-    var v2045 = user.ᐃⵠⵠ.x + p1277 + 820;
-    var v2046 = Math.max(user.ᐃⵠⵠ.y + p1278, 0);
-    var v2047 = Math.max(-user.ᐃⵠⵠ.y + v408 - p1279 - 100, 0);
+    var v2045 = v2835.ᐃⵠⵠ.x + p1277 + 820;
+    var v2046 = Math.max(v2835.ᐃⵠⵠ.y + p1278, 0);
+    var v2047 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - p1279 - 100, 0);
     var vV2046 = v2046;
     var v2048 = v408 - v2046 - v2047;
     if (p1282) {
@@ -47890,68 +47889,68 @@
       v2055 = -1;
     }
     v2053 = v2045 - 700 - v2050;
-    if (world.transition) {
-      var v2056 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    if (v2834.transition) {
+      var v2056 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2056);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vV2050, vVV2046, v2051, vV2048);
     if (p1282) {
-      if (world.transition) {
-        v2056 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2056 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 70, 76, 42, 139, 155, v2056);
       } else {
-        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[world.time];
+        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[v2834.time];
       }
-    } else if (world.transition) {
-      v2056 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    } else if (v2834.transition) {
+      v2056 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2056);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vV20502, vVV20462, vV2053, vV20482);
     if (vVVVV62) {
       if (p1282) {
-        if (world.transition) {
-          v2056 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+        if (v2834.transition) {
+          v2056 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
           v405.fillStyle = f409(17, 94, 96, 169, 214, 211, v2056);
         } else {
-          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[world.time];
+          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[v2834.time];
         }
-      } else if (world.transition) {
-        v2056 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      } else if (v2834.transition) {
+        v2056 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2056);
       } else {
-        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
       }
       v405.fillRect(vV20503, vVV20463, vV20532, vV20483);
     }
     if (v2833.ⲆΔⲆΔΔ && p1282) {
-      p1280.ᐃᐃᐃᐃⵠⲆᐃⲆΔ(v2054, v2055, v2052, v2045, -user.ᐃⵠⵠ.y + vVV2046, -user.ᐃⵠⵠ.y + vVV2046 + vV2048);
+      p1280.ᐃᐃᐃᐃⵠⲆᐃⲆΔ(v2054, v2055, v2052, v2045, -v2835.ᐃⵠⵠ.y + vVV2046, -v2835.ᐃⵠⵠ.y + vVV2046 + vV2048);
     }
   }
   function f413(p1283, p1284, p1285, p1286) {
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
-      f295(v405, ᐃᐃ[p1283][world.time], p1285, p1286);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
-      f295(v405, ᐃᐃ[p1283][world.time], p1285, p1286);
-      world.time = world.time ? 0 : 1;
+      f295(v405, ᐃᐃ[p1283][v2834.time], p1285, p1286);
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      f295(v405, ᐃᐃ[p1283][v2834.time], p1285, p1286);
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       f295(v405, p1284, p1285, p1286);
     }
   }
   function f414(p1287, p1288, p1289, p1290, p1291, p1292, p1293, p1294, p1295, p1296) {
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
       p1287(p1288, p1289, p1290, p1291, p1292, p1293, p1294, p1295, p1296);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       p1287(p1288, p1289, p1290, p1291, p1292, p1293, p1294, p1295, p1296);
-      world.time = world.time ? 0 : 1;
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       p1287(p1288, p1289, p1290, p1291, p1292, p1293, p1294, p1295, p1296);
@@ -47959,17 +47958,17 @@
   }
   function f415(p1297) {
     v405.globalAlpha = p1297.alpha;
-    f92(v405, p1297.x + user.ᐃⵠⵠ.x, p1297.y + user.ᐃⵠⵠ.y, p1297.r);
-    f88(v405, v585.ⵠⵠΔᐃⲆᐃⲆ[world.time]);
+    f92(v405, p1297.x + v2835.ᐃⵠⵠ.x, p1297.y + v2835.ᐃⵠⵠ.y, p1297.r);
+    f88(v405, v585.ⵠⵠΔᐃⲆᐃⲆ[v2834.time]);
     v405.globalAlpha = 1;
   }
   function f416(p1298, p1299, p1300, p1301, p1302, p1303) {
     var v2057 = p1301.w1;
     var v2058 = p1301.w2;
     var v2059 = p1301.w3;
-    var v2060 = user.ᐃⵠⵠ.x + p1298 - 700;
-    var v2061 = Math.max(user.ᐃⵠⵠ.y + p1299, 0);
-    var v2062 = Math.max(-user.ᐃⵠⵠ.y + v408 - p1300 - 100, 0);
+    var v2060 = v2835.ᐃⵠⵠ.x + p1298 - 700;
+    var v2061 = Math.max(v2835.ᐃⵠⵠ.y + p1299, 0);
+    var v2062 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - p1300 - 100, 0);
     var vV2061 = v2061;
     var v2063 = v408 - v2061 - v2062;
     if (p1303) {
@@ -48012,54 +48011,54 @@
       v2071 = -1;
     }
     v2068 = v2060 + 700 - v2065;
-    if (world.transition) {
-      var v2072 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    if (v2834.transition) {
+      var v2072 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2072);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vV2065, vVV2061, v2066, vV2063);
     if (p1303) {
-      if (world.transition) {
-        v2072 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2072 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 70, 76, 42, 139, 155, v2072);
       } else {
-        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[world.time];
+        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[v2834.time];
       }
-    } else if (world.transition) {
-      v2072 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    } else if (v2834.transition) {
+      v2072 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2072);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vV20652, vVV20612, vV2068, vV20632);
     if (v2070) {
       if (p1303) {
-        if (world.transition) {
-          v2072 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+        if (v2834.transition) {
+          v2072 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
           v405.fillStyle = f409(17, 94, 96, 169, 214, 211, v2072);
         } else {
-          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[world.time];
+          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[v2834.time];
         }
-      } else if (world.transition) {
-        v2072 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      } else if (v2834.transition) {
+        v2072 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2072);
       } else {
-        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
       }
       v405.fillRect(vV20653, vVV20613, vV20682, vV20633);
     }
     if (v2833.ⲆΔⲆΔΔ && p1303) {
-      p1301.ⵠΔΔᐃⵠⲆⵠᐃΔ(v2069, v2071, v2067, v2060, -user.ᐃⵠⵠ.y + vVV2061, -user.ᐃⵠⵠ.y + vVV2061 + vV2063);
+      p1301.ⵠΔΔᐃⵠⲆⵠᐃΔ(v2069, v2071, v2067, v2060, -v2835.ᐃⵠⵠ.y + vVV2061, -v2835.ᐃⵠⵠ.y + vVV2061 + vV2063);
     }
   }
   function f417(p1304, p1305, p1306, p1307, p1308, p1309) {
     var v2073 = p1307.w1;
     var v2074 = p1307.w2;
     var v2075 = p1307.w3;
-    var v2076 = user.ᐃⵠⵠ.y + p1304 + 710;
-    var v2077 = Math.max(user.ᐃⵠⵠ.x + p1305, 0);
-    var v2078 = Math.max(-user.ᐃⵠⵠ.x + v406 - p1306 - 100, 0);
+    var v2076 = v2835.ᐃⵠⵠ.y + p1304 + 710;
+    var v2077 = Math.max(v2835.ᐃⵠⵠ.x + p1305, 0);
+    var v2078 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - p1306 - 100, 0);
     var vV2077 = v2077;
     var v2079 = v406 - v2077 - v2078;
     if (p1309) {
@@ -48102,168 +48101,168 @@
       v2086 = -1;
     }
     v2084 = v2076 - 700 - v2081;
-    if (world.transition) {
-      var v2087 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    if (v2834.transition) {
+      var v2087 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2087);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vVV2077, vV2081, vV2079, v2082);
     if (p1309) {
-      if (world.transition) {
-        v2087 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2087 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 70, 76, 42, 139, 155, v2087);
       } else {
-        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[world.time];
+        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[v2834.time];
       }
-    } else if (world.transition) {
-      v2087 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    } else if (v2834.transition) {
+      v2087 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2087);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vVV20772, vV20812, vV20792, vV2084);
     if (vVV64) {
       if (p1309) {
-        if (world.transition) {
-          v2087 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+        if (v2834.transition) {
+          v2087 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
           v405.fillStyle = f409(17, 94, 96, 169, 214, 211, v2087);
         } else {
-          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[world.time];
+          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[v2834.time];
         }
-      } else if (world.transition) {
-        v2087 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      } else if (v2834.transition) {
+        v2087 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2087);
       } else {
-        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
       }
       v405.fillRect(vVV20773, vV20813, vV20793, vV20842);
     }
     if (v2833.ⲆΔⲆΔΔ && p1309) {
-      p1307.ᐃᐃΔΔΔΔⲆⵠⵠ(v2085, v2086, v2083, v2076, -user.ᐃⵠⵠ.x + vVV2077, -user.ᐃⵠⵠ.x + vVV2077 + vV2079);
+      p1307.ᐃᐃΔΔΔΔⲆⵠⵠ(v2085, v2086, v2083, v2076, -v2835.ᐃⵠⵠ.x + vVV2077, -v2835.ᐃⵠⵠ.x + vVV2077 + vV2079);
     }
   }
   function f418() {
     v405.globalAlpha = 1;
-    if (world.transition) {
-      var v2088 = world.ΔⵠⵠΔ.ⵠᐃᐃ();
+    if (v2834.transition) {
+      var v2088 = v2834.ΔⵠⵠΔ.ⵠᐃᐃ();
     }
-    world.ᐃⲆⵠΔᐃᐃΔᐃⲆ(-user.ᐃⵠⵠ.x, -user.ᐃⵠⵠ.y);
-    v2000 = Math.max(Math.floor(-user.ᐃⵠⵠ.x / world.ⵠᐃⵠᐃᐃⲆⲆ) - 5, 0);
-    v2001 = Math.min(Math.floor((-user.ᐃⵠⵠ.x + user.ᐃⵠⵠ.w) / world.ⵠᐃⵠᐃᐃⲆⲆ) + 4, world.nw - 1);
-    v2002 = Math.max(Math.floor(-user.ᐃⵠⵠ.y / world.ᐃᐃᐃᐃⵠⵠⲆ) - 3, 0);
-    v2003 = Math.min(Math.floor((-user.ᐃⵠⵠ.y + user.ᐃⵠⵠ.ⵠⲆⵠ) / world.ᐃᐃᐃᐃⵠⵠⲆ) + 3, world.nh - 1);
+    v2834.ᐃⲆⵠΔᐃᐃΔᐃⲆ(-v2835.ᐃⵠⵠ.x, -v2835.ᐃⵠⵠ.y);
+    v2000 = Math.max(Math.floor(-v2835.ᐃⵠⵠ.x / v2834.ⵠᐃⵠᐃᐃⲆⲆ) - 5, 0);
+    v2001 = Math.min(Math.floor((-v2835.ᐃⵠⵠ.x + v2835.ᐃⵠⵠ.w) / v2834.ⵠᐃⵠᐃᐃⲆⲆ) + 4, v2834.ⵠⵠⲆⲆᐃ - 1);
+    v2002 = Math.max(Math.floor(-v2835.ᐃⵠⵠ.y / v2834.ᐃᐃᐃᐃⵠⵠⲆ) - 3, 0);
+    v2003 = Math.min(Math.floor((-v2835.ᐃⵠⵠ.y + v2835.ᐃⵠⵠ.ⵠⲆⵠ) / v2834.ᐃᐃᐃᐃⵠⵠⲆ) + 3, v2834.ⲆᐃᐃΔⲆ - 1);
     (function () {
-      for (var v2089 = world.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
-        if ((v2100 = world.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ === world.ⲆⲆⲆⲆⵠ) {
-          var v2090 = world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ];
-          if (v2100.x1 - 230 - v406 <= -user.ᐃⵠⵠ.x && -user.ᐃⵠⵠ.x <= v2100.x2 + 330 && -user.ᐃⵠⵠ.y >= v2100.y1 - v408 && v2100.y2 + 100 >= -user.ᐃⵠⵠ.y) {
+      for (var v2089 = v2834.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
+        if ((v2100 = v2834.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ === v2834.ⲆⲆⲆⲆⵠ) {
+          var v2090 = v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ];
+          if (v2100.x1 - 230 - v406 <= -v2835.ᐃⵠⵠ.x && -v2835.ᐃⵠⵠ.x <= v2100.x2 + 330 && -v2835.ᐃⵠⵠ.y >= v2100.y1 - v408 && v2100.y2 + 100 >= -v2835.ᐃⵠⵠ.y) {
             var v2091 = v2100.x2;
-            if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+            if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
               v2091 -= 610;
             }
             var v2092 = v2100.x1;
-            if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+            if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
               v2092 += 610;
             }
             var v2093 = v2100.y2;
-            if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+            if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
               v2093 -= 610;
             }
             var v2094 = v2100.y1;
-            if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+            if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
               v2094 += 610;
             }
-            if (world.transition) {
-              var v2095 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+            if (v2834.transition) {
+              var v2095 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
               v405.fillStyle = f409(v2090.ᐃᐃΔ[0], v2090.ᐃᐃΔ[1], v2090.ᐃᐃΔ[2], v2090.Δⵠⵠ[0], v2090.Δⵠⵠ[1], v2090.Δⵠⵠ[1], v2095);
             } else {
-              v405.fillStyle = v2090.ᐃΔⲆΔⵠ[world.time];
+              v405.fillStyle = v2090.ᐃΔⲆΔⵠ[v2834.time];
             }
-            var v2096 = Math.max(user.ᐃⵠⵠ.x + v2092 - 2 - 230, 0);
-            var v2097 = Math.max(-user.ᐃⵠⵠ.x + v406 - v2091 - 330 - 2, 0);
-            var v2098 = Math.max(user.ᐃⵠⵠ.y + v2094 - 2, 0);
-            var v2099 = Math.max(-user.ᐃⵠⵠ.y + v408 - v2093 - 100 - 2, 0);
+            var v2096 = Math.max(v2835.ᐃⵠⵠ.x + v2092 - 2 - 230, 0);
+            var v2097 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - v2091 - 330 - 2, 0);
+            var v2098 = Math.max(v2835.ᐃⵠⵠ.y + v2094 - 2, 0);
+            var v2099 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - v2093 - 100 - 2, 0);
             v405.beginPath();
             v405.fillRect(v2096, v2098, v406 - v2097 - v2096, v408 - v2098 - v2099);
           }
         }
       }
-      for (v2089 = world.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
-        var v2100 = world.ᐃⲆⲆΔ[v2089];
-        if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+      for (v2089 = v2834.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
+        var v2100 = v2834.ᐃⲆⲆΔ[v2089];
+        if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
           v2091 = v2100.x2;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2091 -= 400;
           }
           v2092 = v2100.x1;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2092 += 400;
           }
           v2093 = v2100.y2;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2093 -= 300;
           }
           v2094 = v2100.y1;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2094 += 300;
           }
-          if (!(v2100.Ⲇⵠⵠ & 8) && v2091 - v406 + 120 <= -user.ᐃⵠⵠ.x && -user.ᐃⵠⵠ.x <= v2091 + 820 && -user.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -user.ᐃⵠⵠ.y <= v2093 + 50) {
-            f408(v2091, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[0], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
-            f412(v2091, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[0], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
+          if (!(v2100.Ⲇⵠⵠ & 8) && v2091 - v406 + 120 <= -v2835.ᐃⵠⵠ.x && -v2835.ᐃⵠⵠ.x <= v2091 + 820 && -v2835.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -v2835.ᐃⵠⵠ.y <= v2093 + 50) {
+            f408(v2091, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[0], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
+            f412(v2091, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[0], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
           }
-          if (!(v2100.Ⲇⵠⵠ & 4) && -user.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -user.ᐃⵠⵠ.x <= v2092 - 20 && -user.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -user.ᐃⵠⵠ.y <= v2093 + 50) {
-            f410(v2092, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[1], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
-            f416(v2092, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[1], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
+          if (!(v2100.Ⲇⵠⵠ & 4) && -v2835.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -v2835.ᐃⵠⵠ.x <= v2092 - 20 && -v2835.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -v2835.ᐃⵠⵠ.y <= v2093 + 50) {
+            f410(v2092, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[1], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
+            f416(v2092, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[1], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
           }
-          if ((v2100.Ⲇⵠⵠ & 2) === 0 && v2092 - 235 - v406 <= -user.ᐃⵠⵠ.x && -user.ᐃⵠⵠ.x <= v2091 + 350 && v2093 - v408 - 275 <= -user.ᐃⵠⵠ.y && -user.ᐃⵠⵠ.y <= v2093 + 490) {
-            f423(v2093 - 230, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[2], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
-            f417(v2093 - 230, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[2], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
+          if ((v2100.Ⲇⵠⵠ & 2) === 0 && v2092 - 235 - v406 <= -v2835.ᐃⵠⵠ.x && -v2835.ᐃⵠⵠ.x <= v2091 + 350 && v2093 - v408 - 275 <= -v2835.ᐃⵠⵠ.y && -v2835.ᐃⵠⵠ.y <= v2093 + 490) {
+            f423(v2093 - 230, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[2], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
+            f417(v2093 - 230, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[2], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
           }
-          if ((v2100.Ⲇⵠⵠ & 1) === 0 && v2092 - 235 - v406 <= -user.ᐃⵠⵠ.x && v2091 + 350 >= -user.ᐃⵠⵠ.x && v2094 - v408 - 390 <= -user.ᐃⵠⵠ.y && -user.ᐃⵠⵠ.y <= v2094 + 315) {
-            f411(v2094 + 310, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[3], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
-            f419(v2094 + 310, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[3], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
+          if ((v2100.Ⲇⵠⵠ & 1) === 0 && v2092 - 235 - v406 <= -v2835.ᐃⵠⵠ.x && v2091 + 350 >= -v2835.ᐃⵠⵠ.x && v2094 - v408 - 390 <= -v2835.ᐃⵠⵠ.y && -v2835.ᐃⵠⵠ.y <= v2094 + 315) {
+            f411(v2094 + 310, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[3], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
+            f419(v2094 + 310, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[3], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
           }
         }
       }
-      for (v2089 = world.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
-        if ((v2100 = world.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+      for (v2089 = v2834.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
+        if ((v2100 = v2834.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
           v2091 = v2100.x2;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2091 -= 400;
           }
           v2092 = v2100.x1;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2092 += 400;
           }
           v2093 = v2100.y2;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2093 -= 300;
           }
           v2094 = v2100.y1;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2094 += 300;
           }
-          if ((v2100.Ⲇⵠⵠ & 8) !== 0 && -user.ᐃⵠⵠ.x >= v2091 - v406 + 120 && -user.ᐃⵠⵠ.x <= v2091 + 820 && -user.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -user.ᐃⵠⵠ.y <= v2093 + 50) {
-            f408(v2091, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[0], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
+          if ((v2100.Ⲇⵠⵠ & 8) !== 0 && -v2835.ᐃⵠⵠ.x >= v2091 - v406 + 120 && -v2835.ᐃⵠⵠ.x <= v2091 + 820 && -v2835.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -v2835.ᐃⵠⵠ.y <= v2093 + 50) {
+            f408(v2091, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[0], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
           }
-          if (v2100.Ⲇⵠⵠ & 4 && -user.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -user.ᐃⵠⵠ.x <= v2092 - 20 && -user.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -user.ᐃⵠⵠ.y <= v2093 + 50) {
-            f410(v2092, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[1], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
+          if (v2100.Ⲇⵠⵠ & 4 && -v2835.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -v2835.ᐃⵠⵠ.x <= v2092 - 20 && -v2835.ᐃⵠⵠ.y >= v2094 + 88 - v408 && -v2835.ᐃⵠⵠ.y <= v2093 + 50) {
+            f410(v2092, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[1], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
           }
-          if (v2100.Ⲇⵠⵠ & 2 && v2092 - 235 - v406 <= -user.ᐃⵠⵠ.x && v2091 + 350 >= -user.ᐃⵠⵠ.x && -user.ᐃⵠⵠ.y >= v2093 - v408 - 275 && -user.ᐃⵠⵠ.y <= v2093 + 490) {
-            f423(v2093 - 230, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[2], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
+          if (v2100.Ⲇⵠⵠ & 2 && v2092 - 235 - v406 <= -v2835.ᐃⵠⵠ.x && v2091 + 350 >= -v2835.ᐃⵠⵠ.x && -v2835.ᐃⵠⵠ.y >= v2093 - v408 - 275 && -v2835.ᐃⵠⵠ.y <= v2093 + 490) {
+            f423(v2093 - 230, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[2], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
           }
-          if ((v2100.Ⲇⵠⵠ & 1) !== 0 && -user.ᐃⵠⵠ.x >= v2092 - 235 - v406 && -user.ᐃⵠⵠ.x <= v2091 + 350 && -user.ᐃⵠⵠ.y >= v2094 - v408 - 390 && -user.ᐃⵠⵠ.y <= v2094 + 315) {
-            f411(v2094 + 310, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[3], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
+          if ((v2100.Ⲇⵠⵠ & 1) !== 0 && -v2835.ᐃⵠⵠ.x >= v2092 - 235 - v406 && -v2835.ᐃⵠⵠ.x <= v2091 + 350 && -v2835.ᐃⵠⵠ.y >= v2094 - v408 - 390 && -v2835.ᐃⵠⵠ.y <= v2094 + 315) {
+            f411(v2094 + 310, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[3], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
           }
         }
       }
-      for (v2089 = world.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
-        if ((v2100 = world.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
-          v2090 = world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ];
-          if (v2100.x1 - 230 - v406 <= -user.ᐃⵠⵠ.x && v2100.x2 + 330 >= -user.ᐃⵠⵠ.x && -user.ᐃⵠⵠ.y >= v2100.y1 - v408 && -user.ᐃⵠⵠ.y <= v2100.y2 + 100) {
+      for (v2089 = v2834.ᐃⲆⲆΔ.length - 1; v2089 >= 0; v2089--) {
+        if ((v2100 = v2834.ᐃⲆⲆΔ[v2089]).ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
+          v2090 = v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ];
+          if (v2100.x1 - 230 - v406 <= -v2835.ᐃⵠⵠ.x && v2100.x2 + 330 >= -v2835.ᐃⵠⵠ.x && -v2835.ᐃⵠⵠ.y >= v2100.y1 - v408 && -v2835.ᐃⵠⵠ.y <= v2100.y2 + 100) {
             v2091 = v2100.x2;
-            if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+            if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
               if ((v2100.Ⲇⵠⵠ & 8) === 0) {
                 v2091 -= 414;
               } else {
@@ -48271,7 +48270,7 @@
               }
             }
             v2092 = v2100.x1;
-            if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+            if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
               if (v2100.Ⲇⵠⵠ & 4) {
                 v2092 += 610;
               } else {
@@ -48279,7 +48278,7 @@
               }
             }
             v2093 = v2100.y2;
-            if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+            if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
               if (v2100.Ⲇⵠⵠ & 2) {
                 v2093 -= 610;
               } else {
@@ -48287,23 +48286,23 @@
               }
             }
             v2094 = v2100.y1;
-            if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+            if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
               if (v2100.Ⲇⵠⵠ & 1) {
                 v2094 += 610;
               } else {
                 v2094 += 414;
               }
             }
-            if (world.transition) {
-              v2095 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+            if (v2834.transition) {
+              v2095 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
               v405.fillStyle = f409(v2090.ᐃᐃΔ[0], v2090.ᐃᐃΔ[1], v2090.ᐃᐃΔ[2], v2090.Δⵠⵠ[0], v2090.Δⵠⵠ[1], v2090.Δⵠⵠ[2], v2095);
             } else {
-              v405.fillStyle = v2090.ᐃΔⲆΔⵠ[world.time];
+              v405.fillStyle = v2090.ᐃΔⲆΔⵠ[v2834.time];
             }
-            v2096 = Math.max(user.ᐃⵠⵠ.x + v2092 - 2 - 230, 0);
-            v2097 = Math.max(-user.ᐃⵠⵠ.x + v406 - v2091 - 330 - 2, 0);
-            v2098 = Math.max(user.ᐃⵠⵠ.y + v2094 - 2, 0);
-            v2099 = Math.max(-user.ᐃⵠⵠ.y + v408 - v2093 - 100 - 2, 0);
+            v2096 = Math.max(v2835.ᐃⵠⵠ.x + v2092 - 2 - 230, 0);
+            v2097 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - v2091 - 330 - 2, 0);
+            v2098 = Math.max(v2835.ᐃⵠⵠ.y + v2094 - 2, 0);
+            v2099 = Math.max(-v2835.ᐃⵠⵠ.y + v408 - v2093 - 100 - 2, 0);
             v405.beginPath();
             v405.fillRect(v2096, v2098, v406 - v2097 - v2096, v408 - v2098 - v2099);
           }
@@ -48317,7 +48316,7 @@
       if (v2833.ⲆΔⲆΔΔ) {
         f414(f407, v2002, v2003, v2000, v2001, 353, "de");
       }
-      var v2101 = world.units[0];
+      var v2101 = v2834.Δⵠᐃ[0];
       for (v2089 = 0; v2089 < v2101.length; v2089++) {
         for (var v2102 = v2101[v2089], v2103 = 0; v2102.ΔⲆᐃⲆⵠ.length > v2103; v2103++) {
           f422(v2102.ΔⲆᐃⲆⵠ[v2103]);
@@ -48328,36 +48327,36 @@
       }
       f414(f380, v2002, v2003, v2000, v2001, 1332, "r", 0);
       v2089 = 0;
-      for (; v2089 < world.ᐃⲆⲆΔ.length; v2089++) {
-        v2100 = world.ᐃⲆⲆΔ[v2089];
-        if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+      for (; v2089 < v2834.ᐃⲆⲆΔ.length; v2089++) {
+        v2100 = v2834.ᐃⲆⲆΔ[v2089];
+        if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
           v2091 = v2100.x2;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2091 -= 400;
           }
           v2092 = v2100.x1;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2092 += 400;
           }
           v2093 = v2100.y2;
-          if (world.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆⲆⵠ !== v2100.ᐃⵠⲆ) {
             v2093 -= 300;
           }
           v2094 = v2100.y1;
-          if (v2100.ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ) {
+          if (v2100.ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ) {
             v2094 += 300;
           }
-          if ((v2100.Ⲇⵠⵠ & 8) > 0 && -user.ᐃⵠⵠ.x >= v2091 - v406 + 120 && -user.ᐃⵠⵠ.x <= v2091 + 820 && v2094 + 88 - v408 <= -user.ᐃⵠⵠ.y && v2093 + 50 >= -user.ᐃⵠⵠ.y) {
-            f412(v2091, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[0], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
+          if ((v2100.Ⲇⵠⵠ & 8) > 0 && -v2835.ᐃⵠⵠ.x >= v2091 - v406 + 120 && -v2835.ᐃⵠⵠ.x <= v2091 + 820 && v2094 + 88 - v408 <= -v2835.ᐃⵠⵠ.y && v2093 + 50 >= -v2835.ᐃⵠⵠ.y) {
+            f412(v2091, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[0], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 8);
           }
-          if ((v2100.Ⲇⵠⵠ & 4) > 0 && -user.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -user.ᐃⵠⵠ.x <= v2092 - 20 && v2094 + 88 - v408 <= -user.ᐃⵠⵠ.y && -user.ᐃⵠⵠ.y <= v2093 + 50) {
-            f416(v2092, v2094 + 88, v2093 - 88, user.ΔᐃⲆⲆ[1], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
+          if ((v2100.Ⲇⵠⵠ & 4) > 0 && -v2835.ᐃⵠⵠ.x >= v2092 - v406 - 700 && -v2835.ᐃⵠⵠ.x <= v2092 - 20 && v2094 + 88 - v408 <= -v2835.ᐃⵠⵠ.y && -v2835.ᐃⵠⵠ.y <= v2093 + 50) {
+            f416(v2092, v2094 + 88, v2093 - 88, v2835.ΔᐃⲆⲆ[1], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 4);
           }
-          if ((v2100.Ⲇⵠⵠ & 2) > 0 && v2092 - 235 - v406 <= -user.ᐃⵠⵠ.x && v2091 + 350 >= -user.ᐃⵠⵠ.x && v2093 - v408 - 275 <= -user.ᐃⵠⵠ.y && -user.ᐃⵠⵠ.y <= v2093 + 490) {
-            f417(v2093 - 230, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[2], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
+          if ((v2100.Ⲇⵠⵠ & 2) > 0 && v2092 - 235 - v406 <= -v2835.ᐃⵠⵠ.x && v2091 + 350 >= -v2835.ᐃⵠⵠ.x && v2093 - v408 - 275 <= -v2835.ᐃⵠⵠ.y && -v2835.ᐃⵠⵠ.y <= v2093 + 490) {
+            f417(v2093 - 230, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[2], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 2);
           }
-          if ((v2100.Ⲇⵠⵠ & 1) > 0 && v2092 - 235 - v406 <= -user.ᐃⵠⵠ.x && v2091 + 350 >= -user.ᐃⵠⵠ.x && v2094 - v408 - 390 <= -user.ᐃⵠⵠ.y && v2094 + 315 >= -user.ᐃⵠⵠ.y) {
-            f419(v2094 + 310, v2092 - 230, v2091 + 230, user.ΔᐃⲆⲆ[3], world.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
+          if ((v2100.Ⲇⵠⵠ & 1) > 0 && v2092 - 235 - v406 <= -v2835.ᐃⵠⵠ.x && v2091 + 350 >= -v2835.ᐃⵠⵠ.x && v2094 - v408 - 390 <= -v2835.ᐃⵠⵠ.y && v2094 + 315 >= -v2835.ᐃⵠⵠ.y) {
+            f419(v2094 + 310, v2092 - 230, v2091 + 230, v2835.ΔᐃⲆⲆ[3], v2834.ΔΔΔΔⲆ[v2100.ᐃⵠⲆ], v2100.Ⲇⵠⵠ & 1);
           }
         }
       }
@@ -48380,230 +48379,230 @@
         f414(f404, vV2002, vV2003, vV2000, vV2001, 838, "l", 2);
       }
       f414(f405, vV2002, vV2003, vV2000, vV2001, 1360, "ma", 4);
-      for (var v2104 = world.units[83], v2105 = 0; v2105 < v2104.length; v2105++) {
+      for (var v2104 = v2834.Δⵠᐃ[83], v2105 = 0; v2105 < v2104.length; v2105++) {
         v2104[v2105].ⵠⵠᐃⵠᐃⲆΔ();
       }
-      var v2106 = world.units[0];
+      var v2106 = v2834.Δⵠᐃ[0];
       for (v2105 = 0; v2106.length > v2105; v2105++) {
         for (var v2107 = v2106[v2105], v2108 = 0; v2108 < v2107.ⵠⲆᐃⲆΔ.length; v2108++) {
           f415(v2107.ⵠⲆᐃⲆΔ[v2108]);
         }
       }
-      var v2109 = world.units[39];
+      var v2109 = v2834.Δⵠᐃ[39];
       for (v2105 = 0; v2105 < v2109.length; v2105++) {
         f426(v2109[v2105], 216);
         v2109[v2105].ⵠᐃⲆⵠⲆ(v2109[v2105].info);
       }
-      var v2110 = world.units[18];
+      var v2110 = v2834.Δⵠᐃ[18];
       for (v2105 = 0; v2105 < v2110.length; v2105++) {
         if (v2110[v2105].action == 2) {
           f420(v2110[v2105]);
         }
       }
-      var v2111 = world.units[1];
+      var v2111 = v2834.Δⵠᐃ[1];
       for (v2105 = 0; v2111.length > v2105; v2105++) {
         f420(v2111[v2105], 204);
       }
-      var v2112 = world.units[22];
+      var v2112 = v2834.Δⵠᐃ[22];
       for (v2105 = 0; v2112.length > v2105; v2105++) {
         f420(v2112[v2105]);
       }
-      var v2113 = world.units[23];
+      var v2113 = v2834.Δⵠᐃ[23];
       for (v2105 = 0; v2113.length > v2105; v2105++) {
         f420(v2113[v2105]);
       }
-      var v2114 = world.units[6];
+      var v2114 = v2834.Δⵠᐃ[6];
       for (v2105 = 0; v2105 < v2114.length; v2105++) {
         f420(v2114[v2105], 209);
       }
-      var v2115 = world.units[45];
+      var v2115 = v2834.Δⵠᐃ[45];
       for (v2105 = 0; v2105 < v2115.length; v2105++) {
         f426(v2115[v2105]);
       }
-      var v2116 = world.units[42];
+      var v2116 = v2834.Δⵠᐃ[42];
       for (v2105 = 0; v2116.length > v2105; v2105++) {
         f426(v2116[v2105], 234);
       }
-      var v2117 = world.units[3];
+      var v2117 = v2834.Δⵠᐃ[3];
       for (v2105 = 0; v2105 < v2117.length; v2105++) {
         f420(v2117[v2105]);
       }
-      v2117 = world.units[52];
+      v2117 = v2834.Δⵠᐃ[52];
       v2105 = 0;
       for (; v2117.length > v2105; v2105++) {
         f420(v2117[v2105]);
       }
-      v2117 = world.units[3];
+      v2117 = v2834.Δⵠᐃ[3];
       v2105 = 0;
       for (; v2117.length > v2105; v2105++) {
         f427(v2117[v2105]);
       }
-      var v2118 = world.units[53];
+      var v2118 = v2834.Δⵠᐃ[53];
       for (v2105 = 0; v2118.length > v2105; v2105++) {
         if ((v2118[v2105].info & 15) === 0 || v2118[v2105].info === 10) {
           f426(v2118[v2105]);
         }
       }
-      var v2119 = world.units[66];
+      var v2119 = v2834.Δⵠᐃ[66];
       for (v2105 = 0; v2105 < v2119.length; v2105++) {
         if ((v2119[v2105].info & 15) === 0 || v2119[v2105].info === 10) {
           f426(v2119[v2105]);
         }
       }
-      var v2120 = world.units[63];
+      var v2120 = v2834.Δⵠᐃ[63];
       for (v2105 = 0; v2120.length > v2105; v2105++) {
         if (!(v2120[v2105].info & 15) || v2120[v2105].info === 10) {
           f426(v2120[v2105]);
         }
       }
-      var v2121 = world.units[64];
+      var v2121 = v2834.Δⵠᐃ[64];
       for (v2105 = 0; v2105 < v2121.length; v2105++) {
         if ((v2121[v2105].info & 15) === 0 || v2121[v2105].info === 10) {
           f426(v2121[v2105]);
         }
       }
-      var v2122 = world.units[91];
+      var v2122 = v2834.Δⵠᐃ[91];
       for (v2105 = 0; v2105 < v2122.length; v2105++) {
         f426(v2122[v2105], 225);
       }
-      var v2123 = world.units[48];
+      var v2123 = v2834.Δⵠᐃ[48];
       for (v2105 = 0; v2123.length > v2105; v2105++) {
         if ((v2123[v2105].info & 15) === 0 || v2123[v2105].info === 10) {
           f426(v2123[v2105]);
         }
       }
-      var v2124 = world.units[49];
+      var v2124 = v2834.Δⵠᐃ[49];
       for (v2105 = 0; v2124.length > v2105; v2105++) {
         if ((v2124[v2105].info & 15) === 0 || v2124[v2105].info === 10) {
           f426(v2124[v2105]);
         }
       }
-      var v2125 = world.units[46];
+      var v2125 = v2834.Δⵠᐃ[46];
       for (v2105 = 0; v2125.length > v2105; v2105++) {
         if ((v2125[v2105].info & 15) === 0 || v2125[v2105].info === 10) {
           f426(v2125[v2105]);
         }
       }
-      v2122 = world.units[40];
+      v2122 = v2834.Δⵠᐃ[40];
       v2105 = 0;
       for (; v2105 < v2122.length; v2105++) {
         f426(v2122[v2105]);
       }
-      var v2126 = world.units[98];
+      var v2126 = v2834.Δⵠᐃ[98];
       for (v2105 = 0; v2126.length > v2105; v2105++) {
         f426(v2126[v2105], 360, 978);
       }
-      var v2127 = world.units[94];
+      var v2127 = v2834.Δⵠᐃ[94];
       for (v2105 = 0; v2127.length > v2105; v2105++) {
         f426(v2127[v2105], 360, 978);
       }
-      var v2128 = world.units[99];
+      var v2128 = v2834.Δⵠᐃ[99];
       for (v2105 = 0; v2128.length > v2105; v2105++) {
         f426(v2128[v2105], 1103, 1108);
       }
-      var v2129 = world.units[54];
+      var v2129 = v2834.Δⵠᐃ[54];
       for (v2105 = 0; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info & 1) {
           f426(v2129[v2105], 447);
         }
       }
-      v2129 = world.units[55];
+      v2129 = v2834.Δⵠᐃ[55];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info & 1) {
           f426(v2129[v2105], 484);
         }
       }
-      v2129 = world.units[56];
+      v2129 = v2834.Δⵠᐃ[56];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 487);
         }
       }
-      v2129 = world.units[57];
+      v2129 = v2834.Δⵠᐃ[57];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 490);
         }
       }
-      v2129 = world.units[58];
+      v2129 = v2834.Δⵠᐃ[58];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 638);
         }
       }
-      v2129 = world.units[62];
+      v2129 = v2834.Δⵠᐃ[62];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 487);
         }
       }
-      v2129 = world.units[10];
+      v2129 = v2834.Δⵠᐃ[10];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info & 1) {
           f426(v2129[v2105], 447);
         }
       }
-      v2129 = world.units[15];
+      v2129 = v2834.Δⵠᐃ[15];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info & 1) {
           f426(v2129[v2105], 484);
         }
       }
-      v2129 = world.units[16];
+      v2129 = v2834.Δⵠᐃ[16];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 487);
         }
       }
-      v2129 = world.units[17];
+      v2129 = v2834.Δⵠᐃ[17];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 490);
         }
       }
-      v2129 = world.units[21];
+      v2129 = v2834.Δⵠᐃ[21];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 638);
         }
       }
-      v2129 = world.units[60];
+      v2129 = v2834.Δⵠᐃ[60];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (v2129[v2105].info) {
           f426(v2129[v2105], 487);
         }
       }
-      var v2130 = world.units[92];
+      var v2130 = v2834.Δⵠᐃ[92];
       for (v2105 = 0; v2105 < v2130.length; v2105++) {
         f426(v2130[v2105], 374, 433);
       }
-      var v2131 = world.units[50];
+      var v2131 = v2834.Δⵠᐃ[50];
       for (v2105 = 0; v2105 < v2131.length; v2105++) {
         f426(v2131[v2105], 300);
       }
-      v2104 = world.units[83];
+      v2104 = v2834.Δⵠᐃ[83];
       v2105 = 0;
       for (; v2104.length > v2105; v2105++) {
         f426(v2104[v2105], v585.ΔΔΔⲆⲆΔⵠ, v585.ⲆⵠⵠⲆᐃⲆΔΔΔ);
       }
-      var v2132 = world.units[103];
+      var v2132 = v2834.Δⵠᐃ[103];
       for (v2105 = 0; v2105 < v2132.length; v2105++) {
         if (v2132[v2105].ᐃᐃⲆᐃΔⵠⲆ === 0) {
           f426(v2132[v2105]);
         }
       }
-      v2106 = world.units[0];
+      v2106 = v2834.Δⵠᐃ[0];
       v2105 = 0;
       for (; v2106.length > v2105; v2105++) {
         v2107 = v2106[v2105];
@@ -48614,16 +48613,16 @@
               var v2133 = 1 + Math.min(1, Math.max(v2107.ΔⵠⵠΔᐃⵠΔ, 0) / 100) * 0.18;
               v405.save();
               v405.scale(v2133, v2133);
-              user.ᐃⵠⵠ.x /= v2133;
-              user.ᐃⵠⵠ.y /= v2133;
+              v2835.ᐃⵠⵠ.x /= v2133;
+              v2835.ᐃⵠⵠ.y /= v2133;
               v2107.x /= v2133;
               v2107.y /= v2133;
               v2107.r.x /= v2133;
               v2107.r.y /= v2133;
               v2107.ΔⲆⲆⵠᐃⵠⵠ();
               v2107.ⲆΔᐃΔ();
-              user.ᐃⵠⵠ.x *= v2133;
-              user.ᐃⵠⵠ.y *= v2133;
+              v2835.ᐃⵠⵠ.x *= v2133;
+              v2835.ᐃⵠⵠ.y *= v2133;
               v2107.x *= v2133;
               v2107.y *= v2133;
               v2107.r.x *= v2133;
@@ -48639,8 +48638,8 @@
           v405.save();
           v2133 = 1 + Math.min(1, Math.max(v2107.ᐃᐃⲆⲆΔ - 30, 0) / 180) * 0.35;
           v405.scale(v2133, v2133);
-          user.ᐃⵠⵠ.x /= v2133;
-          user.ᐃⵠⵠ.y /= v2133;
+          v2835.ᐃⵠⵠ.x /= v2133;
+          v2835.ᐃⵠⵠ.y /= v2133;
           v2107.x /= v2133;
           v2107.y /= v2133;
           v2107.r.x /= v2133;
@@ -48648,8 +48647,8 @@
           v2107.ᐃᐃⲆᐃΔⵠⲆ = 0;
           v2107.ΔⲆⲆⵠᐃⵠⵠ();
           v2107.ⲆΔᐃΔ();
-          user.ᐃⵠⵠ.x *= v2133;
-          user.ᐃⵠⵠ.y *= v2133;
+          v2835.ᐃⵠⵠ.x *= v2133;
+          v2835.ᐃⵠⵠ.y *= v2133;
           v2107.x *= v2133;
           v2107.y *= v2133;
           v2107.r.x *= v2133;
@@ -48657,182 +48656,182 @@
           v405.restore();
         }
       }
-      v2131 = world.units[50];
+      v2131 = v2834.Δⵠᐃ[50];
       v2105 = 0;
       for (; v2105 < v2131.length; v2105++) {
         f426(v2131[v2105], 1189);
       }
-      var v2134 = world.units[74];
+      var v2134 = v2834.Δⵠᐃ[74];
       for (v2105 = 0; v2134.length > v2105; v2105++) {
         f426(v2134[v2105]);
       }
-      var v2135 = world.units[90];
+      var v2135 = v2834.Δⵠᐃ[90];
       for (v2105 = 0; v2135.length > v2105; v2105++) {
         f426(v2135[v2105], 1324, 1326);
       }
-      var v2136 = world.units[69];
+      var v2136 = v2834.Δⵠᐃ[69];
       for (v2105 = 0; v2136.length > v2105; v2105++) {
         f426(v2136[v2105], 530, 599);
       }
-      var v2137 = world.units[77];
+      var v2137 = v2834.Δⵠᐃ[77];
       for (v2105 = 0; v2137.length > v2105; v2105++) {
         f426(v2137[v2105]);
       }
-      var v2138 = world.units[87];
+      var v2138 = v2834.Δⵠᐃ[87];
       for (v2105 = 0; v2138.length > v2105; v2105++) {
         f426(v2138[v2105], 1751, 1752);
       }
-      var v2139 = world.units[67];
+      var v2139 = v2834.Δⵠᐃ[67];
       for (v2105 = 0; v2105 < v2139.length; v2105++) {
         f426(v2139[v2105], 410, 437);
       }
-      var v2140 = world.units[79];
+      var v2140 = v2834.Δⵠᐃ[79];
       for (v2105 = 0; v2140.length > v2105; v2105++) {
         f426(v2140[v2105], 342, 1385);
       }
-      var v2141 = world.units[80];
+      var v2141 = v2834.Δⵠᐃ[80];
       for (v2105 = 0; v2105 < v2141.length; v2105++) {
         f426(v2141[v2105], 343, 1400);
       }
-      v2139 = world.units[88];
+      v2139 = v2834.Δⵠᐃ[88];
       v2105 = 0;
       for (; v2105 < v2139.length; v2105++) {
         f426(v2139[v2105], 1747, 1748);
       }
-      v2118 = world.units[53];
+      v2118 = v2834.Δⵠᐃ[53];
       v2105 = 0;
       for (; v2105 < v2118.length; v2105++) {
         if ((v2118[v2105].info & 15) !== 0 && v2118[v2105].info !== 10) {
           f426(v2118[v2105]);
         }
       }
-      v2119 = world.units[66];
+      v2119 = v2834.Δⵠᐃ[66];
       v2105 = 0;
       for (; v2105 < v2119.length; v2105++) {
         if ((v2119[v2105].info & 15) !== 0 && v2119[v2105].info !== 10) {
           f426(v2119[v2105]);
         }
       }
-      v2120 = world.units[63];
+      v2120 = v2834.Δⵠᐃ[63];
       v2105 = 0;
       for (; v2105 < v2120.length; v2105++) {
         if (v2120[v2105].info & 15 && v2120[v2105].info !== 10) {
           f426(v2120[v2105]);
         }
       }
-      v2121 = world.units[101];
+      v2121 = v2834.Δⵠᐃ[101];
       v2105 = 0;
       for (; v2121.length > v2105; v2105++) {
         f426(v2121[v2105], 349);
       }
-      v2121 = world.units[64];
+      v2121 = v2834.Δⵠᐃ[64];
       v2105 = 0;
       for (; v2121.length > v2105; v2105++) {
         if ((v2121[v2105].info & 15) !== 0 && v2121[v2105].info !== 10) {
           f426(v2121[v2105]);
         }
       }
-      v2117 = world.units[52];
+      v2117 = v2834.Δⵠᐃ[52];
       v2105 = 0;
       for (; v2105 < v2117.length; v2105++) {
         f427(v2117[v2105]);
       }
-      v2123 = world.units[48];
+      v2123 = v2834.Δⵠᐃ[48];
       v2105 = 0;
       for (; v2105 < v2123.length; v2105++) {
         if ((v2123[v2105].info & 15) !== 0 && v2123[v2105].info !== 10) {
           f426(v2123[v2105]);
         }
       }
-      v2124 = world.units[49];
+      v2124 = v2834.Δⵠᐃ[49];
       v2105 = 0;
       for (; v2124.length > v2105; v2105++) {
         if ((v2124[v2105].info & 15) !== 0 && v2124[v2105].info !== 10) {
           f426(v2124[v2105]);
         }
       }
-      v2125 = world.units[46];
+      v2125 = v2834.Δⵠᐃ[46];
       v2105 = 0;
       for (; v2125.length > v2105; v2105++) {
         if ((v2125[v2105].info & 15) !== 0 && v2125[v2105].info !== 10) {
           f426(v2125[v2105]);
         }
       }
-      var v2142 = world.units[93];
+      var v2142 = v2834.Δⵠᐃ[93];
       for (v2105 = 0; v2105 < v2142.length; v2105++) {
         f426(v2142[v2105], 910, 916);
       }
-      var v2143 = world.units[73];
+      var v2143 = v2834.Δⵠᐃ[73];
       for (v2105 = 0; v2105 < v2143.length; v2105++) {
         f426(v2143[v2105], 856, 906);
       }
-      var v2144 = world.units[72];
+      var v2144 = v2834.Δⵠᐃ[72];
       for (v2105 = 0; v2144.length > v2105; v2105++) {
         f426(v2144[v2105], 892, 907);
       }
-      var v2145 = world.units[68];
+      var v2145 = v2834.Δⵠᐃ[68];
       for (v2105 = 0; v2105 < v2145.length; v2105++) {
         f426(v2145[v2105], 370, 444);
       }
-      var v2146 = world.units[100];
+      var v2146 = v2834.Δⵠᐃ[100];
       for (v2105 = 0; v2105 < v2146.length; v2105++) {
         f426(v2146[v2105], 1341, 1342);
       }
-      var v2147 = world.units[70];
+      var v2147 = v2834.Δⵠᐃ[70];
       for (v2105 = 0; v2105 < v2147.length; v2105++) {
         f426(v2147[v2105], 583, 600);
       }
-      var v2148 = world.units[89];
+      var v2148 = v2834.Δⵠᐃ[89];
       for (v2105 = 0; v2105 < v2148.length; v2105++) {
         f426(v2148[v2105], 1323, 1325);
       }
-      var v2149 = world.units[84];
+      var v2149 = v2834.Δⵠᐃ[84];
       for (v2105 = 0; v2105 < v2149.length; v2105++) {
         f426(v2149[v2105]);
       }
-      var v2150 = world.units[75];
+      var v2150 = v2834.Δⵠᐃ[75];
       for (v2105 = 0; v2150.length > v2105; v2105++) {
         f426(v2150[v2105], 1194, 1195);
       }
-      var v2151 = world.units[78];
+      var v2151 = v2834.Δⵠᐃ[78];
       for (v2105 = 0; v2151.length > v2105; v2105++) {
         f426(v2151[v2105]);
       }
-      var v2152 = world.units[85];
+      var v2152 = v2834.Δⵠᐃ[85];
       for (v2105 = 0; v2152.length > v2105; v2105++) {
         f426(v2152[v2105], 1609, 1610);
       }
-      var v2153 = world.units[71];
+      var v2153 = v2834.Δⵠᐃ[71];
       for (v2105 = 0; v2153.length > v2105; v2105++) {
         if (v2153[v2105].scale === 1) {
           f426(v2153[v2105], 587, 601);
         }
       }
-      v2153 = world.units[76];
+      v2153 = v2834.Δⵠᐃ[76];
       v2105 = 0;
       for (; v2153.length > v2105; v2105++) {
         if (v2153[v2105].scale === 1) {
           f426(v2153[v2105], 588, 602);
         }
       }
-      var v2154 = world.units[11];
+      var v2154 = v2834.Δⵠᐃ[11];
       for (v2105 = 0; v2105 < v2154.length; v2105++) {
         f426(v2154[v2105]);
       }
-      var v2155 = world.units[2];
+      var v2155 = v2834.Δⵠᐃ[2];
       for (v2105 = 0; v2155.length > v2105; v2105++) {
         f426(v2155[v2105], 205);
       }
-      v2110 = world.units[18];
+      v2110 = v2834.Δⵠᐃ[18];
       v2105 = 0;
       for (; v2105 < v2110.length; v2105++) {
         f426(v2110[v2105]);
       }
-      var v2156 = world.units[43];
+      var v2156 = v2834.Δⵠᐃ[43];
       for (v2105 = 0; v2156.length > v2105; v2105++) {
         f426(v2156[v2105]);
       }
-      v2129 = world.units[10];
+      v2129 = v2834.Δⵠᐃ[10];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48840,7 +48839,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[15];
+      v2129 = v2834.Δⵠᐃ[15];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48848,7 +48847,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[16];
+      v2129 = v2834.Δⵠᐃ[16];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48856,7 +48855,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[17];
+      v2129 = v2834.Δⵠᐃ[17];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48864,7 +48863,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[21];
+      v2129 = v2834.Δⵠᐃ[21];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48872,7 +48871,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[60];
+      v2129 = v2834.Δⵠᐃ[60];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48880,7 +48879,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[54];
+      v2129 = v2834.Δⵠᐃ[54];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48888,7 +48887,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[55];
+      v2129 = v2834.Δⵠᐃ[55];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48896,7 +48895,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[56];
+      v2129 = v2834.Δⵠᐃ[56];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48904,7 +48903,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[57];
+      v2129 = v2834.Δⵠᐃ[57];
       v2105 = 0;
       for (; v2105 < v2129.length; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48912,7 +48911,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[58];
+      v2129 = v2834.Δⵠᐃ[58];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48920,7 +48919,7 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      v2129 = world.units[62];
+      v2129 = v2834.Δⵠᐃ[62];
       v2105 = 0;
       for (; v2129.length > v2105; v2105++) {
         if (!(v2129[v2105].info & 1)) {
@@ -48928,77 +48927,77 @@
         }
         v2129[v2105].ⵠᐃⲆⵠⲆ(v2129[v2105].info >> 1);
       }
-      var v2157 = world.units[4];
+      var v2157 = v2834.Δⵠᐃ[4];
       for (v2105 = 0; v2157.length > v2105; v2105++) {
         f426(v2157[v2105], 264);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      v2157 = world.units[7];
+      v2157 = v2834.Δⵠᐃ[7];
       v2105 = 0;
       for (; v2105 < v2157.length; v2105++) {
         f426(v2157[v2105], 265);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      v2157 = world.units[8];
+      v2157 = v2834.Δⵠᐃ[8];
       v2105 = 0;
       for (; v2105 < v2157.length; v2105++) {
         f426(v2157[v2105], 266);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      v2157 = world.units[9];
+      v2157 = v2834.Δⵠᐃ[9];
       v2105 = 0;
       for (; v2157.length > v2105; v2105++) {
         f426(v2157[v2105], 267);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      v2157 = world.units[19];
+      v2157 = v2834.Δⵠᐃ[19];
       v2105 = 0;
       for (; v2105 < v2157.length; v2105++) {
         f426(v2157[v2105], 213);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      v2157 = world.units[59];
+      v2157 = v2834.Δⵠᐃ[59];
       v2105 = 0;
       for (; v2105 < v2157.length; v2105++) {
         f426(v2157[v2105], 327);
         v2157[v2105].ⵠᐃⲆⵠⲆ(v2157[v2105].info);
       }
-      var v2158 = world.units[5];
+      var v2158 = v2834.Δⵠᐃ[5];
       for (v2105 = 0; v2158.length > v2105; v2105++) {
         f426(v2158[v2105], 262);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      v2158 = world.units[12];
+      v2158 = v2834.Δⵠᐃ[12];
       v2105 = 0;
       for (; v2158.length > v2105; v2105++) {
         f426(v2158[v2105], 270);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      v2158 = world.units[13];
+      v2158 = v2834.Δⵠᐃ[13];
       v2105 = 0;
       for (; v2105 < v2158.length; v2105++) {
         f426(v2158[v2105], 271);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      v2158 = world.units[14];
+      v2158 = v2834.Δⵠᐃ[14];
       v2105 = 0;
       for (; v2158.length > v2105; v2105++) {
         f426(v2158[v2105], 272);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      v2158 = world.units[20];
+      v2158 = v2834.Δⵠᐃ[20];
       v2105 = 0;
       for (; v2105 < v2158.length; v2105++) {
         f426(v2158[v2105], 214);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      v2158 = world.units[61];
+      v2158 = v2834.Δⵠᐃ[61];
       v2105 = 0;
       for (; v2158.length > v2105; v2105++) {
         f426(v2158[v2105], 329);
         v2158[v2105].ⵠᐃⲆⵠⲆ(v2158[v2105].info);
       }
-      var v2159 = world.units[44];
+      var v2159 = v2834.Δⵠᐃ[44];
       for (v2105 = 0; v2105 < v2159.length; v2105++) {
         var v2160 = v2159[v2105];
         if (v2160.info > 0) {
@@ -49007,7 +49006,7 @@
           f426(v2160, 284);
         }
       }
-      var v2161 = world.units[38];
+      var v2161 = v2834.Δⵠᐃ[38];
       for (v2105 = 0; v2161.length > v2105; v2105++) {
         f426(v2161[v2105], 261);
       }
@@ -49040,20 +49039,20 @@
       f414(f405, vV2002, vV2003, vV2000, vV2001, 895, "cs", 2, 2);
       f414(f405, vV2002, vV2003, vV2000, vV2001, 895, "cs", 1, 1);
       f414(f405, vV2002, vV2003, vV2000, vV2001, 895, "cs", 0, 0);
-      var v2162 = world.units[105];
+      var v2162 = v2834.Δⵠᐃ[105];
       for (v2105 = 0; v2105 < v2162.length; v2105++) {
         for (v2108 = 0; v2162[v2105].info > v2108; v2108++) {
           f426(v2162[v2105].ᐃᐃᐃᐃ[v2108], 404);
         }
       }
-      v2162 = world.units[106];
+      v2162 = v2834.Δⵠᐃ[106];
       v2105 = 0;
       for (; v2105 < v2162.length; v2105++) {
         for (v2108 = 0; v2108 < v2162[v2105].info; v2108++) {
           f426(v2162[v2105].ᐃᐃᐃᐃ[v2108], 405);
         }
       }
-      v2162 = world.units[104];
+      v2162 = v2834.Δⵠᐃ[104];
       v2105 = 0;
       for (; v2105 < v2162.length; v2105++) {
         for (v2108 = 0; v2108 < v2162[v2105].info; v2108++) {
@@ -49061,107 +49060,107 @@
         }
       }
       f414(f405, vV2002, vV2003, vV2000, vV2001, 199, "s", 2);
-      var v2163 = world.units[24];
+      var v2163 = v2834.Δⵠᐃ[24];
       for (v2105 = 0; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[25];
+      v2163 = v2834.Δⵠᐃ[25];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[26];
+      v2163 = v2834.Δⵠᐃ[26];
       v2105 = 0;
       for (; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[27];
+      v2163 = v2834.Δⵠᐃ[27];
       v2105 = 0;
       for (; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[28];
+      v2163 = v2834.Δⵠᐃ[28];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[29];
+      v2163 = v2834.Δⵠᐃ[29];
       v2105 = 0;
       for (; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[30];
+      v2163 = v2834.Δⵠᐃ[30];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[31];
+      v2163 = v2834.Δⵠᐃ[31];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[32];
+      v2163 = v2834.Δⵠᐃ[32];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[33];
+      v2163 = v2834.Δⵠᐃ[33];
       v2105 = 0;
       for (; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[34];
+      v2163 = v2834.Δⵠᐃ[34];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[35];
+      v2163 = v2834.Δⵠᐃ[35];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[36];
+      v2163 = v2834.Δⵠᐃ[36];
       v2105 = 0;
       for (; v2105 < v2163.length; v2105++) {
         f426(v2163[v2105]);
       }
-      v2163 = world.units[37];
+      v2163 = v2834.Δⵠᐃ[37];
       v2105 = 0;
       for (; v2163.length > v2105; v2105++) {
         f426(v2163[v2105]);
       }
-      var v2164 = world.units[41];
+      var v2164 = v2834.Δⵠᐃ[41];
       for (v2105 = 0; v2164.length > v2105; v2105++) {
         f420(v2164[v2105]);
       }
-      v2111 = world.units[1];
+      v2111 = v2834.Δⵠᐃ[1];
       v2105 = 0;
       for (; v2105 < v2111.length; v2105++) {
         f427(v2111[v2105]);
       }
-      v2111 = world.units[6];
+      v2111 = v2834.Δⵠᐃ[6];
       v2105 = 0;
       for (; v2111.length > v2105; v2105++) {
         f427(v2111[v2105]);
       }
-      v2110 = world.units[18];
+      v2110 = v2834.Δⵠᐃ[18];
       v2105 = 0;
       for (; v2110.length > v2105; v2105++) {
         if (v2110[v2105].action == 2) {
           f427(v2110[v2105]);
         }
       }
-      v2156 = world.units[43];
+      v2156 = v2834.Δⵠᐃ[43];
       v2105 = 0;
       for (; v2156.length > v2105; v2105++) {
         f427(v2156[v2105]);
       }
-      v2112 = world.units[22];
+      v2112 = v2834.Δⵠᐃ[22];
       v2105 = 0;
       for (; v2105 < v2112.length; v2105++) {
         f427(v2112[v2105]);
       }
-      v2113 = world.units[23];
+      v2113 = v2834.Δⵠᐃ[23];
       v2105 = 0;
       for (; v2105 < v2113.length; v2105++) {
         f427(v2113[v2105]);
@@ -49182,16 +49181,16 @@
       f414(f405, vV2002, vV2003, vV2000, vV2001, 524, "f", 0, 0);
       f414(f405, vV2002, vV2003, vV2000, vV2001, 912, "plm", 2, 2);
       f414(f405, vV2002, vV2003, vV2000, vV2001, 1755, "jut", 1, 0);
-      v2164 = world.units[41];
+      v2164 = v2834.Δⵠᐃ[41];
       v2105 = 0;
       for (; v2105 < v2164.length; v2105++) {
         f427(v2164[v2105]);
       }
-      var v2165 = world.units[65];
+      var v2165 = v2834.Δⵠᐃ[65];
       for (v2105 = 0; v2165.length > v2105; v2105++) {
         f426(v2165[v2105], 331);
       }
-      v2106 = world.units[0];
+      v2106 = v2834.Δⵠᐃ[0];
       v2105 = 0;
       for (; v2105 < v2106.length; v2105++) {
         if ((v2107 = v2106[v2105]).ᐃⵠⵠΔΔᐃⲆ === 1 && (v2107.ΔⲆΔⲆⵠ < 180 || v2107.ⲆⲆⲆⵠ !== 337 && v2107.ⲆⲆⲆⵠ !== 338 && v2107.ⲆⲆⲆⵠ !== 164 && v2107.ⲆⲆⲆⵠ !== 355 && v2107.ⲆⲆⲆⵠ !== 354 && v2107.ⲆⲆⲆⵠ !== 358 && v2107.ⲆⲆⲆⵠ !== 339 && v2107.ⲆⲆⲆⵠ !== 340)) {
@@ -49199,16 +49198,16 @@
           v2133 = 1 + Math.min(1, Math.max(v2107.ΔⵠⵠΔᐃⵠΔ, 0) / 100) * 0.18;
           v405.save();
           v405.scale(v2133, v2133);
-          user.ᐃⵠⵠ.x /= v2133;
-          user.ᐃⵠⵠ.y /= v2133;
+          v2835.ᐃⵠⵠ.x /= v2133;
+          v2835.ᐃⵠⵠ.y /= v2133;
           v2107.x /= v2133;
           v2107.y /= v2133;
           v2107.r.x /= v2133;
           v2107.r.y /= v2133;
           v2107.ΔⲆⲆⵠᐃⵠⵠ();
           v2107.ⲆΔᐃΔ();
-          user.ᐃⵠⵠ.x *= v2133;
-          user.ᐃⵠⵠ.y *= v2133;
+          v2835.ᐃⵠⵠ.x *= v2133;
+          v2835.ᐃⵠⵠ.y *= v2133;
           v2107.x *= v2133;
           v2107.y *= v2133;
           v2107.r.x *= v2133;
@@ -49216,20 +49215,20 @@
           v405.restore();
         }
       }
-      var v2166 = world.units[47];
+      var v2166 = v2834.Δⵠᐃ[47];
       for (v2105 = 0; v2166.length > v2105; v2105++) {
         f426(v2166[v2105], 292);
         v2166[v2105].ⵠᐃⲆⵠⲆ(v2166[v2105].info);
       }
-      var v2167 = world.units[102];
+      var v2167 = v2834.Δⵠᐃ[102];
       for (v2105 = 0; v2105 < v2167.length; v2105++) {
         f426(v2167[v2105], 355, 356);
       }
-      var v2168 = world.units[51];
+      var v2168 = v2834.Δⵠᐃ[51];
       for (v2105 = 0; v2105 < v2168.length; v2105++) {
         f426(v2168[v2105], 303);
       }
-      v2106 = world.units[0];
+      v2106 = v2834.Δⵠᐃ[0];
       v2105 = 0;
       for (; v2105 < v2106.length; v2105++) {
         v2107 = v2106[v2105];
@@ -49238,16 +49237,16 @@
           v405.save();
           v2133 = 1 + Math.min(1, Math.max(v2107.ᐃᐃⲆⲆΔ - 30, 0) / 180) * 0.35;
           v405.scale(v2133, v2133);
-          user.ᐃⵠⵠ.x /= v2133;
-          user.ᐃⵠⵠ.y /= v2133;
+          v2835.ᐃⵠⵠ.x /= v2133;
+          v2835.ᐃⵠⵠ.y /= v2133;
           v2107.x /= v2133;
           v2107.y /= v2133;
           v2107.r.x /= v2133;
           v2107.r.y /= v2133;
           v2107.ΔⲆⲆⵠᐃⵠⵠ();
           v2107.ⲆΔᐃΔ();
-          user.ᐃⵠⵠ.x *= v2133;
-          user.ᐃⵠⵠ.y *= v2133;
+          v2835.ᐃⵠⵠ.x *= v2133;
+          v2835.ᐃⵠⵠ.y *= v2133;
           v2107.x *= v2133;
           v2107.y *= v2133;
           v2107.r.x *= v2133;
@@ -49255,36 +49254,36 @@
           v405.restore();
         }
       }
-      v2132 = world.units[103];
+      v2132 = v2834.Δⵠᐃ[103];
       v2105 = 0;
       for (; v2132.length > v2105; v2105++) {
         if (v2132[v2105].ᐃᐃⲆᐃΔⵠⲆ === 1) {
           f426(v2132[v2105]);
         }
       }
-      v2153 = world.units[71];
+      v2153 = v2834.Δⵠᐃ[71];
       v2105 = 0;
       for (; v2153.length > v2105; v2105++) {
         if (v2153[v2105].scale > 1) {
           f426(v2153[v2105], 587, 601);
         }
       }
-      v2153 = world.units[76];
+      v2153 = v2834.Δⵠᐃ[76];
       v2105 = 0;
       for (; v2153.length > v2105; v2105++) {
         if (v2153[v2105].scale > 1) {
           f426(v2153[v2105], 588, 602);
         }
       }
-      var v2169 = world.units[86];
+      var v2169 = v2834.Δⵠᐃ[86];
       for (v2105 = 0; v2169.length > v2105; v2105++) {
         f426(v2169[v2105], 1446, 1454);
       }
-      var v2170 = world.units[81];
+      var v2170 = v2834.Δⵠᐃ[81];
       for (v2105 = 0; v2170.length > v2105; v2105++) {
         f426(v2170[v2105], 345, 1415);
       }
-      var v2171 = world.units[82];
+      var v2171 = v2834.Δⵠᐃ[82];
       for (v2105 = 0; v2171.length > v2105; v2105++) {
         f426(v2171[v2105], 348, 1436);
       }
@@ -49294,9 +49293,9 @@
       f414(f403, vV2002, vV2003, vV2000, vV2001, 1349, "fo", 2);
       f414(f403, vV2002, vV2003, vV2000, vV2001, 354, "fod", 2);
     })();
-    if (v2833.ⲆΔⲆΔΔ && world.mode !== 2 && world.mode !== 5) {
+    if (v2833.ⲆΔⲆΔΔ && v2834.mode !== 2 && v2834.mode !== 5) {
       (function () {
-        var v2172 = user.ⲆⵠⲆⲆⲆ;
+        var v2172 = v2835.ⲆⵠⲆⲆⲆ;
         if (v2172.ⲆⲆΔⲆΔ === 0) {
           v2172.ⲆᐃᐃⲆᐃ = Math.max(0, v2172.ⲆᐃᐃⲆᐃ - v3064 / 10);
         } else {
@@ -49305,20 +49304,20 @@
         for (var v2173 = v2172.ΔΔⵠⵠᐃ, v2174 = 0; v2173.length > v2174; v2174++) {
           var v2175 = v2173[v2174];
           v2172.ⵠᐃᐃ(v2175);
-          f424(609, v2175.id, user.ᐃⵠⵠ.x + v2175.x, user.ᐃⵠⵠ.y + v2175.y, v2175.alpha);
+          f424(609, v2175.id, v2835.ᐃⵠⵠ.x + v2175.x, v2835.ᐃⵠⵠ.y + v2175.y, v2175.alpha);
         }
         for (v2174 = 0; v2173.length > v2174; v2174++) {
-          if ((v2175 = v2173[v2174]).ᐃⵠᐃΔᐃ <= 0 || -user.ᐃⵠⵠ.x + v406 < v2175.x || -user.ᐃⵠⵠ.x - user.ᐃⵠⵠ.w / 2 > v2175.x || v2175.y > -user.ᐃⵠⵠ.y + v408) {
+          if ((v2175 = v2173[v2174]).ᐃⵠᐃΔᐃ <= 0 || -v2835.ᐃⵠⵠ.x + v406 < v2175.x || -v2835.ᐃⵠⵠ.x - v2835.ᐃⵠⵠ.w / 2 > v2175.x || v2175.y > -v2835.ᐃⵠⵠ.y + v408) {
             v2173.splice(v2174, 1);
           }
         }
-        var v2176 = -user.ᐃⵠⵠ.y;
-        if (world.ⲆᐃΔⵠᐃ > -1000) {
+        var v2176 = -v2835.ᐃⵠⵠ.y;
+        if (v2834.ⲆᐃΔⵠᐃ > -1000) {
           v2172.add(v2176);
         }
       })();
       (function () {
-        var v2177 = user.ⵠⵠᐃⵠΔ;
+        var v2177 = v2835.ⵠⵠᐃⵠΔ;
         if (v2177.ⲆⲆΔⲆΔ === 0) {
           v2177.ⲆᐃᐃⲆᐃ = Math.max(0, v2177.ⲆᐃᐃⲆᐃ - v3064 / 10);
         } else {
@@ -49327,50 +49326,50 @@
         for (var v2178 = v2177.ΔΔⵠⵠᐃ, v2179 = 0; v2178.length > v2179; v2179++) {
           var v2180 = v2178[v2179];
           v2177.ⵠᐃᐃ(v2180);
-          f424(608, v2180.id, user.ᐃⵠⵠ.x + v2180.x, user.ᐃⵠⵠ.y + v2180.y, v2180.alpha);
+          f424(608, v2180.id, v2835.ᐃⵠⵠ.x + v2180.x, v2835.ᐃⵠⵠ.y + v2180.y, v2180.alpha);
         }
         for (v2179 = 0; v2179 < v2178.length; v2179++) {
           v2180 = v2178[v2179];
-          if (v2180.ᐃⵠᐃΔᐃ <= 0 || v2180.x > -user.ᐃⵠⵠ.x + v406 || v2180.x < -user.ᐃⵠⵠ.x || v2180.y > -user.ᐃⵠⵠ.y + v408) {
+          if (v2180.ᐃⵠᐃΔᐃ <= 0 || v2180.x > -v2835.ᐃⵠⵠ.x + v406 || v2180.x < -v2835.ᐃⵠⵠ.x || v2180.y > -v2835.ᐃⵠⵠ.y + v408) {
             v2178.splice(v2179, 1);
           }
         }
-        var v2181 = -user.ᐃⵠⵠ.y;
-        if (world.ΔⵠΔⲆⲆ > -1000) {
+        var v2181 = -v2835.ᐃⵠⵠ.y;
+        if (v2834.ΔⵠΔⲆⲆ > -1000) {
           v2177.add(v2181);
         }
       })();
       (function () {
-        var v2182 = user.ΔⵠⵠⵠΔΔΔ;
+        var v2182 = v2835.ΔⵠⵠⵠΔΔΔ;
         for (var v2183 = v2182.ΔΔⵠⵠᐃ, v2184 = 0; v2184 < v2183.length; v2184++) {
           var v2185 = v2183[v2184];
           v2182.ⵠᐃᐃ(v2185);
-          f424(1218, v2185.id, user.ᐃⵠⵠ.x + v2185.x, user.ᐃⵠⵠ.y + v2185.y, v2185.alpha);
+          f424(1218, v2185.id, v2835.ᐃⵠⵠ.x + v2185.x, v2835.ᐃⵠⵠ.y + v2185.y, v2185.alpha);
         }
         for (v2184 = 0; v2184 < v2183.length; v2184++) {
-          if ((v2185 = v2183[v2184]).ᐃⵠᐃΔᐃ <= 0 || v2185.x > -user.ᐃⵠⵠ.x + v406 || v2185.x < -user.ᐃⵠⵠ.x || -user.ᐃⵠⵠ.y + v408 < v2185.y) {
+          if ((v2185 = v2183[v2184]).ᐃⵠᐃΔᐃ <= 0 || v2185.x > -v2835.ᐃⵠⵠ.x + v406 || v2185.x < -v2835.ᐃⵠⵠ.x || -v2835.ᐃⵠⵠ.y + v408 < v2185.y) {
             v2183.splice(v2184, 1);
           }
         }
-        var v2186 = -user.ᐃⵠⵠ.y;
-        if (world.ᐃⵠᐃⵠᐃ > -1000) {
+        var v2186 = -v2835.ᐃⵠⵠ.y;
+        if (v2834.ᐃⵠᐃⵠᐃ > -1000) {
           v2182.add(v2186);
         }
       })();
     }
-    if (world.transition && v2088) {
-      world.transition = vVVV143;
-      world.ΔⵠⵠΔ.Ⲇⵠⵠ = 0;
-      world.ΔⵠⵠΔ.ΔⲆΔ = vV143;
+    if (v2834.transition && v2088) {
+      v2834.transition = vVVV143;
+      v2834.ΔⵠⵠΔ.Ⲇⵠⵠ = 0;
+      v2834.ΔⵠⵠΔ.ΔⲆΔ = vV143;
     }
   }
   function f419(p1310, p1311, p1312, p1313, p1314, p1315) {
     var v2187 = p1313.w1;
     var v2188 = p1313.w2;
     var v2189 = p1313.w3;
-    var v2190 = user.ᐃⵠⵠ.y + p1310 - 700;
-    var v2191 = Math.max(user.ᐃⵠⵠ.x + p1311, 0);
-    var v2192 = Math.max(-user.ᐃⵠⵠ.x + v406 - p1312 - 100, 0);
+    var v2190 = v2835.ᐃⵠⵠ.y + p1310 - 700;
+    var v2191 = Math.max(v2835.ᐃⵠⵠ.x + p1311, 0);
+    var v2192 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - p1312 - 100, 0);
     var vV2191 = v2191;
     var v2193 = v406 - v2191 - v2192;
     if (p1315) {
@@ -49413,55 +49412,55 @@
       v2200 = -1;
     }
     v2198 = v2190 + 700 - v2195;
-    if (world.transition) {
-      var v2201 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    if (v2834.transition) {
+      var v2201 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2201);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vVV2191, vV2195, vV2193, v2196);
     if (p1315) {
-      if (world.transition) {
-        v2201 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2201 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 70, 76, 42, 139, 155, v2201);
       } else {
-        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[world.time];
+        v405.fillStyle = v585.ⵠⵠΔΔⵠΔΔ[v2834.time];
       }
-    } else if (world.transition) {
-      v2201 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+    } else if (v2834.transition) {
+      v2201 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2201);
     } else {
-      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+      v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
     }
     v405.fillRect(vVV21912, vV21952, vV21932, vV2198);
     if (vVVVV6323) {
       if (p1315) {
-        if (world.transition) {
-          v2201 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+        if (v2834.transition) {
+          v2201 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
           v405.fillStyle = f409(17, 94, 96, 169, 214, 211, v2201);
         } else {
-          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[world.time];
+          v405.fillStyle = v585.ᐃⵠⲆᐃΔⵠᐃ[v2834.time];
         }
-      } else if (world.transition) {
-        v2201 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      } else if (v2834.transition) {
+        v2201 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(9, 55, 63, 11, 106, 132, v2201);
       } else {
-        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[world.time];
+        v405.fillStyle = v585.ⲆⵠΔⵠᐃ[v2834.time];
       }
       v405.fillRect(vVV21913, vV21953, vV21933, vV21982);
     }
     if (v2833.ⲆΔⲆΔΔ && p1315) {
-      p1313.ᐃΔⲆΔᐃⲆΔⵠⲆ(v2199, v2200, v2197, v2190, -user.ᐃⵠⵠ.x + vVV2191, -user.ᐃⵠⵠ.x + vVV2191 + vV2193);
+      p1313.ᐃΔⲆΔᐃⲆΔⵠⲆ(v2199, v2200, v2197, v2190, -v2835.ᐃⵠⵠ.x + vVV2191, -v2835.ᐃⵠⵠ.x + vVV2191 + vV2193);
     }
   }
   function f420(p1316, p1317) {
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
       p1316.ΔⵠⵠⲆⵠΔⲆ(p1317);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       p1316.ΔⵠⵠⲆⵠΔⲆ(p1317);
-      world.time = world.time ? 0 : 1;
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       p1316.ΔⵠⵠⲆⵠΔⲆ(p1317);
@@ -49472,24 +49471,24 @@
     var v2203 = p1320.height;
     var v2204 = Math.floor(v2202 / 2);
     var v2205 = Math.floor(v2203 / 2);
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
-      f295(v405, ᐃᐃ[p1318][p1319][world.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
-      f295(v405, ᐃᐃ[p1318][p1319][world.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
-      world.time = world.time ? 0 : 1;
+      f295(v405, ᐃᐃ[p1318][p1319][v2834.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      f295(v405, ᐃᐃ[p1318][p1319][v2834.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
-      f295(v405, ᐃᐃ[p1318][p1319][world.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
+      f295(v405, ᐃᐃ[p1318][p1319][v2834.time], 0, 0, v2202, v2203, p1321, p1322, v2204, v2205);
     }
   }
   function f422(p1323) {
     v405.save();
-    v405.translate(user.ᐃⵠⵠ.x + p1323.x, user.ᐃⵠⵠ.y + p1323.y);
+    v405.translate(v2835.ᐃⵠⵠ.x + p1323.x, v2835.ᐃⵠⵠ.y + p1323.y);
     v405.rotate(p1323.angle);
     v405.globalAlpha = p1323.alpha;
-    var v2206 = ᐃᐃ[p1323.id][world.time];
+    var v2206 = ᐃᐃ[p1323.id][v2834.time];
     f295(v405, v2206, -v2206.width / 2, -v2206.height / 2);
     v405.globalAlpha = 1;
     v405.restore();
@@ -49498,9 +49497,9 @@
     var v2207 = p1327.w1;
     var v2208 = p1327.w2;
     var v2209 = p1327.w3;
-    var v2210 = user.ᐃⵠⵠ.y + p1324 + 710;
-    var v2211 = Math.max(user.ᐃⵠⵠ.x + p1325, 0);
-    var v2212 = Math.max(-user.ᐃⵠⵠ.x + v406 - p1326 - 100, 0);
+    var v2210 = v2835.ᐃⵠⵠ.y + p1324 + 710;
+    var v2211 = Math.max(v2835.ᐃⵠⵠ.x + p1325, 0);
+    var v2212 = Math.max(-v2835.ᐃⵠⵠ.x + v406 - p1326 - 100, 0);
     var vV2211 = v2211;
     var v2213 = v406 - v2211 - v2212;
     if (p1329) {
@@ -49530,35 +49529,35 @@
     }
     v2216 = v2210 - 700 - v2215;
     if (p1329 > 0 && p1328.ⵠⵠΔⲆⲆⲆᐃ === 1) {
-      if (world.transition) {
-        var v2218 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        var v2218 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(15, 77, 72, 252, 239, 187, v2218);
       } else {
-        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[world.time];
+        v405.fillStyle = v585.ᐃᐃΔΔΔⲆⵠ[v2834.time];
       }
       v405.fillRect(vV2211, v2215, v2213, v2216);
     } else {
-      if (world.transition) {
-        v2218 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      if (v2834.transition) {
+        v2218 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
         v405.fillStyle = f409(p1328.ᐃᐃΔ[0], p1328.ᐃᐃΔ[1], p1328.ᐃᐃΔ[2], p1328.Δⵠⵠ[0], p1328.Δⵠⵠ[1], p1328.Δⵠⵠ[2], v2218);
       } else {
-        v405.fillStyle = p1328.ᐃΔⲆΔⵠ[world.time];
+        v405.fillStyle = p1328.ᐃΔⲆΔⵠ[v2834.time];
       }
       v405.fillRect(vV2211, v2215, v2213, v2216);
     }
   }
   function f424(p1330, p1331, p1332, p1333, p1334) {
-    if (world.transition && p1334 == 1) {
+    if (v2834.transition && p1334 == 1) {
       v405.globalAlpha = 1;
-      f295(v405, ᐃᐃ[p1330][world.time][p1331], p1332, p1333);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
-      f295(v405, ᐃᐃ[p1330][world.time][p1331], p1332, p1333);
-      world.time = world.time ? 0 : 1;
+      f295(v405, ᐃᐃ[p1330][v2834.time][p1331], p1332, p1333);
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      f295(v405, ᐃᐃ[p1330][v2834.time][p1331], p1332, p1333);
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       v405.globalAlpha = p1334;
-      f295(v405, ᐃᐃ[p1330][world.time][p1331], p1332, p1333);
+      f295(v405, ᐃᐃ[p1330][v2834.time][p1331], p1332, p1333);
       v405.globalAlpha = 1;
     }
   }
@@ -49567,39 +49566,39 @@
     var v2220 = p1336.height;
     var v2221 = Math.floor(v2219 / 2);
     var v2222 = Math.floor(v2220 / 2);
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
-      f295(v405, ᐃᐃ[p1335][world.time], 0, 0, v2219, v2220, p1337, p1338, v2221, v2222);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
-      f295(v405, ᐃᐃ[p1335][world.time], 0, 0, v2219, v2220, p1337, p1338, v2221, v2222);
-      world.time = world.time ? 0 : 1;
+      f295(v405, ᐃᐃ[p1335][v2834.time], 0, 0, v2219, v2220, p1337, p1338, v2221, v2222);
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      f295(v405, ᐃᐃ[p1335][v2834.time], 0, 0, v2219, v2220, p1337, p1338, v2221, v2222);
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       f295(v405, p1336, 0, 0, v2219, v2220, p1337, p1338, v2221, v2222);
     }
   }
   function f426(p1339, p1340, p1341) {
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
       p1339.ⲆΔᐃΔ(p1340, p1341);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       p1339.ⲆΔᐃΔ(p1340, p1341);
-      world.time = world.time ? 0 : 1;
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       p1339.ⲆΔᐃΔ(p1340, p1341);
     }
   }
   function f427(p1342, p1343) {
-    if (world.transition) {
+    if (v2834.transition) {
       v405.globalAlpha = 1;
       p1342.ᐃᐃΔⲆⵠ(p1343);
-      world.time = world.time ? 0 : 1;
-      v405.globalAlpha = 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+      v2834.time = v2834.time ? 0 : 1;
+      v405.globalAlpha = 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
       p1342.ᐃᐃΔⲆⵠ(p1343);
-      world.time = world.time ? 0 : 1;
+      v2834.time = v2834.time ? 0 : 1;
       v405.globalAlpha = 1;
     } else {
       p1342.ᐃᐃΔⲆⵠ(p1343);
@@ -50155,12 +50154,12 @@
       y: p1396
     };
     this.ΔⲆΔⲆⵠ = p1400;
-    if (world) {
-      this.ᐃᐃⵠⵠ = p1393 * world.ᐃⲆⵠΔⵠⵠⲆ + p1394;
+    if (v2834) {
+      this.ᐃᐃⵠⵠ = p1393 * v2834.ᐃⲆⵠΔⵠⵠⲆ + p1394;
     }
     switch (p1392) {
       case 0:
-        this.ⲆⵠⵠΔ = world.players[this.ΔⲆᐃⲆ];
+        this.ⲆⵠⵠΔ = v2834.ᐃⵠΔΔ[this.ΔⲆᐃⲆ];
         this.ⲆΔⲆⲆ = this.ⲆⵠⵠΔ.ⲆΔⲆⲆ;
         this.ΔΔΔⲆΔⲆᐃ = this.ⲆⵠⵠΔ.ΔΔΔⲆΔⲆᐃ;
         this.ⵠΔᐃΔᐃ = this.ⲆⵠⵠΔ.ⵠΔᐃΔᐃ;
@@ -50173,8 +50172,8 @@
         this.ΔΔΔⲆⵠΔⵠ = -1000000;
         this.ⵠᐃΔᐃⵠⲆΔ = -1000000;
         this.ⲆΔᐃⲆⲆ = -1000000;
-        this.ⲆΔᐃⲆΔ = world.mode === 2 && this.ⲆΔⲆⲆ === 0 || vVV143;
-        this.ᐃⲆᐃΔⵠᐃⵠ = world.mode === 3 && this.ⲆΔⲆⲆ === 0 || vVV143;
+        this.ⲆΔᐃⲆΔ = v2834.mode === 2 && this.ⲆΔⲆⲆ === 0 || vVV143;
+        this.ᐃⲆᐃΔⵠᐃⵠ = v2834.mode === 3 && this.ⲆΔⲆⲆ === 0 || vVV143;
         this.ᐃⲆΔᐃΔᐃⲆ = !!this.ⲆΔᐃⲆΔ && this.ⲆⵠⵠΔ.ᐃⲆᐃⵠⲆ === "  ";
         this.ΔⲆᐃⲆⵠ = [];
         this.ᐃⵠⵠΔΔᐃⲆ = 0;
@@ -50240,7 +50239,7 @@
           } else {
             this.right = this.info;
           }
-          this.ᐃⵠⵠΔΔᐃⲆ = world.ⵠⵠᐃⲆⵠⵠⵠⵠᐃ(Math.floor(this.r.y / 100), Math.floor(this.r.x / 100));
+          this.ᐃⵠⵠΔΔᐃⲆ = v2834.ⵠⵠᐃⲆⵠⵠⵠⵠᐃ(Math.floor(this.r.y / 100), Math.floor(this.r.x / 100));
           this.ⲆⲆⲆⵠ = this.ΔᐃᐃΔⵠ & 65535;
           if (this.right === 2) {
             this.ⵠΔⵠⵠΔ = vVVVV6232;
@@ -50273,7 +50272,7 @@
           if (p1403 & 16) {
             this.ⲆⵠΔⲆⵠⵠⵠⵠⲆ = 0.58;
             if (v3031.ⲆΔᐃᐃⲆ && this.ΔⵠⵠⲆⲆ !== -1) {
-              v3031.players[this.ΔⵠⵠⲆⲆ].ⵠⵠᐃΔⵠΔⵠΔᐃ(v2805[this.right]);
+              v3031.ᐃⵠΔΔ[this.ΔⵠⵠⲆⲆ].ⵠⵠᐃΔⵠΔⵠΔᐃ(v2805[this.right]);
             }
           }
         };
@@ -50962,15 +50961,15 @@
   function f436(p1406) {
     function i(p1407, p1408, p1409) {
       var vP1408 = p1408;
-      for (var vP1409 = p1409; world.nh > vP1409; vP1409++) {
-        for (var vP14082 = p1408; world.nw > vP14082 && (vP1409 === p1409 && (vP1408 = Math.max(vP14082, vP1408)), !(vP14082 > vP1408)) && p1407[vP1409][vP14082] !== 1; vP14082++) {
+      for (var vP1409 = p1409; v2834.ⲆᐃᐃΔⲆ > vP1409; vP1409++) {
+        for (var vP14082 = p1408; v2834.ⵠⵠⲆⲆᐃ > vP14082 && (vP1409 === p1409 && (vP1408 = Math.max(vP14082, vP1408)), !(vP14082 > vP1408)) && p1407[vP1409][vP14082] !== 1; vP14082++) {
           p1407[vP1409][vP14082] = 1;
         }
         if (vP1408 > vP14082) {
           break;
         }
       }
-      world.ᐃⲆⲆΔ.push(new world.ⵠΔⲆᐃΔᐃⵠ(world.ⲆⲆⲆⲆⵠ, p1408, p1409, vP1408 - p1408 + 1, vP1409 - p1409, 15));
+      v2834.ᐃⲆⲆΔ.push(new v2834.ⵠΔⲆᐃΔᐃⵠ(v2834.ⲆⲆⲆⲆⵠ, p1408, p1409, vP1408 - p1408 + 1, vP1409 - p1409, 15));
     }
     function t(p1410, p1411, p1412, p1413, p1414) {
       for (var v2264 = 0; p1414 > v2264 && n(p1410, p1411, p1412, p1413, 8) !== 1; v2264++);
@@ -50981,19 +50980,19 @@
       }
     }
     function n(p1415, p1416, p1417, p1418, p1419) {
-      var v2265 = p1416 + Math.floor(world.ⲆᐃΔⵠΔ.get() * p1418);
-      var v2266 = p1417 + Math.floor(p1418 * world.ⲆᐃΔⵠΔ.get());
-      var v2267 = 10 + Math.floor((world.nw - v2265 - 20) * world.ⲆᐃΔⵠΔ.get());
-      var v2268 = 10 + Math.floor(world.ⲆᐃΔⵠΔ.get() * (world.nh - v2266 - 20));
+      var v2265 = p1416 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * p1418);
+      var v2266 = p1417 + Math.floor(p1418 * v2834.ⲆᐃΔⵠΔ.get());
+      var v2267 = 10 + Math.floor((v2834.ⵠⵠⲆⲆᐃ - v2265 - 20) * v2834.ⲆᐃΔⵠΔ.get());
+      var v2268 = 10 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * (v2834.ⲆᐃᐃΔⲆ - v2266 - 20));
       var v2269 = v2267 + v2265;
       var v2270 = v2268 + v2266;
-      for (var v2271 = 0; world.ᐃⲆⲆΔ.length > v2271; v2271++) {
-        var v2272 = world.ᐃⲆⲆΔ[v2271];
+      for (var v2271 = 0; v2834.ᐃⲆⲆΔ.length > v2271; v2271++) {
+        var v2272 = v2834.ᐃⲆⲆΔ[v2271];
         if (Δᐃᐃ.ᐃΔⵠⵠⲆⲆⲆ(v2267, v2269, v2268, v2270, v2272.x1 / 100 - p1419, v2272.x2 / 100 + p1419, v2272.y1 / 100 - p1419, v2272.y2 / 100 + p1419) === 1) {
           return 0;
         }
       }
-      world.ᐃⲆⲆΔ.push(new world.ⵠΔⲆᐃΔᐃⵠ(p1415, v2267, v2268, v2265, v2266, 15));
+      v2834.ᐃⲆⲆΔ.push(new v2834.ⵠΔⲆᐃΔᐃⵠ(p1415, v2267, v2268, v2265, v2266, 15));
       return 1;
     }
     function f440(p1420, p1421) {
@@ -51019,7 +51018,7 @@
       }
     }
     function g(p1430, p1431) {
-      var v2281 = world.ᐃⲆⲆΔ[p1430];
+      var v2281 = v2834.ᐃⲆⲆΔ[p1430];
       var v2282 = Math.floor(v2281.y1 / 100);
       var v2283 = Math.floor(v2281.x1 / 100);
       var v2284 = Math.floor(v2281.ⵠⲆⵠ / 100);
@@ -51027,7 +51026,7 @@
       var v2286 = 2;
       var vV2284 = v2284;
       var vV2282 = v2282;
-      for (var v2287 = v2283 + 10 + Math.floor(world.ⲆᐃΔⵠΔ.get() * (v2291 - 20)), v2288 = v2287 - 4; v2287 + 4 > v2288; v2288++) {
+      for (var v2287 = v2283 + 10 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * (v2291 - 20)), v2288 = v2287 - 4; v2287 + 4 > v2288; v2288++) {
         f447(v2282 - 1, v2288, "wtb", 0, 1);
       }
       while (vV2284 > 0) {
@@ -51040,15 +51039,15 @@
             }
           } else if (v2286 !== 1) {
             v2286 = 1;
-            var v2289 = Math.floor(1 + world.ⲆᐃΔⵠΔ.get() * 2);
-            var v2290 = 1 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 4);
+            var v2289 = Math.floor(1 + v2834.ⲆᐃΔⵠΔ.get() * 2);
+            var v2290 = 1 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 4);
             if (v2287 < v2283 + 16) {
               s(vV2282, v2287, v2289, 0, 1, p1431, v2290, v2290);
               v2287 += v2289;
             } else if (v2287 > v2285 - 16) {
               s(vV2282, v2287, v2289, 0, -1, p1431, v2290, v2290);
               v2287 -= v2289;
-            } else if (world.ⲆᐃΔⵠΔ.get() > 0.5) {
+            } else if (v2834.ⲆᐃΔⵠΔ.get() > 0.5) {
               s(vV2282, v2287, v2289, 0, 1, p1431, v2290, v2290);
               v2287 += v2289;
             } else {
@@ -51057,8 +51056,8 @@
             }
           } else {
             var v2291;
-            var v2292 = Math.min(vV2284, Math.floor(1 + world.ⲆᐃΔⵠΔ.get() * 4));
-            s(vV2282, v2287, v2292, 1, 0, p1431, v2291 = 1 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 4), v2291);
+            var v2292 = Math.min(vV2284, Math.floor(1 + v2834.ⲆᐃΔⵠΔ.get() * 4));
+            s(vV2282, v2287, v2292, 1, 0, p1431, v2291 = 1 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 4), v2291);
             v2286 = 0;
             vV2284 -= v2292;
             vV2282 += v2292;
@@ -51077,10 +51076,10 @@
       }
     }
     function f443(p1432, p1433) {
-      return p1432 >= 0 && p1433 >= 0 && p1432 < world.nh && p1433 < world.nw;
+      return p1432 >= 0 && p1433 >= 0 && p1432 < v2834.ⲆᐃᐃΔⲆ && p1433 < v2834.ⵠⵠⲆⲆᐃ;
     }
     function _u4(p1434, p1435, p1436, p1437, p1438) {
-      var v2294 = world.ᐃⲆⲆΔ[p1434];
+      var v2294 = v2834.ᐃⲆⲆΔ[p1434];
       var v2295 = Math.floor(v2294.x1 / 100);
       var v2296 = Math.floor(v2294.y1 / 100);
       var v2297 = Math.floor(v2294.w / 100);
@@ -51094,9 +51093,9 @@
       }
       var v2299 = v2831.ⵠⲆΔⵠ;
       for (var v2300 = 0, v2301 = 0; p1437 > v2300 && !(v2301 > 50000); v2301++) {
-        var v2302 = v2296 + Math.floor(v2298 * world.ⲆᐃΔⵠΔ.get());
-        var v2303 = v2295 + Math.floor(world.ⲆᐃΔⵠΔ.get() * v2297);
-        if (!(world.ΔᐃⵠᐃΔ(p1434, v2303 * 100 + 50, v2302 * 100 + 50) < 400) && ((v2304 = v2299[v2302][v2303 + 1]) === vVVVVVVUndefined142 || vVVVVUndefined583 === v2304[p1435] || vVVVVVUndefined1422 === v2304[p1435][p1436]) && ((v2304 = v2299[v2302][v2303 - 1]) === vVVVVVVUndefined142 || v2304[p1435] === vVVVVVUndefined583 || vVVVUndefined142 === v2304[p1435][p1436]) && ((v2304 = v2299[v2302 + 1][v2303]) === vVVUndefined5 || v2304[p1435] === undefined || v2304[p1435][p1436] === undefined) && ((v2304 = v2299[v2302 - 1][v2303]) === undefined || vVVUndefined11 === v2304[p1435] || v2304[p1435][p1436] === undefined)) {
+        var v2302 = v2296 + Math.floor(v2298 * v2834.ⲆᐃΔⵠΔ.get());
+        var v2303 = v2295 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * v2297);
+        if (!(v2834.ΔᐃⵠᐃΔ(p1434, v2303 * 100 + 50, v2302 * 100 + 50) < 400) && ((v2304 = v2299[v2302][v2303 + 1]) === vVVVVVVUndefined142 || vVVVVUndefined583 === v2304[p1435] || vVVVVVUndefined1422 === v2304[p1435][p1436]) && ((v2304 = v2299[v2302][v2303 - 1]) === vVVVVVVUndefined142 || v2304[p1435] === vVVVVVUndefined583 || vVVVUndefined142 === v2304[p1435][p1436]) && ((v2304 = v2299[v2302 + 1][v2303]) === vVVUndefined5 || v2304[p1435] === undefined || v2304[p1435][p1436] === undefined) && ((v2304 = v2299[v2302 - 1][v2303]) === undefined || vVVUndefined11 === v2304[p1435] || v2304[p1435][p1436] === undefined)) {
           var v2304 = v2299[v2302 + 1][v2303 - 1];
           if (vVVVUndefined113 === v2304 || v2304[p1435] === undefined || v2304[p1435][p1436] === vVVUndefined11) {
             v2304 = v2299[v2302 - 1][v2303 + 1];
@@ -51138,7 +51137,7 @@
       _u4(p1440, "c", 0, Math.floor(p1441 * 36));
       var v2307 = [];
       (function (p1442, p1443) {
-        var v2308 = world.ᐃⲆⲆΔ[p1442];
+        var v2308 = v2834.ᐃⲆⲆΔ[p1442];
         var v2309 = Math.floor(v2308.y1 / 100);
         var v2310 = Math.floor(v2308.x1 / 100);
         var v2311 = Math.floor(v2308.ⵠⲆⵠ / 100);
@@ -51146,11 +51145,11 @@
         var v2313 = v2309 + Math.floor(v2311 / 2);
         var v2314 = v2310 + Math.floor(v2312 / 2);
         for (var v2315 = 0; v2315 < 3; v2315++) {
-          f447(v2316 = Math.floor(v2313 - 3 + world.ⲆᐃΔⵠΔ.get() * 6), v2317 = Math.floor(v2314 - 3 + world.ⲆᐃΔⵠΔ.get() * 6), "plm", v2315, 1);
+          f447(v2316 = Math.floor(v2313 - 3 + v2834.ⲆᐃΔⵠΔ.get() * 6), v2317 = Math.floor(v2314 - 3 + v2834.ⲆᐃΔⵠΔ.get() * 6), "plm", v2315, 1);
         }
         for (v2315 = 0; v2315 < 80; v2315++) {
-          var v2316 = Math.floor(v2313 - 3 + world.ⲆᐃΔⵠΔ.get() * 6);
-          var v2317 = Math.floor(v2314 - 3 + world.ⲆᐃΔⵠΔ.get() * 6);
+          var v2316 = Math.floor(v2313 - 3 + v2834.ⲆᐃΔⵠΔ.get() * 6);
+          var v2317 = Math.floor(v2314 - 3 + v2834.ⲆᐃΔⵠΔ.get() * 6);
           if (f447(v2316, v2317, "wtb", 0, 1) === 1) {
             p1443.push([v2316, v2317, 0]);
           }
@@ -51160,7 +51159,7 @@
       v2307 = [];
     }
     function f447(p1444, p1445, p1446, p1447, p1448) {
-      if (!(p1444 < 0) && !(p1445 < 0) && !(world.nh <= p1444) && !(world.nw <= p1445)) {
+      if (!(p1444 < 0) && !(p1445 < 0) && !(v2834.ⲆᐃᐃΔⲆ <= p1444) && !(v2834.ⵠⵠⲆⲆᐃ <= p1445)) {
         ⵠⲆΔⵠ = v2831.ⵠⲆΔⵠ;
         if (ⵠⲆΔⵠ[p1444][p1445] === undefined) {
           ⵠⲆΔⵠ[p1444][p1445] = {};
@@ -51212,7 +51211,7 @@
         ⵠⲆΔⵠ[p1453][p1454].r = {};
         ⵠⲆΔⵠ[p1453][p1454].r.ⵠⵠᐃⵠΔᐃⵠ = v2318;
         ⵠⲆΔⵠ[p1453][p1454].r.ⵠⵠⵠᐃⲆΔᐃ = p1456;
-        ⵠⲆΔⵠ[p1453][p1454].r.ⲆⲆⵠᐃ = world.ΔᐃⵠᐃΔ(p1455, p1454 * 100 + 50, p1453 * 100 + 50) - 400;
+        ⵠⲆΔⵠ[p1453][p1454].r.ⲆⲆⵠᐃ = v2834.ΔᐃⵠᐃΔ(p1455, p1454 * 100 + 50, p1453 * 100 + 50) - 400;
         ⵠⲆΔⵠ[p1453][p1454].r.x = p1454 * 100 + 50;
         ⵠⲆΔⵠ[p1453][p1454].r.y = p1453 * 100 + 50;
       }
@@ -51250,13 +51249,13 @@
     }
     function f450(p1459, p1460) {
       (function (p1461, p1462) {
-        var v2321 = world.ᐃⲆⲆΔ[p1462];
+        var v2321 = v2834.ᐃⲆⲆΔ[p1462];
         for (var v2322 = 0, v2323 = 0; v2322 < p1461 && v2323 < 10000; v2323++) {
-          var v2324 = v2321.y1 + world.ⲆᐃΔⵠΔ.get() * v2321.ⵠⲆⵠ;
-          var v2325 = v2321.x1 + v2321.w * world.ⲆᐃΔⵠΔ.get();
+          var v2324 = v2321.y1 + v2834.ⲆᐃΔⵠΔ.get() * v2321.ⵠⲆⵠ;
+          var v2325 = v2321.x1 + v2321.w * v2834.ⲆᐃΔⵠΔ.get();
           var v2326 = Math.floor(v2324 / 100);
           var v2327 = Math.floor(v2325 / 100);
-          if (!(world.ΔᐃⵠᐃΔ(p1462, v2327 * 100 + 50, v2326 * 100 + 50) < 600)) {
+          if (!(v2834.ΔᐃⵠᐃΔ(p1462, v2327 * 100 + 50, v2326 * 100 + 50) < 600)) {
             for (var v2328 = 1, v2329 = v2326 - 4; v2328 === 1 && v2329 <= v2326 + 4; v2329++) {
               for (var v2330 = v2327 - 4; v2328 === 1 && v2330 <= v2327 + 4; v2330++) {
                 if (v2831.ⵠⲆΔⵠ[v2329][v2330] !== vUndefined) {
@@ -51303,7 +51302,7 @@
       for (v2332 = 0; v2332 < 3; v2332++) {
         _u4(p1463, "g", v2332, Math.floor(p1464 * 5));
       }
-      if (world.mode === 2) {
+      if (v2834.mode === 2) {
         for (v2332 = 0; v2332 < 3; v2332++) {
           _u4(p1463, "d", v2332, Math.floor(p1464 * 3));
         }
@@ -51314,7 +51313,7 @@
       f452(p1463);
     }
     function f452(p1465) {
-      var v2334 = world.ᐃⲆⲆΔ[p1465];
+      var v2334 = v2834.ᐃⲆⲆΔ[p1465];
       f447(-3 + Math.floor(v2334.y2 / 100), -1 + Math.floor(v2334.x2 / 100), "s", 0, 0);
       f447(3 + Math.floor(v2334.y1 / 100), -1 + Math.floor(v2334.x2 / 100), "s", 0, 0);
       f447(-3 + Math.floor(v2334.y2 / 100), 1 + Math.floor(v2334.x1 / 100), "s", 0, 0);
@@ -51385,120 +51384,120 @@
     this.ᐃⲆⵠΔⵠⵠⲆ = p1406;
     this.ΔⲆΔⲆᐃ = 0;
     this.ᐃΔΔⵠᐃⵠᐃ = 6;
-    this.players = [];
-    this.units = [];
-    this.units[0] = [];
-    this.units[105] = [];
-    this.units[106] = [];
-    this.units[104] = [];
-    this.units[92] = [];
-    this.units[67] = [];
-    this.units[74] = [];
-    this.units[77] = [];
-    this.units[84] = [];
-    this.units[78] = [];
-    this.units[79] = [];
-    this.units[80] = [];
-    this.units[81] = [];
-    this.units[86] = [];
-    this.units[88] = [];
-    this.units[89] = [];
-    this.units[90] = [];
-    this.units[87] = [];
-    this.units[72] = [];
-    this.units[73] = [];
-    this.units[69] = [];
-    this.units[100] = [];
-    this.units[103] = [];
-    this.units[102] = [];
-    this.units[70] = [];
-    this.units[85] = [];
-    this.units[71] = [];
-    this.units[76] = [];
-    this.units[75] = [];
-    this.units[91] = [];
-    this.units[101] = [];
-    this.units[95] = [];
-    this.units[96] = [];
-    this.units[97] = [];
-    this.units[93] = [];
-    this.units[94] = [];
-    this.units[98] = [];
-    this.units[43] = [];
-    this.units[45] = [];
-    this.units[68] = [];
-    this.units[2] = [];
-    this.units[1] = [];
-    this.units[6] = [];
-    this.units[3] = [];
-    this.units[5] = [];
-    this.units[12] = [];
-    this.units[13] = [];
-    this.units[14] = [];
-    this.units[20] = [];
-    this.units[61] = [];
-    this.units[4] = [];
-    this.units[7] = [];
-    this.units[8] = [];
-    this.units[9] = [];
-    this.units[19] = [];
-    this.units[59] = [];
-    this.units[50] = [];
-    this.units[10] = [];
-    this.units[15] = [];
-    this.units[16] = [];
-    this.units[17] = [];
-    this.units[21] = [];
-    this.units[60] = [];
-    this.units[54] = [];
-    this.units[55] = [];
-    this.units[56] = [];
-    this.units[57] = [];
-    this.units[58] = [];
-    this.units[62] = [];
-    this.units[18] = [];
-    this.units[38] = [];
-    this.units[65] = [];
-    this.units[11] = [];
-    this.units[22] = [];
-    this.units[23] = [];
-    this.units[39] = [];
-    this.units[47] = [];
-    this.units[42] = [];
-    this.units[40] = [];
-    this.units[64] = [];
-    this.units[46] = [];
-    this.units[52] = [];
-    this.units[53] = [];
-    this.units[63] = [];
-    this.units[66] = [];
-    this.units[48] = [];
-    this.units[49] = [];
-    this.units[41] = [];
-    this.units[24] = [];
-    this.units[25] = [];
-    this.units[26] = [];
-    this.units[27] = [];
-    this.units[28] = [];
-    this.units[29] = [];
-    this.units[30] = [];
-    this.units[31] = [];
-    this.units[32] = [];
-    this.units[33] = [];
-    this.units[34] = [];
-    this.units[35] = [];
-    this.units[36] = [];
-    this.units[37] = [];
-    this.units[44] = [];
-    this.units[99] = [];
-    this.units[51] = [];
-    this.fast_units = [];
-    this.nw = 260;
-    this.nh = 260;
+    this.ᐃⵠΔΔ = [];
+    this.Δⵠᐃ = [];
+    this.Δⵠᐃ[0] = [];
+    this.Δⵠᐃ[105] = [];
+    this.Δⵠᐃ[106] = [];
+    this.Δⵠᐃ[104] = [];
+    this.Δⵠᐃ[92] = [];
+    this.Δⵠᐃ[67] = [];
+    this.Δⵠᐃ[74] = [];
+    this.Δⵠᐃ[77] = [];
+    this.Δⵠᐃ[84] = [];
+    this.Δⵠᐃ[78] = [];
+    this.Δⵠᐃ[79] = [];
+    this.Δⵠᐃ[80] = [];
+    this.Δⵠᐃ[81] = [];
+    this.Δⵠᐃ[86] = [];
+    this.Δⵠᐃ[88] = [];
+    this.Δⵠᐃ[89] = [];
+    this.Δⵠᐃ[90] = [];
+    this.Δⵠᐃ[87] = [];
+    this.Δⵠᐃ[72] = [];
+    this.Δⵠᐃ[73] = [];
+    this.Δⵠᐃ[69] = [];
+    this.Δⵠᐃ[100] = [];
+    this.Δⵠᐃ[103] = [];
+    this.Δⵠᐃ[102] = [];
+    this.Δⵠᐃ[70] = [];
+    this.Δⵠᐃ[85] = [];
+    this.Δⵠᐃ[71] = [];
+    this.Δⵠᐃ[76] = [];
+    this.Δⵠᐃ[75] = [];
+    this.Δⵠᐃ[91] = [];
+    this.Δⵠᐃ[101] = [];
+    this.Δⵠᐃ[95] = [];
+    this.Δⵠᐃ[96] = [];
+    this.Δⵠᐃ[97] = [];
+    this.Δⵠᐃ[93] = [];
+    this.Δⵠᐃ[94] = [];
+    this.Δⵠᐃ[98] = [];
+    this.Δⵠᐃ[43] = [];
+    this.Δⵠᐃ[45] = [];
+    this.Δⵠᐃ[68] = [];
+    this.Δⵠᐃ[2] = [];
+    this.Δⵠᐃ[1] = [];
+    this.Δⵠᐃ[6] = [];
+    this.Δⵠᐃ[3] = [];
+    this.Δⵠᐃ[5] = [];
+    this.Δⵠᐃ[12] = [];
+    this.Δⵠᐃ[13] = [];
+    this.Δⵠᐃ[14] = [];
+    this.Δⵠᐃ[20] = [];
+    this.Δⵠᐃ[61] = [];
+    this.Δⵠᐃ[4] = [];
+    this.Δⵠᐃ[7] = [];
+    this.Δⵠᐃ[8] = [];
+    this.Δⵠᐃ[9] = [];
+    this.Δⵠᐃ[19] = [];
+    this.Δⵠᐃ[59] = [];
+    this.Δⵠᐃ[50] = [];
+    this.Δⵠᐃ[10] = [];
+    this.Δⵠᐃ[15] = [];
+    this.Δⵠᐃ[16] = [];
+    this.Δⵠᐃ[17] = [];
+    this.Δⵠᐃ[21] = [];
+    this.Δⵠᐃ[60] = [];
+    this.Δⵠᐃ[54] = [];
+    this.Δⵠᐃ[55] = [];
+    this.Δⵠᐃ[56] = [];
+    this.Δⵠᐃ[57] = [];
+    this.Δⵠᐃ[58] = [];
+    this.Δⵠᐃ[62] = [];
+    this.Δⵠᐃ[18] = [];
+    this.Δⵠᐃ[38] = [];
+    this.Δⵠᐃ[65] = [];
+    this.Δⵠᐃ[11] = [];
+    this.Δⵠᐃ[22] = [];
+    this.Δⵠᐃ[23] = [];
+    this.Δⵠᐃ[39] = [];
+    this.Δⵠᐃ[47] = [];
+    this.Δⵠᐃ[42] = [];
+    this.Δⵠᐃ[40] = [];
+    this.Δⵠᐃ[64] = [];
+    this.Δⵠᐃ[46] = [];
+    this.Δⵠᐃ[52] = [];
+    this.Δⵠᐃ[53] = [];
+    this.Δⵠᐃ[63] = [];
+    this.Δⵠᐃ[66] = [];
+    this.Δⵠᐃ[48] = [];
+    this.Δⵠᐃ[49] = [];
+    this.Δⵠᐃ[41] = [];
+    this.Δⵠᐃ[24] = [];
+    this.Δⵠᐃ[25] = [];
+    this.Δⵠᐃ[26] = [];
+    this.Δⵠᐃ[27] = [];
+    this.Δⵠᐃ[28] = [];
+    this.Δⵠᐃ[29] = [];
+    this.Δⵠᐃ[30] = [];
+    this.Δⵠᐃ[31] = [];
+    this.Δⵠᐃ[32] = [];
+    this.Δⵠᐃ[33] = [];
+    this.Δⵠᐃ[34] = [];
+    this.Δⵠᐃ[35] = [];
+    this.Δⵠᐃ[36] = [];
+    this.Δⵠᐃ[37] = [];
+    this.Δⵠᐃ[44] = [];
+    this.Δⵠᐃ[99] = [];
+    this.Δⵠᐃ[51] = [];
+    this.ᐃᐃΔᐃᐃ = [];
+    this.ⵠⵠⲆⲆᐃ = 260;
+    this.ⲆᐃᐃΔⲆ = 260;
     this.ⵠᐃⵠᐃᐃⲆⲆ = 100;
     this.ᐃᐃᐃᐃⵠⵠⲆ = 100;
-    this.w = this.nw * this.ⵠᐃⵠᐃᐃⲆⲆ;
-    this.ⵠⲆⵠ = this.ᐃᐃᐃᐃⵠⵠⲆ * this.nh;
+    this.w = this.ⵠⵠⲆⲆᐃ * this.ⵠᐃⵠᐃᐃⲆⲆ;
+    this.ⵠⲆⵠ = this.ᐃᐃᐃᐃⵠⵠⲆ * this.ⲆᐃᐃΔⲆ;
     this.ⲆᐃΔⵠΔ = new v566.ᐃⲆΔⲆⲆⲆᐃ();
     this.ᐃⲆⲆΔ = [];
     this.ΔⵠⵠΔ = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVVV144, 0, 1, 0, 1, 1);
@@ -51576,40 +51575,40 @@
       var v2339 = p1479.r.y;
       var v2340 = Math.floor(v2339 / 100);
       var v2341 = Math.floor(v2338 / 100);
-      p1479.ΔⵠΔⲆⲆ = world.ⲆᐃⲆΔΔ;
-      p1479.ⲆᐃΔⵠᐃ = world.ⲆᐃⲆΔΔ;
-      p1479.ᐃⵠᐃⵠᐃ = world.ⲆᐃⲆΔΔ;
-      p1479.ⲆᐃᐃΔᐃⵠΔ = world.ⲆᐃⲆΔΔ;
-      p1479.ΔᐃᐃΔᐃᐃⲆ = world.ⲆᐃⲆΔΔ;
-      p1479.ⲆΔᐃⲆⲆ = world.ⲆᐃⲆΔΔ;
-      p1479.ⵠᐃΔᐃⵠⲆΔ = world.ⲆᐃⲆΔΔ;
-      for (var v2342 = 0; world.ⲆⲆⲆⲆⵠ !== world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ; v2342++) {
-        if (world.ⲆᐃⵠΔⵠΔⵠ === world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
-          var v2343 = world.ΔᐃⵠᐃΔ(v2342, v2338, v2339);
+      p1479.ΔⵠΔⲆⲆ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ⲆᐃΔⵠᐃ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ᐃⵠᐃⵠᐃ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ⲆᐃᐃΔᐃⵠΔ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ΔᐃᐃΔᐃᐃⲆ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ⲆΔᐃⲆⲆ = v2834.ⲆᐃⲆΔΔ;
+      p1479.ⵠᐃΔᐃⵠⲆΔ = v2834.ⲆᐃⲆΔΔ;
+      for (var v2342 = 0; v2834.ⲆⲆⲆⲆⵠ !== v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ; v2342++) {
+        if (v2834.ⲆᐃⵠΔⵠΔⵠ === v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
+          var v2343 = v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339);
           p1479.ⲆᐃᐃΔᐃⵠΔ = Math.max(p1479.ⲆᐃᐃΔᐃⵠΔ, v2343);
-          if (v2343 > 0 && world.ΔⵠΔⲆⲆᐃⲆ(v2342, v2338, v2339) === 1) {
+          if (v2343 > 0 && v2834.ΔⵠΔⲆⲆᐃⲆ(v2342, v2338, v2339) === 1) {
             p1479.ⵠᐃΔᐃⵠⲆΔ = 1;
           }
-        } else if (world.ⵠᐃⲆΔⵠᐃᐃ === world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
-          v2343 = world.ΔᐃⵠᐃΔ(v2342, v2338, v2339);
+        } else if (v2834.ⵠᐃⲆΔⵠᐃᐃ === v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
+          v2343 = v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339);
           p1479.ΔᐃᐃΔᐃᐃⲆ = Math.max(p1479.ΔᐃᐃΔᐃᐃⲆ, v2343);
-          if (v2343 > 0 && world.ΔⵠΔⲆⲆᐃⲆ(v2342, v2338, v2339) === 1) {
+          if (v2343 > 0 && v2834.ΔⵠΔⲆⲆᐃⲆ(v2342, v2338, v2339) === 1) {
             p1479.ⵠᐃΔᐃⵠⲆΔ = 1;
           }
-        } else if (world.ⵠᐃΔΔⲆΔⲆ === world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
-          p1479.ΔⵠΔⲆⲆ = Math.max(p1479.ΔⵠΔⲆⲆ, world.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
-        } else if (world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === world.ⲆⲆⲆΔⲆᐃⲆ) {
-          p1479.ⲆᐃΔⵠᐃ = Math.max(p1479.ⲆᐃΔⵠᐃ, world.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
-        } else if (world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === world.ⵠⲆᐃⲆⲆⵠᐃ) {
-          p1479.ᐃⵠᐃⵠᐃ = Math.max(p1479.ᐃⵠᐃⵠᐃ, world.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
-        } else if (world.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === world.ΔΔⲆΔᐃᐃⵠ) {
-          p1479.ⲆΔᐃⲆⲆ = Math.max(p1479.ⲆΔᐃⲆⲆ, world.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
+        } else if (v2834.ⵠᐃΔΔⲆΔⲆ === v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ) {
+          p1479.ΔⵠΔⲆⲆ = Math.max(p1479.ΔⵠΔⲆⲆ, v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
+        } else if (v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === v2834.ⲆⲆⲆΔⲆᐃⲆ) {
+          p1479.ⲆᐃΔⵠᐃ = Math.max(p1479.ⲆᐃΔⵠᐃ, v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
+        } else if (v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === v2834.ⵠⲆᐃⲆⲆⵠᐃ) {
+          p1479.ᐃⵠᐃⵠᐃ = Math.max(p1479.ᐃⵠᐃⵠᐃ, v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
+        } else if (v2834.ᐃⲆⲆΔ[v2342].ᐃⵠⲆ === v2834.ΔΔⲆΔᐃᐃⵠ) {
+          p1479.ⲆΔᐃⲆⲆ = Math.max(p1479.ⲆΔᐃⲆⲆ, v2834.ΔᐃⵠᐃΔ(v2342, v2338, v2339));
         }
       }
       if (v2831.ⵠⲆΔⵠ[v2340][v2341].iblk) {
         p1479.ⵠᐃΔᐃⵠⲆΔ = 1;
       }
-      if (world.ᐃᐃΔⵠΔᐃᐃⵠⲆ(v2341, v2340)) {
+      if (v2834.ᐃᐃΔⵠΔᐃᐃⵠⲆ(v2341, v2340)) {
         p1479.ΔΔΔⲆⵠΔⵠ = p1479.ⲆᐃⲆΔΔ;
       } else if (v2831.ⵠⲆΔⵠ[v2340][v2341].wtb || p1479.ΔⵠΔⲆⲆ < 0 && p1479.ᐃⵠᐃⵠᐃ < 0 && p1479.ⲆᐃᐃΔᐃⵠΔ < 0 && p1479.ⵠᐃΔᐃⵠⲆΔ < 0 && p1479.ⲆΔᐃⲆⲆ < 0 && p1479.ⲆᐃΔⵠᐃ < 0 && p1479.ΔᐃᐃΔᐃᐃⲆ < 0) {
         p1479.ΔΔΔⲆⵠΔⵠ = 1;
@@ -51618,35 +51617,35 @@
       }
     };
     this.ᐃⲆⵠΔᐃᐃΔᐃⲆ = function (p1480, p1481) {
-      world.ΔⵠΔⲆⲆ = world.ⲆᐃⲆΔΔ;
-      world.ⲆᐃΔⵠᐃ = world.ⲆᐃⲆΔΔ;
-      world.ᐃⵠᐃⵠᐃ = world.ⲆᐃⲆΔΔ;
-      world.ⲆΔᐃⲆⲆ = world.ⲆᐃⲆΔΔ;
-      world.ⲆᐃᐃΔᐃⵠΔ = world.ⲆᐃⲆΔΔ;
-      world.ΔᐃᐃΔᐃᐃⲆ = world.ⲆᐃⲆΔΔ;
-      for (var v2344 = 0; world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ !== world.ⲆⲆⲆⲆⵠ; v2344++) {
-        if (world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === world.ⲆᐃⵠΔⵠΔⵠ) {
-          world.ⲆᐃᐃΔᐃⵠΔ = Math.max(world.ⲆᐃᐃΔᐃⵠΔ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
-        } else if (world.ⵠᐃⲆΔⵠᐃᐃ === world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
-          world.ΔᐃᐃΔᐃᐃⲆ = Math.max(world.ΔᐃᐃΔᐃᐃⲆ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
-        } else if (world.ⵠᐃΔΔⲆΔⲆ === world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
-          world.ΔⵠΔⲆⲆ = Math.max(world.ΔⵠΔⲆⲆ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
-        } else if (world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === world.ⲆⲆⲆΔⲆᐃⲆ) {
-          world.ⲆᐃΔⵠᐃ = Math.max(world.ⲆᐃΔⵠᐃ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
-        } else if (world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === world.ⵠⲆᐃⲆⲆⵠᐃ) {
-          world.ᐃⵠᐃⵠᐃ = Math.max(world.ᐃⵠᐃⵠᐃ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
-        } else if (world.ΔΔⲆΔᐃᐃⵠ === world.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
-          world.ⲆΔᐃⲆⲆ = Math.max(world.ⲆΔᐃⲆⲆ, world.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+      v2834.ΔⵠΔⲆⲆ = v2834.ⲆᐃⲆΔΔ;
+      v2834.ⲆᐃΔⵠᐃ = v2834.ⲆᐃⲆΔΔ;
+      v2834.ᐃⵠᐃⵠᐃ = v2834.ⲆᐃⲆΔΔ;
+      v2834.ⲆΔᐃⲆⲆ = v2834.ⲆᐃⲆΔΔ;
+      v2834.ⲆᐃᐃΔᐃⵠΔ = v2834.ⲆᐃⲆΔΔ;
+      v2834.ΔᐃᐃΔᐃᐃⲆ = v2834.ⲆᐃⲆΔΔ;
+      for (var v2344 = 0; v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ !== v2834.ⲆⲆⲆⲆⵠ; v2344++) {
+        if (v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === v2834.ⲆᐃⵠΔⵠΔⵠ) {
+          v2834.ⲆᐃᐃΔᐃⵠΔ = Math.max(v2834.ⲆᐃᐃΔᐃⵠΔ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+        } else if (v2834.ⵠᐃⲆΔⵠᐃᐃ === v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
+          v2834.ΔᐃᐃΔᐃᐃⲆ = Math.max(v2834.ΔᐃᐃΔᐃᐃⲆ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+        } else if (v2834.ⵠᐃΔΔⲆΔⲆ === v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
+          v2834.ΔⵠΔⲆⲆ = Math.max(v2834.ΔⵠΔⲆⲆ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+        } else if (v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === v2834.ⲆⲆⲆΔⲆᐃⲆ) {
+          v2834.ⲆᐃΔⵠᐃ = Math.max(v2834.ⲆᐃΔⵠᐃ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+        } else if (v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ === v2834.ⵠⲆᐃⲆⲆⵠᐃ) {
+          v2834.ᐃⵠᐃⵠᐃ = Math.max(v2834.ᐃⵠᐃⵠᐃ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
+        } else if (v2834.ΔΔⲆΔᐃᐃⵠ === v2834.ᐃⲆⲆΔ[v2344].ᐃⵠⲆ) {
+          v2834.ⲆΔᐃⲆⲆ = Math.max(v2834.ⲆΔᐃⲆⲆ, v2834.ΔᐃⵠᐃΔ(v2344, p1480, p1481));
         }
       }
-      if (world.ΔⵠΔⲆⲆ < 0 && world.ⲆΔᐃⲆⲆ < 0 && world.ⲆᐃᐃΔᐃⵠΔ < 0 && world.ⲆΔᐃⲆⲆ < 0 && world.ⲆᐃΔⵠᐃ < 0 && world.ΔᐃᐃΔᐃᐃⲆ < 0) {
-        world.ΔΔΔⲆⵠΔⵠ = 1;
+      if (v2834.ΔⵠΔⲆⲆ < 0 && v2834.ⲆΔᐃⲆⲆ < 0 && v2834.ⲆᐃᐃΔᐃⵠΔ < 0 && v2834.ⲆΔᐃⲆⲆ < 0 && v2834.ⲆᐃΔⵠᐃ < 0 && v2834.ΔᐃᐃΔᐃᐃⲆ < 0) {
+        v2834.ΔΔΔⲆⵠΔⵠ = 1;
       } else {
-        world.ΔΔΔⲆⵠΔⵠ = world.ⲆᐃⲆΔΔ;
+        v2834.ΔΔΔⲆⵠΔⵠ = v2834.ⲆᐃⲆΔΔ;
       }
     };
     this.ΔⵠΔⲆⲆᐃⲆ = function (p1482, p1483, p1484) {
-      var v2345 = world.ᐃⲆⲆΔ[p1482];
+      var v2345 = v2834.ᐃⲆⲆΔ[p1482];
       var v2346 = 0;
       ⲆⵠΔⵠ = v2345.x1 + 30 + ((v2345.Ⲇⵠⵠ & 4) === 0 ? 150 : 0);
       var v2347 = p1483 - ⲆⵠΔⵠ;
@@ -51675,7 +51674,7 @@
       }
     };
     this.ΔᐃⵠᐃΔ = function (p1485, p1486, p1487) {
-      var v2348 = world.ᐃⲆⲆΔ[p1485];
+      var v2348 = v2834.ᐃⲆⲆΔ[p1485];
       ⲆⵠΔⵠ = v2348.x1 + 30;
       ⵠⲆⵠᐃ = v2348.y1 + 250;
       ⲆⵠᐃΔ = v2348.x2 + 80;
@@ -51758,26 +51757,26 @@
       }
     };
     this.ⵠⲆⵠΔΔⵠᐃⲆΔ = function (p1491) {
-      for (var v2352 = 0; v2352 < world.ᐃⲆⲆΔ.length && p1491 > 0; v2352++) {
-        var v2353 = world.ᐃⲆⲆΔ[v2352];
-        if (world.ⲆⲆⲆⲆⵠ === v2353.ᐃⵠⲆ && v2353.w > 1800 && v2353.ⵠⲆⵠ > 1000) {
+      for (var v2352 = 0; v2352 < v2834.ᐃⲆⲆΔ.length && p1491 > 0; v2352++) {
+        var v2353 = v2834.ᐃⲆⲆΔ[v2352];
+        if (v2834.ⲆⲆⲆⲆⵠ === v2353.ᐃⵠⲆ && v2353.w > 1800 && v2353.ⵠⲆⵠ > 1000) {
           var v2354 = Math.floor((v2353.x1 + v2353.w / 2) / 100);
           var v2355 = Math.floor((v2353.y1 + v2353.ⵠⲆⵠ / 2) / 100);
-          world.ᐃΔⵠⲆⲆⵠΔ(p1491 % 3, v2354, v2355);
+          v2834.ᐃΔⵠⲆⲆⵠΔ(p1491 % 3, v2354, v2355);
           for (var v2356 = 0; v2356 < 3; v2356++) {
-            var v2357 = v2355 - 2 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 4);
-            var v2358 = v2354 - 3 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 6);
+            var v2357 = v2355 - 2 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 4);
+            var v2358 = v2354 - 3 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 6);
             if (v2831.ⵠⲆΔⵠ[v2357][v2358].s === vVVVVUndefined583) {
               f447(v2357, v2358, "plm", v2356);
             }
-            v2357 = v2355 - 2 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 4);
-            v2358 = v2354 - 3 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 6);
+            v2357 = v2355 - 2 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 4);
+            v2358 = v2354 - 3 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 6);
             if (vVVUndefined14 === v2831.ⵠⲆΔⵠ[v2357][v2358].plm) {
               f447(v2357, v2358, "s", v2356);
             }
           }
-          v2357 = v2355 - 2 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 4);
-          v2358 = v2354 - 3 + Math.floor(world.ⲆᐃΔⵠΔ.get() * 6);
+          v2357 = v2355 - 2 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 4);
+          v2358 = v2354 - 3 + Math.floor(v2834.ⲆᐃΔⵠΔ.get() * 6);
           if (v2831.ⵠⲆΔⵠ[v2357][v2358].plm === undefined && v2831.ⵠⲆΔⵠ[v2357][v2358].s === vVVVVUndefined14) {
             f447(v2357, v2358, "p", 0, 1);
           }
@@ -51786,73 +51785,73 @@
       }
     };
     this.ΔΔⵠᐃⲆⲆⲆᐃⵠ = function (p1492) {
-      world.ⲆᐃΔⵠΔ.ΔᐃΔⲆⵠ(p1492);
+      v2834.ⲆᐃΔⵠΔ.ΔᐃΔⲆⵠ(p1492);
       var v2359 = 0;
       while (true) {
         if (++v2359 > 10000) {
           return;
         }
-        world.ᐃⲆⲆΔ = [];
-        if (world.ΔⲆΔⲆᐃ === 0 && (world.mode === 3 || world.mode === 7 || world.mode === 0)) {
-          world.ΔⲆΔⲆᐃ = v571;
+        v2834.ᐃⲆⲆΔ = [];
+        if (v2834.ΔⲆΔⲆᐃ === 0 && (v2834.mode === 3 || v2834.mode === 7 || v2834.mode === 0)) {
+          v2834.ΔⲆΔⲆᐃ = v571;
         }
-        if (world.mode === 2) {
-          world.ᐃⲆⲆΔ.push(new world.ⵠΔⲆᐃΔᐃⵠ(world.ⲆᐃⵠΔⵠΔⵠ, 2, 2, 80, 80, 15));
-        } else if (world.ΔⲆΔⲆᐃ !== 0 && world.ΔⲆΔⲆᐃ.length > 0 && world.ΔⲆΔⲆᐃ[0].length > 3) {
-          for (var v2360 = 0; world.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
-            if ((v2371 = world.ΔⲆΔⲆᐃ[v2360])[0] !== 0) {
+        if (v2834.mode === 2) {
+          v2834.ᐃⲆⲆΔ.push(new v2834.ⵠΔⲆᐃΔᐃⵠ(v2834.ⲆᐃⵠΔⵠΔⵠ, 2, 2, 80, 80, 15));
+        } else if (v2834.ΔⲆΔⲆᐃ !== 0 && v2834.ΔⲆΔⲆᐃ.length > 0 && v2834.ΔⲆΔⲆᐃ[0].length > 3) {
+          for (var v2360 = 0; v2834.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
+            if ((v2371 = v2834.ΔⲆΔⲆᐃ[v2360])[0] !== 0) {
               break;
             }
             var v2361 = v2257.ⲆᐃⵠΔⵠΔⵠ;
             switch (v2371[1]) {
               case "FOREST":
-                v2361 = world.ⲆᐃⵠΔⵠΔⵠ;
+                v2361 = v2834.ⲆᐃⵠΔⵠΔⵠ;
                 break;
               case "JUNGLE":
-                v2361 = world.ⵠᐃⲆΔⵠᐃᐃ;
+                v2361 = v2834.ⵠᐃⲆΔⵠᐃᐃ;
                 break;
               case "WINTER":
-                v2361 = world.ⵠᐃΔΔⲆΔⲆ;
+                v2361 = v2834.ⵠᐃΔΔⲆΔⲆ;
                 break;
               case "DESERT":
-                v2361 = world.ⲆⲆⲆΔⲆᐃⲆ;
+                v2361 = v2834.ⲆⲆⲆΔⲆᐃⲆ;
                 break;
               case "LAVA":
-                v2361 = world.ⵠⲆᐃⲆⲆⵠᐃ;
+                v2361 = v2834.ⵠⲆᐃⲆⲆⵠᐃ;
                 break;
               case "DRAGON":
-                v2361 = world.ΔΔⲆΔᐃᐃⵠ;
+                v2361 = v2834.ΔΔⲆΔᐃᐃⵠ;
             }
-            world.ᐃⲆⲆΔ.push(new world.ⵠΔⲆᐃΔᐃⵠ(v2361, v2371[2], v2371[3], v2371[4], v2371[5], v2371[6], v2371[7]));
+            v2834.ᐃⲆⲆΔ.push(new v2834.ⵠΔⲆᐃΔᐃⵠ(v2361, v2371[2], v2371[3], v2371[4], v2371[5], v2371[6], v2371[7]));
           }
-        } else if (world.ΔⲆΔⲆᐃ !== 0) {
-          for (v2360 = 0; world.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
-            var v2362 = world.ΔⲆΔⲆᐃ[v2360];
+        } else if (v2834.ΔⲆΔⲆᐃ !== 0) {
+          for (v2360 = 0; v2834.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
+            var v2362 = v2834.ΔⲆΔⲆᐃ[v2360];
             v2361 = v2257.ⲆᐃⵠΔⵠΔⵠ;
             switch (v2362[0]) {
               case "FOREST":
-                v2361 = world.ⲆᐃⵠΔⵠΔⵠ;
+                v2361 = v2834.ⲆᐃⵠΔⵠΔⵠ;
                 break;
               case "JUNGLE":
-                v2361 = world.ⵠᐃⲆΔⵠᐃᐃ;
+                v2361 = v2834.ⵠᐃⲆΔⵠᐃᐃ;
                 break;
               case "WINTER":
-                v2361 = world.ⵠᐃΔΔⲆΔⲆ;
+                v2361 = v2834.ⵠᐃΔΔⲆΔⲆ;
                 break;
               case "DESERT":
-                v2361 = world.ⲆⲆⲆΔⲆᐃⲆ;
+                v2361 = v2834.ⲆⲆⲆΔⲆᐃⲆ;
                 break;
               case "LAVA":
-                v2361 = world.ⵠⲆᐃⲆⲆⵠᐃ;
+                v2361 = v2834.ⵠⲆᐃⲆⲆⵠᐃ;
                 break;
               case "DRAGON":
-                v2361 = world.ΔΔⲆΔᐃᐃⵠ;
+                v2361 = v2834.ΔΔⲆΔᐃᐃⵠ;
             }
             if (t(v2361, v2362[1], v2362[2], 0, (v2360 + 1) * 10) === 0) {
               break;
             }
           }
-          if (world.ΔⲆΔⲆᐃ.length !== v2360) {
+          if (v2834.ΔⲆΔⲆᐃ.length !== v2360) {
             continue;
           }
         }
@@ -51860,48 +51859,48 @@
       }
       ᐃᐃⵠΔⲆⲆⵠᐃᐃ();
       var v2363 = [];
-      for (var v2364 = 0; world.nh > v2364; v2364++) {
-        v2363[v2364] = new Array(world.nw);
-        for (var v2365 = 0; world.nw > v2365; v2365++) {
+      for (var v2364 = 0; v2834.ⲆᐃᐃΔⲆ > v2364; v2364++) {
+        v2363[v2364] = new Array(v2834.ⵠⵠⲆⲆᐃ);
+        for (var v2365 = 0; v2834.ⵠⵠⲆⲆᐃ > v2365; v2365++) {
           v2363[v2364][v2365] = 0;
         }
       }
-      for (v2364 = 0; v2364 < world.ᐃⲆⲆΔ.length; v2364++) {
-        for (var v2366 = (v2362 = world.ᐃⲆⲆΔ[v2364]).x2 / 100, v2367 = v2362.y2 / 100, v2368 = v2362.x1 / 100; v2366 >= v2368; v2368++) {
+      for (v2364 = 0; v2364 < v2834.ᐃⲆⲆΔ.length; v2364++) {
+        for (var v2366 = (v2362 = v2834.ᐃⲆⲆΔ[v2364]).x2 / 100, v2367 = v2362.y2 / 100, v2368 = v2362.x1 / 100; v2366 >= v2368; v2368++) {
           for (var v2369 = v2362.y1 / 100; v2369 <= v2367; v2369++) {
             v2363[v2369][v2368] = 1;
           }
         }
       }
-      for (v2369 = 0; v2369 < world.nh; v2369++) {
-        for (v2368 = 0; v2368 < world.nw; v2368++) {
+      for (v2369 = 0; v2369 < v2834.ⲆᐃᐃΔⲆ; v2369++) {
+        for (v2368 = 0; v2368 < v2834.ⵠⵠⲆⲆᐃ; v2368++) {
           if (v2363[v2369][v2368] === 0) {
             i(v2363, v2368, v2369);
           }
         }
       }
       v2831 = {
-        w: world.nw,
-        ⵠⲆⵠ: world.nh,
+        w: v2834.ⵠⵠⲆⲆᐃ,
+        ⵠⲆⵠ: v2834.ⲆᐃᐃΔⲆ,
         ⵠⲆΔⵠ: []
       };
-      for (v2364 = 0; world.nh > v2364; v2364++) {
+      for (v2364 = 0; v2834.ⲆᐃᐃΔⲆ > v2364; v2364++) {
         v2831.ⵠⲆΔⵠ[v2364] = [];
       }
-      if (world.ΔⲆΔⲆᐃ !== 0 && world.ΔⲆΔⲆᐃ.length > 0 && world.ΔⲆΔⲆᐃ[0].length > 3) {
-        for (v2360 = 0; v2360 < world.ΔⲆΔⲆᐃ.length; v2360++) {
-          if ((v2371 = world.ΔⲆΔⲆᐃ[v2360])[1] === "isl") {
-            world.ᐃΔⵠⲆⲆⵠΔ(v2371[2], v2371[3], v2371[4]);
+      if (v2834.ΔⲆΔⲆᐃ !== 0 && v2834.ΔⲆΔⲆᐃ.length > 0 && v2834.ΔⲆΔⲆᐃ[0].length > 3) {
+        for (v2360 = 0; v2360 < v2834.ΔⲆΔⲆᐃ.length; v2360++) {
+          if ((v2371 = v2834.ΔⲆΔⲆᐃ[v2360])[1] === "isl") {
+            v2834.ᐃΔⵠⲆⲆⵠΔ(v2371[2], v2371[3], v2371[4]);
           }
         }
       } else {
-        world.ⵠⲆⵠΔΔⵠᐃⲆΔ(world.ᐃΔΔⵠᐃⵠᐃ);
+        v2834.ⵠⲆⵠΔΔⵠᐃⲆΔ(v2834.ᐃΔΔⵠᐃⵠᐃ);
       }
-      if (world.ΔⲆΔⲆᐃ !== 0 && world.ΔⲆΔⲆᐃ.length > 0 && world.ΔⲆΔⲆᐃ[0].length > 3) {
+      if (v2834.ΔⲆΔⲆᐃ !== 0 && v2834.ΔⲆΔⲆᐃ.length > 0 && v2834.ΔⲆΔⲆᐃ[0].length > 3) {
         var v2370 = [];
-        for (v2360 = 0; world.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
+        for (v2360 = 0; v2834.ΔⲆΔⲆᐃ.length > v2360; v2360++) {
           var v2371;
-          if ((v2371 = world.ΔⲆΔⲆᐃ[v2360])[0] === 1) {
+          if ((v2371 = v2834.ΔⲆΔⲆᐃ[v2360])[0] === 1) {
             if (v2371[1] === "r") {
               f447(v2371[3], v2371[2], "wtb", 0, 1);
               v2370.push([v2371[3], v2371[2], v2371[4]]);
@@ -51913,28 +51912,28 @@
         f440(0, v2370);
         v2370 = [];
       } else {
-        for (v2364 = 0; world.ᐃⲆⲆΔ.length > v2364; v2364++) {
-          v2362 = world.ᐃⲆⲆΔ[v2364];
-          if (world.ⲆᐃⵠΔⵠΔⵠ === v2362.ᐃⵠⲆ) {
-            if (world.mode === 4) {
+        for (v2364 = 0; v2834.ᐃⲆⲆΔ.length > v2364; v2364++) {
+          v2362 = v2834.ᐃⲆⲆΔ[v2364];
+          if (v2834.ⲆᐃⵠΔⵠΔⵠ === v2362.ᐃⵠⲆ) {
+            if (v2834.mode === 4) {
               f454(v2364, v2362.w / 10000);
             } else {
               f451(v2364, v2362.w / 10000);
             }
           }
-          if (v2362.ᐃⵠⲆ === world.ⵠᐃⲆΔⵠᐃᐃ) {
+          if (v2362.ᐃⵠⲆ === v2834.ⵠᐃⲆΔⵠᐃᐃ) {
             f449(v2364, v2362.w / 10000);
           }
-          if (world.ⵠⲆᐃⲆⲆⵠᐃ === v2362.ᐃⵠⲆ) {
+          if (v2834.ⵠⲆᐃⲆⲆⵠᐃ === v2362.ᐃⵠⲆ) {
             f450(v2364, v2362.w / 10000);
           }
-          if (world.ⵠᐃΔΔⲆΔⲆ === v2362.ᐃⵠⲆ) {
+          if (v2834.ⵠᐃΔΔⲆΔⲆ === v2362.ᐃⵠⲆ) {
             f453(v2364, v2362.w / 10000);
           }
-          if (world.ⲆⲆⲆΔⲆᐃⲆ === v2362.ᐃⵠⲆ) {
+          if (v2834.ⲆⲆⲆΔⲆᐃⲆ === v2362.ᐃⵠⲆ) {
             f446(v2364, v2362.w / 10000);
           }
-          if (world.ΔΔⲆΔᐃᐃⵠ === v2362.ᐃⵠⲆ) {
+          if (v2834.ΔΔⲆΔᐃᐃⵠ === v2362.ᐃⵠⲆ) {
             f445(v2364);
           }
         }
@@ -51963,12 +51962,12 @@
       f84("aqu", 1);
       f84("coa", 1);
       v774 = [];
-      world.ⲆΔᐃⲆᐃΔᐃⲆⲆ(v2831);
+      v2834.ⲆΔᐃⲆᐃΔᐃⲆⲆ(v2831);
     };
     this.ᐃᐃᐃⲆ = f447;
     this.ⲆΔᐃⲆᐃΔᐃⲆⲆ = function (p1493) {
-      for (var v2372 = 0; this.nh > v2372; v2372++) {
-        for (var v2373 = 0; this.nw > v2373; v2373++) {
+      for (var v2372 = 0; this.ⲆᐃᐃΔⲆ > v2372; v2372++) {
+        for (var v2373 = 0; this.ⵠⵠⲆⲆᐃ > v2373; v2373++) {
           p1493.ⵠⲆΔⵠ[v2372] ||= [];
           if (p1493.ⵠⲆΔⵠ[v2372][v2373]) {
             var v2374 = p1493.ⵠⲆΔⵠ[v2372][v2373];
@@ -52058,121 +52057,121 @@
       ΔᐃΔⲆⵠ: 0
     };
     this.ⲆⲆΔᐃΔⵠⵠⲆΔ = function () {
-      this.fast_units = [];
-      this.units[0] = [];
-      this.units[2] = [];
-      this.units[1] = [];
-      this.units[6] = [];
-      this.units[3] = [];
-      this.units[5] = [];
-      this.units[12] = [];
-      this.units[13] = [];
-      this.units[14] = [];
-      this.units[20] = [];
-      this.units[61] = [];
-      this.units[39] = [];
-      this.units[65] = [];
-      this.units[47] = [];
-      this.units[42] = [];
-      this.units[40] = [];
-      this.units[64] = [];
-      this.units[46] = [];
-      this.units[52] = [];
-      this.units[53] = [];
-      this.units[63] = [];
-      this.units[66] = [];
-      this.units[48] = [];
-      this.units[49] = [];
-      this.units[41] = [];
-      this.units[24] = [];
-      this.units[25] = [];
-      this.units[26] = [];
-      this.units[27] = [];
-      this.units[28] = [];
-      this.units[29] = [];
-      this.units[30] = [];
-      this.units[31] = [];
-      this.units[32] = [];
-      this.units[33] = [];
-      this.units[34] = [];
-      this.units[35] = [];
-      this.units[36] = [];
-      this.units[37] = [];
-      this.units[44] = [];
-      this.units[4] = [];
-      this.units[7] = [];
-      this.units[8] = [];
-      this.units[9] = [];
-      this.units[19] = [];
-      this.units[59] = [];
-      this.units[50] = [];
-      this.units[10] = [];
-      this.units[15] = [];
-      this.units[16] = [];
-      this.units[17] = [];
-      this.units[21] = [];
-      this.units[60] = [];
-      this.units[54] = [];
-      this.units[55] = [];
-      this.units[56] = [];
-      this.units[57] = [];
-      this.units[58] = [];
-      this.units[62] = [];
-      this.units[18] = [];
-      this.units[38] = [];
-      this.units[65] = [];
-      this.units[11] = [];
-      this.units[22] = [];
-      this.units[23] = [];
-      this.units[105] = [];
-      this.units[106] = [];
-      this.units[104] = [];
-      this.units[92] = [];
-      this.units[67] = [];
-      this.units[74] = [];
-      this.units[77] = [];
-      this.units[84] = [];
-      this.units[78] = [];
-      this.units[79] = [];
-      this.units[80] = [];
-      this.units[81] = [];
-      this.units[86] = [];
-      this.units[88] = [];
-      this.units[89] = [];
-      this.units[90] = [];
-      this.units[87] = [];
-      this.units[72] = [];
-      this.units[73] = [];
-      this.units[69] = [];
-      this.units[100] = [];
-      this.units[103] = [];
-      this.units[102] = [];
-      this.units[70] = [];
-      this.units[85] = [];
-      this.units[82] = [];
-      this.units[83] = [];
-      this.units[71] = [];
-      this.units[76] = [];
-      this.units[75] = [];
-      this.units[91] = [];
-      this.units[101] = [];
-      this.units[95] = [];
-      this.units[96] = [];
-      this.units[97] = [];
-      this.units[93] = [];
-      this.units[94] = [];
-      this.units[98] = [];
-      this.units[43] = [];
-      this.units[45] = [];
-      this.units[68] = [];
-      this.units[99] = [];
-      this.units[51] = [];
+      this.ᐃᐃΔᐃᐃ = [];
+      this.Δⵠᐃ[0] = [];
+      this.Δⵠᐃ[2] = [];
+      this.Δⵠᐃ[1] = [];
+      this.Δⵠᐃ[6] = [];
+      this.Δⵠᐃ[3] = [];
+      this.Δⵠᐃ[5] = [];
+      this.Δⵠᐃ[12] = [];
+      this.Δⵠᐃ[13] = [];
+      this.Δⵠᐃ[14] = [];
+      this.Δⵠᐃ[20] = [];
+      this.Δⵠᐃ[61] = [];
+      this.Δⵠᐃ[39] = [];
+      this.Δⵠᐃ[65] = [];
+      this.Δⵠᐃ[47] = [];
+      this.Δⵠᐃ[42] = [];
+      this.Δⵠᐃ[40] = [];
+      this.Δⵠᐃ[64] = [];
+      this.Δⵠᐃ[46] = [];
+      this.Δⵠᐃ[52] = [];
+      this.Δⵠᐃ[53] = [];
+      this.Δⵠᐃ[63] = [];
+      this.Δⵠᐃ[66] = [];
+      this.Δⵠᐃ[48] = [];
+      this.Δⵠᐃ[49] = [];
+      this.Δⵠᐃ[41] = [];
+      this.Δⵠᐃ[24] = [];
+      this.Δⵠᐃ[25] = [];
+      this.Δⵠᐃ[26] = [];
+      this.Δⵠᐃ[27] = [];
+      this.Δⵠᐃ[28] = [];
+      this.Δⵠᐃ[29] = [];
+      this.Δⵠᐃ[30] = [];
+      this.Δⵠᐃ[31] = [];
+      this.Δⵠᐃ[32] = [];
+      this.Δⵠᐃ[33] = [];
+      this.Δⵠᐃ[34] = [];
+      this.Δⵠᐃ[35] = [];
+      this.Δⵠᐃ[36] = [];
+      this.Δⵠᐃ[37] = [];
+      this.Δⵠᐃ[44] = [];
+      this.Δⵠᐃ[4] = [];
+      this.Δⵠᐃ[7] = [];
+      this.Δⵠᐃ[8] = [];
+      this.Δⵠᐃ[9] = [];
+      this.Δⵠᐃ[19] = [];
+      this.Δⵠᐃ[59] = [];
+      this.Δⵠᐃ[50] = [];
+      this.Δⵠᐃ[10] = [];
+      this.Δⵠᐃ[15] = [];
+      this.Δⵠᐃ[16] = [];
+      this.Δⵠᐃ[17] = [];
+      this.Δⵠᐃ[21] = [];
+      this.Δⵠᐃ[60] = [];
+      this.Δⵠᐃ[54] = [];
+      this.Δⵠᐃ[55] = [];
+      this.Δⵠᐃ[56] = [];
+      this.Δⵠᐃ[57] = [];
+      this.Δⵠᐃ[58] = [];
+      this.Δⵠᐃ[62] = [];
+      this.Δⵠᐃ[18] = [];
+      this.Δⵠᐃ[38] = [];
+      this.Δⵠᐃ[65] = [];
+      this.Δⵠᐃ[11] = [];
+      this.Δⵠᐃ[22] = [];
+      this.Δⵠᐃ[23] = [];
+      this.Δⵠᐃ[105] = [];
+      this.Δⵠᐃ[106] = [];
+      this.Δⵠᐃ[104] = [];
+      this.Δⵠᐃ[92] = [];
+      this.Δⵠᐃ[67] = [];
+      this.Δⵠᐃ[74] = [];
+      this.Δⵠᐃ[77] = [];
+      this.Δⵠᐃ[84] = [];
+      this.Δⵠᐃ[78] = [];
+      this.Δⵠᐃ[79] = [];
+      this.Δⵠᐃ[80] = [];
+      this.Δⵠᐃ[81] = [];
+      this.Δⵠᐃ[86] = [];
+      this.Δⵠᐃ[88] = [];
+      this.Δⵠᐃ[89] = [];
+      this.Δⵠᐃ[90] = [];
+      this.Δⵠᐃ[87] = [];
+      this.Δⵠᐃ[72] = [];
+      this.Δⵠᐃ[73] = [];
+      this.Δⵠᐃ[69] = [];
+      this.Δⵠᐃ[100] = [];
+      this.Δⵠᐃ[103] = [];
+      this.Δⵠᐃ[102] = [];
+      this.Δⵠᐃ[70] = [];
+      this.Δⵠᐃ[85] = [];
+      this.Δⵠᐃ[82] = [];
+      this.Δⵠᐃ[83] = [];
+      this.Δⵠᐃ[71] = [];
+      this.Δⵠᐃ[76] = [];
+      this.Δⵠᐃ[75] = [];
+      this.Δⵠᐃ[91] = [];
+      this.Δⵠᐃ[101] = [];
+      this.Δⵠᐃ[95] = [];
+      this.Δⵠᐃ[96] = [];
+      this.Δⵠᐃ[97] = [];
+      this.Δⵠᐃ[93] = [];
+      this.Δⵠᐃ[94] = [];
+      this.Δⵠᐃ[98] = [];
+      this.Δⵠᐃ[43] = [];
+      this.Δⵠᐃ[45] = [];
+      this.Δⵠᐃ[68] = [];
+      this.Δⵠᐃ[99] = [];
+      this.Δⵠᐃ[51] = [];
     };
     this.ⵠⵠΔΔⵠᐃᐃⲆᐃ = function (p1494) {
-      if (this.fast_units[p1494]) {
-        ⵠᐃⵠⲆ = this.fast_units[p1494].type;
-        this.fast_units[p1494] = null;
-        for (var v2378 = this.units[ⵠᐃⵠⲆ], v2379 = 0; v2378.length > v2379; v2379++) {
+      if (this.ᐃᐃΔᐃᐃ[p1494]) {
+        ⵠᐃⵠⲆ = this.ᐃᐃΔᐃᐃ[p1494].type;
+        this.ᐃᐃΔᐃᐃ[p1494] = null;
+        for (var v2378 = this.Δⵠᐃ[ⵠᐃⵠⲆ], v2379 = 0; v2378.length > v2379; v2379++) {
           if (p1494 == v2378[v2379].ᐃᐃⵠⵠ) {
             v2378.splice(v2379, 1);
             return;
@@ -52181,8 +52180,8 @@
       }
     };
     this.ⵠⵠᐃⲆⵠⵠⵠⵠᐃ = function (p1495, p1496) {
-      for (var v2380 = 0; this.units[65].length > v2380; v2380++) {
-        var v2381 = this.units[65][v2380];
+      for (var v2380 = 0; this.Δⵠᐃ[65].length > v2380; v2380++) {
+        var v2381 = this.Δⵠᐃ[65][v2380];
         if (p1496 === Math.floor(v2381.x / 100) && p1495 === Math.floor(v2381.y / 100)) {
           return 1;
         }
@@ -52190,8 +52189,8 @@
       return 0;
     };
     this.ᐃᐃΔⵠΔᐃᐃⵠⲆ = function (p1497, p1498) {
-      for (var v2382 = 0; this.units[39].length > v2382; v2382++) {
-        var v2383 = this.units[39][v2382];
+      for (var v2382 = 0; this.Δⵠᐃ[39].length > v2382; v2382++) {
+        var v2383 = this.Δⵠᐃ[39][v2382];
         if (Math.floor(v2383.x / 100) == p1497 && p1498 == Math.floor(v2383.y / 100)) {
           return true;
         }
@@ -52400,35 +52399,35 @@
       }
     };
     this.ⵠᐃᐃ = function () {
-      this.ΔⵠᐃΔᐃ(this.units[0]);
-      this.ΔⵠᐃΔᐃ(this.units[92]);
-      this.ΔⵠᐃΔᐃ(this.units[67]);
-      this.ΔⵠᐃΔᐃ(this.units[74]);
-      this.ΔⵠᐃΔᐃ(this.units[77]);
-      this.ΔⵠᐃΔᐃ(this.units[84]);
-      this.ΔⵠᐃΔᐃ(this.units[78]);
-      this.ΔⵠᐃΔᐃ(this.units[79]);
-      this.ΔⵠᐃΔᐃ(this.units[80]);
-      this.ΔⵠᐃΔᐃ(this.units[81]);
-      this.ΔⵠᐃΔᐃ(this.units[86]);
-      this.ΔⵠᐃΔᐃ(this.units[88]);
-      this.ΔⵠᐃΔᐃ(this.units[89]);
-      this.ΔⵠᐃΔᐃ(this.units[90]);
-      this.ΔⵠᐃΔᐃ(this.units[87]);
-      this.ΔⵠᐃΔᐃ(this.units[68]);
-      this.ΔⵠᐃΔᐃ(this.units[69]);
-      this.ΔⵠᐃΔᐃ(this.units[100]);
-      this.ΔⵠᐃΔᐃ(this.units[103]);
-      this.ΔⵠᐃΔᐃ(this.units[102]);
-      this.ΔⵠᐃΔᐃ(this.units[70]);
-      this.ΔⵠᐃΔᐃ(this.units[85]);
-      this.ΔⵠᐃΔᐃ(this.units[82]);
-      this.ΔⵠᐃΔᐃ(this.units[83]);
-      this.ΔⵠᐃΔᐃ(this.units[71]);
-      this.ΔⵠᐃΔᐃ(this.units[75]);
-      this.ΔⵠᐃΔᐃ(this.units[72]);
-      this.ΔⵠᐃΔᐃ(this.units[73]);
-      this.ΔⵠᐃΔᐃ(this.units[76]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[0]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[92]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[67]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[74]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[77]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[84]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[78]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[79]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[80]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[81]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[86]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[88]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[89]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[90]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[87]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[68]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[69]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[100]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[103]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[102]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[70]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[85]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[82]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[83]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[71]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[75]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[72]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[73]);
+      this.ΔⵠᐃΔᐃ(this.Δⵠᐃ[76]);
     };
     this.ᐃⲆⵠᐃ = [];
     this.ᐃⲆⵠᐃ[839] = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVV143, 1, 1.05, 1, 0.008, 0.008);
@@ -52635,7 +52634,7 @@
           var v2414 = new Date().getTime();
           this.time = Math.floor((v2414 - this.ⲆⲆᐃΔⲆ) / 1000);
           if (this.time < 60) {
-            game.ᐃᐃᐃᐃⲆ.button.ⲆΔᐃΔ(v405);
+            v3030.ᐃᐃᐃᐃⲆ.button.ⲆΔᐃΔ(v405);
           } else {
             document.getElementById("shop_starterkit").style.display = "none";
             this.open = vVVV142;
@@ -52677,11 +52676,11 @@
       if (this.ⲆΔΔᐃᐃⲆⵠ > 0) {
         this.ⲆΔΔᐃᐃⲆⵠ -= v3064;
       } else {
-        var v2416 = world.fast_units[user.ᐃᐃⵠⵠ];
+        var v2416 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
         if (v2416) {
           this.ⲆⲆᐃΔⲆ = 0;
-          var v2417 = Math.max(Math.min(v409 - v2416.x, -2), -world.w + 2 + v406);
-          var v2418 = Math.max(Math.min(v410 - v2416.y, -2), 2 - world.ⵠⲆⵠ + v408);
+          var v2417 = Math.max(Math.min(v409 - v2416.x, -2), -v2834.w + 2 + v406);
+          var v2418 = Math.max(Math.min(v410 - v2416.y, -2), 2 - v2834.ⵠⲆⵠ + v408);
           this.ΔΔᐃΔⵠⲆΔ({
             x: v2417,
             y: v2418
@@ -52690,7 +52689,7 @@
           this.ⲆⲆᐃΔⲆ += v3064;
           if (this.ⲆⲆᐃΔⲆ > 3) {
             this.ⲆⲆᐃΔⲆ = 0;
-            if (!user.reconnect.enabled) {
+            if (!v2835.reconnect.enabled) {
               v2837.ⵠΔΔᐃᐃⵠΔⲆᐃ();
             }
           }
@@ -52706,8 +52705,8 @@
     this.ᐃⵠⵠ.ᐃⵠᐃΔΔΔΔΔΔ = 0;
     this.ᐃⵠⵠ.ᐃᐃᐃΔᐃΔᐃⵠΔ = 0;
     this.ᐃⵠⵠ.ⵠⵠᐃⲆΔ = function (p1505, p1506) {
-      this.x = -Math.min(Math.max(-world.ⵠᐃⵠᐃᐃⲆⲆ * 2, p1505 - world.ⵠᐃⵠᐃᐃⲆⲆ - this.ᐃⵠᐃⵠⵠⵠΔ / 2), world.w - this.ᐃⵠᐃⵠⵠⵠΔ);
-      this.y = -Math.min(Math.max(-world.ᐃᐃᐃᐃⵠⵠⲆ * 2, p1506 - (world.ᐃᐃᐃᐃⵠⵠⲆ + this.ᐃⵠⵠⵠΔⵠⵠ) / 2), world.ⵠⲆⵠ - this.ᐃⵠⵠⵠΔⵠⵠ + world.ᐃᐃᐃᐃⵠⵠⲆ);
+      this.x = -Math.min(Math.max(-v2834.ⵠᐃⵠᐃᐃⲆⲆ * 2, p1505 - v2834.ⵠᐃⵠᐃᐃⲆⲆ - this.ᐃⵠᐃⵠⵠⵠΔ / 2), v2834.w - this.ᐃⵠᐃⵠⵠⵠΔ);
+      this.y = -Math.min(Math.max(-v2834.ᐃᐃᐃᐃⵠⵠⲆ * 2, p1506 - (v2834.ᐃᐃᐃᐃⵠⵠⲆ + this.ᐃⵠⵠⵠΔⵠⵠ) / 2), v2834.ⵠⲆⵠ - this.ᐃⵠⵠⵠΔⵠⵠ + v2834.ᐃᐃᐃᐃⵠⵠⲆ);
       this.ⲆᐃΔΔⲆ = this.x;
       this.ΔᐃⵠΔⵠⵠᐃ = this.y;
     };
@@ -52726,11 +52725,11 @@
       ΔΔᐃⵠ: 0,
       attack: 0,
       ⵠᐃᐃ: function () {
-        var v2421 = world.fast_units[user.ᐃᐃⵠⵠ];
+        var v2421 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
         if (v2421) {
           var v2422 = {
-            x: user.ᐃⵠⵠ.x + v2421.x,
-            y: user.ᐃⵠⵠ.y + v2421.y
+            x: v2835.ᐃⵠⵠ.x + v2421.x,
+            y: v2835.ᐃⵠⵠ.y + v2421.y
           };
         } else {
           v2422 = v413;
@@ -52760,7 +52759,7 @@
             }
           }
         }
-        if (!user.ⲆΔⲆᐃⲆ.open && !user.ⲆⲆᐃΔⵠ.open) {
+        if (!v2835.ⲆΔⲆᐃⲆ.open && !v2835.ⲆⲆᐃΔⵠ.open) {
           var v2425 = 0;
           if (v3059.ᐃΔⵠⵠᐃᐃΔ()) {
             v2425 |= 1;
@@ -52857,12 +52856,12 @@
               this.ΔⵠΔΔΔᐃᐃ[v2428] = Math.max(-8, Math.min(8, this.ΔⵠΔΔΔᐃᐃ[v2428] + v2431));
               if (v2432 > 0) {
                 v405.beginPath();
-                v405.arc(v2427 + user.ᐃⵠⵠ.x + this.ΔⵠΔΔΔᐃᐃ[v2428], p1513 + this.ᐃᐃΔⲆⲆⲆⲆ[v2428] - 20, v2432, 0, Math.PI * 2);
-                if (world.transition) {
-                  var v2433 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+                v405.arc(v2427 + v2835.ᐃⵠⵠ.x + this.ΔⵠΔΔΔᐃᐃ[v2428], p1513 + this.ᐃᐃΔⲆⲆⲆⲆ[v2428] - 20, v2432, 0, Math.PI * 2);
+                if (v2834.transition) {
+                  var v2433 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
                   v405.fillStyle = f409(83, 156, 160, 236, 247, 249, v2433);
                 } else {
-                  v405.fillStyle = v585.ΔΔΔΔⲆΔΔ[world.time];
+                  v405.fillStyle = v585.ΔΔΔΔⲆΔΔ[v2834.time];
                 }
                 v405.fill();
               }
@@ -52887,12 +52886,12 @@
               this.ⵠΔΔⵠᐃ[v2435] = Math.max(-8, Math.min(8, this.ⵠΔΔⵠᐃ[v2435] + v2438));
               if (v2439 > 0) {
                 v405.beginPath();
-                v405.arc(p1520 + this.ⲆΔⵠⵠᐃ[v2435] - 20, v2434 + user.ᐃⵠⵠ.y + this.ⵠΔΔⵠᐃ[v2435], v2439, 0, Math.PI * 2);
-                if (world.transition) {
-                  var v2440 = world.time ? 1 - world.ΔⵠⵠΔ.Ⲇⵠⵠ : world.ΔⵠⵠΔ.Ⲇⵠⵠ;
+                v405.arc(p1520 + this.ⲆΔⵠⵠᐃ[v2435] - 20, v2434 + v2835.ᐃⵠⵠ.y + this.ⵠΔΔⵠᐃ[v2435], v2439, 0, Math.PI * 2);
+                if (v2834.transition) {
+                  var v2440 = v2834.time ? 1 - v2834.ΔⵠⵠΔ.Ⲇⵠⵠ : v2834.ΔⵠⵠΔ.Ⲇⵠⵠ;
                   v405.fillStyle = f409(83, 156, 160, 236, 247, 249, v2440);
                 } else {
-                  v405.fillStyle = v585.ΔΔΔΔⲆΔΔ[world.time];
+                  v405.fillStyle = v585.ΔΔΔΔⲆΔΔ[v2834.time];
                 }
                 v405.fill();
               }
@@ -53093,7 +53092,7 @@
           this.ⲆⲆⲆΔⲆ = p1557.x;
           this.ΔΔΔΔᐃ = p1557.y;
           this.item = p1556;
-          this.Δⵠ = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ[p1556].info.Δⵠ[2];
+          this.Δⵠ = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ[p1556].info.Δⵠ[2];
           this.ⲆΔΔⵠᐃΔᐃ = 1;
         },
         stop: function () {
@@ -53104,7 +53103,7 @@
         },
         release: function () {
           var v2447 = -1;
-          var v2448 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ;
+          var v2448 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ;
           var v2449 = 0;
           if (this.ⲆΔΔⵠᐃΔᐃ && this.ΔΔΔᐃΔᐃᐃ) {
             for (var v2450 = 0; v2450 < v2448.length; v2450++) {
@@ -53118,7 +53117,7 @@
               var v2451 = v2448[v2447];
               v2448[v2447] = v2448[this.item];
               v2448[this.item] = v2451;
-              game.ⵠⲆΔᐃⲆᐃᐃ();
+              v3030.ⵠⲆΔᐃⲆᐃᐃ();
             }
           }
           this.stop();
@@ -53149,7 +53148,7 @@
       ᐃⵠⵠᐃⵠⵠΔ: function (p1562, p1563) {
         this.ᐃⵠΔⵠ[p1562] = 0;
         this.ᐃᐃⲆᐃᐃ.splice(p1563, 1);
-        game.ⵠⲆΔᐃⲆᐃᐃ();
+        v3030.ⵠⲆΔᐃⲆᐃᐃ();
       },
       ⲆⲆᐃⲆⵠⲆⵠ: function (p1564, p1565, p1566) {
         ⵠᐃᐃ = vVVVV623;
@@ -53166,17 +53165,17 @@
         x: 0
       },
       ⲆᐃⵠⵠⵠⲆΔ: function () {
-        if (world.mode == 1 && !user.ⲆⲆΔⵠⲆᐃⵠ) {
-          user.ᐃΔΔΔⲆⵠⵠ.enabled = !user.ᐃΔΔΔⲆⵠⵠ.enabled;
-          if (user.ᐃΔΔΔⲆⵠⵠ.enabled) {
-            game.options.ⵠᐃΔΔⵠⲆⵠ.display = "inline-block";
+        if (v2834.mode == 1 && !v2835.ⲆⲆΔⵠⲆᐃⵠ) {
+          v2835.ᐃΔΔΔⲆⵠⵠ.enabled = !v2835.ᐃΔΔΔⲆⵠⵠ.enabled;
+          if (v2835.ᐃΔΔΔⲆⵠⵠ.enabled) {
+            v3030.options.ⵠᐃΔΔⵠⲆⵠ.display = "inline-block";
           } else {
-            game.options.ⵠᐃΔΔⵠⲆⵠ.display = "none";
+            v3030.options.ⵠᐃΔΔⵠⲆⵠ.display = "none";
           }
         }
       }
     };
-    game.options.ⵠᐃΔΔⵠⲆⵠ.display = "none";
+    v3030.options.ⵠᐃΔΔⵠⲆⵠ.display = "none";
     this.ⵠⵠⵠⵠΔ = {
       enabled: vVV145,
       translate: {
@@ -53185,58 +53184,58 @@
       },
       ⲆⲆᐃΔⲆ: 0,
       ⲆᐃⵠⵠⵠⲆΔ: function () {
-        user.ⵠⵠⵠⵠΔ.enabled = !user.ⵠⵠⵠⵠΔ.enabled;
-        if (user.ⵠⵠⵠⵠΔ.enabled) {
-          game.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "inline-block";
+        v2835.ⵠⵠⵠⵠΔ.enabled = !v2835.ⵠⵠⵠⵠΔ.enabled;
+        if (v2835.ⵠⵠⵠⵠΔ.enabled) {
+          v3030.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "inline-block";
         } else {
-          game.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "none";
+          v3030.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "none";
         }
       },
       ⵠᐃᐃ: function () {
-        if (!!this.enabled && !(user.ⵠⲆⲆᐃ.id >= 0) && !game.ΔΔΔΔ.open) {
+        if (!!this.enabled && !(v2835.ⵠⲆⲆᐃ.id >= 0) && !v3030.ΔΔΔΔ.open) {
           this.ⲆⲆᐃΔⲆ += v3064;
           if (this.ⲆⲆᐃΔⲆ > 2) {
             this.ⲆⲆᐃΔⲆ = 0;
-            if (user.ᐃⵠᐃⵠ.ⵠⲆⵠ < 0.35) {
-              if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[201]) {
-                v2837.ᐃⵠⲆⲆΔ(201, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(201));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[356]) {
-                v2837.ᐃⵠⲆⲆΔ(356, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(356));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[294]) {
-                v2837.ᐃⵠⲆⲆΔ(294, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(294));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[298]) {
-                v2837.ᐃⵠⲆⲆΔ(298, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(298));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[291]) {
-                v2837.ᐃⵠⲆⲆΔ(291, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(291));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[317]) {
-                v2837.ᐃⵠⲆⲆΔ(317, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(317));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[315]) {
-                v2837.ᐃⵠⲆⲆΔ(315, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(315));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[319]) {
-                v2837.ᐃⵠⲆⲆΔ(319, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(319));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[236]) {
-                v2837.ᐃⵠⲆⲆΔ(236, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(236));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[208]) {
-                v2837.ᐃⵠⲆⲆΔ(208, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(208));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[231]) {
-                v2837.ᐃⵠⲆⲆΔ(231, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(231));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[226]) {
-                v2837.ᐃⵠⲆⲆΔ(226, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(226));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[238]) {
-                v2837.ᐃⵠⲆⲆΔ(238, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(238));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[229]) {
-                v2837.ᐃⵠⲆⲆΔ(229, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(229));
-              } else if (user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[299]) {
-                v2837.ᐃⵠⲆⲆΔ(299, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(299));
+            if (v2835.ᐃⵠᐃⵠ.ⵠⲆⵠ < 0.35) {
+              if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[201]) {
+                v2837.ᐃⵠⲆⲆΔ(201, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(201));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[356]) {
+                v2837.ᐃⵠⲆⲆΔ(356, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(356));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[294]) {
+                v2837.ᐃⵠⲆⲆΔ(294, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(294));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[298]) {
+                v2837.ᐃⵠⲆⲆΔ(298, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(298));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[291]) {
+                v2837.ᐃⵠⲆⲆΔ(291, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(291));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[317]) {
+                v2837.ᐃⵠⲆⲆΔ(317, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(317));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[315]) {
+                v2837.ᐃⵠⲆⲆΔ(315, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(315));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[319]) {
+                v2837.ᐃⵠⲆⲆΔ(319, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(319));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[236]) {
+                v2837.ᐃⵠⲆⲆΔ(236, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(236));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[208]) {
+                v2837.ᐃⵠⲆⲆΔ(208, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(208));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[231]) {
+                v2837.ᐃⵠⲆⲆΔ(231, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(231));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[226]) {
+                v2837.ᐃⵠⲆⲆΔ(226, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(226));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[238]) {
+                v2837.ᐃⵠⲆⲆΔ(238, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(238));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[229]) {
+                v2837.ᐃⵠⲆⲆΔ(229, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(229));
+              } else if (v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[299]) {
+                v2837.ᐃⵠⲆⲆΔ(299, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(299));
               }
-            } else if (user.ᐃⵠᐃⵠ.ᐃⵠⲆ < 0.35 && user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[218]) {
-              v2837.ᐃⵠⲆⲆΔ(218, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(218));
+            } else if (v2835.ᐃⵠᐃⵠ.ᐃⵠⲆ < 0.35 && v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[218]) {
+              v2837.ᐃⵠⲆⲆΔ(218, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(218));
             }
           }
         }
       }
     };
-    game.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "none";
+    v3030.options.ⵠⵠᐃⵠⲆⵠⲆ.display = "none";
     this.ⵠⲆⲆᐃ = {
       id: -1,
       ΔΔⵠΔ: -1,
@@ -53255,7 +53254,7 @@
       },
       ⲆΔΔⲆᐃᐃΔΔᐃ: function (p1567) {
         this.ᐃΔⲆᐃᐃⵠΔ = p1567;
-        var v2453 = game.ΔΔΔΔ;
+        var v2453 = v3030.ΔΔΔΔ;
         if (v2453.open) {
           v2453.ΔⵠΔⵠΔⵠⲆ(v2453.button);
         }
@@ -53265,7 +53264,7 @@
         var v2454 = v730[p1568];
         this.id = p1568;
         this.ⵠⲆⲆᐃᐃ = true;
-        world.fast_units[user.ᐃᐃⵠⵠ];
+        v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
         this.timeout.ᐃᐃᐃΔΔⲆΔ = v2454.time * 8;
         this.ΔΔⵠΔ = v2454.ΔΔⵠΔ;
       },
@@ -53273,7 +53272,7 @@
         var v2455 = v730[p1569];
         this.id = p1569;
         this.ⵠⲆⲆᐃᐃ = true;
-        var v2456 = world.fast_units[user.ᐃᐃⵠⵠ];
+        var v2456 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
         if (v2456 && v2456.right == 46) {
           this.timeout.ᐃᐃᐃΔΔⲆΔ = v2455.time * 3;
         } else {
@@ -53282,14 +53281,14 @@
         this.ΔΔⵠΔ = v2455.ΔΔⵠΔ;
         for (var v2457 = 0; v2457 < v2455.r.length; v2457++) {
           var v2458 = v2455.r[v2457];
-          user.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(v2458[0], v2458[1], user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2458[0]));
+          v2835.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(v2458[0], v2458[1], v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2458[0]));
         }
-        game.ⵠⲆΔᐃⲆᐃᐃ();
+        v3030.ⵠⲆΔᐃⲆᐃᐃ();
       },
       ⵠᐃᐃ: function () {
         this.ΔᐃⵠⲆⲆ = [];
-        if (game.ᐃΔⵠᐃⲆ.ⵠⲆⲆᐃ === 1) {
-          game.ᐃΔⵠᐃⲆ.display = 0;
+        if (v3030.ᐃΔⵠᐃⲆ.ⵠⲆⲆᐃ === 1) {
+          v3030.ᐃΔⵠᐃⲆ.display = 0;
         }
         for (var v2459 in v730) {
           var v2460 = v730[v2459];
@@ -53297,7 +53296,7 @@
             var vVVVV633 = vVVV63;
             if (v2460.r) {
               for (var v2461 = 0; v2461 < v2460.r.length; v2461++) {
-                if (user.ᐃⵠⲆⲆ.max >= 16 && v2460.id === 47) {
+                if (v2835.ᐃⵠⲆⲆ.max >= 16 && v2460.id === 47) {
                   vVVVV633 = false;
                   break;
                 }
@@ -53306,24 +53305,24 @@
                   break;
                 }
                 var v2462 = v2460.r[v2461];
-                if (!user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2462[0]] || user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2462[0]] < v2462[1]) {
+                if (!v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2462[0]] || v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2462[0]] < v2462[1]) {
                   vVVVV633 = vV14;
                   break;
                 }
               }
               if (vVVVV633) {
-                this.ΔᐃⵠⲆⲆ.push(game.ⲆΔⵠ[v2460.id]);
+                this.ΔᐃⵠⲆⲆ.push(v3030.ⲆΔⵠ[v2460.id]);
               }
             }
           }
         }
-        game.ΔⲆᐃᐃⲆᐃΔ();
-        game.ΔΔΔΔⲆΔⵠ();
-        game.ⵠᐃⲆⲆⲆᐃⵠ();
-        game.ᐃⲆⲆΔⲆΔΔ();
-        game.ΔⲆᐃⲆΔΔⲆ();
-        game.ⲆΔΔᐃⲆⲆⵠ();
-        game.sign.ⲆⲆᐃⲆⲆΔᐃ();
+        v3030.ΔⲆᐃᐃⲆᐃΔ();
+        v3030.ΔΔΔΔⲆΔⵠ();
+        v3030.ⵠᐃⲆⲆⲆᐃⵠ();
+        v3030.ᐃⲆⲆΔⲆΔΔ();
+        v3030.ΔⲆᐃⲆΔΔⲆ();
+        v3030.ⲆΔΔᐃⲆⲆⵠ();
+        v3030.sign.ⲆⲆᐃⲆⲆΔᐃ();
       },
       ⵠᐃᐃⲆΔⵠⵠ: function () {
         this.id = -1;
@@ -53354,7 +53353,7 @@
       },
       sort: function () {
         var v2463 = [];
-        for (var v2464 = world.players, v2465 = 0; v2465 < v2464.length; v2465++) {
+        for (var v2464 = v2834.ᐃⵠΔΔ, v2465 = 0; v2465 < v2464.length; v2465++) {
           if (v2464[v2465].ⵠᐃⲆΔⲆ) {
             v2463.push({
               id: v2465,
@@ -53372,10 +53371,10 @@
         this.ⵠᐃᐃ = true;
       },
       ΔᐃΔⲆⵠ: function (p1572) {
-        for (var v2466 = world.players, v2467 = 0; v2467 < v2466.length; v2467++) {
+        for (var v2466 = v2834.ᐃⵠΔΔ, v2467 = 0; v2467 < v2466.length; v2467++) {
           v2466[v2467].Ⲇⵠⵠᐃᐃ = 0;
         }
-        v2466[user.id].Ⲇⵠⵠᐃᐃ = Δᐃᐃ.ᐃⵠᐃⲆⲆⵠⲆ(p1572[1]);
+        v2466[v2835.id].Ⲇⵠⵠᐃᐃ = Δᐃᐃ.ᐃⵠᐃⲆⲆⵠⲆ(p1572[1]);
         this.ᐃᐃⵠΔᐃ = [];
         for (v2467 = 2; v2467 < p1572.length; v2467 += 2) {
           this.ᐃᐃⵠΔᐃ.push(p1572[v2467]);
@@ -53437,7 +53436,7 @@
           case "list":
             var v2471 = "";
             const v2472 = vWindow.document.createElement("div");
-            for (var v2473 = world.players, v2474 = 0; v2474 < v2473.length; v2474++) {
+            for (var v2473 = v2834.ᐃⵠΔΔ, v2474 = 0; v2474 < v2473.length; v2474++) {
               var v2475 = v2473[v2474];
               if (v2475.ⵠᐃⲆΔⲆ) {
                 v2472.innerText = v2475.ᐃⲆᐃⵠⲆ;
@@ -53474,11 +53473,11 @@
             this.ΔⵠᐃΔⲆ("Help Configuration", 1, "Learn how to build your customized map", "<div class=\"specialCommandBox\">To get the current map configuration, and modify it, copy the result of <span class=\"commandSynthax\">get-config</span> in a text file and change every parameter you want.</div>To modify the settings, change a number to another with <span class=\"commandSynthax\">set-config</span></br>To modify the map, modify \"important\" section (at the end)<div class=\"infoCommand\">The minimum size of the map is 50x50.</div>\"custom_map\" is used to change the biomes and is written like this :<div class=\"commandSynthax\" style=\"font-size:17px;\">\"custom_map\":[[\"biome\",width,height],...,[\"biome\",width,height]]</div>Biomes are <span class=\"commandSynthax\">\"forest\"</span>, <span class=\"commandSynthax\">\"lava\"</span>, <span class=\"commandSynthax\">\"winter\"</span>, and <span class=\"commandSynthax\">\"dragon\"</span>.");
             return true;
           case "pos":
-            v2473 = world.units[0];
+            v2473 = v2834.Δⵠᐃ[0];
             v2474 = 0;
             for (; v2474 < v2473.length; v2474++) {
               var v2476 = v2473[v2474];
-              if (v2476.ΔⲆᐃⲆ === user.id) {
+              if (v2476.ΔⲆᐃⲆ === v2835.id) {
                 this.ΔⵠᐃΔⲆ("pos", 1, "Your position is " + Math.floor(v2476.x / 100) + ":" + Math.floor(v2476.y / 100));
                 return true;
               }
@@ -53528,14 +53527,14 @@
         hud: function (p1580) {
           if (p1580 === "off") {
             var v2478 = "Enter \"!hud\" without the quotes to restore the HUD";
-            if (user.alert.text) {
-              user.alert.list.push(v2478);
+            if (v2835.alert.text) {
+              v2835.alert.list.push(v2478);
             } else {
-              user.alert.text = v2478;
+              v2835.alert.text = v2478;
             }
-            game.ⵠⲆⵠⲆⲆⵠᐃ = 0;
+            v3030.ⵠⲆⵠⲆⲆⵠᐃ = 0;
           } else {
-            game.ⵠⲆⵠⲆⲆⵠᐃ = 1;
+            v3030.ⵠⲆⵠⲆⲆⵠᐃ = 1;
           }
         }
       },
@@ -53588,11 +53587,11 @@
         }
       },
       add: function (p1583) {
-        var v2484 = Math.floor(Math.min(v585.ⵠⵠⲆⵠⲆⲆᐃ * (v406 / 1366), v585.ⵠⵠⲆⵠⲆⲆᐃ + 10) * Math.max(Math.min(world.ᐃⵠᐃⵠᐃ + 1000, 3000) / 3000, 0));
+        var v2484 = Math.floor(Math.min(v585.ⵠⵠⲆⵠⲆⲆᐃ * (v406 / 1366), v585.ⵠⵠⲆⵠⲆⲆᐃ + 10) * Math.max(Math.min(v2834.ᐃⵠᐃⵠᐃ + 1000, 3000) / 3000, 0));
         if (this.ΔΔⵠⵠᐃ.length < v2484) {
           var v2485 = Math.floor(Math.random() * v585.ⲆⲆΔΔⲆⵠⲆ);
-          var v2486 = -user.ᐃⵠⵠ.x + Math.floor(Math.random() * user.ᐃⵠⵠ.w);
-          var v2487 = -user.ᐃⵠⵠ.y + Math.floor(Math.random() * user.ᐃⵠⵠ.ⵠⲆⵠ);
+          var v2486 = -v2835.ᐃⵠⵠ.x + Math.floor(Math.random() * v2835.ᐃⵠⵠ.w);
+          var v2487 = -v2835.ᐃⵠⵠ.y + Math.floor(Math.random() * v2835.ᐃⵠⵠ.ⵠⲆⵠ);
           var v2488 = Math.random(Math.PI);
           this.ΔΔⵠⵠᐃ.push(new f456(v2485, v2486, v2487, v2488));
         }
@@ -53615,14 +53614,14 @@
         }
       },
       add: function (p1585) {
-        var v2489 = Math.floor(Math.min((this.ⲆᐃᐃⲆᐃ + 0.1) * v585.ΔⲆᐃᐃⲆΔⵠ * (v406 / 1366), (this.ⲆᐃᐃⲆᐃ + 0.1) * v585.ΔⲆᐃᐃⲆΔⵠ + 10) * Math.max(Math.min(world.ⲆᐃΔⵠᐃ + 1000, 3000) / 3000, 0));
+        var v2489 = Math.floor(Math.min((this.ⲆᐃᐃⲆᐃ + 0.1) * v585.ΔⲆᐃᐃⲆΔⵠ * (v406 / 1366), (this.ⲆᐃᐃⲆᐃ + 0.1) * v585.ΔⲆᐃᐃⲆΔⵠ + 10) * Math.max(Math.min(v2834.ⲆᐃΔⵠᐃ + 1000, 3000) / 3000, 0));
         if (this.ΔΔⵠⵠᐃ.length < v2489) {
           var v2490 = Math.floor(Math.random() * v585.ⲆⲆΔΔⲆⵠⲆ);
-          var v2491 = -user.ᐃⵠⵠ.x + Math.floor(Math.random() * user.ᐃⵠⵠ.w);
-          var v2492 = -user.ᐃⵠⵠ.y + Math.floor(Math.random() * user.ᐃⵠⵠ.ⵠⲆⵠ);
+          var v2491 = -v2835.ᐃⵠⵠ.x + Math.floor(Math.random() * v2835.ᐃⵠⵠ.w);
+          var v2492 = -v2835.ᐃⵠⵠ.y + Math.floor(Math.random() * v2835.ᐃⵠⵠ.ⵠⲆⵠ);
           var v2493 = Math.random(Math.PI);
-          if (user.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ !== 0) {
-            v2491 -= user.ᐃⵠⵠ.w / 2;
+          if (v2835.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ !== 0) {
+            v2491 -= v2835.ᐃⵠⵠ.w / 2;
           }
           this.ΔΔⵠⵠᐃ.push(new f456(v2490, v2491, v2492, v2493));
         }
@@ -53653,11 +53652,11 @@
         }
       },
       add: function (p1587) {
-        var v2494 = Math.floor(Math.min((this.ⲆᐃᐃⲆᐃ * 1.5 + 0.5) * v585.ⲆᐃΔΔΔΔᐃ * (v406 / 1366), (this.ⲆᐃᐃⲆᐃ * 1.5 + 0.5) * v585.ⲆᐃΔΔΔΔᐃ + 10) * Math.max(Math.min(world.ΔⵠΔⲆⲆ + 1000, 3000) / 3000, 0));
+        var v2494 = Math.floor(Math.min((this.ⲆᐃᐃⲆᐃ * 1.5 + 0.5) * v585.ⲆᐃΔΔΔΔᐃ * (v406 / 1366), (this.ⲆᐃᐃⲆᐃ * 1.5 + 0.5) * v585.ⲆᐃΔΔΔΔᐃ + 10) * Math.max(Math.min(v2834.ΔⵠΔⲆⲆ + 1000, 3000) / 3000, 0));
         if (this.ΔΔⵠⵠᐃ.length < v2494) {
           var v2495 = Math.floor(Math.random() * v585.ᐃⲆᐃᐃᐃᐃΔ);
-          var v2496 = -user.ᐃⵠⵠ.x + Math.floor(Math.random() * user.ᐃⵠⵠ.w);
-          var v2497 = -user.ᐃⵠⵠ.y + Math.floor(Math.random() * 400 * v415 - v415 * 200);
+          var v2496 = -v2835.ᐃⵠⵠ.x + Math.floor(Math.random() * v2835.ᐃⵠⵠ.w);
+          var v2497 = -v2835.ᐃⵠⵠ.y + Math.floor(Math.random() * 400 * v415 - v415 * 200);
           this.ΔΔⵠⵠᐃ.push(new f456(v2495, v2496, v2497, 0));
         }
       }
@@ -53814,11 +53813,11 @@
         this.style.top = this.translate.y + "px";
       },
       ΔᐃΔⲆⵠ: function () {
-        this.id.innerHTML = "<div style=\"position:absolute;\"> <img src=\"./img/scoreboard.png\"style=\"width:250px;transform:translate(125px, -80px);\"> </img> </div><div><div id=\"whokilled\">" + user.ΔⵠᐃⵠᐃⲆⲆ.ⲆᐃⲆᐃⵠΔΔ + "</div></div><div class=\"deco\" style=\"margin-top:35px;\"></div><div class=\"deco\"></div><div><div class=\"stats\"> " + v751[2035] + " : " + user.Δⵠⵠ + "</div><div class=\"stats\"> " + v751[2034] + " : " + user.ΔⵠᐃⵠᐃⲆⲆ.ᐃᐃⲆΔᐃᐃΔ + "</div></div><div id=\"flexDisplay\"><div id=\"score\"> " + v751[2033] + " : " + user.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ + "</div><div id=\"breadWon\"><span id=\"breadWonInner\">0</span><img src=\"./img/golden-bread.png\" style=\"width:50px;margin-left:-25px;transform: translate(37px, 8px);\"></img></div></div><div><div id=\"points\"> " + user.ΔⵠᐃⵠᐃⲆⲆ.ⲆⲆΔᐃᐃΔⵠ + " " + v751[2032] + "</div></div><div id=\"shop_points\">" + v751[2031] + "</div><div style=\"display:inline-block;\"><div class=\"social\" id=\"tttwitter\">" + v751[2029] + "</div><div class=\"social\" id=\"fffacebook\">" + v751[2030] + "</div></div><div id=\"bbback\">" + v751[2028] + "</div>";
+        this.id.innerHTML = "<div style=\"position:absolute;\"> <img src=\"./img/scoreboard.png\"style=\"width:250px;transform:translate(125px, -80px);\"> </img> </div><div><div id=\"whokilled\">" + v2835.ΔⵠᐃⵠᐃⲆⲆ.ⲆᐃⲆᐃⵠΔΔ + "</div></div><div class=\"deco\" style=\"margin-top:35px;\"></div><div class=\"deco\"></div><div><div class=\"stats\"> " + v751[2035] + " : " + v2835.Δⵠⵠ + "</div><div class=\"stats\"> " + v751[2034] + " : " + v2835.ΔⵠᐃⵠᐃⲆⲆ.ᐃᐃⲆΔᐃᐃΔ + "</div></div><div id=\"flexDisplay\"><div id=\"score\"> " + v751[2033] + " : " + v2835.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ + "</div><div id=\"breadWon\"><span id=\"breadWonInner\">0</span><img src=\"./img/golden-bread.png\" style=\"width:50px;margin-left:-25px;transform: translate(37px, 8px);\"></img></div></div><div><div id=\"points\"> " + v2835.ΔⵠᐃⵠᐃⲆⲆ.ⲆⲆΔᐃᐃΔⵠ + " " + v751[2032] + "</div></div><div id=\"shop_points\">" + v751[2031] + "</div><div style=\"display:inline-block;\"><div class=\"social\" id=\"tttwitter\">" + v751[2029] + "</div><div class=\"social\" id=\"fffacebook\">" + v751[2030] + "</div></div><div id=\"bbback\">" + v751[2028] + "</div>";
         this.style.display = "inline-block";
         document.getElementById("tttwitter").addEventListener("mouseup", f509, false);
         document.getElementById("bbback").addEventListener("mouseup", function () {
-          scoreboard.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
+          v2836.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
         }, vVVVV1422);
         document.getElementById("fffacebook").addEventListener("mouseup", f493, false);
         this.height = Math.floor(this.id.clientHeight / 2);
@@ -53907,7 +53906,7 @@
     };
     this.ⲆΔᐃΔ = function () {
       f287();
-      user.alert.ⲆΔᐃΔ("#FFF", "#000");
+      v2835.alert.ⲆΔᐃΔ("#FFF", "#000");
     };
   }
   function f486(p1622, p1623) {
@@ -53960,7 +53959,7 @@
       style: document.getElementById("sign_window").style,
       button: f431(60, 60, 0, ᐃᐃ[1052]),
       ⲆⲆᐃⲆⲆΔᐃ: function () {
-        var v2533 = Math.floor(Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + ᐃᐃ[427][0].width) + 35);
+        var v2533 = Math.floor(Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + ᐃᐃ[427][0].width) + 35);
         this.button.info.translate.x = v2533;
         this.button.info.translate.y = 22;
       },
@@ -53969,28 +53968,28 @@
         this.style.top = Math.floor(v410 - 115) + "px";
       },
       ᐃᐃΔⵠⵠ: function () {
-        game.sign.style.display = "none";
-        game.sign.open = false;
+        v3030.sign.style.display = "none";
+        v3030.sign.open = false;
       },
       select: function () {
-        game.sign.open = !game.sign.open;
-        if (game.sign.open) {
-          game.sign.style.display = "inline-block";
+        v3030.sign.open = !v3030.sign.open;
+        if (v3030.sign.open) {
+          v3030.sign.style.display = "inline-block";
         } else {
-          game.sign.style.display = "none";
+          v3030.sign.style.display = "none";
         }
       },
       ok: function () {
-        v2837.ΔΔⲆᐃⵠⲆΔΔⵠ(user.sign.ΔⵠΔᐃⵠ, game.sign.ᐃⵠⵠⲆⵠΔⵠ);
-        game.sign.select();
+        v2837.ΔΔⲆᐃⵠⲆΔΔⵠ(v2835.sign.ΔⵠΔᐃⵠ, v3030.sign.ᐃⵠⵠⲆⵠΔⵠ);
+        v3030.sign.select();
       },
       up: function () {
-        game.sign.ᐃⵠⵠⲆⵠΔⵠ = game.sign.ᐃⵠⵠⲆⵠΔⵠ === 0 ? 3 : game.sign.ᐃⵠⵠⲆⵠΔⵠ - 1;
-        game.sign.ᐃⲆⲆΔⵠᐃⲆ.src = "./img/sign" + game.sign.ᐃⵠⵠⲆⵠΔⵠ + ".png";
+        v3030.sign.ᐃⵠⵠⲆⵠΔⵠ = v3030.sign.ᐃⵠⵠⲆⵠΔⵠ === 0 ? 3 : v3030.sign.ᐃⵠⵠⲆⵠΔⵠ - 1;
+        v3030.sign.ᐃⲆⲆΔⵠᐃⲆ.src = "./img/sign" + v3030.sign.ᐃⵠⵠⲆⵠΔⵠ + ".png";
       },
       down: function () {
-        game.sign.ᐃⵠⵠⲆⵠΔⵠ = (game.sign.ᐃⵠⵠⲆⵠΔⵠ + 1) % 4;
-        game.sign.ᐃⲆⲆΔⵠᐃⲆ.src = "./img/sign" + game.sign.ᐃⵠⵠⲆⵠΔⵠ + ".png";
+        v3030.sign.ᐃⵠⵠⲆⵠΔⵠ = (v3030.sign.ᐃⵠⵠⲆⵠΔⵠ + 1) % 4;
+        v3030.sign.ᐃⲆⲆΔⵠᐃⲆ.src = "./img/sign" + v3030.sign.ᐃⵠⵠⲆⵠΔⵠ + ".png";
       }
     };
     document.getElementById("quit_sign").addEventListener("mouseup", this.sign.select, false);
@@ -54092,16 +54091,16 @@
         this.style.top = Math.floor(v410 - 270) + "px";
       },
       select: function () {
-        game.ⲆΔⵠⵠⵠ.open = !game.ⲆΔⵠⵠⵠ.open;
-        if (game.ⲆΔⵠⵠⵠ.open) {
-          game.ⲆΔⵠⵠⵠ.style.display = "inline-block";
+        v3030.ⲆΔⵠⵠⵠ.open = !v3030.ⲆΔⵠⵠⵠ.open;
+        if (v3030.ⲆΔⵠⵠⵠ.open) {
+          v3030.ⲆΔⵠⵠⵠ.style.display = "inline-block";
         } else {
-          game.ⲆΔⵠⵠⵠ.style.display = "none";
+          v3030.ⲆΔⵠⵠⵠ.style.display = "none";
         }
       },
       ᐃᐃΔⵠⵠ: function () {
-        game.ⲆΔⵠⵠⵠ.style.display = "none";
-        game.ⲆΔⵠⵠⵠ.open = vVVV145;
+        v3030.ⲆΔⵠⵠⵠ.style.display = "none";
+        v3030.ⲆΔⵠⵠⵠ.open = vVVV145;
       },
       ⵠΔⵠᐃΔᐃᐃ: function () {
         v2837.ΔΔⵠⵠᐃⲆΔᐃᐃ(this.ᐃΔᐃΔⵠⵠⵠ);
@@ -54158,11 +54157,11 @@
       ΔΔᐃΔⵠᐃⵠ: document.getElementById("pixelated_agree_ing").style,
       button: f431(60, 60, 0, ᐃᐃ[976]),
       ⵠᐃΔΔΔⵠⵠᐃΔ: function () {
-        game.options.open = !game.options.open;
-        if (game.options.open) {
-          game.options.style.display = "inline-block";
+        v3030.options.open = !v3030.options.open;
+        if (v3030.options.open) {
+          v3030.options.style.display = "inline-block";
         } else {
-          game.options.style.display = "none";
+          v3030.options.style.display = "none";
         }
       },
       ⵠⲆᐃᐃᐃⲆᐃⵠᐃ: function () {
@@ -54178,23 +54177,23 @@
         v2833.ⲆΔᐃᐃⲆᐃᐃᐃΔ();
       },
       ΔⲆⵠΔᐃ: function () {
-        game.ΔΔΔΔ.ΔⲆⵠΔᐃ();
+        v3030.ΔΔΔΔ.ΔⲆⵠΔᐃ();
       },
       ΔᐃⲆⵠⲆⵠⲆⵠⲆ: function () {
-        game.ᐃⲆΔΔⵠ.ΔⲆⵠΔᐃ();
+        v3030.ᐃⲆΔΔⵠ.ΔⲆⵠΔᐃ();
       },
       ⵠᐃⲆᐃΔΔΔⲆⲆ: function () {
-        game.ΔΔΔⵠ.ΔⲆⵠΔᐃ();
+        v3030.ΔΔΔⵠ.ΔⲆⵠΔᐃ();
       },
       ΔᐃΔΔⵠⲆᐃⲆⵠ: function () {
-        user.ᐃΔΔΔⲆⵠⵠ.ⲆᐃⵠⵠⵠⲆΔ();
+        v2835.ᐃΔΔΔⲆⵠⵠ.ⲆᐃⵠⵠⵠⲆΔ();
       },
       ᐃⵠᐃⲆⲆᐃⵠⵠⵠ: function () {
-        user.ⵠⵠⵠⵠΔ.ⲆᐃⵠⵠⵠⲆΔ();
+        v2835.ⵠⵠⵠⵠΔ.ⲆᐃⵠⵠⵠⲆΔ();
       },
       ᐃᐃΔⵠⵠ: function () {
-        game.options.style.display = "none";
-        game.options.open = vVVV14;
+        v3030.options.style.display = "none";
+        v3030.options.open = vVVV14;
       },
       ⵠᐃᐃ: function () {
         this.style.left = Math.floor(v409 - 235) + "px";
@@ -54220,26 +54219,26 @@
       button: 0,
       ΔΔ: 0,
       ᐃᐃΔⵠⵠ: function () {
-        game.ᐃⲆΔΔⵠ.style.display = "none";
-        game.ᐃⲆΔΔⵠ.open = false;
+        v3030.ᐃⲆΔΔⵠ.style.display = "none";
+        v3030.ᐃⲆΔΔⵠ.open = false;
       },
       ΔᐃⲆⵠⲆᐃⲆ: function () {
-        if (user.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ) {
+        if (v2835.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ) {
           v2837.ⲆΔⲆᐃⵠᐃⲆⵠᐃ();
         }
-        game.ᐃⲆΔΔⵠ.ᐃᐃΔⵠⵠ();
+        v3030.ᐃⲆΔΔⵠ.ᐃᐃΔⵠⵠ();
       },
       ΔⲆⵠΔᐃ: function () {
-        if (game.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ) {
+        if (v3030.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ) {
           ⲆᐃΔⵠ.set("starve_cancel", "0");
-          game.ᐃⲆΔΔⵠ.ᐃⵠⵠⲆΔ.display = "inline-block";
-          game.options.ⲆΔᐃⲆΔⵠⵠ.display = "none";
+          v3030.ᐃⲆΔΔⵠ.ᐃⵠⵠⲆΔ.display = "inline-block";
+          v3030.options.ⲆΔᐃⲆΔⵠⵠ.display = "none";
         } else {
           ⲆᐃΔⵠ.set("starve_cancel", "1");
-          game.ᐃⲆΔΔⵠ.ᐃⵠⵠⲆΔ.display = "none";
-          game.options.ⲆΔᐃⲆΔⵠⵠ.display = "inline-block";
+          v3030.ᐃⲆΔΔⵠ.ᐃⵠⵠⲆΔ.display = "none";
+          v3030.options.ⲆΔᐃⲆΔⵠⵠ.display = "inline-block";
         }
-        game.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ = !game.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ;
+        v3030.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ = !v3030.ᐃⲆΔΔⵠ.ⵠᐃⲆⲆΔ;
       },
       ΔⵠΔⵠΔⵠⲆ: function () {
         if (this.ⵠᐃⲆⲆΔ) {
@@ -54275,16 +54274,16 @@
         document.getElementById("game_canvas").style.imageRendering = p1626 ? "pixelated" : "auto";
       },
       ΔⲆⵠΔᐃ: function () {
-        if (game.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ === 0) {
+        if (v3030.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ === 0) {
           ⲆᐃΔⵠ.set("starve_aliasing", "1");
-          game.ⲆΔΔᐃᐃᐃᐃ.ΔⲆΔᐃᐃⲆᐃ(1);
-          game.options.ΔΔᐃΔⵠᐃⵠ.display = "inline-block";
+          v3030.ⲆΔΔᐃᐃᐃᐃ.ΔⲆΔᐃᐃⲆᐃ(1);
+          v3030.options.ΔΔᐃΔⵠᐃⵠ.display = "inline-block";
         } else {
           ⲆᐃΔⵠ.set("starve_aliasing", "0");
-          game.ⲆΔΔᐃᐃᐃᐃ.ΔⲆΔᐃᐃⲆᐃ(0);
-          game.options.ΔΔᐃΔⵠᐃⵠ.display = "none";
+          v3030.ⲆΔΔᐃᐃᐃᐃ.ΔⲆΔᐃᐃⲆᐃ(0);
+          v3030.options.ΔΔᐃΔⵠᐃⵠ.display = "none";
         }
-        game.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ = (game.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ + 1) % 2;
+        v3030.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ = (v3030.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ + 1) % 2;
       }
     };
     if (this.ⲆΔΔᐃᐃᐃᐃ.ⵠᐃⲆⲆΔ === 1) {
@@ -54302,14 +54301,14 @@
       id: 0,
       ⵠⲆⲆᐃ: 0,
       ΔⲆⵠΔᐃ: function () {
-        if (game.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ === 0) {
+        if (v3030.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ === 0) {
           ⲆᐃΔⵠ.set("starve_info_box", "1");
-          game.options.ⲆⵠⵠⲆΔⲆⲆ.display = "inline-block";
+          v3030.options.ⲆⵠⵠⲆΔⲆⲆ.display = "inline-block";
         } else {
           ⲆᐃΔⵠ.set("starve_info_box", "0");
-          game.options.ⲆⵠⵠⲆΔⲆⲆ.display = "none";
+          v3030.options.ⲆⵠⵠⲆΔⲆⲆ.display = "none";
         }
-        game.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ = (game.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ + 1) % 2;
+        v3030.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ = (v3030.ᐃΔⵠᐃⲆ.ⵠᐃⲆⲆΔ + 1) % 2;
       },
       ᐃᐃⲆⵠ: function (p1627, p1628, p1629) {
         if (p1627 && this.ⵠᐃⲆⲆΔ) {
@@ -54349,49 +54348,49 @@
       button: 0,
       ΔΔ: 0,
       ᐃᐃΔⵠⵠ: function () {
-        game.ΔΔΔΔ.style.display = "none";
-        game.ΔΔΔΔ.open = vVV142;
+        v3030.ΔΔΔΔ.style.display = "none";
+        v3030.ΔΔΔΔ.open = vVV142;
       },
       all: function () {
-        if (!user.ᐃΔⵠⵠᐃ.wait) {
-          if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ⵠⲆⲆᐃ.id < 0 && !user.ⵠΔⵠⵠΔ.enabled) {
-            v2837.ΔᐃⵠΔᐃΔⲆⵠⲆ(game.ΔΔΔΔ.button);
+        if (!v2835.ᐃΔⵠⵠᐃ.wait) {
+          if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ⵠⲆⲆᐃ.id < 0 && !v2835.ⵠΔⵠⵠΔ.enabled) {
+            v2837.ΔᐃⵠΔᐃΔⲆⵠⲆ(v3030.ΔΔΔΔ.button);
           }
-          game.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
+          v3030.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
         }
       },
       ⲆⲆⵠ: function () {
-        if (user.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ && !user.ᐃΔⵠⵠᐃ.wait) {
-          if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ⵠⲆⲆᐃ.id < 0 && !user.ⵠΔⵠⵠΔ.enabled) {
-            v2837.ⲆΔⵠᐃⲆᐃⵠⵠⵠ(game.ΔΔΔΔ.button);
+        if (v2835.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ && !v2835.ᐃΔⵠⵠᐃ.wait) {
+          if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ⵠⲆⲆᐃ.id < 0 && !v2835.ⵠΔⵠⵠΔ.enabled) {
+            v2837.ⲆΔⵠᐃⲆᐃⵠⵠⵠ(v3030.ΔΔΔΔ.button);
           }
-          game.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
+          v3030.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
         }
       },
       ᐃⵠⲆᐃᐃᐃⵠΔΔ: function () {
-        if (!user.ᐃΔⵠⵠᐃ.wait) {
-          if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ⵠⲆⲆᐃ.id < 0 && !user.ⵠΔⵠⵠΔ.enabled) {
-            v2837.ΔⲆᐃΔᐃⲆᐃⲆᐃ(game.ΔΔΔΔ.button);
+        if (!v2835.ᐃΔⵠⵠᐃ.wait) {
+          if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ⵠⲆⲆᐃ.id < 0 && !v2835.ⵠΔⵠⵠΔ.enabled) {
+            v2837.ΔⲆᐃΔᐃⲆᐃⲆᐃ(v3030.ΔΔΔΔ.button);
           }
-          game.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
+          v3030.ΔΔΔΔ.ᐃᐃΔⵠⵠ();
         }
       },
       ΔⲆⵠΔᐃ: function () {
-        if (game.ΔΔΔΔ.ⵠᐃⲆⲆΔ) {
+        if (v3030.ΔΔΔΔ.ⵠᐃⲆⲆΔ) {
           ⲆᐃΔⵠ.set("starve_safe", "0");
-          game.ΔΔΔΔ.ᐃⵠⵠⲆΔ.display = "inline-block";
-          game.options.ᐃⵠⵠⲆΔ.display = "none";
+          v3030.ΔΔΔΔ.ᐃⵠⵠⲆΔ.display = "inline-block";
+          v3030.options.ᐃⵠⵠⲆΔ.display = "none";
         } else {
           ⲆᐃΔⵠ.set("starve_safe", "1");
-          game.ΔΔΔΔ.ᐃⵠⵠⲆΔ.display = "none";
-          game.options.ᐃⵠⵠⲆΔ.display = "inline-block";
+          v3030.ΔΔΔΔ.ᐃⵠⵠⲆΔ.display = "none";
+          v3030.options.ᐃⵠⵠⲆΔ.display = "inline-block";
         }
-        game.ΔΔΔΔ.ⵠᐃⲆⲆΔ = !game.ΔΔΔΔ.ⵠᐃⲆⲆΔ;
+        v3030.ΔΔΔΔ.ⵠᐃⲆⲆΔ = !v3030.ΔΔΔΔ.ⵠᐃⲆⲆΔ;
       },
       ΔⵠΔⵠΔⵠⲆ: function (p1630) {
         this.button = p1630;
         document.getElementById("item_to_del").src = ᐃᐃ[v591[p1630].Δⵠ][0].ⲆⵠΔᐃⵠ === undefined ? ᐃᐃ[v591[p1630].Δⵠ][0].src : ᐃᐃ[v591[p1630].Δⵠ][0].ⲆⵠΔᐃⵠ;
-        if (v591[p1630].ⲆⲆⵠ && !user.ⲆΔᐃⲆΔ && user.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ) {
+        if (v591[p1630].ⲆⲆⵠ && !v2835.ⲆΔᐃⲆΔ && v2835.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ) {
           document.getElementById("recycle_delete").style.display = "inline-block";
         } else {
           document.getElementById("recycle_delete").style.display = "none";
@@ -54430,28 +54429,28 @@
         this.style.top = Math.floor(v410 - 215) + "px";
       },
       ᐃᐃΔⵠⵠ: function () {
-        game.ᐃᐃᐃᐃⲆ.open = false;
-        game.ᐃᐃᐃᐃⲆ.style.display = "none";
+        v3030.ᐃᐃᐃᐃⲆ.open = false;
+        v3030.ᐃᐃᐃᐃⲆ.style.display = "none";
       },
       select: function () {
-        game.ᐃᐃᐃᐃⲆ.open = !game.ᐃᐃᐃᐃⲆ.open;
-        if (game.ᐃᐃᐃᐃⲆ.open) {
-          game.ᐃᐃᐃᐃⲆ.style.display = "inline-block";
+        v3030.ᐃᐃᐃᐃⲆ.open = !v3030.ᐃᐃᐃᐃⲆ.open;
+        if (v3030.ᐃᐃᐃᐃⲆ.open) {
+          v3030.ᐃᐃᐃᐃⲆ.style.display = "inline-block";
         } else {
-          game.ᐃᐃᐃᐃⲆ.style.display = "none";
+          v3030.ᐃᐃᐃᐃⲆ.style.display = "none";
         }
       },
       ⵠΔⵠᐃΔᐃᐃ: function () {
-        if (game.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ >= 0) {
-          v2837.ⵠⲆⵠᐃΔⲆᐃᐃΔ(game.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ);
-          game.ᐃᐃᐃᐃⲆ.ᐃᐃΔⵠⵠ();
+        if (v3030.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ >= 0) {
+          v2837.ⵠⲆⵠᐃΔⲆᐃᐃΔ(v3030.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ);
+          v3030.ᐃᐃᐃᐃⲆ.ᐃᐃΔⵠⵠ();
           if (ga) {
-            ga("send", "event", "Game", "kit", "" + game.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ);
+            ga("send", "event", "Game", "kit", "" + v3030.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ);
           }
         }
       },
       ΔᐃΔⲆⵠ: function () {
-        var v2539 = user.ᐃᐃᐃᐃⲆ.value;
+        var v2539 = v2835.ᐃᐃᐃᐃⲆ.value;
         document.getElementById("points_bank").innerHTML = Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(v2539) + " points";
         for (var v2540 = 0; v2540 < v2253.length; v2540++) {
           if (v2253[v2540].ⲆΔⲆΔᐃ > v2539) {
@@ -54473,11 +54472,11 @@
           vNumber = Number(this.id.charAt(7));
         }
         var v2541 = v2253[vNumber - 1];
-        if (user.ᐃᐃᐃᐃⲆ.value >= v2541.ⲆΔⲆΔᐃ) {
-          game.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ = vNumber;
+        if (v2835.ᐃᐃᐃᐃⲆ.value >= v2541.ⲆΔⲆΔᐃ) {
+          v3030.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ = vNumber;
           document.getElementById("buy_kit").style.opacity = "1";
         } else {
-          game.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ = -1;
+          v3030.ᐃᐃᐃᐃⲆ.ⵠⵠⲆⲆⵠⵠⵠ = -1;
           document.getElementById("buy_kit").style.opacity = "0.2";
         }
         v2541 = v2541.items;
@@ -54511,15 +54510,15 @@
         this.style.top = Math.floor(v410 - 270) + "px";
       },
       ᐃᐃΔⵠⵠ: function () {
-        game.ΔΔΔⵠ.style.display = "none";
-        game.ΔΔΔⵠ.open = vVV145;
+        v3030.ΔΔΔⵠ.style.display = "none";
+        v3030.ΔΔΔⵠ.open = vVV145;
       },
       select: function () {
-        game.ΔΔΔⵠ.open = !game.ΔΔΔⵠ.open;
-        if (game.ΔΔΔⵠ.open) {
-          game.ΔΔΔⵠ.style.display = "inline-block";
+        v3030.ΔΔΔⵠ.open = !v3030.ΔΔΔⵠ.open;
+        if (v3030.ΔΔΔⵠ.open) {
+          v3030.ΔΔΔⵠ.style.display = "inline-block";
         } else {
-          game.ΔΔΔⵠ.style.display = "none";
+          v3030.ΔΔΔⵠ.style.display = "none";
         }
       },
       list: [],
@@ -54534,13 +54533,13 @@
       ⲆⵠΔⵠⲆⵠⲆ: 0,
       ⵠⵠᐃΔⲆⲆⲆ: 0,
       ᐃᐃᐃΔⲆᐃΔᐃⲆ: function () {
-        if (game.ΔΔΔⵠ.open) {
+        if (v3030.ΔΔΔⵠ.open) {
           var v2545 = new Date().getTime();
           if (!(v2545 - this.ⲆⵠΔⵠⲆⵠⲆ < 1000)) {
             this.ⲆⵠΔⵠⲆⵠⲆ = v2545;
             for (var v2546 = 0; v2546 < v2259.length; v2546++) {
-              if (game.ΔΔΔⵠ.list[v2546]) {
-                var v2547 = v2259[v2546].time - (v2545 - world.ⲆᐃⲆⵠᐃ.ΔᐃΔⲆⵠ + game.ΔΔΔⵠ.ⵠⵠᐃΔⲆⲆⲆ);
+              if (v3030.ΔΔΔⵠ.list[v2546]) {
+                var v2547 = v2259[v2546].time - (v2545 - v2834.ⲆᐃⲆⵠᐃ.ΔᐃΔⲆⵠ + v3030.ΔΔΔⵠ.ⵠⵠᐃΔⲆⲆⲆ);
                 document.getElementById("timeremain_" + v2546).innerHTML = v2547 > 960000 ? Math.floor(v2547 / 480000) + " days" : v2547 > 480000 ? Math.floor(v2547 / 480000) + " day" : v2547 > 60000 ? Math.floor(v2547 / 60000) + " min" : Math.floor(v2547 / 1000) + " sec";
               }
             }
@@ -54550,14 +54549,14 @@
       restore: function (p1631) {
         for (var v2548 = 0; v2548 < p1631.length; v2548++) {
           if (p1631[v2548] != 1) {
-            game.ΔΔΔⵠ.ⲆᐃⵠΔⵠΔᐃ(v2548, p1631[v2548]);
+            v3030.ΔΔΔⵠ.ⲆᐃⵠΔⵠΔᐃ(v2548, p1631[v2548]);
           }
         }
       },
       ⲆᐃⵠΔⵠΔᐃ: function (p1632, p1633) {
         if (p1633 === 3 && (p1632 === 11 || p1632 === 12)) {
-          user.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(0, 1);
-          game.ⵠⲆΔᐃⲆᐃᐃ();
+          v2835.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(0, 1);
+          v3030.ⵠⲆΔᐃⲆᐃᐃ();
         }
         document.getElementById("timeremain_" + p1632).innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
         if (p1633 > 1) {
@@ -54569,24 +54568,24 @@
         }
         document.getElementById("claim_reward_" + p1632).style.display = p1633 === 2 ? "inline-block" : "none";
         document.getElementById("time_finished_" + p1632).style.display = "inline";
-        game.ΔΔΔⵠ.list[p1632] = 0;
+        v3030.ΔΔΔⵠ.list[p1632] = 0;
       },
       modify: function (p1634, p1635) {
-        game.ΔΔΔⵠ.ⲆᐃⵠΔⵠΔᐃ(p1634, p1635);
-        if (game.ΔΔΔⵠ.ⵠᐃⲆⲆΔ) {
-          game.ΔΔΔⵠ.open = vVVV624;
-          game.ΔΔΔⵠ.style.display = "inline-block";
+        v3030.ΔΔΔⵠ.ⲆᐃⵠΔⵠΔᐃ(p1634, p1635);
+        if (v3030.ΔΔΔⵠ.ⵠᐃⲆⲆΔ) {
+          v3030.ΔΔΔⵠ.open = vVVV624;
+          v3030.ΔΔΔⵠ.style.display = "inline-block";
         }
       },
       ΔⲆⵠΔᐃ: function () {
-        if (game.ΔΔΔⵠ.ⵠᐃⲆⲆΔ) {
+        if (v3030.ΔΔΔⵠ.ⵠᐃⲆⲆΔ) {
           ⲆᐃΔⵠ.set("starve_quests", "0");
-          game.options.Δⵠᐃⵠᐃᐃⵠ.display = "none";
+          v3030.options.Δⵠᐃⵠᐃᐃⵠ.display = "none";
         } else {
           ⲆᐃΔⵠ.set("starve_quests", "1");
-          game.options.Δⵠᐃⵠᐃᐃⵠ.display = "inline-block";
+          v3030.options.Δⵠᐃⵠᐃᐃⵠ.display = "inline-block";
         }
-        game.ΔΔΔⵠ.ⵠᐃⲆⲆΔ = !game.ΔΔΔⵠ.ⵠᐃⲆⲆΔ;
+        v3030.ΔΔΔⵠ.ⵠᐃⲆⲆΔ = !v3030.ΔΔΔⵠ.ⵠᐃⲆⲆΔ;
       },
       ΔⵠⲆΔᐃⲆⲆΔⵠ: function () {
         var vNumber2 = Number(this.id.charAt(13));
@@ -54608,7 +54607,7 @@
     }
     function f487(p1636) {
       document.getElementById("img_" + p1636).addEventListener("mousedown", function () {
-        game.ⲆΔᐃᐃᐃ.list.ⲆᐃⵠΔⲆⲆᐃΔⵠ(p1636 - 1);
+        v3030.ⲆΔᐃᐃᐃ.list.ⲆᐃⵠΔⲆⲆᐃΔⵠ(p1636 - 1);
       }, false);
     }
     this.ⲆΔᐃᐃᐃ = {
@@ -54625,7 +54624,7 @@
         },
         ᐃᐃΔⵠⵠ: function () {
           document.getElementById("recipe_craft").style.display = "none";
-          game.ⲆΔᐃᐃᐃ.open = false;
+          v3030.ⲆΔᐃᐃᐃ.open = false;
         },
         ΔⵠⲆⵠⲆᐃΔ: function () {
           document.getElementById("recipe_craft").style.display = "none";
@@ -54775,7 +54774,7 @@
         },
         ᐃᐃΔⵠⵠ: function () {
           document.getElementById("home_craft").style.display = "none";
-          game.ⲆΔᐃᐃᐃ.open = vVVVV1422;
+          v3030.ⲆΔᐃᐃᐃ.open = vVVVV1422;
         }
       },
       ᐃΔΔΔᐃⲆⵠΔᐃ: function () {
@@ -54792,22 +54791,22 @@
     document.getElementById("quitmenu").addEventListener("mouseup", this.ⲆΔᐃᐃᐃ.list.ᐃᐃΔⵠⵠ, vVV14);
     document.getElementById("backhome").addEventListener("mouseup", this.ⲆΔᐃᐃᐃ.list.ΔⵠⲆⵠⲆᐃΔ, false);
     document.getElementById("hatcategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(2);
+      v3030.ⲆΔᐃᐃᐃ.list.select(2);
     }, vVVVV1423);
     document.getElementById("weaponcategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(1);
+      v3030.ⲆΔᐃᐃᐃ.list.select(1);
     }, vVVVV1423);
     document.getElementById("toolcategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(0);
+      v3030.ⲆΔᐃᐃᐃ.list.select(0);
     }, vVVV14);
     document.getElementById("foodcategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(3);
+      v3030.ⲆΔᐃᐃᐃ.list.select(3);
     }, false);
     document.getElementById("placeablecategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(4);
+      v3030.ⲆΔᐃᐃᐃ.list.select(4);
     }, false);
     document.getElementById("constructioncategory").addEventListener("mouseup", function () {
-      game.ⲆΔᐃᐃᐃ.list.select(5);
+      v3030.ⲆΔᐃᐃᐃ.list.select(5);
     }, false);
     for (let v2576 = 1; v2576 <= 90; v2576++) {
       f487(v2576);
@@ -54821,9 +54820,9 @@
         y: -1,
         x: -1
       },
-      players: [],
+      ᐃⵠΔΔ: [],
       focus: function (p1642) {
-        var v2577 = this.translate.y + (user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -120 : -50);
+        var v2577 = this.translate.y + (v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length > 0 ? -120 : -50);
         if (p1642.x > this.translate.x && p1642.x < this.translate.x + 193 && p1642.y > v2577 && p1642.y < v2577 + 193) {
           this.ΔᐃⵠⲆᐃⲆⲆ.x = p1642.x - this.translate.x;
           this.ΔᐃⵠⲆᐃⲆⲆ.y = p1642.y - v2577;
@@ -54854,9 +54853,9 @@
     this.ⵠᐃΔᐃⲆᐃΔ = function () {
       ᐃⵠⲆⵠᐃ = document.getElementById("team_box");
       ᐃⵠⲆⵠᐃ.innerHTML = "";
-      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
-      for (var v2579 = 1; v2579 < user.ΔΔⲆⲆⲆ.length; v2579++) {
-        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[v2579]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div></div>";
+      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
+      for (var v2579 = 1; v2579 < v2835.ΔΔⲆⲆⲆ.length; v2579++) {
+        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[v2579]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div></div>";
       }
       ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leave\" style=\"display:inline-block;\">LEAVE</div></div>";
       ᐃⵠⲆⵠᐃ.style.display = "inline-block";
@@ -54865,9 +54864,9 @@
     this.ⵠΔᐃΔᐃⲆⵠΔⵠ = function () {
       ᐃⵠⲆⵠᐃ = document.getElementById("team_box");
       ᐃⵠⲆⵠᐃ.innerHTML = "";
-      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
-      for (var v2580 = 1; v2580 < user.ΔΔⲆⲆⲆ.length; v2580++) {
-        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[v2580]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div></div>";
+      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
+      for (var v2580 = 1; v2580 < v2835.ΔΔⲆⲆⲆ.length; v2580++) {
+        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[v2580]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div></div>";
       }
       ᐃⵠⲆⵠᐃ.innerHTML += "</div>";
       ᐃⵠⲆⵠᐃ.style.display = "inline-block";
@@ -54875,18 +54874,18 @@
     this.ΔᐃⲆⲆⲆⵠⲆⲆⵠ = function () {
       ᐃⵠⲆⵠᐃ = document.getElementById("team_box");
       ᐃⵠⲆⵠᐃ.innerHTML = "";
-      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
-      for (var v2581 = 1; v2581 < user.ΔΔⲆⲆⲆ.length; v2581++) {
-        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = world.players[user.ΔΔⲆⲆⲆ[v2581]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div><div class=\"eject_member\" id=\"eject_member" + v2581 + "\"><img src=\"./img/close-team.png\" style=\"width:20px;padding:5px;\"></img></div>";
+      ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"leader\"><img src=\"./img/leaderlogo.png\" style=\"width:25px;margin-right:5px;\" ></img>" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[0]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div";
+      for (var v2581 = 1; v2581 < v2835.ΔΔⲆⲆⲆ.length; v2581++) {
+        ᐃⵠⲆⵠᐃ.innerHTML += "<div class=\"nicknames\"> <div style=\"display:inline-block;padding-top:7px;\">" + ((v2578.innerText = v2834.ᐃⵠΔΔ[v2835.ΔΔⲆⲆⲆ[v2581]].ᐃⲆᐃⵠⲆ) && v2578.innerHTML) + "</div><div class=\"eject_member\" id=\"eject_member" + v2581 + "\"><img src=\"./img/close-team.png\" style=\"width:20px;padding:5px;\"></img></div>";
       }
-      if (user.ⲆΔⵠΔᐃ.lock === 0) {
+      if (v2835.ⲆΔⵠΔᐃ.lock === 0) {
         ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"lock_team\" style=\"display:inline-block;\">LOCK</div></div>";
       } else {
         ᐃⵠⲆⵠᐃ.innerHTML += "<div id=\"lock_team\" style=\"display:inline-block;\">UNLOCK</div></div>";
       }
       document.getElementById("lock_team").addEventListener("click", v2837.ΔᐃⵠⲆᐃⵠΔΔⵠ, false);
       ᐃⵠⲆⵠᐃ.style.display = "inline-block";
-      for (v2581 = 1; v2581 < user.ΔΔⲆⲆⲆ.length; v2581++) {
+      for (v2581 = 1; v2581 < v2835.ΔΔⲆⲆⲆ.length; v2581++) {
         switch (v2581) {
           case 1:
             document.getElementById("eject_member" + v2581).addEventListener("click", function () {
@@ -57080,7 +57079,7 @@
     this.ⲆΔⵠ[181] = f431(60, 60, 0, ᐃᐃ[1716], 3);
     this.ⲆΔⵠ[181].id = 181;
     this.ΔⲆᐃᐃⲆᐃΔ = function () {
-      for (var v2582 = user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ, v2583 = 10, v2584 = 10, v2585 = 0; v2585 < v2582.length; v2585++) {
+      for (var v2582 = v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ, v2583 = 10, v2584 = 10, v2585 = 0; v2585 < v2582.length; v2585++) {
         if (v2585 > 0 && !(v2585 % 4)) {
           v2583 += v2582[0].info.width + 10;
           v2584 = 10;
@@ -57091,7 +57090,7 @@
       }
     };
     this.ΔΔΔΔⲆΔⵠ = function () {
-      var v2586 = Math.floor(Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ⵠΔᐃ[0].info.Δⵠ[0].width) + 35);
+      var v2586 = Math.floor(Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ⵠΔᐃ[0].info.Δⵠ[0].width) + 35);
       for (var v2587 = 0; v2587 < this.ⵠΔᐃ.length; v2587++) {
         if (this.ⵠΔᐃ[v2587]) {
           this.ⵠΔᐃ[v2587].info.translate.x = v2586;
@@ -57113,7 +57112,7 @@
       }
     };
     this.ⲆΔΔᐃⲆⲆⵠ = function () {
-      var v2590 = 12 + Math.floor(Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ⵠⵠⲆⲆⵠⲆⵠ.info.Δⵠ[0].width) + 35);
+      var v2590 = 12 + Math.floor(Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ⵠⵠⲆⲆⵠⲆⵠ.info.Δⵠ[0].width) + 35);
       this.ⵠⵠⲆⲆⵠⲆⵠ.info.translate.x = v2590;
       this.ⵠⵠⲆⲆⵠⲆⵠ.info.translate.y = 33;
       this.ᐃᐃⵠᐃⵠᐃⲆ.info.translate.x = this.ⵠⵠⲆⲆⵠⲆⵠ.info.translate.x;
@@ -57122,7 +57121,7 @@
       this.ⵠⵠⵠΔΔⲆⲆ.info.translate.y = 240;
     };
     this.ΔⲆᐃⲆΔΔⲆ = function () {
-      var v2591 = 12 + Math.floor(Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ΔⵠⲆⲆⲆΔⲆ.info.Δⵠ[0].width) + 35);
+      var v2591 = 12 + Math.floor(Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ΔⵠⲆⲆⲆΔⲆ.info.Δⵠ[0].width) + 35);
       this.ΔⵠⲆⲆⲆΔⲆ.info.translate.x = v2591;
       this.ΔⵠⲆⲆⲆΔⲆ.info.translate.y = 36;
       v2591 += 83;
@@ -57156,7 +57155,7 @@
       this.ⲆⲆΔΔⲆᐃΔ.info.translate.y = 36;
     };
     this.ᐃⲆⲆΔⲆΔΔ = function () {
-      var v2592 = 12 + Math.floor(Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ᐃⲆⵠⵠΔΔⲆ.info.Δⵠ[0].width) + 35);
+      var v2592 = 12 + Math.floor(Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) * (10 + this.ᐃⲆⵠⵠΔΔⲆ.info.Δⵠ[0].width) + 35);
       this.ᐃⲆⵠⵠΔΔⲆ.info.translate.x = v2592;
       this.ᐃⲆⵠⵠΔΔⲆ.info.translate.y = 36;
       v2592 += 83;
@@ -57164,14 +57163,14 @@
       this.ⲆⵠⲆᐃⵠΔΔ.info.translate.y = 36;
     };
     this.ⵠᐃⲆⲆⲆᐃⵠ = function () {
-      var v2593 = Math.floor((10 + this.ⲆᐃᐃᐃⵠⲆⲆ.info.Δⵠ[0].width) * Math.floor((3 + user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) + 35);
+      var v2593 = Math.floor((10 + this.ⲆᐃᐃᐃⵠⲆⲆ.info.Δⵠ[0].width) * Math.floor((3 + v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ.length) / 4) + 35);
       this.ⲆᐃᐃᐃⵠⲆⲆ.info.translate.x = v2593;
       this.ⲆᐃᐃᐃⵠⲆⲆ.info.translate.y = 22;
     };
     this.ⵠⲆΔᐃⲆᐃᐃ = function () {
-      var v2594 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ;
+      var v2594 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ;
       if (v2594.length > 0) {
-        var v2595 = Math.floor((v406 - user.ᐃⵠⲆⲆ.max * (v2594[0].info.width + 5)) / 2);
+        var v2595 = Math.floor((v406 - v2835.ᐃⵠⲆⲆ.max * (v2594[0].info.width + 5)) / 2);
       }
       for (var v2596 = 0; v2594.length > v2596; v2596++) {
         v2594[v2596].info.translate.x = v2595 + v2596 * (v2594[v2596].info.width + 5);
@@ -57192,11 +57191,11 @@
       vWindow.setTimeout(f489, 33);
     }
     this.ᐃᐃΔⵠⵠ = function (p1643) {
-      if (user.ⲆΔⲆᐃⲆ.open) {
-        user.ⲆΔⲆᐃⲆ.ᐃᐃΔⵠⵠ();
+      if (v2835.ⲆΔⲆᐃⲆ.open) {
+        v2835.ⲆΔⲆᐃⲆ.ᐃᐃΔⵠⵠ();
       }
-      if (user.ⲆⲆᐃΔⵠ.open) {
-        user.ⲆⲆᐃΔⵠ.ᐃᐃΔⵠⵠ();
+      if (v2835.ⲆⲆᐃΔⵠ.open) {
+        v2835.ⲆⲆᐃΔⵠ.ᐃᐃΔⵠⵠ();
       }
       document.getElementById("team_box").style.display = "none";
       vThis2.ⲆΔⵠⵠⵠ.style.display = "none";
@@ -57247,8 +57246,8 @@
     this.ⵠᐃᐃ = function () {
       this.ΔΔΔᐃ.translate.x = v406 - this.ΔΔΔᐃ.Δⵠ.width - 10;
       this.ΔΔΔᐃ.translate.y = 5;
-      world.ⲆᐃⲆⵠᐃ.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[974][0].width - 85;
-      world.ⲆᐃⲆⵠᐃ.translate.y = 10;
+      v2834.ⲆᐃⲆⵠᐃ.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[974][0].width - 85;
+      v2834.ⲆᐃⲆⵠᐃ.translate.y = 10;
       this.ⲆΔᐃᐃᐃ.button.info.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[957][0].width - 10;
       this.ⲆΔᐃᐃᐃ.button.info.translate.y = 10;
       this.ΔΔΔⵠ.button.info.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[1004][0].width - 20;
@@ -57261,10 +57260,10 @@
       this.Ⲇⵠⵠᐃ.ⵠⵠⲆΔⵠⵠⵠ.info.translate.y = this.options.button.info.translate.y + ᐃᐃ[1032][0].height;
       this.ⲆΔⵠⵠⵠ.button.info.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[1044][0].width - 20;
       this.ⲆΔⵠⵠⵠ.button.info.translate.y = this.Ⲇⵠⵠᐃ.ᐃⵠΔᐃⵠⵠⵠ.info.translate.y + ᐃᐃ[1044][0].height;
-      user.ⵠⵠⵠⵠΔ.translate.x = this.ΔΔΔᐃ.translate.x - 63 - 85;
-      user.ⵠⵠⵠⵠΔ.translate.y = 100;
-      user.ᐃΔΔΔⲆⵠⵠ.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[655].width - 85;
-      user.ᐃΔΔΔⲆⵠⵠ.translate.y = user.ⵠⵠⵠⵠΔ.translate.y + 10 + ᐃᐃ[684].height;
+      v2835.ⵠⵠⵠⵠΔ.translate.x = this.ΔΔΔᐃ.translate.x - 63 - 85;
+      v2835.ⵠⵠⵠⵠΔ.translate.y = 100;
+      v2835.ᐃΔΔΔⲆⵠⵠ.translate.x = this.ΔΔΔᐃ.translate.x - ᐃᐃ[655].width - 85;
+      v2835.ᐃΔΔΔⲆⵠⵠ.translate.y = v2835.ⵠⵠⵠⵠΔ.translate.y + 10 + ᐃᐃ[684].height;
       this.ΔΔΔⲆⲆ.translate.y = v408 - 3 - 193;
       this.ΔΔΔⲆⲆ.translate.x = v406 - 3 - 193;
       this.ᐃⵠᐃⵠ.translate.x = 5;
@@ -57281,8 +57280,8 @@
       this.ⵠᐃⵠᐃᐃⵠⲆΔⲆ();
       this.sign.ⲆⲆᐃⲆⲆΔᐃ();
       f293();
-      user.ⲆΔⲆᐃⲆ.ⵠᐃᐃ();
-      user.ⲆⲆᐃΔⵠ.ⵠᐃᐃ();
+      v2835.ⲆΔⲆᐃⲆ.ⵠᐃᐃ();
+      v2835.ⲆⲆᐃΔⵠ.ⵠᐃᐃ();
       this.ΔᐃⲆΔΔΔΔⲆⵠ.ⵠᐃᐃ();
       this.ⲆΔᐃᐃᐃ.ⲆᐃⵠⲆᐃᐃᐃ.ⵠᐃᐃ();
       this.ⲆΔᐃᐃᐃ.list.ⵠᐃᐃ();
@@ -57302,32 +57301,32 @@
       }
       this.ᐃᐃᐃᐃⲆ.button.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.ΔΔΔᐃ.translate.y -= v2600 > 0 ? v2600 : -v2600;
-      user.ⵠⵠⵠⵠΔ.translate.y -= v2600 > 0 ? v2600 : -v2600;
-      user.ᐃΔΔΔⲆⵠⵠ.translate.y -= v2600 > 0 ? v2600 : -v2600;
+      v2835.ⵠⵠⵠⵠΔ.translate.y -= v2600 > 0 ? v2600 : -v2600;
+      v2835.ᐃΔΔΔⲆⵠⵠ.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.ⲆΔᐃᐃᐃ.button.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.ΔΔΔⵠ.button.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.options.button.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.ⲆΔⵠⵠⵠ.button.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.Ⲇⵠⵠᐃ.ᐃⵠΔᐃⵠⵠⵠ.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.Ⲇⵠⵠᐃ.ⵠⵠⲆΔⵠⵠⵠ.info.translate.y -= v2600 > 0 ? v2600 : -v2600;
-      world.ⲆᐃⲆⵠᐃ.translate.y -= v2600 > 0 ? v2600 : -v2600;
+      v2834.ⲆᐃⲆⵠᐃ.translate.y -= v2600 > 0 ? v2600 : -v2600;
       this.ᐃⵠᐃⵠ.translate.y -= v2600 < 0 ? v2600 : -v2600;
       this.ΔΔΔⲆⲆ.translate.y -= v2600 < 0 ? v2600 : -v2600;
     };
     this.ΔᐃΔΔΔΔⵠ = function () {
-      if (!user.ⵠΔⵠⵠΔ.enabled && this.ⵠⲆⵠⲆⲆⵠᐃ && !user.ⲆΔᐃⲆΔ) {
+      if (!v2835.ⵠΔⵠⵠΔ.enabled && this.ⵠⲆⵠⲆⲆⵠᐃ && !v2835.ⲆΔᐃⲆΔ) {
         f328();
       }
       f309();
       (function () {
-        var v2601 = world.units[0];
-        if (world.mode === 0 || world.mode === 7 || world.mode === 2 || world.mode === 4 || world.mode === 5 || world.mode === 6 || world.mode === 3) {
+        var v2601 = v2834.Δⵠᐃ[0];
+        if (v2834.mode === 0 || v2834.mode === 7 || v2834.mode === 2 || v2834.mode === 4 || v2834.mode === 5 || v2834.mode === 6 || v2834.mode === 3) {
           for (var v2602 = 0; v2602 < v2601.length; v2602++) {
             v2601[v2602].ΔΔⵠΔⲆⲆᐃ();
           }
-        } else if (world.mode === 1) {
+        } else if (v2834.mode === 1) {
           for (v2602 = 0; v2602 < v2601.length; v2602++) {
-            if (user.ⲆⲆΔⵠⲆᐃⵠ || user.ᐃΔΔΔⲆⵠⵠ.enabled || v2601[v2602].ⲆⵠⵠΔ.ᐃⲆᐃⵠⲆ !== "spectator") {
+            if (v2835.ⲆⲆΔⵠⲆᐃⵠ || v2835.ᐃΔΔΔⲆⵠⵠ.enabled || v2601[v2602].ⲆⵠⵠΔ.ᐃⲆᐃⵠⲆ !== "spectator") {
               v2601[v2602].ΔΔⵠΔⲆⲆᐃ();
             }
           }
@@ -57339,7 +57338,7 @@
         if (this.ⲆⵠⵠⲆΔᐃⵠ === 1) {
           this.ⲆΔᐃᐃᐃ.button.ⲆΔᐃΔ(p1623);
         }
-        if (world.mode !== 2 && world.mode !== 5 && this.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
+        if (v2834.mode !== 2 && v2834.mode !== 5 && this.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
           this.ΔΔΔⵠ.button.ⲆΔᐃΔ(p1623);
         }
         this.options.button.ⲆΔᐃΔ(p1623);
@@ -57362,19 +57361,19 @@
         f294();
         f292();
         (function () {
-          if (!user.ⵠⲆΔᐃ.open && !user.ⵠⲆⵠΔΔ.open && !user.ΔⵠⵠⲆ.open && !user.ΔⵠⲆⵠ.open && !user.ΔⲆⲆⵠ.open) {
-            user.ΔᐃⲆΔᐃ.open = false;
-            var v2603 = world.fast_units[user.ᐃᐃⵠⵠ];
+          if (!v2835.ⵠⲆΔᐃ.open && !v2835.ⵠⲆⵠΔΔ.open && !v2835.ΔⵠⵠⲆ.open && !v2835.ΔⵠⲆⵠ.open && !v2835.ΔⲆⲆⵠ.open) {
+            v2835.ΔᐃⲆΔᐃ.open = false;
+            var v2603 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
             var v2604 = 100;
             if (v2603) {
-              for (var v2605 = 0; v2605 < world.units[44].length; v2605++) {
-                var v2606 = world.units[44][v2605];
+              for (var v2605 = 0; v2605 < v2834.Δⵠᐃ[44].length; v2605++) {
+                var v2606 = v2834.Δⵠᐃ[44][v2605];
                 var v2607 = Δᐃᐃ.ⲆⲆⵠᐃ(v2606, v2603);
                 if (v2607 < v2604) {
                   v2604 = v2607;
-                  user.ΔᐃⲆΔᐃ.open = vVVV623;
-                  user.ΔᐃⲆΔᐃ.ΔⲆᐃⲆ = v2606.ΔⲆᐃⲆ;
-                  user.ΔᐃⲆΔᐃ.ΔⵠΔᐃⵠ = v2606.id;
+                  v2835.ΔᐃⲆΔᐃ.open = vVVV623;
+                  v2835.ΔᐃⲆΔᐃ.ΔⲆᐃⲆ = v2606.ΔⲆᐃⲆ;
+                  v2835.ΔᐃⲆΔᐃ.ΔⵠΔᐃⵠ = v2606.id;
                 }
               }
             }
@@ -57387,30 +57386,30 @@
         f293();
         f304();
       }
-      if (user.ⵠΔⵠⵠΔ.enabled) {
+      if (v2835.ⵠΔⵠⵠΔ.enabled) {
         f299();
       }
       f297();
       if (this.ⵠⲆⵠⲆⲆⵠᐃ && this.ΔΔᐃⵠⵠᐃⵠ === 1) {
         f316();
       }
-      user.ⵠΔᐃⵠΔΔΔ.ⲆΔᐃΔ();
-      user.alert.ⲆΔᐃΔ("#FFF", "#000");
+      v2835.ⵠΔᐃⵠΔΔΔ.ⲆΔᐃΔ();
+      v2835.alert.ⲆΔᐃΔ("#FFF", "#000");
       if (this.ⵠⲆⵠⲆⲆⵠᐃ) {
-        user.ⵠΔⵠⵠΔ.ⲆΔᐃΔ();
-        user.ᐃᐃᐃᐃⲆ.ⲆΔᐃΔ();
-        user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.ⲆΔᐃΔ(v3063.ᐃΔⵠⲆ.x, v3063.ᐃΔⵠⲆ.y);
+        v2835.ⵠΔⵠⵠΔ.ⲆΔᐃΔ();
+        v2835.ᐃᐃᐃᐃⲆ.ⲆΔᐃΔ();
+        v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.ⲆΔᐃΔ(v3063.ᐃΔⵠⲆ.x, v3063.ᐃΔⵠⲆ.y);
       }
       f306();
     };
     this.ᐃᐃⵠΔⵠᐃⲆⲆⲆ = function () {
-      user.ᐃⵠⵠ.ⵠᐃᐃ();
-      user.ᐃⵠᐃⵠ.ⵠᐃᐃ();
-      if (!user.reconnect.enabled && user.ⵠᐃⲆΔⲆ) {
-        user.control.ⵠᐃᐃ();
-        user.ⵠⵠⵠⵠΔ.ⵠᐃᐃ();
+      v2835.ᐃⵠⵠ.ⵠᐃᐃ();
+      v2835.ᐃⵠᐃⵠ.ⵠᐃᐃ();
+      if (!v2835.reconnect.enabled && v2835.ⵠᐃⲆΔⲆ) {
+        v2835.control.ⵠᐃᐃ();
+        v2835.ⵠⵠⵠⵠΔ.ⵠᐃᐃ();
       }
-      world.ⵠᐃᐃ();
+      v2834.ⵠᐃᐃ();
       this.ΔΔΔⵠ.ᐃᐃᐃΔⲆᐃΔᐃⲆ();
     };
     this.ⲆⲆΔᐃⲆᐃⲆΔᐃ = function () {
@@ -57423,7 +57422,7 @@
       v2837.ΔΔⲆΔᐃⵠⲆⵠⲆ();
     };
     this.ⲆΔᐃΔ = function () {
-      if (!user.reconnect.enabled && user.ⵠᐃⲆΔⲆ) {
+      if (!v2835.reconnect.enabled && v2835.ⵠᐃⲆΔⲆ) {
         this.ΔⲆΔⵠΔᐃⵠΔΔ();
       }
       v3031.ⲆⲆⵠⵠⵠⲆⵠᐃⵠ();
@@ -57437,64 +57436,64 @@
       }
     };
     this.ΔᐃΔΔⲆⲆⲆ = function (p1644) {
-      if (user.ⲆΔⲆᐃⲆ.open && p1644.keyCode === 27) {
-        user.ⲆΔⲆᐃⲆ.ᐃᐃΔⵠⵠ();
-      } else if (user.ⲆⲆᐃΔⵠ.open && p1644.keyCode === 27) {
-        user.ⲆⲆᐃΔⵠ.ᐃᐃΔⵠⵠ();
-      } else if (user.ⲆΔⲆᐃⲆ.open || user.ⲆⲆᐃΔⵠ.open || p1644.keyCode != 79 || v2599 != -1) {
+      if (v2835.ⲆΔⲆᐃⲆ.open && p1644.keyCode === 27) {
+        v2835.ⲆΔⲆᐃⲆ.ᐃᐃΔⵠⵠ();
+      } else if (v2835.ⲆⲆᐃΔⵠ.open && p1644.keyCode === 27) {
+        v2835.ⲆⲆᐃΔⵠ.ᐃᐃΔⵠⵠ();
+      } else if (v2835.ⲆΔⲆᐃⲆ.open || v2835.ⲆⲆᐃΔⵠ.open || p1644.keyCode != 79 || v2599 != -1) {
         if (p1644.keyCode == 13 && v2599 == -1) {
-          if (user.ⲆⲆᐃΔⵠ.open) {
-            user.ⲆⲆᐃΔⵠ.ᐃⵠΔⲆⵠΔΔ();
+          if (v2835.ⲆⲆᐃΔⵠ.open) {
+            v2835.ⲆⲆᐃΔⵠ.ᐃⵠΔⲆⵠΔΔ();
           } else {
-            user.ⲆΔⲆᐃⲆ.ⲆΔᐃᐃⲆ();
+            v2835.ⲆΔⲆᐃⲆ.ⲆΔᐃᐃⲆ();
           }
-        } else if (!user.ⲆΔⲆᐃⲆ.open && !user.ⲆⲆᐃΔⵠ.open) {
+        } else if (!v2835.ⲆΔⲆᐃⲆ.open && !v2835.ⲆⲆᐃΔⵠ.open) {
           if (p1644.keyCode === 82) {
-            user.ⵠⵠⵠⵠΔ.ⲆᐃⵠⵠⵠⲆΔ();
-          } else if (p1644.keyCode !== 80 || world.mode !== 1 || user.ⲆⲆΔⵠⲆᐃⵠ) {
+            v2835.ⵠⵠⵠⵠΔ.ⲆᐃⵠⵠⵠⲆΔ();
+          } else if (p1644.keyCode !== 80 || v2834.mode !== 1 || v2835.ⲆⲆΔⵠⲆᐃⵠ) {
             if (p1644.keyCode >= 49 && p1644.keyCode <= 57) {
-              if (user.ⵠⲆⲆᐃ.id < 0) {
+              if (v2835.ⵠⲆⲆᐃ.id < 0) {
                 var v2609 = p1644.keyCode - 49;
-                var v2610 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ[v2609];
+                var v2610 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ[v2609];
                 if (v2610) {
                   v2837.ᐃⵠⲆⲆΔ(v2610.id, v2609);
                 }
               }
             } else if (p1644.keyCode == 89) {
-              user.ᐃⲆⲆⵠᐃᐃΔ = !user.ᐃⲆⲆⵠᐃᐃΔ;
+              v2835.ᐃⲆⲆⵠᐃᐃΔ = !v2835.ᐃⲆⲆⵠᐃᐃΔ;
             } else if (p1644.keyCode == 71) {
-              user.ⵠⲆⲆᐃ.ᐃΔΔⵠⲆΔⵠⲆⲆ();
+              v2835.ⵠⲆⲆᐃ.ᐃΔΔⵠⲆΔⵠⲆⲆ();
             }
           } else {
-            user.ᐃΔΔΔⲆⵠⵠ.ⲆᐃⵠⵠⵠⲆΔ();
+            v2835.ᐃΔΔΔⲆⵠⵠ.ⲆᐃⵠⵠⵠⲆΔ();
           }
         }
       } else {
-        user.ⲆⲆᐃΔⵠ.ΔΔΔⲆⵠⲆΔⵠⵠ();
+        v2835.ⲆⲆᐃΔⵠ.ΔΔΔⲆⵠⲆΔⵠⵠ();
       }
       v3059.up(p1644);
     };
     this.ΔⵠΔᐃΔⵠⲆ = function (p1645) {
       v3059.down(p1645);
-      if (p1645.keyCode == 8 && !user.ⲆΔⲆᐃⲆ.open && !user.ⲆⲆᐃΔⵠ.open) {
+      if (p1645.keyCode == 8 && !v2835.ⲆΔⲆᐃⲆ.open && !v2835.ⲆⲆᐃΔⵠ.open) {
         p1645.preventDefault();
       }
     };
     this.ⵠⲆΔⲆΔⲆΔ = function (p1646) {
       v3063.ᐃΔⵠⲆ = f429(vThis2.ⵠΔΔ, p1646);
       var vVVV1442 = vVV144;
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
         vThis2.ΔΔΔⲆⲆ.focus(v3063.ᐃΔⵠⲆ);
       }
-      var v2611 = user.ⵠⲆΔᐃ;
-      if (user.ⵠⲆⲆᐃ.id < 0 && v2611.id >= 0 && (!user.ⵠⲆΔᐃ.lock || user.ⵠⲆΔᐃ.ΔⲆᐃⲆ === user.id)) {
-        vVVV1442 |= vThis2.ⵠΔᐃ[user.ⵠⲆΔᐃ.id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
+      var v2611 = v2835.ⵠⲆΔᐃ;
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && v2611.id >= 0 && (!v2835.ⵠⲆΔᐃ.lock || v2835.ⵠⲆΔᐃ.ΔⲆᐃⲆ === v2835.id)) {
+        vVVV1442 |= vThis2.ⵠΔᐃ[v2835.ⵠⲆΔᐃ.id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      var v2612 = user.ΔⵠⵠⲆ;
+      var v2612 = v2835.ΔⵠⵠⲆ;
       if (v2612.open && v2612.ⵠΔᐃⲆⲆⲆᐃ > 0) {
         vVVV1442 |= vThis2.ⲆⵠⲆᐃⵠΔΔ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      var v2613 = user.ΔⲆⲆⵠ;
+      var v2613 = v2835.ΔⲆⲆⵠ;
       if (v2613.open && v2613.ⲆⵠᐃΔΔᐃᐃ > 0) {
         vVVV1442 |= vThis2.ⵠΔⲆⲆΔΔᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         vVVV1442 |= vThis2.ᐃⲆⲆΔΔᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
@@ -57511,34 +57510,34 @@
         vVVV1442 |= vThis2.ⵠΔⲆᐃⲆⲆⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         vVVV1442 |= vThis2.ⲆⲆΔΔⲆᐃΔ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      var v2614 = user.ΔⵠⲆⵠ;
+      var v2614 = v2835.ΔⵠⲆⵠ;
       if (v2614.open && v2614.ᐃⲆΔⲆⲆΔⵠ > 0) {
         vVVV1442 |= vThis2.ⵠⵠⵠΔΔⲆⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (user.sign.open) {
+      if (v2835.sign.open) {
         vVVV1442 |= vThis2.sign.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (!user.ⵠⲆΔᐃ.lock) {
-        if (user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
+      if (!v2835.ⵠⲆΔᐃ.lock) {
+        if (v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
           vVVV1442 |= vThis2.ᐃΔΔⲆΔᐃᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         }
       }
-      if (user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ) {
+      if (v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ) {
         vVVV1442 |= vThis2.ᐃⵠᐃᐃᐃᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (user.ⵠⲆⲆᐃ.id < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
-        for (var v2615 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2616 = 0; v2615.length > v2616; v2616++) {
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+        for (var v2615 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2616 = 0; v2615.length > v2616; v2616++) {
           var v2617 = v2615[v2616].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
           vVVV1442 |= v2617;
           if (v2617) {
-            user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.start(v2616, v3063.ᐃΔⵠⲆ);
+            v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.start(v2616, v3063.ᐃΔⵠⲆ);
           }
-          if (v2611.open && (v2611.id < 0 || v2615[v2616].id == v2611.id) || user.ⵠⲆⵠΔΔ.open && v2615[v2616].id === 200 || user.ΔᐃⲆΔᐃ.open && v2615[v2616].id === 282 || user.ΔⵠⲆⵠ.open && (v2615[v2616].id === 200 || v2615[v2616].id === 224) || user.ΔⵠⵠⲆ.open && v2615[v2616].id === 227 || user.ΔⲆⲆⵠ.open && v2615[v2616].id === 200) {
+          if (v2611.open && (v2611.id < 0 || v2615[v2616].id == v2611.id) || v2835.ⵠⲆⵠΔΔ.open && v2615[v2616].id === 200 || v2835.ΔᐃⲆΔᐃ.open && v2615[v2616].id === 282 || v2835.ΔⵠⲆⵠ.open && (v2615[v2616].id === 200 || v2615[v2616].id === 224) || v2835.ΔⵠⵠⲆ.open && v2615[v2616].id === 227 || v2835.ΔⲆⲆⵠ.open && v2615[v2616].id === 200) {
             vVVV1442 |= vThis2.ⵠΔⲆⵠᐃ[v2615[v2616].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
           }
         }
       }
-      if (user.ΔⲆᐃᐃⲆ.open) {
+      if (v2835.ΔⲆᐃᐃⲆ.open) {
         vVVV1442 |= vThis2.ΔⲆᐃᐃⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
       if (vThis2.ΔΔΔⲆΔ != -1) {
@@ -57548,37 +57547,37 @@
       } else {
         v2618 = false;
       }
-      if (!!(user.ⵠⲆⲆᐃ.id < 0) && !!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !v2618 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !user.ⲆΔᐃⲆΔ) {
-        v2615 = user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
+      if (!!(v2835.ⵠⲆⲆᐃ.id < 0) && !!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !v2618 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !v2835.ⲆΔᐃⲆΔ) {
+        v2615 = v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
         v2616 = 0;
         for (; v2616 < v2615.length; v2616++) {
           vVVV1442 |= v2615[v2616].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         }
       }
-      if (user.ⵠⲆⲆᐃ.id < 0 && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         vVVV1442 |= vThis2.ᐃᐃᐃᐃⲆ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         vVVV1442 |= vThis2.ⲆΔᐃᐃᐃ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         vVVV1442 |= vThis2.options.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open) {
         vVVV1442 |= vThis2.ⲆΔⵠⵠⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
-      if (!!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (!!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         if (v3031.ⲆΔᐃᐃⲆ) {
           vVVV1442 |= vThis2.Ⲇⵠⵠᐃ.ᐃⵠΔᐃⵠⵠⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         } else {
           vVVV1442 |= vThis2.Ⲇⵠⵠᐃ.ⵠⵠⲆΔⵠⵠⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
         }
       }
-      if (!!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && world.mode !== 2 && world.mode !== 5) {
+      if (!!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && v2834.mode !== 2 && v2834.mode !== 5) {
         vVVV1442 |= vThis2.ΔΔΔⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2224);
       }
       if (!vVVV1442 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.sign.open) {
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ >= 0) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ >= 0) {
           v2837.ᐃⵠⲆⵠΔΔⲆⵠⲆ();
         } else if (!v2618) {
           v3063.down();
@@ -57588,15 +57587,15 @@
     this.ⲆᐃΔⲆᐃΔⲆ = function (p1647) {
       v3063.ᐃΔⵠⲆ = f429(vThis2.ⵠΔΔ, p1647);
       v3063.up();
-      if (!user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.release()) {
-        var v2619 = user.ⵠⲆΔᐃ;
-        var v2620 = user.ⵠⲆⵠΔΔ;
-        var v2621 = user.ΔᐃⲆΔᐃ;
-        var v2622 = user.ΔⵠⵠⲆ;
-        var v2623 = user.ΔⲆⲆⵠ;
-        var v2624 = user.ΔⵠⲆⵠ;
-        if (user.control.attack) {
-          user.control.attack = 0;
+      if (!v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.release()) {
+        var v2619 = v2835.ⵠⲆΔᐃ;
+        var v2620 = v2835.ⵠⲆⵠΔΔ;
+        var v2621 = v2835.ΔᐃⲆΔᐃ;
+        var v2622 = v2835.ΔⵠⵠⲆ;
+        var v2623 = v2835.ΔⲆⲆⵠ;
+        var v2624 = v2835.ΔⵠⲆⵠ;
+        if (v2835.control.attack) {
+          v2835.control.attack = 0;
           v2837.ᐃᐃΔⲆⵠⲆⵠᐃᐃ();
         }
         if (vThis2.ΔΔΔⲆΔ != -1) {
@@ -57610,19 +57609,19 @@
             vThis2.Δᐃᐃᐃⵠ[vThis2.ΔΔΔⲆΔ].action();
           }
         }
-        if (user.ⵠⲆⲆᐃ.id < 0 && v2619.id >= 0 && !vThis2.ΔΔΔΔ.open) {
-          if (!user.ⵠⲆΔᐃ.lock || user.id === user.ⵠⲆΔᐃ.ΔⲆᐃⲆ) {
-            if (v2625 = vThis2.ⵠΔᐃ[user.ⵠⲆΔᐃ.id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
+        if (v2835.ⵠⲆⲆᐃ.id < 0 && v2619.id >= 0 && !vThis2.ΔΔΔΔ.open) {
+          if (!v2835.ⵠⲆΔᐃ.lock || v2835.id === v2835.ⵠⲆΔᐃ.ΔⲆᐃⲆ) {
+            if (v2625 = vThis2.ⵠΔᐃ[v2835.ⵠⲆΔᐃ.id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
               v2837.ⲆⵠᐃⵠⵠΔⲆⲆΔ(v2619);
             }
           }
         }
-        if ((v2622 = user.ΔⵠⵠⲆ).open && v2622.ⵠΔᐃⲆⲆⲆᐃ > 0 && !vThis2.ΔΔΔΔ.open) {
+        if ((v2622 = v2835.ΔⵠⵠⲆ).open && v2622.ⵠΔᐃⲆⲆⲆᐃ > 0 && !vThis2.ΔΔΔΔ.open) {
           if (v2625 = vThis2.ⲆⵠⲆᐃⵠΔΔ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             v2837.ⵠⲆⲆⲆⵠΔΔⲆⵠ(v2622);
           }
         }
-        if ((v2623 = user.ΔⲆⲆⵠ).open && v2623.ⲆⵠᐃΔΔᐃᐃ > 0 && !vThis2.ΔΔΔΔ.open) {
+        if ((v2623 = v2835.ΔⲆⲆⵠ).open && v2623.ⲆⵠᐃΔΔᐃᐃ > 0 && !vThis2.ΔΔΔΔ.open) {
           switch (v2623.type) {
             case 24:
               if (v2625 = vThis2.ⵠΔⲆⲆΔΔᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
@@ -57695,28 +57694,28 @@
               }
           }
         }
-        if ((v2624 = user.ΔⵠⲆⵠ).open && v2624.ᐃⲆΔⲆⲆΔⵠ > 0 && !vThis2.ΔΔΔΔ.open) {
+        if ((v2624 = v2835.ΔⵠⲆⵠ).open && v2624.ᐃⲆΔⲆⲆΔⵠ > 0 && !vThis2.ΔΔΔΔ.open) {
           if (v2625 = vThis2.ⵠⵠⵠΔΔⲆⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             v2837.ⵠΔⲆᐃᐃⲆᐃᐃⵠ(v2624);
           }
         }
-        if (user.sign.open && !vThis2.ΔΔΔΔ.open) {
+        if (v2835.sign.open && !vThis2.ΔΔΔΔ.open) {
           if (v2625 = vThis2.sign.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             vThis2.sign.select();
           }
         }
-        if (!user.ⵠⲆΔᐃ.lock && !vThis2.ΔΔΔΔ.open) {
-          if (user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ && (v2625 = vThis2.ᐃΔΔⲆΔᐃᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225))) {
+        if (!v2835.ⵠⲆΔᐃ.lock && !vThis2.ΔΔΔΔ.open) {
+          if (v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ && (v2625 = vThis2.ᐃΔΔⲆΔᐃᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225))) {
             v2837.ⲆᐃⵠⲆᐃⵠᐃΔᐃ(v2619);
           }
         }
-        if (user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ && !vThis2.ΔΔΔΔ.open && (v2625 = vThis2.ᐃⵠᐃᐃᐃᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225))) {
+        if (v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ && !vThis2.ΔΔΔΔ.open && (v2625 = vThis2.ᐃⵠᐃᐃᐃᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225))) {
           v2837.ΔⵠᐃⲆⲆᐃᐃᐃᐃ(v2619);
           if (ga) {
             ga("send", "event", "Game", "lockpick");
           }
         }
-        if (user.ΔⲆᐃᐃⲆ.open) {
+        if (v2835.ΔⲆᐃᐃⲆ.open) {
           if (v2625 = vThis2.ΔⲆᐃᐃⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             v2837.ΔⲆᐃᐃⲆ();
             if (ga) {
@@ -57724,38 +57723,38 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.id < 0 && !user.ⵠΔⵠⵠΔ.enabled && !vThis2.ΔΔΔΔ.open) {
-          for (var v2627 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2628 = 0; v2627.length > v2628; v2628++) {
+        if (v2835.ⵠⲆⲆᐃ.id < 0 && !v2835.ⵠΔⵠⵠΔ.enabled && !vThis2.ΔΔΔΔ.open) {
+          for (var v2627 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2628 = 0; v2627.length > v2628; v2628++) {
             if (v2625 = v2627[v2628].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
               if (p1647.which != 1 || p1647.shiftKey) {
-                if ((p1647.which == 1 && p1647.shiftKey || p1647.which == 3) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+                if ((p1647.which == 1 && p1647.shiftKey || p1647.which == 3) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                   vThis2.ΔΔΔΔ.ΔⵠΔⵠΔⵠⲆ(v2627[v2628].id);
                 }
               } else {
                 v2837.ᐃⵠⲆⲆΔ(v2627[v2628].id, v2628);
               }
             } else if (v2619.open && (v2619.id < 0 || v2619.id === v2627[v2628].id)) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 v2837.ᐃᐃΔΔⲆΔⲆᐃᐃ(v2619, v2627[v2628].id, p1647.shiftKey ? 10 : 1);
               }
             } else if (v2621.open && v2627[v2628].id === 282) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 v2837.ⲆΔⲆΔⵠⲆᐃΔΔ(v2621);
               }
             } else if (v2620.open && v2627[v2628].id === 200) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 v2837.ΔΔΔⲆΔⲆⵠⵠⲆ(v2620, p1647.shiftKey ? 10 : 1);
               }
             } else if (v2622.open && v2627[v2628].id === 227) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 v2837.ᐃᐃΔⲆΔΔⲆᐃΔ(v2622, p1647.shiftKey ? 10 : 1);
               }
             } else if (v2623.open && v2627[v2628].id === 200) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 v2837.ᐃᐃⲆΔⵠⵠⵠⵠᐃ(v2623, p1647.shiftKey ? 10 : 1);
               }
             } else if (v2624.open && (v2627[v2628].id === 200 || v2627[v2628].id === 224)) {
-              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
+              if ((v2625 = vThis2.ⵠΔⲆⵠᐃ[v2627[v2628].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) {
                 if (v2627[v2628].id === 200) {
                   v2837.ᐃⲆᐃⲆΔΔΔ(v2624, p1647.shiftKey ? 10 : 1, 0);
                 } else {
@@ -57765,8 +57764,8 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.id < 0 && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !user.ⵠΔⵠⵠΔ.enabled && !vThis2.ΔΔΔΔ.open && !user.ⲆΔᐃⲆΔ) {
-          v2627 = user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
+        if (v2835.ⵠⲆⲆᐃ.id < 0 && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !v2835.ⵠΔⵠⵠΔ.enabled && !vThis2.ΔΔΔΔ.open && !v2835.ⲆΔᐃⲆΔ) {
+          v2627 = v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
           v2628 = 0;
           for (; v2627.length > v2628; v2628++) {
             if (v2625 = v2627[v2628].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
@@ -57777,12 +57776,12 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.id < 0 && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open) {
+        if (v2835.ⵠⲆⲆᐃ.id < 0 && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open) {
           if (v2625 = vThis2.ᐃᐃᐃᐃⲆ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223)) {
-            game.ᐃᐃᐃᐃⲆ.select();
+            v3030.ᐃᐃᐃᐃⲆ.select();
           }
         }
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open) {
           if (v3031.ⲆΔᐃᐃⲆ) {
             if (v2625 = vThis2.Ⲇⵠⵠᐃ.ᐃⵠΔᐃⵠⵠⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
               v3031.select();
@@ -57797,7 +57796,7 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
           if (v2625 = vThis2.options.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             vThis2.options.ⵠᐃΔΔΔⵠⵠᐃΔ();
             if (ga) {
@@ -57805,7 +57804,7 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && vThis2.ⵠΔⲆⵠᐃᐃᐃ === 1) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && vThis2.ⵠΔⲆⵠᐃᐃᐃ === 1) {
           if (v2625 = vThis2.ⲆΔⵠⵠⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             vThis2.ⲆΔⵠⵠⵠ.select();
             if (ga) {
@@ -57813,7 +57812,7 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && vThis2.ⲆⵠⵠⲆΔᐃⵠ === 1) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.ⲆΔⵠⵠⵠ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && vThis2.ⲆⵠⵠⲆΔᐃⵠ === 1) {
           if (v2625 = vThis2.ⲆΔᐃᐃᐃ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             vThis2.ⲆΔᐃᐃᐃ.ᐃΔΔΔᐃⲆⵠΔᐃ();
             if (ga) {
@@ -57821,7 +57820,7 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && world.mode !== 2 && world.mode !== 5 && vThis2.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
+        if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && v2834.mode !== 2 && v2834.mode !== 5 && vThis2.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
           if (v2625 = vThis2.ΔΔΔⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2225)) {
             vThis2.ΔΔΔⵠ.select();
             if (ga) {
@@ -57829,7 +57828,7 @@
             }
           }
         }
-        if (user.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ && p1647.which == 3) {
+        if (v2835.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ && p1647.which == 3) {
           vThis2.ᐃⲆΔΔⵠ.ΔⵠΔⵠΔⵠⲆ();
         }
       }
@@ -57838,16 +57837,16 @@
     this.ΔⵠⵠΔΔᐃΔ = function (p1648) {
       v3063.ᐃΔⵠⲆ = f429(vThis2.ⵠΔΔ, p1648);
       var vVVV1443 = vVV144;
-      game.ᐃΔⵠᐃⲆ.display = 0;
-      user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.ΔⲆⵠⲆᐃ(v3063.ᐃΔⵠⲆ);
+      v3030.ᐃΔⵠᐃⲆ.display = 0;
+      v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.ΔⲆⵠⲆᐃ(v3063.ᐃΔⵠⲆ);
       if (vThis2.ΔΔΔⲆΔ != -1) {
         vVVV1443 |= vThis2.Δᐃᐃᐃⵠ[vThis2.ΔΔΔⲆΔ].button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      var v2629 = user.ΔⵠⵠⲆ;
+      var v2629 = v2835.ΔⵠⵠⲆ;
       if (v2629.open && v2629.ⵠΔᐃⲆⲆⲆᐃ > 0) {
         vVVV1443 |= vThis2.ⲆⵠⲆᐃⵠΔΔ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      var v2630 = user.ΔⲆⲆⵠ;
+      var v2630 = v2835.ΔⲆⲆⵠ;
       if (v2630.open && v2630.ⲆⵠᐃΔΔᐃᐃ > 0) {
         vVVV1443 |= vThis2.ⵠΔⲆⲆΔΔᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         vVVV1443 |= vThis2.ᐃⲆⲆΔΔᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
@@ -57864,68 +57863,68 @@
         vVVV1443 |= vThis2.ⵠΔⲆᐃⲆⲆⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         vVVV1443 |= vThis2.ⲆⲆΔΔⲆᐃΔ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      var v2631 = user.ΔⵠⲆⵠ;
+      var v2631 = v2835.ΔⵠⲆⵠ;
       if (v2631.open && v2631.ᐃⲆΔⲆⲆΔⵠ > 0) {
         vVVV1443 |= vThis2.ⵠⵠⵠΔΔⲆⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (user.sign.open) {
+      if (v2835.sign.open) {
         vVVV1443 |= vThis2.sign.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      var v2632 = user.ⵠⲆΔᐃ;
-      if (user.ⵠⲆⲆᐃ.id < 0 && v2632.id >= 0 && !user.ⵠΔⵠⵠΔ.enabled) {
-        if (!user.ⵠⲆΔᐃ.lock || user.id === user.ⵠⲆΔᐃ.ΔⲆᐃⲆ) {
+      var v2632 = v2835.ⵠⲆΔᐃ;
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && v2632.id >= 0 && !v2835.ⵠΔⵠⵠΔ.enabled) {
+        if (!v2835.ⵠⲆΔᐃ.lock || v2835.id === v2835.ⵠⲆΔᐃ.ΔⲆᐃⲆ) {
           vVVV1443 |= vThis2.ⵠΔᐃ[v2632.id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         }
       }
-      if (user.ΔⲆᐃᐃⲆ.open) {
+      if (v2835.ΔⲆᐃᐃⲆ.open) {
         vVVV1443 |= vThis2.ΔⲆᐃᐃⲆ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (!user.ⵠⲆΔᐃ.lock && !user.ⵠΔⵠⵠΔ.enabled) {
-        if (user.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
+      if (!v2835.ⵠⲆΔᐃ.lock && !v2835.ⵠΔⵠⵠΔ.enabled) {
+        if (v2835.ⵠⲆΔᐃ.ⵠᐃⵠⲆⲆΔⲆ) {
           vVVV1443 |= vThis2.ᐃΔΔⲆΔᐃᐃ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         }
       }
-      if (user.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ && !user.ⵠΔⵠⵠΔ.enabled) {
+      if (v2835.ⵠⲆΔᐃ.ⲆⵠⲆⲆⲆΔᐃ && !v2835.ⵠΔⵠⵠΔ.enabled) {
         vVVV1443 |= vThis2.ᐃⵠᐃᐃᐃᐃⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (user.ⵠⲆⲆᐃ.id < 0 && !user.ⵠΔⵠⵠΔ.enabled) {
-        for (var v2633 = user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2634 = 0; v2634 < v2633.length; v2634++) {
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && !v2835.ⵠΔⵠⵠΔ.enabled) {
+        for (var v2633 = v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ, v2634 = 0; v2634 < v2633.length; v2634++) {
           var v2635 = v2633[v2634].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
-          vVVV1443 |= game.ᐃΔⵠᐃⲆ.ᐃᐃⲆⵠ(v2635, v2633[v2634], 0);
-          if (v2632.open && (v2632.id < 0 || v2633[v2634].id == v2632.id) || user.ⵠⲆⵠΔΔ.open && v2633[v2634].id == 200 || user.ΔᐃⲆΔᐃ.open && v2633[v2634].id === 282 || user.ΔⵠⲆⵠ.open && (v2633[v2634].id == 200 || v2633[v2634].id == 224) || user.ΔⵠⵠⲆ.open && v2633[v2634].id == 227 || user.ΔⲆⲆⵠ.open && v2633[v2634].id == 200) {
+          vVVV1443 |= v3030.ᐃΔⵠᐃⲆ.ᐃᐃⲆⵠ(v2635, v2633[v2634], 0);
+          if (v2632.open && (v2632.id < 0 || v2633[v2634].id == v2632.id) || v2835.ⵠⲆⵠΔΔ.open && v2633[v2634].id == 200 || v2835.ΔᐃⲆΔᐃ.open && v2633[v2634].id === 282 || v2835.ΔⵠⲆⵠ.open && (v2633[v2634].id == 200 || v2633[v2634].id == 224) || v2835.ΔⵠⵠⲆ.open && v2633[v2634].id == 227 || v2835.ΔⲆⲆⵠ.open && v2633[v2634].id == 200) {
             vVVV1443 |= vThis2.ⵠΔⲆⵠᐃ[v2633[v2634].id].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
           }
         }
       }
-      if (user.ⵠⲆⲆᐃ.id < 0 && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !user.ⵠΔⵠⵠΔ.enabled && !user.ⲆΔᐃⲆΔ) {
-        v2633 = user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !v2835.ⵠΔⵠⵠΔ.enabled && !v2835.ⲆΔᐃⲆΔ) {
+        v2633 = v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ;
         v2634 = 0;
         for (; v2634 < v2633.length; v2634++) {
           v2635 = false;
           v2635 = v2633[v2634].ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
-          vVVV1443 |= game.ᐃΔⵠᐃⲆ.ᐃᐃⲆⵠ(v2635, v2633[v2634], 1);
+          vVVV1443 |= v3030.ᐃΔⵠᐃⲆ.ᐃᐃⲆⵠ(v2635, v2633[v2634], 1);
         }
       }
-      if (user.ⵠⲆⲆᐃ.id < 0 && user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && user.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (v2835.ⵠⲆⲆᐃ.id < 0 && v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && v2835.ᐃᐃᐃᐃⲆ.open && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         vVVV1443 |= vThis2.ᐃᐃᐃᐃⲆ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && vThis2.ⲆⵠⵠⲆΔᐃⵠ === 1) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && vThis2.ⲆⵠⵠⲆΔᐃⵠ === 1) {
         vVVV1443 |= vThis2.ⲆΔᐃᐃᐃ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (!!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (!!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         vVVV1443 |= vThis2.options.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (!!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && vThis2.ⵠΔⲆⵠᐃᐃᐃ === 1) {
+      if (!!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && vThis2.ⵠΔⲆⵠᐃᐃᐃ === 1) {
         vVVV1443 |= vThis2.ⲆΔⵠⵠⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
-      if (!!(user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
+      if (!!(v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0) && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ΔΔΔⵠ.open && !vThis2.options.open && !vThis2.ⲆΔⵠⵠⵠ.open) {
         if (v3031.ⲆΔᐃᐃⲆ) {
           vVVV1443 |= vThis2.Ⲇⵠⵠᐃ.ᐃⵠΔᐃⵠⵠⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         } else {
           vVVV1443 |= vThis2.Ⲇⵠⵠᐃ.ⵠⵠⲆΔⵠⵠⵠ.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
         }
       }
-      if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && world.mode !== 2 && world.mode !== v2257.ᐃᐃⵠⲆⵠⲆΔᐃⲆ && vThis2.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
+      if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ < 0 && !vThis2.ⲆΔᐃᐃᐃ.open && !vThis2.ΔΔΔΔ.open && !vThis2.options.open && !vThis2.ᐃⲆΔΔⵠ.open && !vThis2.ⲆΔⵠⵠⵠ.open && v2834.mode !== 2 && v2834.mode !== v2257.ᐃᐃⵠⲆⵠⲆΔᐃⲆ && vThis2.ⲆⵠᐃⲆⵠᐃⲆ === 1) {
         vVVV1443 |= vThis2.ΔΔΔⵠ.button.ᐃᐃⲆⵠ(vThis2.ⵠΔΔ, v3063.ᐃΔⵠⲆ, v2223);
       }
       if (vVVV1443 !== vThis2.ΔⵠΔᐃⵠΔᐃ) {
@@ -58235,7 +58234,7 @@
         expires: 30
       });
       document.getElementById("input_ratio").value = 1;
-      game.ΔΔΔᐃⵠⵠᐃ();
+      v3030.ΔΔΔᐃⵠⵠᐃ();
       v2833.ⲆΔⲆΔΔ = 1;
     };
     this.ⲆΔᐃᐃⲆᐃᐃᐃΔ = function () {
@@ -58245,7 +58244,7 @@
         expires: 30
       });
       document.getElementById("input_ratio").value = 0.5 / (v481 / v482);
-      game.ΔΔΔᐃⵠⵠᐃ();
+      v3030.ΔΔΔᐃⵠⵠᐃ();
       v2833.ⲆΔⲆΔΔ = 0;
     };
     if (ⲆᐃΔⵠ.get("starve_mapping") === undefined && v544 === "FR") {
@@ -58850,7 +58849,7 @@
         }
         p1658.globalAlpha = 1;
       }
-      user.alert.ⲆΔᐃΔ("#FFF", "#000");
+      v2835.alert.ⲆΔᐃΔ("#FFF", "#000");
       if (vThis3.waiting) {
         this.ⵠⵠᐃΔΔᐃⵠ.ⲆΔᐃΔ();
       }
@@ -58947,7 +58946,7 @@
       }
     }
     function f505(p1672) {
-      if (user.ΔⲆᐃⵠΔⵠⲆ !== undefined && user.ᐃΔᐃᐃΔⵠΔ !== vUndefined && user.ᐃⵠᐃΔⲆⲆⲆ !== undefined && user.ΔⲆⵠⲆⲆΔⵠ !== undefined) {
+      if (v2835.ΔⲆᐃⵠΔⵠⲆ !== undefined && v2835.ᐃΔᐃᐃΔⵠΔ !== vUndefined && v2835.ᐃⵠᐃΔⲆⲆⲆ !== undefined && v2835.ΔⲆⵠⲆⲆΔⵠ !== undefined) {
         p1672();
       }
     }
@@ -58989,7 +58988,7 @@
       if (vUndefined6) {
         v2711 = vUndefined6 + vF36.ⲆⵠⵠⲆⲆΔᐃ();
       }
-      if (user.ΔⲆᐃⵠΔⵠⲆ) {
+      if (v2835.ΔⲆᐃⵠΔⵠⲆ) {
         f505(p1676);
       } else {
         f507(`${v3085}token?id=${v2711}`, function (p1678) {
@@ -59000,7 +58999,7 @@
           const v2714 = v2713[0] + "_";
           const vNumber16 = Number(v2713[1]);
           const v2715 = Math.abs(f30(vNumber16));
-          user.ΔⲆᐃⵠΔⵠⲆ = v2714 + v2715;
+          v2835.ΔⲆᐃⵠΔⵠⲆ = v2714 + v2715;
           f505(p1676);
         }, function () {
           if (v2712 !== 1) {
@@ -59073,8 +59072,8 @@
           if (v2727 == 8) {
             v2727 = 28;
           }
-          user.ᐃΔᐃᐃΔⵠΔ = v2718 + v2725;
-          user.ΔⵠⵠⲆΔΔᐃ = v2725;
+          v2835.ᐃΔᐃᐃΔⵠΔ = v2718 + v2725;
+          v2835.ΔⵠⵠⲆΔΔᐃ = v2725;
           const v2728 = 63;
           if (4 === 12) {
             235;
@@ -59104,12 +59103,12 @@
           if (v2733 > 11) {
             v2733 = 206;
           }
-          user.ᐃⵠᐃΔⲆⲆⲆ = v2730 + v2732;
+          v2835.ᐃⵠᐃΔⲆⲆⲆ = v2730 + v2732;
           var v2734 = 123;
           if (v2734 > 7) {
             v2734 = 140;
           }
-          user.ⲆⲆΔΔⲆΔΔΔᐃ = v2732;
+          v2835.ⲆⲆΔΔⲆΔΔΔᐃ = v2732;
         }
         Math.floor(216[216 .ΔΔΔⲆᐃΔΔ]);
         var v2735 = 239;
@@ -59163,7 +59162,7 @@
           if (120 > 127) {
             195;
           }
-          user.ΔⲆⵠⲆⲆΔⵠ = v2739 + v2740;
+          v2835.ΔⲆⵠⲆⲆΔⵠ = v2739 + v2740;
           if (154 == 177) {
             74;
           }
@@ -59201,7 +59200,7 @@
           if (v2748 == 0) {
             v2748 = 211;
           }
-          user.ΔⵠⵠⲆΔⵠΔⵠⵠ = v2740;
+          v2835.ΔⵠⵠⲆΔⵠΔⵠⵠ = v2740;
         }
         f505(p1676);
         var v2750 = 55;
@@ -59223,7 +59222,7 @@
     };
     this.ⵠΔⲆⲆⲆⵠⵠ = function () {
       if (vThis3.waiting === vVVV143) {
-        user.reconnect.enabled = vVV1423;
+        v2835.reconnect.enabled = vVV1423;
         vThis3.waiting = vVV62;
         vThis3.ⲆⵠⲆⵠⵠΔⵠ(f506);
       }
@@ -60674,7 +60673,7 @@
     };
   }
   function f509() {
-    Δᐃᐃ.ⲆⵠΔⲆΔⲆⵠ("https://twitter.com/intent/tweet?text=I%20survived%20" + user.Δⵠⵠ + "%20days%20with%20" + user.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ + "%20points%20in%20http%3A%2F%2Fstarve.io%2F%20%23starve.io");
+    Δᐃᐃ.ⲆⵠΔⲆΔⲆⵠ("https://twitter.com/intent/tweet?text=I%20survived%20" + v2835.Δⵠⵠ + "%20days%20with%20" + v2835.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ + "%20points%20in%20http%3A%2F%2Fstarve.io%2F%20%23starve.io");
   }
   var v2802 = 1;
   var v2803 = 1;
@@ -60969,7 +60968,7 @@
     this.transition = function () {
       this.ⲆⲆᐃΔⲆ = this.ⵠⲆΔΔⵠΔᐃ;
       this.ΔⵠΔΔⲆᐃΔ.d = this.ΔⵠΔΔⲆᐃΔ.ΔⵠⲆΔⲆ;
-      if (world.time) {
+      if (v2834.time) {
         this.ⲆⵠⵠΔ.fade(0, v2802 * this.ᐃⵠⲆⲆⵠⵠⵠ, this.ᐃᐃᐃⵠⵠᐃⲆ, this.ᐃᐃΔ);
         this.ⲆⵠⵠΔ.play(this.ᐃᐃΔ);
         if (this.ⲆⵠⵠΔ.playing(this.Δⵠⵠ)) {
@@ -60988,8 +60987,8 @@
     this.check = function (p1720) {
       if (this.ⲆᐃⲆΔΔⵠⲆ) {
         if (Δᐃᐃ.ⲆᐃΔⲆⵠΔᐃ(p1720, this.ⵠᐃⲆᐃΔᐃΔᐃᐃ)) {
-          if (!v3031.transition && world.ⲆᐃⲆⵠᐃ.now < 460000) {
-            if (world.time) {
+          if (!v3031.transition && v2834.ⲆᐃⲆⵠᐃ.now < 460000) {
+            if (v2834.time) {
               if (!this.ⲆⵠⵠΔ.playing(this.ᐃᐃΔ)) {
                 this.ΔⵠΔΔⲆᐃΔ.d -= v3064;
                 if (this.ΔⵠΔΔⲆᐃΔ.d < 0) {
@@ -61016,7 +61015,7 @@
         }
       } else if (Δᐃᐃ.ⲆᐃΔⲆⵠΔᐃ(p1720, this.ⲆᐃΔⲆⵠΔᐃ)) {
         this.ⲆᐃⲆΔΔⵠⲆ = 1;
-        if (!v3031.transition && world.ⲆᐃⲆⵠᐃ.now < 460000) {
+        if (!v3031.transition && v2834.ⲆᐃⲆⵠᐃ.now < 460000) {
           this.transition();
         }
       }
@@ -61103,7 +61102,7 @@
     this.ΔᐃΔⲆⵠ = function (p1729) {
       this.ᐃᐃⵠᐃⵠⵠΔ = 0;
       this.ᐃᐃⵠⵠ = p1729;
-      var v2817 = world.fast_units[p1729];
+      var v2817 = v2834.ᐃᐃΔᐃᐃ[p1729];
       v2817.ΔⵠⵠⲆⲆ = this.ΔⵠⵠⲆⲆ;
       this.mode = this.ᐃᐃⵠⲆⵠᐃⲆ(v2817);
       this.ᐃΔⵠⲆ.x = v2817.x;
@@ -61147,7 +61146,7 @@
       this.ᐃⲆⵠᐃΔ.play(p1734);
     };
     this.ⵠᐃᐃ = function () {
-      var v2821 = world.fast_units[this.ᐃᐃⵠⵠ];
+      var v2821 = v2834.ᐃᐃΔᐃᐃ[this.ᐃᐃⵠⵠ];
       this.ⲆⲆᐃΔⲆ -= v3064;
       if (!(this.ⲆⲆᐃΔⲆ > 0)) {
         var v2822 = 0;
@@ -61189,7 +61188,7 @@
       }
     };
     this.check = function () {
-      var v2823 = world.fast_units[this.ᐃᐃⵠⵠ];
+      var v2823 = v2834.ᐃᐃΔᐃᐃ[this.ᐃᐃⵠⵠ];
       return !!v2823 || (this.ΔΔΔᐃᐃⵠⲆ(v2823), false);
     };
   }
@@ -61234,9 +61233,9 @@
   v2832.items.push(new f435(2, 0, 0, 0, 0, Math.PI / 4, 0, 0));
   v2832.items.push(new f435(105, 0, 0, 0, 0, 0, 0, 5));
   var v2833;
-  var world;
-  var user;
-  var scoreboard;
+  var v2834;
+  var v2835;
+  var v2836;
   var v2837 = new function () {
     var vThis5 = this;
     this.ᐃᐃⲆΔ = null;
@@ -61522,10 +61521,10 @@
         v2833.ᐃⵠΔΔⵠⲆᐃⵠⲆ = v2256.ⵠᐃᐃΔᐃⲆⲆⵠⲆ;
         vThis5.ᐃⲆᐃΔⵠ(v751[2000]);
         v2833.waiting = false;
-        if (user.reconnect.enabled) {
-          game.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
+        if (v2835.reconnect.enabled) {
+          v3030.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
         }
-      } else if (user.ΔⲆᐃⵠΔⵠⲆ === vVVVUndefined113 || user.ᐃΔᐃᐃΔⵠΔ === undefined || user.ᐃⵠᐃΔⲆⲆⲆ === undefined || user.ΔⲆⵠⲆⲆΔⵠ === vVVVVVVUndefined14) {
+      } else if (v2835.ΔⲆᐃⵠΔⵠⲆ === vVVVUndefined113 || v2835.ᐃΔᐃᐃΔⵠΔ === undefined || v2835.ᐃⵠᐃΔⲆⲆⲆ === undefined || v2835.ΔⲆⵠⲆⲆΔⵠ === vVVVVVVUndefined14) {
         v2833.ⲆⵠⲆⵠⵠΔⵠ(function () {
           vThis5.ⵠᐃΔⲆⵠⲆΔ();
         }, 1);
@@ -61537,7 +61536,7 @@
       if (this.ⲆⵠⵠΔᐃ == this.ᐃᐃⲆΔ.ⲆⵠⵠΔᐃ) {
         this.ⲆⵠⵠΔᐃ++;
         this.ᐃⲆᐃΔⵠ(v751[2001] + p1771);
-        game.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
+        v3030.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
       }
     };
     this.ⲆΔⲆⲆᐃᐃΔⵠΔ = function () {
@@ -61549,17 +61548,17 @@
       v2833.waiting = vVVV143;
     };
     this.ᐃⵠᐃΔⲆΔΔⲆⵠ = function () {
-      user.ᐃᐃᐃᐃⲆ.open = false;
+      v2835.ᐃᐃᐃᐃⲆ.open = false;
     };
     this.ΔΔΔⵠⵠⵠⲆᐃΔ = function () {
-      game.ⲆⵠⵠⲆΔᐃⵠ = 0;
+      v3030.ⲆⵠⵠⲆΔᐃⵠ = 0;
     };
     this.ⵠⲆⵠΔⵠⵠⵠΔᐃ = function () {
-      game.ΔΔᐃⵠⵠᐃⵠ = 0;
+      v3030.ΔΔᐃⵠⵠᐃⵠ = 0;
     };
     this.ⲆΔΔΔⵠᐃᐃᐃΔ = function (p1772) {
-      user.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ = p1772;
-      if (world.ⲆᐃΔⵠᐃ > -300) {
+      v2835.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ = p1772;
+      if (v2834.ⲆᐃΔⵠᐃ > -300) {
         if (p1772 === 0) {
           this.ᐃⲆᐃΔⵠ(v751[2040]);
         } else {
@@ -61568,14 +61567,14 @@
       }
     };
     this.ᐃⲆᐃΔᐃ = function (p1773) {
-      user.ᐃⲆᐃΔᐃ = p1773;
+      v2835.ᐃⲆᐃΔᐃ = p1773;
     };
     this.ⵠᐃᐃⵠⵠᐃᐃΔᐃ = function (p1774) {
-      user.ᐃⲆⵠᐃᐃⵠᐃ = p1774;
+      v2835.ᐃⲆⵠᐃᐃⵠᐃ = p1774;
     };
     this.ᐃⲆⵠᐃᐃⵠᐃ = function (p1775) {
-      user.ⵠⵠᐃⵠΔ.ⲆⲆΔⲆΔ = p1775;
-      if (world.ΔⵠΔⲆⲆ > -300) {
+      v2835.ⵠⵠᐃⵠΔ.ⲆⲆΔⲆΔ = p1775;
+      if (v2834.ΔⵠΔⲆⲆ > -300) {
         if (p1775 === 0) {
           this.ᐃⲆᐃΔⵠ(v751[2042]);
         } else {
@@ -61595,26 +61594,26 @@
       }
     };
     this.ⲆⵠΔⲆⵠⲆᐃⲆᐃ = function () {
-      game.ⵠΔⲆⵠᐃᐃᐃ = 0;
+      v3030.ⵠΔⲆⵠᐃᐃᐃ = 0;
     };
     this.ⲆⲆᐃΔᐃⲆⲆⲆⵠ = function () {
-      game.ⲆⵠᐃⲆⵠᐃⲆ = 0;
+      v3030.ⲆⵠᐃⲆⵠᐃⲆ = 0;
     };
     this.ⵠⲆᐃΔᐃⵠⵠⵠᐃ = function () {
-      user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ = [];
-      user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ = [];
-      user.ᐃⵠⲆⲆ.id = -1;
-      user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.stop();
-      user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ = [];
-      user.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ = vVV1422;
-      user.ⵠⲆⲆᐃ.ᐃᐃⵠΔᐃΔⲆⲆⲆ = vVV142;
-      user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-      user.ⵠⲆⲆᐃ.id = -1;
-      user.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ = false;
-      user.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = false;
-      user.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = false;
-      user.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = vV143;
-      user.ⵠⲆⲆᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVVV14, 0, 1, 0, 1, 1);
+      v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ = [];
+      v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ = [];
+      v2835.ᐃⵠⲆⲆ.id = -1;
+      v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.stop();
+      v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ = [];
+      v2835.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ = vVV1422;
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⵠΔᐃΔⲆⲆⲆ = vVV142;
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+      v2835.ⵠⲆⲆᐃ.id = -1;
+      v2835.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ = false;
+      v2835.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = false;
+      v2835.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = false;
+      v2835.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = vV143;
+      v2835.ⵠⲆⲆᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVVV14, 0, 1, 0, 1, 1);
     };
     this.ᐃⵠΔⲆⲆᐃΔΔⵠ = function () {
       clearTimeout(this.ΔⵠⲆᐃΔΔⵠ);
@@ -61627,7 +61626,7 @@
           p1777[v2881] = Δᐃᐃ.ⵠⵠᐃᐃⵠᐃᐃ(p1777[v2881]);
         }
       }
-      user.ⲆⲆᐃΔⵠ.ΔⵠᐃΔⲆ(p1777[1], p1777[2], p1777[3], p1777[4]);
+      v2835.ⲆⲆᐃΔⵠ.ΔⵠᐃΔⲆ(p1777[1], p1777[2], p1777[3], p1777[4]);
     };
     this.message = function (p1778) {
       this.ᐃⲆᐃΔⵠ(p1778);
@@ -61648,12 +61647,12 @@
       v2833.waiting = vVVVV142;
     };
     this.ⵠᐃⲆᐃᐃⵠⵠⲆΔ = function () {
-      user.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
-      game.ⵠⲆΔᐃⲆᐃᐃ();
+      v2835.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
+      v3030.ⵠⲆΔᐃⲆᐃᐃ();
     };
     this.ᐃⲆΔⵠΔⲆⲆⵠΔ = function (p1779) {
       var v2882 = p1779[1];
-      var v2883 = world.players[v2882];
+      var v2883 = v2834.ᐃⵠΔΔ[v2882];
       v2883.ⲆΔⲆⲆ = p1779[2];
       v2883.ⵠᐃΔᐃΔ = p1779[3];
       v2883.ΔΔΔⲆΔⲆᐃ = p1779[4];
@@ -61661,7 +61660,7 @@
       v2883.ΔⲆⵠΔΔ = p1779[6];
       v2883.ΔⵠΔⲆᐃ = p1779[7];
       v2883.level = p1779[8];
-      var v2884 = world.fast_units[v2882 * world.ᐃⲆⵠΔⵠⵠⲆ];
+      var v2884 = v2834.ᐃᐃΔᐃᐃ[v2882 * v2834.ᐃⲆⵠΔⵠⵠⲆ];
       if (v2884) {
         v2884.ⲆΔⲆⲆ = p1779[2];
         v2884.ⵠᐃΔᐃΔ = p1779[3];
@@ -61671,20 +61670,20 @@
     };
     this.ⵠⲆⲆΔⵠⵠΔⵠΔ = function (p1780) {
       if (p1780 === 47) {
-        user.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
-        game.ⵠⲆΔᐃⲆᐃᐃ();
+        v2835.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
+        v3030.ⵠⲆΔᐃⲆᐃᐃ();
       } else {
         this.ⲆⲆⲆⵠⵠΔΔ([0, p1780, 1]);
       }
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
     };
     this.ⵠᐃⲆⲆΔᐃΔΔⵠ = function (p1781) {
-      user.ⵠⵠⵠⵠΔ.ⲆⲆᐃΔⲆ = 0;
-      user.ⵠⲆⲆᐃ.ⲆᐃⲆᐃⲆⲆⵠⲆⲆ(p1781);
+      v2835.ⵠⵠⵠⵠΔ.ⲆⲆᐃΔⲆ = 0;
+      v2835.ⵠⲆⲆᐃ.ⲆᐃⲆᐃⲆⲆⵠⲆⲆ(p1781);
     };
     this.ᐃΔᐃⵠⵠΔᐃΔΔ = function (p1782) {
       for (var v2885 = v730[p1782].r, v2886 = 0; v2885.length > v2886; v2886++) {
-        if (user.ᐃⵠⲆⲆ.max > user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length || user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2885[v2886][0]] > 0) {
+        if (v2835.ᐃⵠⲆⲆ.max > v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length || v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[v2885[v2886][0]] > 0) {
           var v2887 = Math.floor(v2885[v2886][1] * 0.8);
           if (!v2887) {
             continue;
@@ -61692,19 +61691,19 @@
           this.ⲆⲆⲆⵠⵠΔΔ([0, v2885[v2886][0], v2887]);
         }
       }
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
     };
     this.ⲆⵠΔⵠⵠᐃΔⲆⲆ = function (p1783) {
-      user.ⵠⵠⵠⵠΔ.ⲆⲆᐃΔⲆ = 0;
-      user.ⵠⲆⲆᐃ.ⵠΔΔⲆⲆⵠⵠΔⲆ(p1783);
+      v2835.ⵠⵠⵠⵠΔ.ⲆⲆᐃΔⲆ = 0;
+      v2835.ⵠⲆⲆᐃ.ⵠΔΔⲆⲆⵠⵠΔⲆ(p1783);
     };
     this.ᐃⲆᐃΔⵠ = function (p1784) {
-      if (user.alert.text) {
-        if (p1784 !== user.alert.text && p1784 !== user.alert.list[user.alert.list.length - 1]) {
-          user.alert.list.push(p1784);
+      if (v2835.alert.text) {
+        if (p1784 !== v2835.alert.text && p1784 !== v2835.alert.list[v2835.alert.list.length - 1]) {
+          v2835.alert.list.push(p1784);
         }
       } else {
-        user.alert.text = p1784;
+        v2835.alert.text = p1784;
       }
     };
     this.ΔᐃΔᐃⲆΔⵠᐃⲆ = function () {
@@ -61712,16 +61711,16 @@
     };
     this.ΔᐃⲆᐃⵠⵠⵠⲆᐃ = function () {
       var v2888;
-      v2888 = user.Δⵠⵠ == 0 ? v751[2006] : v751[2007] + (user.Δⵠⵠ + 1) + v751[2008];
+      v2888 = v2835.Δⵠⵠ == 0 ? v751[2006] : v751[2007] + (v2835.Δⵠⵠ + 1) + v751[2008];
       this.ᐃⲆᐃΔⵠ(v2888);
-      user.Δⵠⵠ++;
+      v2835.Δⵠⵠ++;
     };
     this.ⲆᐃᐃⵠⵠⲆⲆᐃΔ = function () {
       clearTimeout(vThis5.ΔⵠⲆᐃΔΔⵠ);
-      user.reconnect.enabled = false;
-      user.ⵠᐃⲆΔⲆ = false;
+      v2835.reconnect.enabled = false;
+      v2835.ⵠᐃⲆΔⲆ = false;
       this.ᐃⲆᐃΔⵠ(v751[2009]);
-      game.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
+      v3030.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
       this.ᐃᐃⲆΔ.close();
     };
     this.ᐃⲆΔⲆΔᐃⲆⲆⲆ = function () {
@@ -61738,7 +61737,7 @@
     };
     this.ΔⲆᐃⲆⲆⲆᐃⵠⵠ = function (p1785) {
       var v2889 = p1785[1];
-      var v2890 = world.players;
+      var v2890 = v2834.ᐃⵠΔΔ;
       v2890[v2889].ᐃⲆᐃⵠⲆ = p1785[2];
       v2890[v2889].ⲆΔⲆⲆ = p1785[3];
       v2890[v2889].ⵠᐃΔᐃΔ = p1785[4];
@@ -61767,21 +61766,21 @@
     };
     this.ⵠⲆⵠᐃΔⲆᐃᐃΔ = function (p1786) {
       this.ᐃᐃⲆΔ[v2244](vVVVWindow[v444].stringify([4, p1786]));
-      user.ᐃᐃᐃᐃⲆ.open = vVV14;
+      v2835.ᐃᐃᐃᐃⲆ.open = vVV14;
     };
     this.ᐃᐃᐃᐃΔᐃΔⵠⵠ = function (p1787) {
-      for (var v2891 = v2253[p1787 - 1].items, v2892 = 0; v2892 < v2891.length && user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length < user.ᐃⵠⲆⲆ.max; v2892++) {
+      for (var v2891 = v2253[p1787 - 1].items, v2892 = 0; v2892 < v2891.length && v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length < v2835.ᐃⵠⲆⲆ.max; v2892++) {
         var v2893 = v2891[v2892][1];
         var v2894 = v2891[v2892][0];
         if (v2891[v2892][1] === 47) {
-          user.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
+          v2835.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
         } else {
           this.ⲆⲆⲆⵠⵠΔΔ([0, v2893, v2894]);
         }
       }
     };
     this.ⲆⲆⲆⵠⵠΔΔ = function (p1788) {
-      for (var v2895 = p1788.length, v2896 = user.ᐃⵠⲆⲆ, v2897 = 1; v2895 > v2897; v2897 += 2) {
+      for (var v2895 = p1788.length, v2896 = v2835.ᐃⵠⲆⲆ, v2897 = 1; v2895 > v2897; v2897 += 2) {
         var v2898 = p1788[v2897];
         var v2899 = p1788[v2897 + 1];
         for (var v2900 = 0; v2900 < v2896.ᐃᐃⲆᐃᐃ.length; v2900++) {
@@ -61792,59 +61791,59 @@
         }
         if (v2896.ᐃᐃⲆᐃᐃ.length == v2900) {
           v2896.ᐃⵠΔⵠ[v2898] = v2899;
-          v2896.ᐃᐃⲆᐃᐃ.push(game.ⲆᐃΔ[v2898]);
-          game.ⵠⲆΔᐃⲆᐃᐃ();
+          v2896.ᐃᐃⲆᐃᐃ.push(v3030.ⲆᐃΔ[v2898]);
+          v3030.ⵠⲆΔᐃⲆᐃᐃ();
         }
       }
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ᐃⵠᐃⵠ = function (p1789, p1790, p1791, p1792, p1793, p1794, p1795) {
-      user.ᐃⵠᐃⵠ.ΔΔⵠᐃ = p1789 / 100;
-      user.ᐃⵠᐃⵠ.ⵠⲆⵠ = p1790 / 100;
-      user.ᐃⵠᐃⵠ.c = p1791 / 100;
-      user.ᐃⵠᐃⵠ.ᐃⵠⲆ = p1792 / 100;
-      user.ᐃⵠᐃⵠ.ΔⲆΔ = p1793 / 100;
-      user.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = p1794 / 100;
-      user.ᐃⲆᐃΔᐃ = p1795;
+      v2835.ᐃⵠᐃⵠ.ΔΔⵠᐃ = p1789 / 100;
+      v2835.ᐃⵠᐃⵠ.ⵠⲆⵠ = p1790 / 100;
+      v2835.ᐃⵠᐃⵠ.c = p1791 / 100;
+      v2835.ᐃⵠᐃⵠ.ᐃⵠⲆ = p1792 / 100;
+      v2835.ᐃⵠᐃⵠ.ΔⲆΔ = p1793 / 100;
+      v2835.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = p1794 / 100;
+      v2835.ᐃⲆᐃΔᐃ = p1795;
     };
     this.ᐃⲆⲆΔⲆΔᐃᐃᐃ = function (p1796) {
-      game.ΔΔΔⵠ.modify(p1796, 2);
+      v3030.ΔΔΔⵠ.modify(p1796, 2);
     };
     this.ⵠᐃᐃⵠⵠⲆᐃⵠᐃ = function (p1797) {
-      game.ΔΔΔⵠ.modify(p1797, 0);
+      v3030.ΔΔΔⵠ.modify(p1797, 0);
     };
     this.ⵠΔⲆᐃᐃⵠⲆΔⵠ = function (p1798) {
-      game.ΔΔΔⵠ.modify(p1798, 3);
+      v3030.ΔΔΔⵠ.modify(p1798, 3);
     };
     this.ᐃⵠΔⵠⵠᐃⲆⲆᐃ = function (p1799, p1800) {
-      user.ᐃⵠᐃⵠ.ΔΔⵠᐃ = p1799 / 100;
-      user.ᐃⲆᐃΔᐃ = p1800;
+      v2835.ᐃⵠᐃⵠ.ΔΔⵠᐃ = p1799 / 100;
+      v2835.ᐃⲆᐃΔᐃ = p1800;
     };
     this.ⵠΔΔⲆᐃⵠⲆⵠΔ = function (p1801) {
-      user.ᐃⵠᐃⵠ.ᐃⵠⲆ = p1801 / 100;
+      v2835.ᐃⵠᐃⵠ.ᐃⵠⲆ = p1801 / 100;
     };
     this.ⵠᐃⵠΔⵠΔΔΔⵠ = function (p1802) {
-      user.ᐃⵠᐃⵠ.ⵠⲆⵠ = p1802 / 100;
+      v2835.ᐃⵠᐃⵠ.ⵠⲆⵠ = p1802 / 100;
     };
     this.ᐃᐃⵠⵠⵠᐃⵠᐃⲆ = function (p1803) {
-      user.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = p1803 / 100;
+      v2835.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = p1803 / 100;
     };
     this.ⵠΔⵠΔⵠⲆⲆᐃⵠ = function (p1804) {
-      user.ᐃⵠᐃⵠ.c = p1804 / 100;
+      v2835.ᐃⵠᐃⵠ.c = p1804 / 100;
     };
     this.ᐃΔᐃⲆⵠⲆⲆⵠⵠ = function (p1805) {
-      world.time = p1805;
-      world.transition = true;
+      v2834.time = p1805;
+      v2834.transition = true;
       v3031.transition = 1;
     };
     this.ΔΔᐃΔΔᐃΔᐃᐃ = function () {
-      document.getElementById("game_body").style.backgroundColor = v585.ΔΔⲆⲆⵠ[world.time];
+      document.getElementById("game_body").style.backgroundColor = v585.ΔΔⲆⲆⵠ[v2834.time];
     };
     this.ᐃΔⲆⲆⲆΔⵠΔⲆ = function (p1806) {
-      if (world.mode == 1 && world.players[p1806].ᐃⲆᐃⵠⲆ !== "spectator") {
-        this.ᐃⲆᐃΔⵠ(world.players[p1806].ᐃⲆᐃⵠⲆ + v751[2014]);
+      if (v2834.mode == 1 && v2834.ᐃⵠΔΔ[p1806].ᐃⲆᐃⵠⲆ !== "spectator") {
+        this.ᐃⲆᐃΔⵠ(v2834.ᐃⵠΔΔ[p1806].ᐃⲆᐃⵠⲆ + v751[2014]);
       }
-      world.players[p1806].ⵠᐃⲆΔⲆ = false;
+      v2834.ᐃⵠΔΔ[p1806].ⵠᐃⲆΔⲆ = false;
     };
     this.ᐃᐃᐃΔⵠⲆⵠⵠⵠ = function (p1807) {
       var v2901 = new Uint16Array(p1807);
@@ -61852,7 +61851,7 @@
     };
     this.ΔⵠΔⲆⲆΔᐃᐃΔ = function (p1808) {
       var v2902 = new Uint16Array(p1808);
-      user.ᐃⵠⵠ.ⵠⵠᐃⲆΔ(v2902[1], v2902[2]);
+      v2835.ᐃⵠⵠ.ⵠⵠᐃⲆΔ(v2902[1], v2902[2]);
     };
     this.ⲆⲆⲆⵠΔⵠᐃⲆⲆ = function (p1809, p1810) {
       var v2903 = new Uint16Array(p1810);
@@ -61860,7 +61859,7 @@
         var v2906 = v2903[1 + v2905 * 2];
         var v2907 = p1809[4 + v2905 * 4];
         var v2908 = (p1809[5 + v2905 * 4] >> 1) / 127 * Math.PI * 2;
-        var v2909 = world.fast_units[v2907 * world.ᐃⲆⵠΔⵠⵠⲆ + v2906];
+        var v2909 = v2834.ᐃᐃΔᐃᐃ[v2907 * v2834.ᐃⲆⵠΔⵠⵠⲆ + v2906];
         if (v2909 && v2909.ᐃΔⵠ) {
           if (v3031.loaded && v3031.ⲆΔᐃᐃⲆ) {
             v3031.ᐃΔⵠ(p1809[5 + v2905 * 4] & 1, ᐃΔᐃΔⲆ[v2909.type], v2909.x, v2909.y);
@@ -62223,7 +62222,7 @@
       }
     };
     this.ΔⲆᐃᐃⲆ = function () {
-      this.ᐃᐃⲆΔ[v2244](vVVWindow[v420].stringify([30, user.ΔⲆᐃᐃⲆ.ΔⲆᐃⲆ, user.ΔⲆᐃᐃⲆ.ΔⵠΔᐃⵠ]));
+      this.ᐃᐃⲆΔ[v2244](vVVWindow[v420].stringify([30, v2835.ΔⲆᐃᐃⲆ.ΔⲆᐃⲆ, v2835.ΔⲆᐃᐃⲆ.ΔⵠΔᐃⵠ]));
     };
     this.ᐃᐃΔⲆΔΔⲆᐃΔ = function (p1812, p1813) {
       this.ᐃᐃⲆΔ[v2244](vVVWindow[v435].stringify([37, p1813, p1812.ΔⲆᐃⲆ, p1812.ΔⵠΔᐃⵠ]));
@@ -62269,28 +62268,28 @@
       this.ᐃᐃⲆΔ[v2244](vVVVVVVVWindow[v444].stringify([8, p1831.ΔⵠΔᐃⵠ]));
     };
     this.ⲆⵠⲆΔΔⵠⵠ = function (p1832) {
-      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVWindow[v449].stringify([26, user.ⲆΔⵠΔᐃ.id, user.ΔΔⲆⲆⲆ[p1832]]));
+      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVWindow[v449].stringify([26, v2835.ⲆΔⵠΔᐃ.id, v2835.ΔΔⲆⲆⲆ[p1832]]));
     };
     this.ⲆᐃΔⲆΔΔᐃΔⵠ = function () {
-      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVWindow[v459].stringify([12, user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ, user.ⲆΔⵠΔᐃ.id]));
+      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVWindow[v459].stringify([12, v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ, v2835.ⲆΔⵠΔᐃ.id]));
     };
     this.ⵠᐃΔᐃⲆᐃΔ = function () {
       vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVVWindow[v462].stringify([23]));
     };
     this.ΔᐃⵠⲆᐃⵠΔΔⵠ = function () {
-      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVVWindow[v449].stringify([6, user.ⲆΔⵠΔᐃ.id]));
+      vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVVWindow[v449].stringify([6, v2835.ⲆΔⵠΔᐃ.id]));
       if (document.getElementById("lock_team").innerHTML == "LOCK") {
-        user.ⲆΔⵠΔᐃ.lock = 1;
+        v2835.ⲆΔⵠΔᐃ.lock = 1;
         document.getElementById("lock_team").innerHTML = "UNLOCK";
       } else {
-        user.ⲆΔⵠΔᐃ.lock = 0;
+        v2835.ⲆΔⵠΔᐃ.lock = 0;
         document.getElementById("lock_team").innerHTML = "LOCK";
       }
     };
-    this.units = function (p1833, p1834, p1835) {
+    this.Δⵠᐃ = function (p1833, p1834, p1835) {
       var v2920 = new Uint16Array(p1833);
       if (p1835) {
-        world.ⲆⲆΔᐃΔⵠⵠⲆΔ();
+        v2834.ⲆⲆΔᐃΔⵠⵠⲆΔ();
       }
       for (var v2921 = (p1834.length - 2) / 20, v2922 = 0; v2922 < v2921; v2922++) {
         var v2923 = 2 + v2922 * 20;
@@ -62298,9 +62297,9 @@
         var v2925 = p1834[v2923];
         var v2926 = v2920[v2924 + 1];
         var v2927 = v2920[v2924 + 5];
-        var v2928 = world.ᐃⲆⵠΔⵠⵠⲆ * v2925 + v2927;
+        var v2928 = v2834.ᐃⲆⵠΔⵠⵠⲆ * v2925 + v2927;
         if (v2926 & 1) {
-          world.ⵠⵠΔΔⵠᐃᐃⲆᐃ(v2928);
+          v2834.ⵠⵠΔΔⵠᐃᐃⲆᐃ(v2928);
         } else {
           var v2929 = v2920[v2924 + 2];
           var v2930 = v2920[v2924 + 3];
@@ -62310,15 +62309,15 @@
           var v2934 = v2920[v2924 + 8];
           var v2935 = v2920[v2924 + 9];
           var v2936 = Math.PI * (p1834[v2923 + 1] / 255) * 2;
-          if (world.fast_units[v2928]) {
-            var v2937 = world.fast_units[v2928];
+          if (v2834.ᐃᐃΔᐃᐃ[v2928]) {
+            var v2937 = v2834.ᐃᐃΔᐃᐃ[v2928];
             v2937.r.x = v2930;
             v2937.r.y = v2931;
             if (v2925 != 0 && Δᐃᐃ.ⲆⲆⵠᐃ(v2937, v2937.r) > 200) {
               v2937.x = v2930;
               v2937.y = v2931;
             }
-            if (v2937.id !== user.id || v2925 === 0) {
+            if (v2937.id !== v2835.id || v2925 === 0) {
               v2937.ΔᐃΔΔᐃΔᐃ = v2936;
             }
             v2937.action |= v2926;
@@ -62331,8 +62330,8 @@
             }
           } else {
             var v2938 = new f435(v2929, v2925, v2927, v2930, v2931, v2936, v2926, v2932, v2933, v2934, v2935);
-            world.fast_units[v2928] = v2938;
-            world.units[v2929].push(v2938);
+            v2834.ᐃᐃΔᐃᐃ[v2928] = v2938;
+            v2834.Δⵠᐃ[v2929].push(v2938);
           }
         }
       }
@@ -62340,7 +62339,7 @@
     this.ΔΔΔᐃ = function (p1836) {
       this.ⲆⵠⵠⲆᐃΔⲆ = v3065;
       var v2939 = new Uint16Array(p1836);
-      user.ⵠⵠᐃⲆᐃ.ΔᐃΔⲆⵠ(v2939);
+      v2835.ⵠⵠᐃⲆᐃ.ΔᐃΔⲆⵠ(v2939);
     };
     this.ΔᐃⲆⵠᐃᐃⵠᐃᐃ = function (p1837) {
       vUndefined2 = vVVVUndefined58;
@@ -62406,7 +62405,7 @@
     };
     this.ⵠΔᐃⵠΔΔΔ = function (p1841) {
       if (p1841 && p1841.length !== 0) {
-        user.ⵠΔᐃⵠΔΔΔ.message = function (p1842) {
+        v2835.ⵠΔᐃⵠΔΔΔ.message = function (p1842) {
           var v2952 = document.createElement("canvas");
           var v2953 = v2952.getContext("2d");
           for (v2953.lineJoin = "round"; p1842.indexOf("\\n") !== -1;) {
@@ -62436,14 +62435,14 @@
           return v2952;
         }(p1841);
       } else {
-        user.ⵠΔᐃⵠΔΔΔ.message = undefined;
+        v2835.ⵠΔᐃⵠΔΔΔ.message = undefined;
       }
     };
     this.ⲆΔⲆᐃⲆ = function (p1843) {
-      var v2957 = world.fast_units[p1843[1] * world.ᐃⲆⵠΔⵠⵠⲆ];
+      var v2957 = v2834.ᐃᐃΔᐃᐃ[p1843[1] * v2834.ᐃⲆⵠΔⵠⵠⲆ];
       if (v2957) {
-        if (world.mode === 2 && v2957.ⲆΔⲆⲆ === 0) {
-          if (user.ⲆΔᐃⲆΔ) {
+        if (v2834.mode === 2 && v2957.ⲆΔⲆⲆ === 0) {
+          if (v2835.ⲆΔᐃⲆΔ) {
             if (Math.random() > 0.5) {
               v2957.text.push(p1843[2] + " ..." + ⵠᐃⵠⵠⲆᐃⲆ);
             } else {
@@ -62458,7 +62457,7 @@
       }
     };
     this.ΔΔⵠⵠⲆⵠΔⲆⲆ = function (p1844) {
-      if (user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length !== user.ᐃⵠⲆⲆ.max || v730[p1844].ΔΔⵠΔ === 47 || user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v730[p1844].ΔΔⵠΔ) != -1 || user.ᐃⵠⲆⲆ.ΔΔᐃΔᐃⲆⵠⵠⵠ(v730[p1844].r)) {
+      if (v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ.length !== v2835.ᐃⵠⲆⲆ.max || v730[p1844].ΔΔⵠΔ === 47 || v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v730[p1844].ΔΔⵠΔ) != -1 || v2835.ᐃⵠⲆⲆ.ΔΔᐃΔᐃⲆⵠⵠⵠ(v730[p1844].r)) {
         this.ᐃᐃⲆΔ[v2244](vVWindow[v421].stringify([13, p1844]));
         return 1;
       } else {
@@ -62467,82 +62466,82 @@
       }
     };
     this.ᐃΔⲆᐃᐃⵠΔ = function (p1845) {
-      user.ⵠⲆⲆᐃ.ⲆΔΔⲆᐃᐃΔΔᐃ(p1845);
+      v2835.ⵠⲆⲆᐃ.ⲆΔΔⲆᐃᐃΔΔᐃ(p1845);
     };
     this.ΔᐃⲆΔᐃ = function (p1846) {
-      user.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = p1846;
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = p1846;
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ⵠΔⲆΔⵠ = function (p1847) {
-      user.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = p1847;
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = p1847;
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ⲆᐃΔⲆΔᐃᐃ = function (p1848) {
-      user.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = p1848;
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = p1848;
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ⵠΔᐃᐃΔᐃᐃᐃᐃ = function (p1849) {
       this.ᐃⲆᐃΔⵠ(v751[2015]);
     };
     this.ⲆΔⵠΔΔⵠⲆᐃΔ = function () {
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
     };
     this.ΔΔΔⲆⲆ = function (p1850) {
-      game.ΔΔΔⲆⲆ.players = [];
-      var v2958 = world.fast_units[user.ᐃᐃⵠⵠ];
+      v3030.ΔΔΔⲆⲆ.ᐃⵠΔΔ = [];
+      var v2958 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       var v2959 = 0;
       for (var v2960 = 1; v2960 < p1850.length; v2960 += 2) {
         var v2961 = {
-          x: Math.floor(p1850[v2960] * world.w / 250),
-          y: Math.floor(p1850[v2960 + 1] * world.ⵠⲆⵠ / 250)
+          x: Math.floor(p1850[v2960] * v2834.w / 250),
+          y: Math.floor(p1850[v2960 + 1] * v2834.ⵠⲆⵠ / 250)
         };
-        if (v2958 && !v2959 && !user.ⲆⲆΔⵠⲆᐃⵠ && Δᐃᐃ.ⲆⲆⵠᐃ(v2961, v2958) < 250) {
+        if (v2958 && !v2959 && !v2835.ⲆⲆΔⵠⲆᐃⵠ && Δᐃᐃ.ⲆⲆⵠᐃ(v2961, v2958) < 250) {
           v2959 += 1;
         } else {
-          game.ΔΔΔⲆⲆ.players.push(v2961);
+          v3030.ΔΔΔⲆⲆ.ᐃⵠΔΔ.push(v2961);
         }
       }
     };
     this.ⲆΔⵠⵠΔⵠⲆⵠᐃ = function () {
-      user.ΔⲆᐃᐃⲆ.open = vVVVV142;
-      user.ⵠΔⵠⵠΔ.enabled = vVV145;
-      user.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = -1;
-      user.ⵠΔⵠⵠΔ.label = null;
-      user.ⵠΔⵠⵠΔ.ᐃᐃᐃΔΔᐃΔ = null;
-      user.ⵠΔⵠⵠΔ.now = -1;
+      v2835.ΔⲆᐃᐃⲆ.open = vVVVV142;
+      v2835.ⵠΔⵠⵠΔ.enabled = vVV145;
+      v2835.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = -1;
+      v2835.ⵠΔⵠⵠΔ.label = null;
+      v2835.ⵠΔⵠⵠΔ.ᐃᐃᐃΔΔᐃΔ = null;
+      v2835.ⵠΔⵠⵠΔ.now = -1;
     };
     this.ⵠΔⵠⵠΔ = function (p1851) {
       v2257.ⲆⵠⲆᐃⵠᐃⲆ = p1851;
-      user.ⵠΔⵠⵠΔ.enabled = vVVV622;
-      user.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = new Date().getTime();
-      user.ⵠΔⵠⵠΔ.label = null;
-      user.ⵠΔⵠⵠΔ.now = -1;
+      v2835.ⵠΔⵠⵠΔ.enabled = vVVV622;
+      v2835.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = new Date().getTime();
+      v2835.ⵠΔⵠⵠΔ.label = null;
+      v2835.ⵠΔⵠⵠΔ.now = -1;
       for (var v2962 = vUndefined2 || v590, v2963 = 0; v2963 < v2962.length; v2963++) {
-        var v2964 = user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2962[v2963]);
+        var v2964 = v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2962[v2963]);
         if (v2964 != -1) {
-          user.ᐃⵠⲆⲆ.ᐃⵠⵠᐃⵠⵠΔ(v2962.length[v2963], v2964);
+          v2835.ᐃⵠⲆⲆ.ᐃⵠⵠᐃⵠⵠΔ(v2962.length[v2963], v2964);
         }
       }
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃⲆΔⵠⵠ();
     };
     this.ⵠⵠᐃⲆΔⵠⲆᐃᐃ = function (p1852, p1853, p1854) {
       this.ΔᐃΔⵠⵠᐃΔ(p1852, p1853 * 256 + p1854);
     };
     this.ΔᐃΔⵠⵠᐃΔ = function (p1855, p1856) {
-      user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-      user.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1855, p1856, user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1855));
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+      v2835.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1855, p1856, v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1855));
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ⵠΔⲆⵠᐃΔⵠⵠᐃ = function (p1857) {
-      user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-      user.ᐃΔⵠⵠᐃ.wait = vVVVVVV6232;
-      var v2965 = user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1857);
-      user.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1857, 1, v2965);
-      if (v2965 >= 0 && !user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[p1857]) {
-        user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+      v2835.ᐃΔⵠⵠᐃ.wait = vVVVVVV6232;
+      var v2965 = v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1857);
+      v2835.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1857, 1, v2965);
+      if (v2965 >= 0 && !v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ[p1857]) {
+        v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
       }
       if (p1857 == 261) {
-        user.ΔΔⲆⲆⲆ = [user.id];
+        v2835.ΔΔⲆⲆⲆ = [v2835.id];
       }
     };
     this.ⲆΔⲆᐃⵠᐃⲆⵠᐃ = function () {
@@ -62555,10 +62554,10 @@
       this.ᐃᐃⲆΔ[v2244](vVVVWindow[v440].stringify([28, p1859, p1860]));
     };
     this.ᐃⵠⲆⵠΔΔⲆⵠⲆ = function () {
-      var v2966 = world.fast_units[user.ᐃᐃⵠⵠ];
+      var v2966 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
       if (v2966) {
         var v2967 = Math.PI * 2;
-        this.ᐃᐃⲆΔ[v2244](vVVVWindow[v428].stringify([17, user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ, Math.floor((v2966.angle + v2967) % v2967 * 255 / v2967), user.ⵠⲆⲆᐃ.mode]));
+        this.ᐃᐃⲆΔ[v2244](vVVVWindow[v428].stringify([17, v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ, Math.floor((v2966.angle + v2967) % v2967 * 255 / v2967), v2835.ⵠⲆⲆᐃ.mode]));
       }
     };
     this.ᐃⵠⲆⲆΔ = function (p1861, p1862) {
@@ -62587,7 +62586,7 @@
         case 299:
         case 302:
         case 301:
-          user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+          v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
           this.ᐃᐃⲆΔ[v2244](vVVVVWindow[v435].stringify([33, p1861]));
           break;
         case 205:
@@ -62656,11 +62655,11 @@
         case 237:
         case 261:
         case 331:
-          if (!user.ⲆΔᐃⲆΔ) {
-            if (user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ === p1861) {
-              user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+          if (!v2835.ⲆΔᐃⲆΔ) {
+            if (v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ === p1861) {
+              v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
             } else {
-              user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = p1861;
+              v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = p1861;
             }
           }
           break;
@@ -62734,12 +62733,12 @@
         case 134:
         case 27:
         case 181:
-          if (!user.ⲆΔᐃⲆΔ) {
-            user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-            if ((v2968 = world.fast_units[user.ᐃᐃⵠⵠ]) && v2968.right === p1861) {
+          if (!v2835.ⲆΔᐃⲆΔ) {
+            v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+            if ((v2968 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ]) && v2968.right === p1861) {
               this.ᐃᐃⲆΔ[v2244](vVVVVVWindow[v440].stringify([33, 7]));
             } else {
-              user.ΔⲆΔᐃΔ.wait = true;
+              v2835.ΔⲆΔᐃΔ.wait = true;
               this.ᐃᐃⲆΔ[v2244](vVVVVVVWindow[v442].stringify([33, p1861]));
             }
           }
@@ -62810,9 +62809,9 @@
         case 98:
         case 89:
         case 149:
-          if (!user.ⲆΔᐃⲆΔ) {
-            user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-            if ((v2968 = world.fast_units[user.ᐃᐃⵠⵠ]) && p1861 === v2968.right) {
+          if (!v2835.ⲆΔᐃⲆΔ) {
+            v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+            if ((v2968 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ]) && p1861 === v2968.right) {
               this.ᐃᐃⲆΔ[v2244](vVVVVVVVWindow[v444].stringify([33, 7]));
             } else {
               this.ᐃᐃⲆΔ[v2244](vVVVVVVVVWindow[v449].stringify([33, p1861]));
@@ -62832,9 +62831,9 @@
         case 358:
         case 340:
         case 164:
-          if (!user.ⲆΔᐃⲆΔ) {
-            user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-            var v2968 = world.fast_units[user.ᐃᐃⵠⵠ];
+          if (!v2835.ⲆΔᐃⲆΔ) {
+            v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+            var v2968 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
             this.ᐃᐃⲆΔ[v2244](vVVVVVVVVWindow[v449].stringify([33, p1861]));
           }
           break;
@@ -62864,8 +62863,8 @@
         case 43:
         case 44:
         case 45:
-          if ((v2968 = world.fast_units[user.ᐃᐃⵠⵠ]) && p1861 !== v2968.ⲆⲆⵠⵠⵠ) {
-            user.ⵠⲆⲆᐃⲆ.wait = vVVVV6233;
+          if ((v2968 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ]) && p1861 !== v2968.ⲆⲆⵠⵠⵠ) {
+            v2835.ⵠⲆⲆᐃⲆ.wait = vVVVV6233;
           }
           this.ᐃᐃⲆΔ[v2244](vVVVVWindow[v440].stringify([33, p1861]));
           break;
@@ -62892,10 +62891,10 @@
       this.ᐃᐃⲆΔ[v2244](vVVVWindow[v421].stringify([27, p1863]));
     };
     this.ⵠᐃⲆᐃΔⵠⵠᐃΔ = function (p1864) {
-      user.ᐃΔⵠⵠᐃ.wait = v6;
-      var v2969 = user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1864);
-      user.ᐃⵠⲆⲆ.ᐃⵠⵠᐃⵠⵠΔ(p1864, v2969);
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ᐃΔⵠⵠᐃ.wait = v6;
+      var v2969 = v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1864);
+      v2835.ᐃⵠⲆⲆ.ᐃⵠⵠᐃⵠⵠΔ(p1864, v2969);
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ⲆΔⵠᐃⲆᐃⵠⵠⵠ = function (p1865, p1866) {
       this.ᐃᐃⲆΔ[v2244](vVWindow[v444].stringify([31, p1865]));
@@ -62904,18 +62903,18 @@
       this.ᐃᐃⲆΔ[v2244](vVVWindow[v420].stringify([35, p1867]));
     };
     this.ᐃΔΔⵠΔΔΔᐃᐃ = function (p1869) {
-      user.ᐃΔⵠⵠᐃ.wait = true;
-      var v2970 = user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1869);
-      user.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1869, 1, v2970);
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ᐃΔⵠⵠᐃ.wait = true;
+      var v2970 = v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(p1869);
+      v2835.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(p1869, 1, v2970);
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ΔⵠⲆᐃᐃⲆᐃΔⲆ = function (p1870) {
       var v2971 = p1870[1];
       var v2972 = p1870[2];
-      user.ᐃΔⵠⵠᐃ.wait = vVVV62;
-      var v2973 = user.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2971);
-      user.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(v2971, v2972, v2973);
-      user.ⵠⲆⲆᐃ.ⵠᐃᐃ();
+      v2835.ᐃΔⵠⵠᐃ.wait = vVVV62;
+      var v2973 = v2835.ᐃⵠⲆⲆ.ⵠΔᐃᐃΔ(v2971);
+      v2835.ᐃⵠⲆⲆ.ⲆⲆᐃⲆⵠⲆⵠ(v2971, v2972, v2973);
+      v2835.ⵠⲆⲆᐃ.ⵠᐃᐃ();
     };
     this.ᐃᐃΔⲆⵠⲆⵠᐃᐃ = function () {
       this.ᐃᐃⲆΔ[v2244](vVVWindow[v420].stringify([38]));
@@ -62935,8 +62934,8 @@
       this.ᐃᐃⲆΔ[v2244](vVVVVVWindow[v440].stringify([34, p1874]));
     };
     this.ᐃᐃⵠᐃⵠᐃΔᐃⵠ = function (p1875) {
-      var v2976 = world.fast_units[user.ᐃᐃⵠⵠ];
-      if (user.ⲆΔᐃⲆΔ) {
+      var v2976 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
+      if (v2835.ⲆΔᐃⲆΔ) {
         if (Math.random() > 0.5) {
           v2976.text.push(p1875.substring(0, 25) + " ..." + ⵠᐃⵠⵠⲆᐃⲆ);
         } else {
@@ -62948,7 +62947,7 @@
       this.ᐃᐃⲆΔ[v2244](vVVVVVWindow[v440].stringify([5, p1875]));
     };
     this.ΔⵠᐃΔᐃ = function (p1876) {
-      var v2977 = ⲆⵠⵠΔ.select.units;
+      var v2977 = ⲆⵠⵠΔ.select.Δⵠᐃ;
       if (v2977.length != 0) {
         var v2978 = [14];
         var v2979 = [];
@@ -62973,7 +62972,7 @@
     this.ΔΔⲆΔᐃⵠⲆⵠⲆ = function () {
       if (v3065 - this.ⵠᐃⲆⵠΔᐃᐃ > 50) {
         this.ⵠᐃⲆⵠΔᐃᐃ = v3065;
-        var v2981 = user.ᐃⵠⵠ;
+        var v2981 = v2835.ᐃⵠⵠ;
         var v2982 = Math.floor(v2981.x / 100);
         var v2983 = Math.floor(v2981.y / 100);
         if (this.ⵠΔΔᐃΔᐃᐃ.ΔΔ != v2982 || this.ⵠΔΔᐃΔᐃᐃ.ΔᐃⵠⲆ != v2983) {
@@ -62991,7 +62990,7 @@
       }
     };
     this.ΔⵠΔΔᐃⲆⲆⲆⲆ = function () {
-      user.reconnect.enabled = true;
+      v2835.reconnect.enabled = true;
       if (vThis5.ᐃᐃⲆΔ.ⲆⵠⵠΔᐃ == vThis5.ⲆⵠⵠΔᐃ) {
         vThis5.ⲆⵠⵠΔᐃ++;
         vThis5.ᐃᐃⲆΔ.close();
@@ -63001,64 +63000,64 @@
     this.ⵠΔΔΔⵠΔΔⵠⵠ = function (p1877) {
       this.ᐃⲆᐃΔⵠ(v751[2016]);
       for (var v2984 = 1; v2984 < p1877.length; v2984++) {
-        user.ΔΔⲆⲆⲆ.push(p1877[v2984]);
+        v2835.ΔΔⲆⲆⲆ.push(p1877[v2984]);
       }
     };
     this.ⲆΔⵠΔⲆᐃΔⲆᐃ = function (p1878) {
-      this.ᐃⲆᐃΔⵠ(world.players[p1878].ᐃⲆᐃⵠⲆ + v751[2018]);
-      user.ΔΔⲆⲆⲆ.push(p1878);
+      this.ᐃⲆᐃΔⵠ(v2834.ᐃⵠΔΔ[p1878].ᐃⲆᐃⵠⲆ + v751[2018]);
+      v2835.ΔΔⲆⲆⲆ.push(p1878);
       var v2985 = document.getElementById("team_box");
-      if (game.ΔΔΔⲆΔ != -1 && v2985.style.display == "inline-block") {
-        game.Δᐃᐃᐃⵠ[game.ΔΔΔⲆΔ].action();
+      if (v3030.ΔΔΔⲆΔ != -1 && v2985.style.display == "inline-block") {
+        v3030.Δᐃᐃᐃⵠ[v3030.ΔΔΔⲆΔ].action();
       }
     };
     this.ⲆⵠⲆⲆᐃᐃΔᐃΔ = function () {
       this.ᐃⲆᐃΔⵠ(v751[2019]);
-      user.ⲆΔⵠΔᐃ.wait = vV6;
-      user.ΔΔⲆⲆⲆ = [];
+      v2835.ⲆΔⵠΔᐃ.wait = vV6;
+      v2835.ΔΔⲆⲆⲆ = [];
       document.getElementById("team_box").style.display = "none";
     };
     this.ⵠⵠⵠᐃⵠΔⲆⲆⵠ = function (p1879) {
-      if (user.id == p1879) {
+      if (v2835.id == p1879) {
         this.ᐃⲆᐃΔⵠ(v751[2020]);
-        user.ⲆΔⵠΔᐃ.wait = vVVVV6232;
-        user.ΔΔⲆⲆⲆ = [];
+        v2835.ⲆΔⵠΔᐃ.wait = vVVVV6232;
+        v2835.ΔΔⲆⲆⲆ = [];
         document.getElementById("team_box").style.display = "none";
       } else {
-        this.ᐃⲆᐃΔⵠ(world.players[p1879].ᐃⲆᐃⵠⲆ + v751[2021]);
-        for (var v2986 = 0; v2986 < user.ΔΔⲆⲆⲆ.length; v2986++) {
-          if (user.ΔΔⲆⲆⲆ[v2986] == p1879) {
-            user.ΔΔⲆⲆⲆ.splice(v2986, 1);
+        this.ᐃⲆᐃΔⵠ(v2834.ᐃⵠΔΔ[p1879].ᐃⲆᐃⵠⲆ + v751[2021]);
+        for (var v2986 = 0; v2986 < v2835.ΔΔⲆⲆⲆ.length; v2986++) {
+          if (v2835.ΔΔⲆⲆⲆ[v2986] == p1879) {
+            v2835.ΔΔⲆⲆⲆ.splice(v2986, 1);
             break;
           }
         }
         var v2987 = document.getElementById("team_box");
-        if (game.ΔΔΔⲆΔ != -1 && v2987.style.display == "inline-block") {
-          game.Δᐃᐃᐃⵠ[game.ΔΔΔⲆΔ].action();
+        if (v3030.ΔΔΔⲆΔ != -1 && v2987.style.display == "inline-block") {
+          v3030.Δᐃᐃᐃⵠ[v3030.ΔΔΔⲆΔ].action();
         }
       }
     };
     this.ⲆᐃᐃⵠⵠⵠΔⲆᐃ = function (p1880) {
-      user.ⵠᐃⲆΔⲆ = false;
+      v2835.ⵠᐃⲆΔⲆ = false;
       this.ᐃⲆᐃΔⵠ(v751[2022]);
       if (this.ⲆⵠⵠΔᐃ == this.ᐃᐃⲆΔ.ⲆⵠⵠΔᐃ) {
         this.ⲆⵠⵠΔᐃ++;
-        game.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
+        v3030.ᐃᐃΔⵠⵠ(v2833.ⲆΔᐃᐃⲆ);
         this.ᐃᐃⲆΔ.close();
       }
     };
     this.ΔᐃΔΔΔⲆⲆΔΔ = function (p1881, p1882) {
-      user.ⵠᐃⲆΔⲆ = vVVV142;
+      v2835.ⵠᐃⲆΔⲆ = vVVV142;
       var v2988 = new Uint16Array(p1882);
       var v2989 = new Uint32Array(p1882);
-      user.ΔⵠᐃⵠᐃⲆⲆ.ⲆᐃⲆᐃⵠΔΔ = v753[p1881][Math.floor(Math.random() * v753[p1881].length)];
-      user.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ = Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(world.players[user.id].Ⲇⵠⵠᐃᐃ);
-      user.ΔⵠᐃⵠᐃⲆⲆ.ⲆⲆΔᐃᐃΔⵠ = Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(v2989[1]);
-      user.ΔⵠᐃⵠᐃⲆⲆ.ᐃᐃⲆΔᐃᐃΔ = v2988[1];
+      v2835.ΔⵠᐃⵠᐃⲆⲆ.ⲆᐃⲆᐃⵠΔΔ = v753[p1881][Math.floor(Math.random() * v753[p1881].length)];
+      v2835.ΔⵠᐃⵠᐃⲆⲆ.Ⲇⵠⵠᐃᐃ = Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(v2834.ᐃⵠΔΔ[v2835.id].Ⲇⵠⵠᐃᐃ);
+      v2835.ΔⵠᐃⵠᐃⲆⲆ.ⲆⲆΔᐃᐃΔⵠ = Δᐃᐃ.ΔⲆΔⲆΔⲆⲆ(v2989[1]);
+      v2835.ΔⵠᐃⵠᐃⲆⲆ.ᐃᐃⲆΔᐃᐃΔ = v2988[1];
       this.ᐃⲆᐃΔⵠ(v751[2017]);
       if (this.ᐃᐃⲆΔ.ⲆⵠⵠΔᐃ == this.ⲆⵠⵠΔᐃ) {
         this.ⲆⵠⵠΔᐃ++;
-        game.ᐃᐃΔⵠⵠ(scoreboard.ⲆΔᐃᐃⲆ);
+        v3030.ᐃᐃΔⵠⵠ(v2836.ⲆΔᐃᐃⲆ);
         this.ᐃᐃⲆΔ.close();
         try {
           vWindow.Widget.adsRefresh();
@@ -63091,204 +63090,204 @@
       document.getElementById("exploreDesert").src = "img/desert-cactus.png";
       document.getElementById("exploreLava").src = "img/lava-volcano.png";
       this.ⲆⵠⵠⲆᐃΔⲆ = v3065;
-      user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.ⲆΔⵠΔⵠ = user.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.ᐃⵠⲆΔⲆ;
-      user.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.ⲆΔⵠΔⵠ = user.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.ᐃⵠⲆΔⲆ;
-      user.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.ⲆΔⵠΔⵠ = user.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.ᐃⵠⲆΔⲆ;
-      user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.ⲆΔⵠΔⵠ = user.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.ᐃⵠⲆΔⲆ;
-      user.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.ⲆΔⵠΔⵠ = user.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.ᐃⵠⲆΔⲆ;
-      user.ᐃⵠᐃⵠ.ΔΔⵠᐃ = 1;
-      user.ᐃⵠᐃⵠ.c = 1;
-      user.ᐃⵠᐃⵠ.ⵠⲆⵠ = 1;
-      user.ᐃⵠᐃⵠ.ᐃⵠⲆ = 1;
-      user.ᐃⵠᐃⵠ.ΔⲆΔ = 1;
-      user.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = 1;
-      user.ᐃⲆⲆⵠᐃᐃΔ = vVVVV1423;
-      game.ᐃΔⵠᐃⲆ.display = 0;
+      v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.ⲆΔⵠΔⵠ = v2835.ᐃⵠᐃⵠ.ⵠⲆⲆΔⲆ.ᐃⵠⲆΔⲆ;
+      v2835.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.ⲆΔⵠΔⵠ = v2835.ᐃⵠᐃⵠ.ⲆⵠⵠⵠⲆⲆⲆ.ᐃⵠⲆΔⲆ;
+      v2835.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.ⲆΔⵠΔⵠ = v2835.ᐃⵠᐃⵠ.ⵠⲆΔⲆᐃⲆⲆ.ᐃⵠⲆΔⲆ;
+      v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.ⲆΔⵠΔⵠ = v2835.ᐃⵠᐃⵠ.ⲆⲆⲆⲆᐃΔⵠ.ᐃⵠⲆΔⲆ;
+      v2835.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.ⲆΔⵠΔⵠ = v2835.ᐃⵠᐃⵠ.ᐃⵠⵠᐃᐃⵠⵠ.ᐃⵠⲆΔⲆ;
+      v2835.ᐃⵠᐃⵠ.ΔΔⵠᐃ = 1;
+      v2835.ᐃⵠᐃⵠ.c = 1;
+      v2835.ᐃⵠᐃⵠ.ⵠⲆⵠ = 1;
+      v2835.ᐃⵠᐃⵠ.ᐃⵠⲆ = 1;
+      v2835.ᐃⵠᐃⵠ.ΔⲆΔ = 1;
+      v2835.ᐃⵠᐃⵠ.ⵠΔⲆⲆΔⲆⵠ = 1;
+      v2835.ᐃⲆⲆⵠᐃᐃΔ = vVVVV1423;
+      v3030.ᐃΔⵠᐃⲆ.display = 0;
       v2257.ᐃΔΔᐃⲆᐃⵠ = p1883[29];
       v2257.ⲆⵠΔⵠⲆᐃⵠ = p1883[30];
       v2257.ⵠΔΔΔⲆΔΔ = 16;
-      user.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ = [];
-      user.ᐃⵠⲆⲆ.ᐃⵠΔⵠ = [];
-      user.ᐃⵠⲆⲆ.max = 10;
-      user.ᐃⵠⲆⲆ.ΔⵠᐃⲆⲆΔΔ = 0;
-      user.ᐃⵠⲆⲆ.Δⵠᐃⵠᐃ = 0;
-      user.ᐃⵠⲆⲆ.id = -1;
-      game.ⲆⵠⵠⲆΔᐃⵠ = 1;
-      game.ΔΔᐃⵠⵠᐃⵠ = 1;
-      game.ⲆⵠᐃⲆⵠᐃⲆ = 1;
-      game.ⵠΔⲆⵠᐃᐃᐃ = 1;
-      user.ⵠᐃⲆΔⲆ = true;
-      user.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.stop();
-      user.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ = [];
-      user.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ = false;
-      user.ⵠⲆⲆᐃ.ᐃᐃⵠΔᐃΔⲆⲆⲆ = vVVVV1422;
-      user.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
-      user.ⵠⲆⲆᐃ.id = -1;
-      user.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ = false;
-      user.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = vVV14;
-      user.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = false;
-      user.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = false;
-      user.ⵠⲆⲆᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1, 1);
-      user.ΔⲆΔᐃΔ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1 / 10, 1);
-      user.ΔⲆΔᐃΔ.wait = false;
-      user.ⵠⲆⲆᐃⲆ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1 / 5, 1);
-      user.ⵠⲆⲆᐃⲆ.wait = false;
-      user.ᐃΔⵠⵠᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVVV145, 0, 1, 0, 1, 1);
-      user.ᐃΔⵠⵠᐃ.wait = vVVVVV142;
-      user.ⲆΔⵠΔᐃ.id = -1;
-      user.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = -1;
-      user.ⲆΔⵠΔᐃ.wait = false;
-      user.ⲆΔⵠΔᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVV1422, 0, 1, 0, 1 / 30, 1);
-      game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x = -1;
-      game.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y = -1;
-      game.ⲆΔᐃᐃᐃ.open = false;
-      game.ΔΔΔⲆⲆ.players = [];
-      user.ᐃΔΔΔⲆⵠⵠ.enabled = v14;
-      world.mode = p1883[1];
+      v2835.ᐃⵠⲆⲆ.ᐃᐃⲆᐃᐃ = [];
+      v2835.ᐃⵠⲆⲆ.ᐃⵠΔⵠ = [];
+      v2835.ᐃⵠⲆⲆ.max = 10;
+      v2835.ᐃⵠⲆⲆ.ΔⵠᐃⲆⲆΔΔ = 0;
+      v2835.ᐃⵠⲆⲆ.Δⵠᐃⵠᐃ = 0;
+      v2835.ᐃⵠⲆⲆ.id = -1;
+      v3030.ⲆⵠⵠⲆΔᐃⵠ = 1;
+      v3030.ΔΔᐃⵠⵠᐃⵠ = 1;
+      v3030.ⲆⵠᐃⲆⵠᐃⲆ = 1;
+      v3030.ⵠΔⲆⵠᐃᐃᐃ = 1;
+      v2835.ⵠᐃⲆΔⲆ = true;
+      v2835.ᐃⵠⲆⲆ.ΔᐃΔⵠⲆⵠⵠ.stop();
+      v2835.ⵠⲆⲆᐃ.ΔᐃⵠⲆⲆ = [];
+      v2835.ⵠⲆⲆᐃ.ⵠⲆⲆᐃᐃ = false;
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⵠΔᐃΔⲆⲆⲆ = vVVVV1422;
+      v2835.ⵠⲆⲆᐃ.ᐃᐃⲆⲆ = -1;
+      v2835.ⵠⲆⲆᐃ.id = -1;
+      v2835.ⵠⲆⲆᐃ.ᐃΔⲆᐃᐃⵠΔ = false;
+      v2835.ⵠⲆⲆᐃ.ΔᐃⲆΔᐃ = vVV14;
+      v2835.ⵠⲆⲆᐃ.ⵠΔⲆΔⵠ = false;
+      v2835.ⵠⲆⲆᐃ.ⲆᐃΔⲆΔᐃᐃ = false;
+      v2835.ⵠⲆⲆᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1, 1);
+      v2835.ΔⲆΔᐃΔ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1 / 10, 1);
+      v2835.ΔⲆΔᐃΔ.wait = false;
+      v2835.ⵠⲆⲆᐃⲆ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(false, 0, 1, 0, 1 / 5, 1);
+      v2835.ⵠⲆⲆᐃⲆ.wait = false;
+      v2835.ᐃΔⵠⵠᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVVV145, 0, 1, 0, 1, 1);
+      v2835.ᐃΔⵠⵠᐃ.wait = vVVVVV142;
+      v2835.ⲆΔⵠΔᐃ.id = -1;
+      v2835.ⲆΔⵠΔᐃ.ΔⲆᐃⲆ = -1;
+      v2835.ⲆΔⵠΔᐃ.wait = false;
+      v2835.ⲆΔⵠΔᐃ.timeout = new Δᐃᐃ.Ⲇⵠᐃᐃ(vVV1422, 0, 1, 0, 1 / 30, 1);
+      v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.x = -1;
+      v3030.ΔΔΔⲆⲆ.ΔᐃⵠⲆᐃⲆⲆ.y = -1;
+      v3030.ⲆΔᐃᐃᐃ.open = false;
+      v3030.ΔΔΔⲆⲆ.ᐃⵠΔΔ = [];
+      v2835.ᐃΔΔΔⲆⵠⵠ.enabled = v14;
+      v2834.mode = p1883[1];
       if (p1883[20] !== undefined && p1883[21] !== undefined) {
-        world.nw = p1883[20];
-        world.nh = p1883[21];
-        world.w = world.nw * world.ⵠᐃⵠᐃᐃⲆⲆ;
-        world.ⵠⲆⵠ = world.ᐃᐃᐃᐃⵠⵠⲆ * world.nh;
+        v2834.ⵠⵠⲆⲆᐃ = p1883[20];
+        v2834.ⲆᐃᐃΔⲆ = p1883[21];
+        v2834.w = v2834.ⵠⵠⲆⲆᐃ * v2834.ⵠᐃⵠᐃᐃⲆⲆ;
+        v2834.ⵠⲆⵠ = v2834.ᐃᐃᐃᐃⵠⵠⲆ * v2834.ⲆᐃᐃΔⲆ;
       }
-      world.ᐃΔΔⵠᐃⵠᐃ = p1883[22];
-      world.ΔⲆΔⲆᐃ = p1883[23];
+      v2834.ᐃΔΔⵠᐃⵠᐃ = p1883[22];
+      v2834.ΔⲆΔⲆᐃ = p1883[23];
       vThis5.ⵠΔᐃⵠΔΔΔ(p1883[24]);
       vThis5.ᐃΔⵠⵠΔᐃΔⲆⵠ(p1883[25]);
       vThis5.ⲆΔⵠⵠΔⵠΔᐃᐃ(p1883[28]);
       vThis5.ΔⲆⵠⵠⵠⵠⵠᐃᐃ(p1883[31]);
       vThis5.ΔᐃⲆⵠᐃᐃⵠᐃᐃ(p1883[32]);
-      user.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ = p1883[26];
-      user.ᐃⲆⵠᐃᐃⵠᐃ = 0;
-      user.ⵠⵠᐃⵠΔ.ⲆⲆΔⲆΔ = p1883[27];
-      world.ΔΔⵠᐃⲆⲆⲆᐃⵠ(p1883[19]);
-      world.time = p1883[5];
-      world.ⲆᐃⲆⵠᐃ.ⵠΔⲆΔᐃ = p1883[15];
-      world.ⲆᐃⲆⵠᐃ.ΔᐃΔⲆⵠ = new Date().getTime();
-      game.ΔΔΔⵠ.ⵠⵠᐃΔⲆⲆⲆ = p1883[16];
-      world.transition = vVV145;
-      user.Δⵠⵠ = p1883[2];
-      game.ΔΔΔⵠ.reset();
-      user.ΔΔⲆⲆⲆ = p1883[8];
-      world.units[0] = [];
-      world.units[105] = [];
-      world.units[106] = [];
-      world.units[104] = [];
-      world.units[2] = [];
-      world.units[1] = [];
-      world.units[6] = [];
-      world.units[3] = [];
-      world.units[40] = [];
-      world.units[46] = [];
-      world.units[52] = [];
-      world.units[53] = [];
-      world.units[48] = [];
-      world.units[49] = [];
-      world.units[63] = [];
-      world.units[66] = [];
-      world.units[64] = [];
-      world.units[4] = [];
-      world.units[7] = [];
-      world.units[8] = [];
-      world.units[9] = [];
-      world.units[10] = [];
-      world.units[15] = [];
-      world.units[16] = [];
-      world.units[17] = [];
-      world.units[54] = [];
-      world.units[55] = [];
-      world.units[56] = [];
-      world.units[57] = [];
-      world.units[58] = [];
-      world.units[62] = [];
-      world.units[11] = [];
-      world.units[22] = [];
-      world.units[23] = [];
-      world.units[5] = [];
-      world.units[12] = [];
-      world.units[13] = [];
-      world.units[14] = [];
-      world.units[67] = [];
-      world.units[77] = [];
-      world.units[78] = [];
-      world.units[79] = [];
-      world.units[80] = [];
-      world.units[81] = [];
-      world.units[86] = [];
-      world.units[89] = [];
-      world.units[90] = [];
-      world.units[87] = [];
-      world.units[88] = [];
-      world.units[93] = [];
-      world.units[94] = [];
-      world.units[99] = [];
-      world.units[98] = [];
-      world.units[43] = [];
-      world.units[72] = [];
-      world.units[73] = [];
-      world.units[74] = [];
-      world.units[69] = [];
-      world.units[70] = [];
-      world.units[85] = [];
-      world.units[84] = [];
-      world.units[82] = [];
-      world.units[83] = [];
-      world.units[71] = [];
-      world.units[76] = [];
-      world.units[75] = [];
-      world.units[91] = [];
-      world.units[101] = [];
-      world.units[95] = [];
-      world.units[96] = [];
-      world.units[97] = [];
-      world.units[92] = [];
-      world.units[100] = [];
-      world.units[103] = [];
-      world.units[102] = [];
-      world.units[68] = [];
-      world.units[18] = [];
-      world.units[19] = [];
-      world.units[20] = [];
-      world.units[21] = [];
-      world.units[59] = [];
-      world.units[61] = [];
-      world.units[60] = [];
-      world.units[38] = [];
-      world.units[65] = [];
-      world.units[39] = [];
-      world.units[47] = [];
-      world.units[42] = [];
-      world.units[41] = [];
-      world.units[24] = [];
-      world.units[25] = [];
-      world.units[26] = [];
-      world.units[27] = [];
-      world.units[28] = [];
-      world.units[29] = [];
-      world.units[30] = [];
-      world.units[31] = [];
-      world.units[32] = [];
-      world.units[33] = [];
-      world.units[34] = [];
-      world.units[35] = [];
-      world.units[36] = [];
-      world.units[37] = [];
-      world.units[51] = [];
-      world.units[50] = [];
-      world.units[44] = [];
-      world.units[45] = [];
-      world.fast_units = [];
-      world.ᐃⲆⵠΔⵠⵠⲆ = p1883[7];
-      user.id = p1883[9];
-      user.ᐃᐃⵠⵠ = world.ᐃⲆⵠΔⵠⵠⲆ * user.id;
+      v2835.ⲆⵠⲆⲆⲆ.ⲆⲆΔⲆΔ = p1883[26];
+      v2835.ᐃⲆⵠᐃᐃⵠᐃ = 0;
+      v2835.ⵠⵠᐃⵠΔ.ⲆⲆΔⲆΔ = p1883[27];
+      v2834.ΔΔⵠᐃⲆⲆⲆᐃⵠ(p1883[19]);
+      v2834.time = p1883[5];
+      v2834.ⲆᐃⲆⵠᐃ.ⵠΔⲆΔᐃ = p1883[15];
+      v2834.ⲆᐃⲆⵠᐃ.ΔᐃΔⲆⵠ = new Date().getTime();
+      v3030.ΔΔΔⵠ.ⵠⵠᐃΔⲆⲆⲆ = p1883[16];
+      v2834.transition = vVV145;
+      v2835.Δⵠⵠ = p1883[2];
+      v3030.ΔΔΔⵠ.reset();
+      v2835.ΔΔⲆⲆⲆ = p1883[8];
+      v2834.Δⵠᐃ[0] = [];
+      v2834.Δⵠᐃ[105] = [];
+      v2834.Δⵠᐃ[106] = [];
+      v2834.Δⵠᐃ[104] = [];
+      v2834.Δⵠᐃ[2] = [];
+      v2834.Δⵠᐃ[1] = [];
+      v2834.Δⵠᐃ[6] = [];
+      v2834.Δⵠᐃ[3] = [];
+      v2834.Δⵠᐃ[40] = [];
+      v2834.Δⵠᐃ[46] = [];
+      v2834.Δⵠᐃ[52] = [];
+      v2834.Δⵠᐃ[53] = [];
+      v2834.Δⵠᐃ[48] = [];
+      v2834.Δⵠᐃ[49] = [];
+      v2834.Δⵠᐃ[63] = [];
+      v2834.Δⵠᐃ[66] = [];
+      v2834.Δⵠᐃ[64] = [];
+      v2834.Δⵠᐃ[4] = [];
+      v2834.Δⵠᐃ[7] = [];
+      v2834.Δⵠᐃ[8] = [];
+      v2834.Δⵠᐃ[9] = [];
+      v2834.Δⵠᐃ[10] = [];
+      v2834.Δⵠᐃ[15] = [];
+      v2834.Δⵠᐃ[16] = [];
+      v2834.Δⵠᐃ[17] = [];
+      v2834.Δⵠᐃ[54] = [];
+      v2834.Δⵠᐃ[55] = [];
+      v2834.Δⵠᐃ[56] = [];
+      v2834.Δⵠᐃ[57] = [];
+      v2834.Δⵠᐃ[58] = [];
+      v2834.Δⵠᐃ[62] = [];
+      v2834.Δⵠᐃ[11] = [];
+      v2834.Δⵠᐃ[22] = [];
+      v2834.Δⵠᐃ[23] = [];
+      v2834.Δⵠᐃ[5] = [];
+      v2834.Δⵠᐃ[12] = [];
+      v2834.Δⵠᐃ[13] = [];
+      v2834.Δⵠᐃ[14] = [];
+      v2834.Δⵠᐃ[67] = [];
+      v2834.Δⵠᐃ[77] = [];
+      v2834.Δⵠᐃ[78] = [];
+      v2834.Δⵠᐃ[79] = [];
+      v2834.Δⵠᐃ[80] = [];
+      v2834.Δⵠᐃ[81] = [];
+      v2834.Δⵠᐃ[86] = [];
+      v2834.Δⵠᐃ[89] = [];
+      v2834.Δⵠᐃ[90] = [];
+      v2834.Δⵠᐃ[87] = [];
+      v2834.Δⵠᐃ[88] = [];
+      v2834.Δⵠᐃ[93] = [];
+      v2834.Δⵠᐃ[94] = [];
+      v2834.Δⵠᐃ[99] = [];
+      v2834.Δⵠᐃ[98] = [];
+      v2834.Δⵠᐃ[43] = [];
+      v2834.Δⵠᐃ[72] = [];
+      v2834.Δⵠᐃ[73] = [];
+      v2834.Δⵠᐃ[74] = [];
+      v2834.Δⵠᐃ[69] = [];
+      v2834.Δⵠᐃ[70] = [];
+      v2834.Δⵠᐃ[85] = [];
+      v2834.Δⵠᐃ[84] = [];
+      v2834.Δⵠᐃ[82] = [];
+      v2834.Δⵠᐃ[83] = [];
+      v2834.Δⵠᐃ[71] = [];
+      v2834.Δⵠᐃ[76] = [];
+      v2834.Δⵠᐃ[75] = [];
+      v2834.Δⵠᐃ[91] = [];
+      v2834.Δⵠᐃ[101] = [];
+      v2834.Δⵠᐃ[95] = [];
+      v2834.Δⵠᐃ[96] = [];
+      v2834.Δⵠᐃ[97] = [];
+      v2834.Δⵠᐃ[92] = [];
+      v2834.Δⵠᐃ[100] = [];
+      v2834.Δⵠᐃ[103] = [];
+      v2834.Δⵠᐃ[102] = [];
+      v2834.Δⵠᐃ[68] = [];
+      v2834.Δⵠᐃ[18] = [];
+      v2834.Δⵠᐃ[19] = [];
+      v2834.Δⵠᐃ[20] = [];
+      v2834.Δⵠᐃ[21] = [];
+      v2834.Δⵠᐃ[59] = [];
+      v2834.Δⵠᐃ[61] = [];
+      v2834.Δⵠᐃ[60] = [];
+      v2834.Δⵠᐃ[38] = [];
+      v2834.Δⵠᐃ[65] = [];
+      v2834.Δⵠᐃ[39] = [];
+      v2834.Δⵠᐃ[47] = [];
+      v2834.Δⵠᐃ[42] = [];
+      v2834.Δⵠᐃ[41] = [];
+      v2834.Δⵠᐃ[24] = [];
+      v2834.Δⵠᐃ[25] = [];
+      v2834.Δⵠᐃ[26] = [];
+      v2834.Δⵠᐃ[27] = [];
+      v2834.Δⵠᐃ[28] = [];
+      v2834.Δⵠᐃ[29] = [];
+      v2834.Δⵠᐃ[30] = [];
+      v2834.Δⵠᐃ[31] = [];
+      v2834.Δⵠᐃ[32] = [];
+      v2834.Δⵠᐃ[33] = [];
+      v2834.Δⵠᐃ[34] = [];
+      v2834.Δⵠᐃ[35] = [];
+      v2834.Δⵠᐃ[36] = [];
+      v2834.Δⵠᐃ[37] = [];
+      v2834.Δⵠᐃ[51] = [];
+      v2834.Δⵠᐃ[50] = [];
+      v2834.Δⵠᐃ[44] = [];
+      v2834.Δⵠᐃ[45] = [];
+      v2834.ᐃᐃΔᐃᐃ = [];
+      v2834.ᐃⲆⵠΔⵠⵠⲆ = p1883[7];
+      v2835.id = p1883[9];
+      v2835.ᐃᐃⵠⵠ = v2834.ᐃⲆⵠΔⵠⵠⲆ * v2835.id;
       if (v3031.loaded) {
-        v3031.players[0].ᐃᐃⵠⵠ = user.ᐃᐃⵠⵠ;
-        v3031.players[0].ᐃᐃⵠᐃⵠⵠΔ = 0;
+        v3031.ᐃⵠΔΔ[0].ᐃᐃⵠⵠ = v2835.ᐃᐃⵠⵠ;
+        v3031.ᐃⵠΔΔ[0].ᐃᐃⵠᐃⵠⵠΔ = 0;
       }
       v3059.ΔΔⲆᐃΔⲆⵠ();
-      user.ᐃⵠⵠ.ⵠⵠᐃⲆΔ(p1883[3], p1883[10]);
-      world.players = [];
-      var v2990 = world.players;
+      v2835.ᐃⵠⵠ.ⵠⵠᐃⲆΔ(p1883[3], p1883[10]);
+      v2834.ᐃⵠΔΔ = [];
+      var v2990 = v2834.ᐃⵠΔΔ;
       for (var v2991 = 0; v2991 < p1883[11]; v2991++) {
         v2990.push(new f457());
       }
@@ -63309,29 +63308,29 @@
           v2993.ᐃⲆᐃⵠⲆ += "|" + v2992[v2991].i;
         }
       }
-      user.ⵠⵠᐃⲆᐃ.sort();
-      if (world.mode === 1 && world.players[user.id].ᐃⲆᐃⵠⲆ === "spectator") {
-        user.ⲆⲆΔⵠⲆᐃⵠ = true;
+      v2835.ⵠⵠᐃⲆᐃ.sort();
+      if (v2834.mode === 1 && v2834.ᐃⵠΔΔ[v2835.id].ᐃⲆᐃⵠⲆ === "spectator") {
+        v2835.ⲆⲆΔⵠⲆᐃⵠ = true;
       } else {
-        user.ⲆⲆΔⵠⲆᐃⵠ = vVVV14;
+        v2835.ⲆⲆΔⵠⲆᐃⵠ = vVVV14;
       }
-      if (world.mode === 2 && world.players[user.id].ⲆΔⲆⲆ === 0) {
-        user.ⲆΔᐃⲆΔ = true;
+      if (v2834.mode === 2 && v2834.ᐃⵠΔΔ[v2835.id].ⲆΔⲆⲆ === 0) {
+        v2835.ⲆΔᐃⲆΔ = true;
       } else {
-        user.ⲆΔᐃⲆΔ = false;
+        v2835.ⲆΔᐃⲆΔ = false;
       }
-      if (world.mode === 3 && world.players[user.id].ⲆΔⲆⲆ === 0) {
-        user.ᐃⲆᐃΔⵠᐃⵠ = true;
+      if (v2834.mode === 3 && v2834.ᐃⵠΔΔ[v2835.id].ⲆΔⲆⲆ === 0) {
+        v2835.ᐃⲆᐃΔⵠᐃⵠ = true;
       } else {
-        user.ᐃⲆᐃΔⵠᐃⵠ = false;
+        v2835.ᐃⲆᐃΔⵠᐃⵠ = false;
       }
-      ⲆᐃΔⵠ.set("starve_token", user.ⵠᐃᐃᐃⲆ);
+      ⲆᐃΔⵠ.set("starve_token", v2835.ⵠᐃᐃᐃⲆ);
       if (p1883[12] === 0) {
-        user.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = 0;
-        game.ΔΔΔⵠ.restore(p1883[17]);
+        v2835.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = 0;
+        v3030.ΔΔΔⵠ.restore(p1883[17]);
         var v2994 = p1883[14];
         if (v2994[47]) {
-          user.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
+          v2835.ᐃⵠⲆⲆ.ΔΔΔⲆⲆᐃⲆ(1, 0);
         }
         for (v2991 = 0; v2994.length > v2991; v2991++) {
           if (v2994[v2991]) {
@@ -63344,37 +63343,37 @@
             this.ⲆⲆⲆⵠⵠΔΔ([0, v2991, v2994[v2991]]);
           }
         }
-        user.ᐃᐃᐃᐃⲆ.open = false;
+        v2835.ᐃᐃᐃᐃⲆ.open = false;
       } else {
-        if (world.mode === 3) {
-          if (user.ᐃⲆᐃΔⵠᐃⵠ) {
+        if (v2834.mode === 3) {
+          if (v2835.ᐃⲆᐃΔⵠᐃⵠ) {
             this.ⲆⲆⲆⵠⵠΔΔ([0, 292, 4]);
           } else {
             this.ⲆⲆⲆⵠⵠΔΔ([0, 293, 3]);
           }
         }
-        if (world.mode === 0 || world.mode === 3 || world.mode === 7 || world.mode === 4) {
-          user.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = new Date().getTime();
-          user.ᐃᐃᐃᐃⲆ.open = true;
-          user.ᐃᐃᐃᐃⲆ.value = p1883[13];
-          game.ᐃᐃᐃᐃⲆ.ΔᐃΔⲆⵠ();
+        if (v2834.mode === 0 || v2834.mode === 3 || v2834.mode === 7 || v2834.mode === 4) {
+          v2835.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = new Date().getTime();
+          v2835.ᐃᐃᐃᐃⲆ.open = true;
+          v2835.ᐃᐃᐃᐃⲆ.value = p1883[13];
+          v3030.ᐃᐃᐃᐃⲆ.ΔᐃΔⲆⵠ();
         } else {
-          user.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = 0;
-          user.ᐃᐃᐃᐃⲆ.open = false;
-          user.ᐃᐃᐃᐃⲆ.value = 0;
+          v2835.ᐃᐃᐃᐃⲆ.ⲆⲆᐃΔⲆ = 0;
+          v2835.ᐃᐃᐃᐃⲆ.open = false;
+          v2835.ᐃᐃᐃᐃⲆ.value = 0;
         }
-        user.ΔⲆⵠΔⲆᐃΔ = p1883[12].toString();
+        v2835.ΔⲆⵠΔⲆᐃΔ = p1883[12].toString();
       }
-      user.ⵠΔⵠⵠΔ.enabled = p1883[6];
-      user.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = -1;
-      user.ⵠΔⵠⵠΔ.label = null;
-      user.ⵠΔⵠⵠΔ.now = -1;
-      ⲆᐃΔⵠ.set("starve_token_id", user.ΔⲆⵠΔⲆᐃΔ);
-      if (user.reconnect.enabled) {
-        user.reconnect.rotate = 0;
-        user.reconnect.enabled = vVV144;
+      v2835.ⵠΔⵠⵠΔ.enabled = p1883[6];
+      v2835.ⵠΔⵠⵠΔ.ⲆⲆᐃΔⲆ = -1;
+      v2835.ⵠΔⵠⵠΔ.label = null;
+      v2835.ⵠΔⵠⵠΔ.now = -1;
+      ⲆᐃΔⵠ.set("starve_token_id", v2835.ΔⲆⵠΔⲆᐃΔ);
+      if (v2835.reconnect.enabled) {
+        v2835.reconnect.rotate = 0;
+        v2835.reconnect.enabled = vVV144;
       } else {
-        v2833.ᐃᐃΔⵠⵠ(game.ⲆΔᐃᐃⲆ);
+        v2833.ᐃᐃΔⵠⵠ(v3030.ⲆΔᐃᐃⲆ);
         if (ga) {
           ga("send", "event", "Game", "play", "S" + v2833.ⲆΔⲆⲆ + "A" + v2833.ⵠᐃΔᐃΔ);
         }
@@ -63488,7 +63487,7 @@
       let v3015 = p1889.id;
       let v3016 = p1889.p;
       let v3017 = v3016[Math.floor(Math.random() * v3016.length)];
-      let v3018 = v3014 ? "wss://" + v3017 + "." + v3013 + "/" + v3015 + "?" + user.ΔⲆⵠⲆⲆΔⵠ : "ws://" + v3013;
+      let v3018 = v3014 ? "wss://" + v3017 + "." + v3013 + "/" + v3015 + "?" + v2835.ΔⲆⵠⲆⲆΔⵠ : "ws://" + v3013;
       console.log(vVVVVUndefined14, undefined);
       vThis5.ᐃᐃⲆΔ = new vWindow.WebSocket(v3018);
       vThis5.ᐃᐃⲆΔ.binaryType = "arraybuffer";
@@ -63556,14 +63555,14 @@
                 v3020[v3028] = v3023[v3028];
               }
               return v3020;
-            }(p1890.data, user.ΔⵠⵠⲆΔΔᐃ, user.ⲆⲆΔΔⲆΔΔΔᐃ);
+            }(p1890.data, v2835.ΔⵠⵠⲆΔΔᐃ, v2835.ⲆⲆΔΔⲆΔΔΔᐃ);
             var v3029 = vF55.buffer;
             switch (vF55[0]) {
               case 0:
-                vThis5.units(v3029, vF55, false);
+                vThis5.Δⵠᐃ(v3029, vF55, false);
                 break;
               case 1:
-                vThis5.units(v3029, vF55, true);
+                vThis5.Δⵠᐃ(v3029, vF55, true);
                 break;
               case 2:
                 vThis5.ⲆΔⵠΔΔⵠⲆᐃΔ();
@@ -63740,8 +63739,8 @@
                 vThis5.ᐃⵠᐃΔⲆΔΔⲆⵠ();
                 break;
               case 61:
-                user.ᐃⵠⵠ.ⲆΔΔᐃᐃⲆⵠ = 0.2;
-                user.ᐃⵠⵠ.ⲆⲆᐃΔⲆ = 3;
+                v2835.ᐃⵠⵠ.ⲆΔΔᐃᐃⲆⵠ = 0.2;
+                v2835.ᐃⵠⵠ.ⲆⲆᐃΔⲆ = 3;
                 break;
               case 62:
                 vThis5.ΔⵠⲆᐃᐃⲆᐃΔⲆ(new Uint16Array(v3029));
@@ -63777,25 +63776,25 @@
         }
       };
       vThis5.ᐃᐃⲆΔ.onerror = function () {
-        if (user.reconnect.enabled) {
+        if (v2835.reconnect.enabled) {
           vWindow.setTimeout(vThis5.timeout, 2500);
         }
       };
       this.ᐃᐃⲆΔ.onopen = function () {
         clearTimeout(vThis5.ΔⵠⲆᐃΔΔⵠ);
-        user.ΔⲆᐃⵠΔⵠⲆ = user.ΔⲆᐃⵠΔⵠⲆ || Δᐃᐃ.ⲆⵠⵠΔΔᐃᐃ("token");
+        v2835.ΔⲆᐃⵠΔⵠⲆ = v2835.ΔⲆᐃⵠΔⵠⲆ || Δᐃᐃ.ⲆⵠⵠΔΔᐃᐃ("token");
         Δᐃᐃ.ⲆⲆⵠΔᐃᐃᐃ().then(p1894 => {
-          vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVVWindow[v459].stringify([v2833.ᐃⲆᐃⵠⲆ.input.value, screen.width + 200, screen.height + 200, 52, user.ⵠᐃᐃᐃⲆ, user.ΔⲆⵠΔⲆᐃΔ, user.reconnect.enabled ? 1 : 0, v2833.ⲆΔⲆⲆ, v2833.ⵠᐃΔᐃΔ, v2833.Δⵠᐃⵠᐃ, v2833.ⵠΔᐃΔᐃ, v2833.ΔⲆⵠΔΔ, v2833.ΔⵠΔⲆᐃ, vUndefined6 === vVVVVUndefined143 ? 0 : vUndefined6, vUndefined5 === undefined ? 0 : vUndefined5.substring(vUndefined5.length - 50), v2246, user.ΔⲆᐃⵠΔⵠⲆ, p1894, user.ᐃΔᐃᐃΔⵠΔ, user.ᐃⵠᐃΔⲆⲆⲆ]));
-          user.ΔⲆᐃⵠΔⵠⲆ = undefined;
-          user.ᐃΔᐃᐃΔⵠΔ = vVVVVUndefined1422;
-          user.ᐃⵠᐃΔⲆⲆⲆ = undefined;
-          user.ΔⲆⵠⲆⲆΔⵠ = undefined;
+          vThis5.ᐃᐃⲆΔ[v2244](vVVVVVVVVVVWindow[v459].stringify([v2833.ᐃⲆᐃⵠⲆ.input.value, screen.width + 200, screen.height + 200, 52, v2835.ⵠᐃᐃᐃⲆ, v2835.ΔⲆⵠΔⲆᐃΔ, v2835.reconnect.enabled ? 1 : 0, v2833.ⲆΔⲆⲆ, v2833.ⵠᐃΔᐃΔ, v2833.Δⵠᐃⵠᐃ, v2833.ⵠΔᐃΔᐃ, v2833.ΔⲆⵠΔΔ, v2833.ΔⵠΔⲆᐃ, vUndefined6 === vVVVVUndefined143 ? 0 : vUndefined6, vUndefined5 === undefined ? 0 : vUndefined5.substring(vUndefined5.length - 50), v2246, v2835.ΔⲆᐃⵠΔⵠⲆ, p1894, v2835.ᐃΔᐃᐃΔⵠΔ, v2835.ᐃⵠᐃΔⲆⲆⲆ]));
+          v2835.ΔⲆᐃⵠΔⵠⲆ = undefined;
+          v2835.ᐃΔᐃᐃΔⵠΔ = vVVVVUndefined1422;
+          v2835.ᐃⵠᐃΔⲆⲆⲆ = undefined;
+          v2835.ΔⲆⵠⲆⲆΔⵠ = undefined;
           vThis5.ΔⵠⲆᐃΔΔⵠ = setTimeout(vThis5.timeout, 2000);
         });
       };
     };
   }();
-  var game = {
+  var v3030 = {
     ΔΔΔⵠᐃ: false
   };
   var v3031 = new function () {
@@ -63803,10 +63802,10 @@
     this.loaded = 0;
     this.transition = 0;
     this.ⵠᐃⵠΔⵠᐃᐃ = function (p1895) {
-      return p1895 / world.w * 100;
+      return p1895 / v2834.w * 100;
     };
     this.ⵠᐃᐃⵠⵠⲆⲆ = function (p1896) {
-      return p1896 / world.ⵠⲆⵠ * 100;
+      return p1896 / v2834.ⵠⲆⵠ * 100;
     };
     this.ΔΔᐃᐃᐃᐃΔ = function (p1897, p1898) {
       p1897 = this.ⵠᐃⵠΔⵠᐃᐃ(p1897) - this.ⵠⵠⵠΔⲆ.x;
@@ -63853,13 +63852,13 @@
       y: 0
     };
     this.ᐃᐃΔΔⵠⵠᐃ = {};
-    this.players = [];
+    this.ᐃⵠΔΔ = [];
     this.ᐃⲆⵠᐃΔ = function (p1909, p1910) {
       for (var v3034 in this.ᐃᐃΔΔⵠⵠᐃ) {
         var v3035 = this.ᐃᐃΔΔⵠⵠᐃ[v3034];
         v3035.check(p1909);
         if (v3035.ⲆᐃⲆΔΔⵠⲆ) {
-          if (world.ⲆᐃⲆⵠᐃ.now < 460000) {
+          if (v2834.ⲆᐃⲆⵠᐃ.now < 460000) {
             v3035.ⵠⲆΔΔᐃ();
           }
           if (p1910) {
@@ -63874,28 +63873,28 @@
     };
     this.ⲆⵠᐃⵠᐃⲆᐃⵠⲆ = function () {
       var v3036 = [];
-      for (var v3037 = 0; v3037 < this.players.length; v3037++) {
-        if ((v3040 = this.players[v3037]).ᐃᐃⵠᐃⵠⵠΔ) {
+      for (var v3037 = 0; v3037 < this.ᐃⵠΔΔ.length; v3037++) {
+        if ((v3040 = this.ᐃⵠΔΔ[v3037]).ᐃᐃⵠᐃⵠⵠΔ) {
           v3036.push(v3037);
-        } else if (!v3040.ᐃᐃⵠᐃⵠⵠΔ && !world.fast_units[v3040.ᐃᐃⵠⵠ]) {
+        } else if (!v3040.ᐃᐃⵠᐃⵠⵠΔ && !v2834.ᐃᐃΔᐃᐃ[v3040.ᐃᐃⵠⵠ]) {
           v3040.ΔΔΔᐃᐃⵠⲆ();
           v3036.push(v3037);
         }
       }
-      var v3038 = world.units[0];
+      var v3038 = v2834.Δⵠᐃ[0];
       var v3039 = 0;
       for (v3037 = 0; v3037 < v3038.length && v3036.length > v3039; v3037++) {
         var v3040 = v3038[v3037];
-        if ((world.mode != 1 || world.players[v3040.id].ᐃⲆᐃⵠⲆ !== "spectator") && v3040.ΔⵠⵠⲆⲆ === -1 && v3040.ᐃᐃⵠⵠ !== user.ᐃᐃⵠⵠ) {
-          this.players[v3036[v3039]].ΔᐃΔⲆⵠ(v3040.ᐃᐃⵠⵠ);
+        if ((v2834.mode != 1 || v2834.ᐃⵠΔΔ[v3040.id].ᐃⲆᐃⵠⲆ !== "spectator") && v3040.ΔⵠⵠⲆⲆ === -1 && v3040.ᐃᐃⵠⵠ !== v2835.ᐃᐃⵠⵠ) {
+          this.ᐃⵠΔΔ[v3036[v3039]].ΔᐃΔⲆⵠ(v3040.ᐃᐃⵠⵠ);
           v3039++;
         }
       }
     };
     this.ⵠᐃⲆⲆⲆⵠᐃΔⲆ = function () {
       this.ⲆⵠᐃⵠᐃⲆᐃⵠⲆ();
-      for (var v3041 = 0; this.players.length > v3041; v3041++) {
-        var v3042 = this.players[v3041];
+      for (var v3041 = 0; this.ᐃⵠΔΔ.length > v3041; v3041++) {
+        var v3042 = this.ᐃⵠΔΔ[v3041];
         if (!v3042.ᐃᐃⵠᐃⵠⵠΔ && v3042.check()) {
           v3042.ⵠᐃᐃ();
         }
@@ -63915,11 +63914,11 @@
     };
     this.ⲆⲆⵠⵠⵠⲆⵠᐃⵠ = function () {
       if (this.ⲆΔᐃᐃⲆ && this.loaded) {
-        var v3043 = world.fast_units[user.ᐃᐃⵠⵠ];
+        var v3043 = v2834.ᐃᐃΔᐃᐃ[v2835.ᐃᐃⵠⵠ];
         if (v3043) {
           v3043.ΔⵠⵠⲆⲆ = 0;
           var v3044 = this.ᐃⵠⵠΔⵠⲆΔⵠΔ(v3043);
-          if (world.mode !== 2 && world.mode !== 5) {
+          if (v2834.mode !== 2 && v2834.mode !== 5) {
             this.ᐃⲆⵠᐃΔ(v3043, v3044);
           }
           this.ⵠᐃⲆⲆⲆⵠᐃΔⲆ();
@@ -63989,59 +63988,59 @@
       v3031.ᐃᐃΔΔⵠⵠᐃ.ᐃᐃᐃⵠᐃᐃᐃⵠᐃ = new f513(12, this.sample.ⲆΔⲆⲆⵠᐃΔ, this.sample.ⵠΔⵠⵠⵠⵠⵠ, 5000, 0.05, 0.4, v2807.ⲆΔᐃᐃⲆΔⲆ.ⵠⲆΔⲆᐃ, 3000, {
         x: v585.ⵠᐃᐃⵠⵠⵠⲆ,
         y: v585.ᐃΔΔⵠⵠᐃΔ,
-        w: world.w,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        w: v2834.w,
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       }, {
         x: v585.ⵠᐃᐃⵠⵠⵠⲆ - 2300,
         y: v585.ᐃΔΔⵠⵠᐃΔ - 4000,
-        w: world.w,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        w: v2834.w,
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       }, {
         x: v585.ⵠᐃᐃⵠⵠⵠⲆ - 1500,
         y: v585.ᐃΔΔⵠⵠᐃΔ - 2000,
-        w: world.w,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        w: v2834.w,
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       });
       v3031.ᐃᐃΔΔⵠⵠᐃ.ⵠⲆⲆΔⵠᐃΔΔⵠ = new f513(12, this.sample.ⲆᐃⵠⵠΔⵠⵠ, this.sample.ᐃⲆᐃᐃᐃⵠᐃ, 5000, 0.03, 0.25, v2807.ⲆΔᐃᐃⲆΔⲆ.ⵠⲆΔⲆᐃ, 3000, {
         x: 0,
         y: v585.ᐃΔΔⵠⵠᐃΔ + 800,
         w: v585.ⵠᐃᐃⵠⵠⵠⲆ - 2300,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       }, {
         x: -100,
         y: v585.ᐃΔΔⵠⵠᐃΔ - 300,
         w: v585.ⵠᐃᐃⵠⵠⵠⲆ - 100,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       }, {
         x: -100,
         y: v585.ᐃΔΔⵠⵠᐃΔ + 400,
         w: v585.ⵠᐃᐃⵠⵠⵠⲆ - 1400,
-        ⵠⲆⵠ: world.ⵠⲆⵠ
+        ⵠⲆⵠ: v2834.ⵠⲆⵠ
       });
       v3031.ᐃᐃΔΔⵠⵠᐃ.ᐃⲆΔⲆΔΔᐃ = new f513(12, this.sample.ⵠⲆΔᐃΔⲆⵠ, this.sample.ⵠΔΔⲆⲆⲆΔ, 5000, 0.01, 0.22, v2807.ⲆΔᐃᐃⲆΔⲆ.ⵠⲆΔⲆᐃ, 3000, {
         x: -100,
         y: -100,
-        w: world.w + 200,
+        w: v2834.w + 200,
         ⵠⲆⵠ: v585.ᐃΔΔⵠⵠᐃΔ - 1000
       }, {
         x: -100,
         y: -100,
-        w: world.w + 200,
+        w: v2834.w + 200,
         ⵠⲆⵠ: v585.ᐃΔΔⵠⵠᐃΔ + 600
       }, {
         x: -100,
         y: -100,
-        w: world.w + 200,
+        w: v2834.w + 200,
         ⵠⲆⵠ: v585.ᐃΔΔⵠⵠᐃΔ + 100
       });
       for (var v3055 = 0; v3055 < 8; v3055++) {
-        v3031.players[v3055] = new f515(v3055);
+        v3031.ᐃⵠΔΔ[v3055] = new f515(v3055);
       }
-      v3031.players[0].ΔᐃΔⲆⵠ(user.ᐃᐃⵠⵠ);
+      v3031.ᐃⵠΔΔ[0].ΔᐃΔⲆⵠ(v2835.ᐃᐃⵠⵠ);
       v3031.loaded = 1;
     };
     this.ⲆΔᐃⵠⵠᐃΔⲆᐃ = function () {
-      if (!this.transition && world.ⲆᐃⲆⵠᐃ.now < 460000) {
+      if (!this.transition && v2834.ⲆᐃⲆⵠᐃ.now < 460000) {
         this.transition = 1;
       }
     };
@@ -64057,8 +64056,8 @@
             v3031.ⲆⵠⵠΔ[v3056].stop(v3057);
           }
         }
-        for (v3058 = 0; v3058 < v3031.players.length; v3058++) {
-          v3031.players[v3058].ΔΔΔᐃᐃⵠⲆ();
+        for (v3058 = 0; v3058 < v3031.ᐃⵠΔΔ.length; v3058++) {
+          v3031.ᐃⵠΔΔ[v3058].ΔΔΔᐃᐃⵠⲆ();
         }
       }
     };
@@ -64069,8 +64068,8 @@
         if (!v3031.loaded) {
           v3031.ΔᐃΔⲆⵠ();
         }
-        v3031.players[0].ᐃᐃⵠⵠ = user.ᐃᐃⵠⵠ;
-        v3031.players[0].ᐃᐃⵠᐃⵠⵠΔ = 0;
+        v3031.ᐃⵠΔΔ[0].ᐃᐃⵠⵠ = v2835.ᐃᐃⵠⵠ;
+        v3031.ᐃⵠΔΔ[0].ᐃᐃⵠᐃⵠⵠΔ = 0;
         v3031.ⲆΔᐃⵠⵠᐃΔⲆᐃ();
       }
       v3031.ⲆΔᐃᐃⲆ = !v3031.ⲆΔᐃᐃⲆ;
@@ -64398,11 +64397,11 @@
     };
   }(v403, v405, function () {
     f286();
-    game = new f486(v403, v405);
+    v3030 = new f486(v403, v405);
     (v2833 = new f494(v403, v405)).ⵠⵠⵠⵠΔⲆⲆᐃᐃ();
-    scoreboard = new f483(v403, v405);
-    world = new f436();
-    user = new f468();
+    v2836 = new f483(v403, v405);
+    v2834 = new f436();
+    v2835 = new f468();
     v3066.ᐃᐃΔⵠⵠ(function () {
       v3066.ⲆⵠᐃᐃΔⵠⵠ.style.display = "none";
       v2833.ⲆΔᐃᐃⲆ();
@@ -64432,7 +64431,7 @@
     } catch (e) {}
   }
   vWindow.onbeforeunload = function () {
-    if (game.ΔΔΔⵠᐃ) {
+    if (v3030.ΔΔΔⵠᐃ) {
       return "Are you sure you want quit starve.io ;-; ?";
     }
   };
@@ -64442,16 +64441,16 @@
     v3064 = (p1943 - v3065) / 1000;
     v3065 = p1943;
     v3064 = v3064 > 1 ? 1 : v3064;
-    if (game.ΔΔΔⵠᐃ) {
-      game.ⲆΔᐃΔ();
+    if (v3030.ΔΔΔⵠᐃ) {
+      v3030.ⲆΔᐃΔ();
     } else {
       v405.clearRect(0, 0, v406, v408);
       if (v3066.ΔΔΔⵠᐃ) {
         v3066.ⲆΔᐃΔ();
       } else if (v2833.ΔΔΔⵠᐃ) {
         v2833.ⲆΔᐃΔ();
-      } else if (scoreboard.ΔΔΔⵠᐃ) {
-        scoreboard.ⲆΔᐃΔ();
+      } else if (v2836.ΔΔΔⵠᐃ) {
+        v2836.ⲆΔᐃΔ();
       }
     }
   })(0);
