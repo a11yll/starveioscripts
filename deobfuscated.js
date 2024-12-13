@@ -1,5 +1,5 @@
 (function () {
-  alert('injected, script by ally11');
+  alert('injected, script by ally11 3.0');
   const vWindow = window;
   let v2 = 111;
   const vF = function (p2) {
